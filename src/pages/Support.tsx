@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Wrench, ShieldCheck, Users, Package, HeartHandshake, CheckCircle, Settings, PhoneCall, Clock, ArrowRight } from 'lucide-react';
+import { Wrench, ShieldCheck, Users, Package, HeartHandshake, CheckCircle, Clock, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Support() {

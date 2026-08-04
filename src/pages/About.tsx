@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Globe, Wrench, Cog, Users, CheckCircle, Lightbulb, Target, ImageIcon } from 'lucide-react';
+import { useState } from 'react';
+import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target, ImageIcon } from 'lucide-react';
 
 export default function About() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);

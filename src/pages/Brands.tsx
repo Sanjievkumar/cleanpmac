@@ -21,7 +21,6 @@ export default function Brands() {
     setSelectedProduct(null);
   }, [klencoTab]);
 
-  const [truvoxCategory, setTruvoxCategory] = useState<string | null>(null);
   const [truvoxProduct, setTruvoxProduct] = useState<string | null>(null);
 
   if (id === 'truvox') {
