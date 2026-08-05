@@ -9,7 +9,7 @@ export default function Home() {
         
         {/* Background Image */}
         <img
-          src="/content_images/hero-lady.jpg"
+          src="/content_images/clean_revolution.jpg"
           alt="Professional Cleaning with Truvox Multiwash PRO"
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%', zIndex: 0 }}
         />
@@ -123,7 +123,7 @@ export default function Home() {
               <div style={{ position: 'absolute', bottom: 0, left: 0, width: 'calc(100% - 18px)', height: 'calc(100% - 18px)', background: 'var(--accent)', borderRadius: '1.25rem', zIndex: 0 }} />
               <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '460px' }}>
                 <img
-                  src="/content_images/clean_revolution.jpg"
+                  src="/content_images/hero-lady.jpg"
                   alt="Professional Cleaning Solutions"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }}
                 />
