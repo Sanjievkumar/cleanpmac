@@ -1,75 +1,95 @@
 import { Link } from 'react-router-dom';
-import { Award, Settings, Headphones, ShieldCheck, RotateCw, Wind, AlignJustify, Waves, Zap, FlaskConical } from 'lucide-react';
+import { Award, Settings, Headphones, ShieldCheck, RotateCw, Wind, AlignJustify, Waves, Zap, FlaskConical, ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
     <div className="fade-in">
-      {/* Hero Section */}
-      <section style={{ padding: 0, minHeight: '90vh', display: 'grid', gridTemplateColumns: '1fr 1fr', overflow: 'hidden' }}>
-        {/* Left — content */}
-        <div style={{ background: 'var(--bg-dark)', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '6rem 5rem', position: 'relative', overflow: 'hidden' }}>
-          {/* decorative accent top */}
-          <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent), transparent)' }} />
-          {/* decorative circle */}
-          <div style={{ position: 'absolute', bottom: '-120px', left: '-80px', width: '350px', height: '350px', borderRadius: '50%', background: 'rgba(227,30,36,0.07)', zIndex: 0 }} />
+      {/* ═══════════ PREMIUM HERO ═══════════ */}
+      <section style={{ position: 'relative', height: '90vh', minHeight: '650px', overflow: 'hidden', display: 'flex', alignItems: 'center' }}>
+        
+        {/* Background Image */}
+        <img
+          src="/content_images/hero-lady.jpg"
+          alt="Professional Cleaning with Truvox Multiwash PRO"
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%', zIndex: 0 }}
+        />
+        
+        {/* Premium Gradient Overlay */}
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(0,15,30,0.98) 0%, rgba(0,15,30,0.92) 30%, rgba(0,15,30,0.5) 55%, transparent 100%)', zIndex: 1 }} />
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 20%)', zIndex: 1 }} />
+        
+        {/* Accent Lines */}
+        <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
+        <div style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '6px', background: 'var(--accent)', borderRadius: '0 4px 4px 0', zIndex: 2 }} />
 
-          <div style={{ position: 'relative', zIndex: 1 }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '2rem' }}>
-              <div style={{ width: '30px', height: '3px', background: 'var(--accent)', borderRadius: '2px' }} />
-              <span style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.18em', color: 'var(--accent)', textTransform: 'uppercase' }}>PROFESSIONAL CLEANING EQUIPMENT</span>
+        {/* Content Container */}
+        <div className="container" style={{ position: 'relative', zIndex: 3, paddingLeft: '4rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', height: '100%' }}>
+          
+          {/* Main Text Content */}
+          <div style={{ maxWidth: '650px', paddingBottom: '10vh' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
+              <div style={{ width: '40px', height: '2px', background: 'var(--accent)' }} />
+              <span style={{ fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.25em', color: 'var(--accent)', textTransform: 'uppercase' }}>Professional Equipment</span>
             </div>
 
-            <h1 style={{ fontSize: 'clamp(3.5rem, 5.5vw, 5.5rem)', fontWeight: 900, lineHeight: 0.95, letterSpacing: '-0.03em', marginBottom: '2rem' }}>
-              <span style={{ color: 'white', display: 'block' }}>CLEAN</span>
-              <span style={{ color: 'var(--accent)', display: 'block' }}>PROMAC</span>
+            <h1 style={{ fontSize: 'clamp(3.8rem, 6.5vw, 6rem)', fontWeight: 900, lineHeight: 0.95, letterSpacing: '-0.03em', marginBottom: '2rem' }}>
+              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>CLEAN</span>
+              <span style={{ color: 'var(--accent)', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>PROMAC</span>
             </h1>
 
-            <div style={{ display: 'flex', gap: '6px', marginBottom: '2.5rem' }}>
-              <div style={{ width: '55px', height: '4px', background: 'var(--accent)', borderRadius: '2px' }} />
-              <div style={{ width: '18px', height: '4px', background: 'rgba(255,255,255,0.15)', borderRadius: '2px' }} />
-            </div>
-
-            <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.72)', lineHeight: '1.9', marginBottom: '3rem', maxWidth: '420px' }}>
+            <p style={{ fontSize: '1.15rem', color: 'rgba(255,255,255,0.85)', lineHeight: '1.8', marginBottom: '2.5rem', maxWidth: '500px', fontWeight: 500 }}>
               Advanced solutions for a cleaner, safer, and more productive environment — for every industry across India.
             </p>
 
-            {/* Feature pills */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem', marginBottom: '3rem' }}>
-              {['Simple to Use & Deploy', 'Easy to Maintain', 'Expert After-Sales Support'].map((feat) => (
-                <div key={feat} className="hero-pill" style={{ flexWrap: 'nowrap', whiteSpace: 'nowrap' }}>
-                  <div className="hero-pill-check" style={{ background: 'var(--accent)', color: 'white', borderRadius: '50%', minWidth: '26px', width: '26px', height: '26px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.8rem', fontWeight: 900, transition: 'all 0.3s ease' }}>✓</div>
-                  <span className="hero-pill-text" style={{ color: 'rgba(255,255,255,0.85)', fontWeight: 600, fontSize: '0.95rem', letterSpacing: '0.03em', transition: 'color 0.3s ease' }}>{feat}</span>
+            {/* Premium Feature Pills - Horizontal layout */}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '3rem' }}>
+              {['Simple to Use & Deploy', 'Easy to Maintain', 'Expert Support'].map((feat) => (
+                <div key={feat} style={{ 
+                  display: 'flex', alignItems: 'center', gap: '0.6rem', 
+                  background: 'rgba(255,255,255,0.08)', backdropFilter: 'blur(10px)', 
+                  border: '1px solid rgba(255,255,255,0.15)', borderRadius: '2rem', 
+                  padding: '0.5rem 1.25rem', color: 'white' 
+                }}>
+                  <div style={{ color: 'var(--accent)', display: 'flex', alignItems: 'center' }}>
+                    <ShieldCheck size={16} strokeWidth={3} />
+                  </div>
+                  <span style={{ fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.03em' }}>{feat}</span>
                 </div>
               ))}
             </div>
 
             {/* CTA */}
-            <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-              <Link to="/brands" className="btn-3d" style={{ fontSize: '0.9rem' }}>EXPLORE BRANDS</Link>
-              <Link to="/contact" className="btn-ghost">Contact Us →</Link>
+            <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
+              <Link to="/brands" className="btn-3d" style={{ padding: '1.1rem 2.5rem', fontSize: '1rem' }}>EXPLORE BRANDS</Link>
+              <Link to="/contact" style={{ 
+                color: 'white', fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', 
+                borderBottom: '2px solid transparent', paddingBottom: '0.2rem', transition: 'all 0.3s'
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.borderBottomColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
+              onMouseLeave={(e) => { e.currentTarget.style.borderBottomColor = 'transparent'; e.currentTarget.style.color = 'white'; }}
+              >
+                Contact Us <ArrowRight size={18} />
+              </Link>
             </div>
           </div>
-        </div>
 
-        {/* Right — full image */}
-        <div style={{ position: 'relative', overflow: 'hidden', background: '#e8f4f8' }}>
-          <img
-            src="/content_images/hero-lady.jpg"
-            alt="Professional Cleaning with Truvox Multiwash PRO"
-            style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top', display: 'block' }}
-          />
-          {/* subtle left gradient to blend into navy panel */}
-          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(90deg, rgba(0,15,30,0.35) 0%, transparent 30%)' }} />
-          {/* floating badge */}
-          <div style={{ position: 'absolute', bottom: '2.5rem', left: '2rem', background: 'white', borderRadius: '0.75rem', padding: '0.85rem 1.25rem', boxShadow: '0 12px 30px rgba(0,0,0,0.15)', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <div style={{ background: 'var(--accent)', borderRadius: '50%', width: '36px', height: '36px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-              <span style={{ color: 'white', fontSize: '1rem' }}>✦</span>
+          {/* Floating Glassmorphic Badge */}
+          <div style={{ 
+            marginBottom: '10vh', marginRight: '2rem',
+            background: 'rgba(0,15,30,0.65)', backdropFilter: 'blur(12px)',
+            border: '1px solid rgba(255,255,255,0.15)', borderRadius: '1rem',
+            padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'center', gap: '1rem',
+            boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+          }}>
+            <div style={{ background: 'var(--accent)', borderRadius: '50%', width: '42px', height: '42px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <span style={{ color: 'white', fontSize: '1.2rem' }}>✦</span>
             </div>
             <div>
-              <div style={{ fontWeight: 800, fontSize: '0.82rem', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Truvox Multiwash PRO</div>
-              <div style={{ fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: 500 }}>Global Floorcare Solutions</div>
+              <div style={{ fontWeight: 800, fontSize: '0.9rem', color: 'white', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Truvox Multiwash PRO</div>
+              <div style={{ fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 600, letterSpacing: '0.02em' }}>Global Floorcare Solutions</div>
             </div>
           </div>
+
         </div>
       </section>
 
