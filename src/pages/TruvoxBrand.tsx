@@ -8,7 +8,9 @@ export default function TruvoxBrand() {
     {
       category: 'SCRUBBER DRYERS',
       products: [
-        { id: 'multiwash-pro', name: 'Multiwash PRO' },
+        { id: 'multiwash-pro-240', name: 'Multiwash PRO 240' },
+        { id: 'multiwash-pro-340', name: 'Multiwash PRO 340' },
+        { id: 'multiwash-pro-440', name: 'Multiwash PRO 440' },
         { id: 'multiwash-pro-steam', name: 'Multiwash PRO Steam' },
         { id: 'multiwash-pro-battery', name: 'Multiwash PRO Battery' },
         { id: 'i-scrub-21b', name: 'i-scrub 21B' },

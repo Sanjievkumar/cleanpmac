@@ -166,14 +166,22 @@ export default function TruvoxProduct() {
               )}
 
               {activeTab === 'ACCESSORIES' && (
-                <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>
-                  <p style={{ fontSize: '1.2rem' }}>Accessories detailed catalog is currently being updated for {productData.name}. Please contact us for a full list of compatible pads and brushes.</p>
+                <div style={{ padding: '1rem', color: 'var(--text-dark)' }}>
+                  {productData.accessories ? (
+                    <div dangerouslySetInnerHTML={{ __html: productData.accessories }} />
+                  ) : (
+                    <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>Accessories detailed catalog is currently being updated for {productData.name}. Please contact us for a full list of compatible pads and brushes.</p>
+                  )}
                 </div>
               )}
 
               {activeTab === 'DOWNLOADS' && (
-                <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>
-                  <p style={{ fontSize: '1.2rem' }}>Brochures and operating manuals for {productData.name} will be available for download shortly.</p>
+                <div style={{ padding: '1rem', color: 'var(--text-dark)' }}>
+                  {productData.downloads ? (
+                    <div dangerouslySetInnerHTML={{ __html: productData.downloads }} />
+                  ) : (
+                    <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>Brochures and operating manuals for {productData.name} will be available for download shortly.</p>
+                  )}
                 </div>
               )}
            </div>
