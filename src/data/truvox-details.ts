@@ -6,7 +6,7 @@ export const truvoxProductDetails = {
     name: 'Multiwash™ PRO',
     brand: 'TRUVOX INTERNATIONAL',
     description: 'The Multiwash™ PRO range of scrubber dryers will wash, scrub and dry in just one single pass, leaving floors clean and ready to walk on. Ideal for all commercial and industrial environments, they are available in 3 cleaning widths – 24cm, 34cm and 44cm.',
-    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-34-cutout-768x1024.jpg',
+    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-34-cutout.jpg',
     galleryImages: [
       'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-34-cutout.jpg',
       'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-44-cutout.jpg',
@@ -37,7 +37,7 @@ export const truvoxProductDetails = {
     name: 'Multiwash™ PRO Steam',
     brand: 'TRUVOX INTERNATIONAL',
     description: 'The Multiwash™ PRO Steam leaves floors clean and dry in a single pass. Designed for use on a wide variety of floor types, it uses steam to lift dirt, grease and grime, leaving floors clinically clean.',
-    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-Steam-34-cutout-768x1024.jpg',
+    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-Steam-34-cutout.jpg',
     galleryImages: [],
     features: [
       'Wash, scrub and dry in just one single pass',
@@ -63,7 +63,7 @@ export const truvoxProductDetails = {
     name: 'Multiwash™ PRO Battery',
     brand: 'TRUVOX INTERNATIONAL',
     description: 'The battery-powered Multiwash™ PRO offers maximum flexibility and safety without the restriction of a trailing cable. It provides the same exceptional cleaning performance as the mains versions.',
-    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-34-Battery-cutout-768x1024.jpg',
+    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/Multiwash-PRO-34-Battery-cutout.jpg',
     galleryImages: [],
     features: [
       'Cordless freedom and flexibility',
@@ -89,7 +89,7 @@ export const truvoxProductDetails = {
     name: 'i-scrub 21B',
     brand: 'TRUVOX INTERNATIONAL',
     description: 'The i-scrub 21B is a versatile battery-powered scrubber that brings mechanical cleaning into areas that were previously only accessible with manual cleaning tools.',
-    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/i-scrub-21B-cutout-768x1024.jpg',
+    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/i-scrub-21B-cutout.jpg',
     galleryImages: [],
     features: [
       'Double disc action with the flexibility to even scrub vertically',
@@ -113,7 +113,7 @@ export const truvoxProductDetails = {
     name: 'imop Lite',
     brand: 'TRUVOX INTERNATIONAL',
     description: 'The i-mop Lite is lighter than the i-mop XL, making it the smallest and lightest machine in the i-mop range. By expanding its current range of i-mops, Truvox is offering a tool with outstanding manoeuvrability and portability, making it perfect for mobility cleaning.',
-    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/i-mop-Lite-cutout-768x1024.jpg',
+    heroImage: 'https://www.truvox.com/wp-content/uploads/2021/04/i-mop-Lite-cutout.jpg',
     galleryImages: [],
     features: [
       'Extremely compact and lightweight',
