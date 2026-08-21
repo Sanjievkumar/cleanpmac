@@ -15,7 +15,7 @@ export const singleDiscMachines: Product[] = [
     name: "CYCLONE S401",
     subtitle: "Cyclone S401 Single Disc Floor Machine",
     description: "The Klenco Cyclone S401 is a high-performance, heavy-duty single disc machine engineered to meet the demanding requirements of professional floor maintenance. Designed for durability, versatility, and ease of operation, it delivers outstanding cleaning results across commercial, industrial, healthcare, hospitality, and institutional environments. Its precision helical gear transmission ensures smooth, quiet, and efficient power transfer, while the counterbalanced design provides excellent stability, effortless handling, and reduced operator fatigue during extended use. Compatible with a wide range of interchangeable brushes and pads, the Cyclone S401 adapts effortlessly to different floor care applications, making it a reliable solution for routine maintenance as well as intensive cleaning tasks.",
-    image: "/content_images/klenco-cycline-s401.jpg",
+    image: "/content_images/klenco-cycline-s401.png",
     features: [
       "Precision helical gear transmission for smooth, quiet, and reliable operation",
       "Counterbalanced design for superior stability and effortless manoeuvrability",
@@ -38,7 +38,7 @@ export const singleDiscMachines: Product[] = [
     name: "CYCLONE G680",
     subtitle: "Cyclone G680 Floor Grinding & Crystallising Machine",
     description: "The Klenco Cyclone G680 is a heavyweight industrial single disc machine engineered for the most demanding floor preparation, restoration, and maintenance applications. Designed with a high-torque motor, precision helical gear transmission, and a counterbalanced drive system, it delivers exceptional power, stability, and smooth operation for intensive floor care tasks. Despite its powerful performance, the Cyclone G680 operates with low noise levels, making it ideal for use in hospitals, office buildings, educational institutions, and other noise-sensitive environments.",
-    image: "/content_images/klenco-cyclone-g680.jpg",
+    image: "/content_images/klenco-cyclone-g680.gif",
     features: [
       "Heavy-duty industrial design for demanding floor care and stone restoration applications",
       "Precision helical gear transmission for smooth, quiet, and reliable operation",
@@ -63,7 +63,7 @@ export const singleDiscMachines: Product[] = [
     name: "CYCLONE KW17",
     subtitle: "Cyclone KW17 Economic Single Disc Floor Scrubber",
     description: "The Klenco Cyclone KW17 is a compact and economical single disc floor scrubber designed for routine floor maintenance in commercial, institutional, and light industrial environments. Combining reliable performance with user-friendly operation, it is ideal for daily cleaning tasks such as wet scrubbing, spray cleaning, polishing, and carpet shampooing. Its lightweight yet durable construction, ergonomic design, and smooth handling make it an excellent choice for professional cleaners seeking efficiency, comfort, and consistent cleaning results.",
-    image: "/content_images/klenco-cyclone-kw17.jpg",
+    image: "/content_images/klenco-cyclone-kw17.png",
     features: [
       "Compact and economical design for everyday floor maintenance",
       "Multi-functional machine for scrubbing, polishing, spray cleaning, and carpet shampooing",
@@ -86,7 +86,7 @@ export const singleDiscMachines: Product[] = [
     name: "FOAM GENERATOR (CYCLONE S081)",
     subtitle: "Cyclone S081 Professional Carpet Foam Generator",
     description: "The Klenco Cyclone S081 is a compact and professional foam generator designed to produce rich, dense foam for efficient carpet and upholstery cleaning. Compatible with any brand and model of single disc machine, it converts cleaning solution into low-moisture foam, allowing deep cleaning with minimal water usage and faster drying times. Equipped with a powerful air pump and low-noise operation, the Cyclone S081 is the ideal companion for professional carpet maintenance in hotels, offices, commercial buildings, educational institutions, and facility management applications.",
-    image: "/content_images/klenco-foam-generator.jpg",
+    image: "/content_images/klenco-foam-generator.jpeg",
     features: [
       "Compatible with all brands and models of single disc machines",
       "Produces rich, dense, and delicate foam for effective carpet cleaning",
@@ -112,7 +112,7 @@ export const singleDiscMachines: Product[] = [
     name: "FLOOR PADS",
     subtitle: "Klenco Professional Floor Maintenance Pads",
     description: "Klenco Floor Maintenance Pads are engineered to deliver outstanding performance across every stage of floor care, from routine cleaning and polishing to intensive scrubbing, stripping, and burnishing. Manufactured using premium synthetic fibres with high-quality abrasives, these pads provide consistent cleaning results, extended service life, and maximum productivity on a wide range of hard floor surfaces. Available in a comprehensive range of colour-coded grades, Klenco Floor Pads help cleaning professionals select the right pad for every maintenance task while protecting valuable floor finishes.",
-    image: "/content_images/klenco-floor-pads.jpg",
+    image: "/content_images/klenco-floor-pads.png",
     features: [
       "Complete range of professional floor pads for cleaning, scrubbing, polishing, stripping, and burnishing",
       "Premium synthetic fibre construction for durability and uniform abrasive distribution",
@@ -191,7 +191,7 @@ export const carpetExtractors: Product[] = [
     name: "TYPHOON KW22",
     subtitle: "Typhoon KW22 Economic Spray Extraction Carpet & Sofa Cleaner",
     description: "The Klenco Typhoon KW22 is a compact, lightweight spray extraction cleaner engineered for deep cleaning of carpets, upholstery, sofas, and textile surfaces. Combining powerful spray application with high-efficiency vacuum extraction, it effectively removes embedded dirt, stains, and moisture in a single operation, leaving surfaces cleaner, fresher, and quicker to dry. Built with a durable ABS body, a 1200 W vacuum motor, and a removable solution tank, the Typhoon KW22 offers exceptional portability, ease of use, and reliable performance, making it an ideal choice for commercial cleaning professionals and facility maintenance teams.",
-    image: "/content_images/klenco-typhoon-kw22.jpg",
+    image: "/content_images/klenco-typhoon-kw22.png",
     features: [
       "High-performance 1200 W vacuum motor for powerful suction and fast surface drying",
       "Compact integrated design with a removable 10 L solution tank for easy filling and cleaning",
@@ -215,7 +215,7 @@ export const carpetExtractors: Product[] = [
     name: "TYPHOON KW22P",
     subtitle: "Typhoon KW22P Steam Extraction Carpet & Sofa Cleaner",
     description: "The Klenco Typhoon KW22P is a compact commercial steam and vacuum carpet and upholstery cleaner designed to deliver superior deep-cleaning performance for professional environments. Equipped with a 2000 W instant heating system and a powerful 1200 W vacuum motor, it effectively injects high-temperature steam into carpet fibres and fabric surfaces before extracting dirt, stains, allergens, and moisture in a single operation. Its durable ABS construction, compact integrated design, and user-friendly controls make the Typhoon KW22P an ideal solution for maintaining carpets, upholstery, mattresses, curtains, and vehicle interiors in hotels, hospitals, offices, restaurants, and commercial facilities.",
-    image: "/content_images/klenco-typhoon-kw22p.jpg",
+    image: "/content_images/klenco-typhoon-kw22p.png",
     features: [
       "Deep Steam Cleaning: Powered by a 2000 W boiler generating 100°C continuous steam",
       "Advanced Sanitization: Effectively eliminates bacteria, dust mites, and mould spores without harsh chemicals",
@@ -241,7 +241,7 @@ export const scrubberDryers: Product[] = [
     name: "CURVE",
     subtitle: "Curve Battery Powered Walk-Behind Scrubber Dryer",
     description: "The Klenco Curve is a compact, battery-powered walk-behind scrubber dryer engineered to deliver outstanding cleaning performance across large commercial and industrial facilities. Combining powerful scrubbing, efficient water recovery, and exceptional manoeuvrability, it cleans and dries floors in a single pass, leaving surfaces clean, dry, and safe for immediate use. With an intelligent control system, maintenance-free AGM batteries, and an ergonomic design, the Curve maximizes productivity while reducing operator effort, making it the ideal solution for daily floor maintenance in demanding environments.",
-    image: "/content_images/klenco-curve.jpg",
+    image: "/content_images/klenco-curve.png",
     features: [
       "Cleaning productivity up to 2,000 m²/hour for rapid and efficient floor maintenance",
       "530 mm scrubbing width with a 770 mm curved squeegee for superior water recovery on turns",
@@ -271,7 +271,7 @@ export const scrubberDryers: Product[] = [
     name: "ROCK 8",
     subtitle: "Rock 8 Battery-Powered Ride-On Scrubber Dryer",
     description: "The Klenco Rock 8 is a high-performance battery-powered ride-on scrubber dryer engineered for large commercial and industrial facilities where productivity, reliability, and operator comfort are essential. Designed to clean and dry floors in a single pass, the Rock 8 combines an 800 mm dual-brush scrubbing system, 1150 mm curved squeegee, and high-capacity solution and recovery tanks to deliver outstanding cleaning performance over large floor areas. Powered by a long-lasting 24V 210Ah Lithium-Ion battery, it offers extended operating time, rapid charging, and exceptional manoeuvrability.",
-    image: "/content_images/klenco-rock-8.jpg",
+    image: "/content_images/klenco-rock-8.png",
     features: [
       "High cleaning productivity up to 4,800 m²/hour for large-area floor maintenance",
       "800 mm dual brush system with adjustable brush pressure settings (35 kg, 45 kg, or 60 kg)",
@@ -303,7 +303,7 @@ export const sweepers: Product[] = [
     name: "TEMPEST MS900",
     subtitle: "Tempest MS900 Industrial Mechanical Push Sweeper",
     description: "The Klenco Tempest MS900 is a versatile and cost-effective mechanical push sweeper designed to deliver efficient dust and debris collection across both indoor and outdoor environments. Engineered for high sweeping productivity, it features dual side brushes and a high-capacity collection system that enables operators to clean up to 3,000 m² per hour with minimal effort. Its robust construction, smooth operation, and edge-cleaning capability make the Tempest MS900 an ideal solution for factories, warehouses, shopping malls, schools, workshops, parking areas, and other commercial and industrial facilities.",
-    image: "/content_images/klenco-tempest-ms900.jpg",
+    image: "/content_images/klenco-tempest-ms900.png",
     features: [
       "Sweeping capacity of up to 3,000 m²/hour for fast, effortless, and quiet cleaning",
       "Dual counter-rotating side brushes ensure effective sweeping right up to walls, curbs, and corners",
@@ -331,7 +331,7 @@ export const steamCleaners: Product[] = [
     name: "MONSOON ST7",
     subtitle: "Monsoon ST7 Commercial Steam & Vacuum Cleaner",
     description: "The Klenco Monsoon ST7 is a powerful commercial steam cleaner designed to deliver deep cleaning and sanitization without relying on harsh chemicals. Combining high-temperature steam, detergent spraying, and wet & dry vacuum recovery in one compact machine, it effectively removes grease, dirt, liquids, and stubborn contaminants from a wide variety of surfaces. With its 5-bar operating pressure, 140°C steam temperature, and powerful 3000 W heating system, the Monsoon ST7 provides exceptional cleaning performance for commercial kitchens, healthcare facilities, hotels, food processing areas, offices, and industrial environments.",
-    image: "/content_images/klenco-monsoon-st7.jpg",
+    image: "/content_images/klenco-monsoon-st7.png",
     features: [
       "Multi-function cleaning system combining steam generation, detergent injection, hot water rinsing, and wet & dry vacuum extraction",
       "Generates 140°C high-temperature dry steam at 5-bar pressure for rapid degreasing and deep sanitization",
