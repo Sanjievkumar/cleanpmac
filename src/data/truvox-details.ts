@@ -72,7 +72,21 @@ export const truvoxProductDetails = {
         "image": "/content_images/multiwash-pro-240-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
+      "Motor power (W)": "750",
+      "Brush width (cm)": "24",
+      "Brush speed (rpm)": "650",
+      "Brush pressure (g/cm2)": "220",
+      "Productivity rate (m2/h)": "250",
+      "Sound pressure level (dB(A))": "69",
+      "Solution tank capacity (litres)": "4",
+      "Recovery tank capacity (litres)": "2",
+      "Dimensions (L x W x H) (cm)": "39 x 35 x 111",
+      "Weight (kg)": "21.5",
+      "Cable length (m)": "12",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "90-0727-0000",
@@ -285,7 +299,21 @@ export const truvoxProductDetails = {
         "image": "/content_images/multiwash-pro-340-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
+      "Motor power (W)": "950",
+      "Brush width (cm)": "34",
+      "Brush speed (rpm)": "650",
+      "Brush pressure (g/cm2)": "190",
+      "Productivity rate (m2/h)": "350",
+      "Sound pressure level (dB(A))": "69",
+      "Solution tank capacity (litres)": "4",
+      "Recovery tank capacity (litres)": "3",
+      "Dimensions (L x W x H) (cm)": "39 x 45 x 111",
+      "Weight (kg)": "26.5",
+      "Cable length (m)": "12",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "90-0728-0000",
@@ -498,7 +526,21 @@ export const truvoxProductDetails = {
         "image": "/content_images/multiwash-pro-440-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
+      "Motor power (W)": "1150",
+      "Brush width (cm)": "44",
+      "Brush speed (rpm)": "650",
+      "Brush pressure (g/cm2)": "170",
+      "Productivity rate (m2/h)": "450",
+      "Sound pressure level (dB(A))": "71",
+      "Solution tank capacity (litres)": "4",
+      "Recovery tank capacity (litres)": "4",
+      "Dimensions (L x W x H) (cm)": "39 x 55 x 111",
+      "Weight (kg)": "31",
+      "Cable length (m)": "12",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "90-0729-0000",
@@ -717,7 +759,23 @@ export const truvoxProductDetails = {
         "image": "/content_images/multiwash-pro-steam-floor-7.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
+      "Motor power (W)": "950",
+      "Brush width (cm)": "34",
+      "Brush speed (rpm)": "650",
+      "Brush pressure (g/cm2)": "190",
+      "Productivity rate (m2/h)": "350",
+      "Sound pressure level (dB(A))": "69",
+      "Solution tank capacity (litres)": "4",
+      "Recovery tank capacity (litres)": "3",
+      "Steam generator power (W)": "1250",
+      "Steam jet width (mm)": "340",
+      "Dimensions (L x W x H) (cm)": "39 x 45 x 111",
+      "Weight (kg)": "31",
+      "Cable length (m)": "12",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "90-0728-0000",
@@ -940,7 +998,24 @@ export const truvoxProductDetails = {
         "image": "/content_images/multiwash-pro-battery-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Charging Voltage AC (~) / Frequency (V/Hz)": "100 - 240 / 50 - 60",
+      "Battery voltage DC (V/Hz)": "25.6",
+      "Battery details (Ah)": "12",
+      "Motor power (W)": "300",
+      "Brush width (cm)": "34",
+      "Brush speed (rpm)": "400",
+      "Brush pressure (g/cm2)": "170",
+      "Productivity rate (m2/h)": "350",
+      "Sound pressure level (dB(A))": "69",
+      "Solution tank capacity (litres)": "4",
+      "Recovery tank capacity (litres)": "3",
+      "Run time (mins)": "60",
+      "Charge time (hrs)": "2",
+      "Dimensions (L x W x H) (cm)": "39 x 45 x 111",
+      "Weight (kg)": "23.5",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "90-0728-0000",
@@ -1112,7 +1187,22 @@ export const truvoxProductDetails = {
       }
     ],
     "floorTypes": [],
-    "specifications": {},
+    "specifications": {
+      "Charging Voltage AC (~) / Frequency (V/Hz)": "110-240/ 50/60",
+      "Battery voltage DC (V/Hz)": "12",
+      "Battery details (Ah)": "6.6",
+      "Motor power (W)": "25",
+      "Vacuum motor power (W)": "700",
+      "Brush speed (rpm)": "400",
+      "Sound pressure level (dB(A))": "73",
+      "Sound power level (dB(A))": "79",
+      "Solution tank capacity (litres)": "2",
+      "Run time (mins)": "150",
+      "Charge time (hrs)": "3.5",
+      "Dimensions (L x W x H) (cm)": "15 x 25 x 915-1270",
+      "Weight (kg)": "4.2",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "86-0280-0000",
@@ -1257,7 +1347,23 @@ export const truvoxProductDetails = {
       }
     ],
     "floorTypes": [],
-    "specifications": {},
+    "specifications": {
+      "Charging Voltage AC (~) / Frequency (V/Hz)": "110-240/ 50/60",
+      "Battery voltage DC (V/Hz)": "18",
+      "Battery details (Ah)": "12",
+      "Motor power (W)": "750",
+      "Brush speed (rpm)": "500",
+      "Brush pressure (g/cm2)": "13",
+      "Productivity rate (m2/h)": "1000",
+      "Sound pressure level (dB(A))": "68",
+      "Solution tank capacity (litres)": "3",
+      "Recovery tank capacity (litres)": "4",
+      "Run time (mins)": "45",
+      "Charge time (hrs)": "6",
+      "Dimensions (L x W x H) (cm)": "34 x 43 x 120",
+      "Weight (kg)": "12.5",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "86-0004-0000",
@@ -1407,7 +1513,21 @@ export const truvoxProductDetails = {
       }
     ],
     "floorTypes": [],
-    "specifications": {},
+    "specifications": {
+      "Charging Voltage AC (~) / Frequency (V/Hz)": "100-240 / 50-60",
+      "Battery voltage DC (V/Hz)": "12",
+      "Battery details (Ah)": "1 x 12v 7.0 Ah",
+      "Motor power (W)": "48",
+      "Pad / brush diameter (cm)": "20",
+      "Pad / brush speed (rpm)": "320",
+      "Sound pressure level (dB(A))": "48",
+      "Run time (mins)": "240",
+      "Charge time (hrs)": "12",
+      "Dimensions (L x W x H) (cm)": "20 x 20 x 135",
+      "Weight (kg)": "2",
+      "Weight of batteries and harness (kg)": "3",
+      "Warranty": "1 year*"
+    },
     "accessories": [
       {
         "title": "98-0158-0000",
@@ -1675,7 +1795,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-eco-200-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "190",
+      "Pad / brush pressure (g/cm2)": "22",
+      "Productivity rate (m2/h)": "475",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "32",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-4714-0000",
@@ -1868,7 +2000,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-eco-400-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "380",
+      "Pad / brush pressure (g/cm2)": "22",
+      "Productivity rate (m2/h)": "475",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "32",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-3437-0500",
@@ -2051,7 +2195,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-eco-duo-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100 / 550",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "154 / 309",
+      "Pad / brush pressure (g/cm2)": "27",
+      "Productivity rate (m2/h)": "475",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "40",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-3437-0500",
@@ -2249,7 +2405,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-200-38cm-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Pad / brush diameter (cm)": "38",
+      "Pad / brush speed (rpm)": "190",
+      "Pad / brush pressure (g/cm2)": "28",
+      "Productivity rate (m2/h)": "420",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "32",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-4673-0500",
@@ -2437,7 +2605,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-400-38cm-15-copy-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Pad / brush diameter (cm)": "38",
+      "Pad / brush speed (rpm)": "380",
+      "Pad / brush pressure (g/cm2)": "28",
+      "Productivity rate (m2/h)": "420",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "32",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-4673-0500",
@@ -2620,7 +2800,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-200-43-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "190",
+      "Pad / brush pressure (g/cm2)": "22",
+      "Productivity rate (m2/h)": "475",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "32",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-4714-0000",
@@ -2823,7 +3015,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-200-hd-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "190",
+      "Pad / brush pressure (g/cm2)": "27",
+      "Productivity rate (m2/h)": "475",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "40",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-3437-0500",
@@ -3031,7 +3235,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-400-43cm-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "380",
+      "Pad / brush pressure (g/cm2)": "22",
+      "Productivity rate (m2/h)": "475",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "32",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-3437-0500",
@@ -3224,7 +3440,19 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-duo-floor-8.jpg"
       }
     ],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100 / 550",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "154 / 309",
+      "Pad / brush pressure (g/cm2)": "27",
+      "Productivity rate (m2/h)": "475",
+      "Sound pressure level (dB(A))": "53",
+      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
+      "Weight (kg)": "36",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-3437-0500",
@@ -3389,7 +3617,20 @@ export const truvoxProductDetails = {
       }
     ],
     "floorTypes": [],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Capacity (litres)": "1",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "1500",
+      "Pad / brush pressure (g/cm2)": "5.5",
+      "Productivity rate (m2/h)": "860",
+      "Sound pressure level (dB(A))": "65.7",
+      "Dimensions (L x W x H) (cm)": "65 x 47 x 125",
+      "Weight (kg)": "34",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-4761-0000",
@@ -3503,7 +3744,20 @@ export const truvoxProductDetails = {
       }
     ],
     "floorTypes": [],
-    "specifications": {},
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
+      "Motor power (W)": "1100",
+      "Capacity (litres)": "1",
+      "Pad / brush diameter (cm)": "50",
+      "Pad / brush speed (rpm)": "1500",
+      "Pad / brush pressure (g/cm2)": "4",
+      "Productivity rate (m2/h)": "1000",
+      "Sound pressure level (dB(A))": "65.7",
+      "Dimensions (L x W x H) (cm)": "72 x 55 x 125",
+      "Weight (kg)": "34.5",
+      "Cable length (m)": "15",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "05-4762-0000",
@@ -3627,7 +3881,22 @@ export const truvoxProductDetails = {
       }
     ],
     "floorTypes": [],
-    "specifications": {},
+    "specifications": {
+      "Charging Voltage AC (~) / Frequency (V/Hz)": "100-230 / 50-60",
+      "Battery voltage DC (V/Hz)": "24 (2 x 12v)",
+      "Battery details (Ah)": "44 (CS)",
+      "Motor power (W)": "480",
+      "Pad / brush diameter (cm)": "43",
+      "Pad / brush speed (rpm)": "1500",
+      "Pad / brush pressure (g/cm2)": "3",
+      "Productivity rate (m2/h)": "860",
+      "Sound pressure level (dB(A))": "62.1",
+      "Run time (mins)": "120",
+      "Charge time (hrs)": "8",
+      "Dimensions (L x W x H) (cm)": "70 x 45 x 86",
+      "Weight (kg)": "62.5",
+      "Warranty": "2 years*"
+    },
     "accessories": [
       {
         "title": "04-3948-0500",
