@@ -34,7 +34,7 @@ export default function TruvoxProduct() {
       setActiveTab(tabs[0]);
   }
 
-  const allImages = [productData.heroImage, ...(productData.galleryImages || [])];
+  const allImages = Array.from(new Set([productData.heroImage, ...(productData.galleryImages || [])]));
 
   return (
     <div className="fade-in" style={{ backgroundColor: 'var(--bg-light)', minHeight: '100vh', padding: '4rem 0' }}>
@@ -55,6 +55,7 @@ export default function TruvoxProduct() {
                 src={allImages[activeImage]} 
                 alt={productData.name} 
                 style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                onError={(e) => (e.currentTarget.style.display = 'none')}
               />
             </div>
             
@@ -67,7 +68,7 @@ export default function TruvoxProduct() {
                     style={{ aspectRatio: '1', background: 'white', border: activeImage === i ? '2px solid var(--accent)' : '1px solid var(--border-color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.5rem', cursor: 'pointer' }} 
                     className="hover:border-[var(--accent)] transition-colors"
                   >
-                    <img src={img} alt={`${productData.name} view ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                    <img src={img} alt={`${productData.name} view ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} onError={(e) => (e.currentTarget.parentElement!.style.display = 'none')} />
                   </div>
                 ))}
               </div>
@@ -161,7 +162,7 @@ export default function TruvoxProduct() {
                         <div key={idx} className="feature-card">
                             {feature.image && (
                                 <div style={{ height: '180px', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                    <img src={feature.image} alt={feature.title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                                    <img src={feature.image} alt={feature.title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} onError={(e) => (e.currentTarget.style.display = 'none')} />
                                 </div>
                             )}
                             <h4 style={{ fontSize: '1.35rem', fontWeight: 900, color: 'var(--primary)', marginBottom: '0.75rem', letterSpacing: '-0.01em' }}>{feature.title}</h4>
