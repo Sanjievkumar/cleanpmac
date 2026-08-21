@@ -156,7 +156,7 @@ export default function TruvoxProduct() {
 
             <div className="fade-in" style={{ animationDuration: '0.4s' }}>
                 {activeTab === 'FEATURES' && (
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
                         {productData.features.map((feature: any, idx: number) => (
                         <div key={idx} className="feature-card">
                             {feature.image && (
@@ -172,7 +172,7 @@ export default function TruvoxProduct() {
                 )}
 
                 {activeTab === 'FLOOR TYPES' && (
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '1.5rem', justifyContent: 'center' }}>
                         {productData.floorTypes.map((floor: any, idx: number) => (
                         <div key={idx} className="floor-card">
                             <img src={floor.image} alt={floor.title} />
@@ -194,7 +194,7 @@ export default function TruvoxProduct() {
                 )}
 
                 {activeTab === 'ACCESSORIES' && (
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '1.5rem' }}>
                         {productData.accessories.map((acc: any, idx: number) => (
                         <div key={idx} className="acc-card">
                             {acc.image && (
@@ -212,7 +212,7 @@ export default function TruvoxProduct() {
                 )}
 
                 {activeTab === 'DOWNLOADS' && (
-                    <div className="grid md:grid-cols-2 gap-10">
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem' }}>
                         {productData.downloads.map((cat: any, idx: number) => (
                             <div key={idx} style={{ background: 'white', padding: '2rem', borderRadius: '1.25rem', border: '1px solid var(--border-color)', boxShadow: '0 10px 30px rgba(0,0,0,0.02)' }}>
                                 <h4 className="dl-cat-title">
