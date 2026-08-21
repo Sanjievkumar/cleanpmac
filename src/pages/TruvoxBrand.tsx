@@ -114,17 +114,14 @@ export default function TruvoxBrand() {
             </h2>
           </div>
 
-          <div className="columns-1 md:columns-2 lg:columns-4 gap-6 space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
             {truvoxData.map((category) => (
-              <div key={category.category} className="break-inside-avoid" style={{ 
+              <div key={category.category} style={{ 
                 background: 'white', 
                 borderRadius: '1rem', 
                 padding: '1.5rem',
                 boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
-                border: '1px solid var(--border-color)',
-                marginBottom: '1.5rem',
-                display: 'inline-block',
-                width: '100%'
+                border: '1px solid var(--border-color)'
               }}>
                 <h3 style={{ 
                   fontSize: '1rem', 
