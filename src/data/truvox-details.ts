@@ -5357,6 +5357,425 @@ export const truvoxProductDetails = {
       }
     ]
   },
+  "cimex-cyclone-38-slow-speed": {
+    "id": "cimex-cyclone-38-slow-speed",
+    "name": "Cimex® Cyclone 38 (slow speed)",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "Cimex Cyclone scrubber / polishers are multi-purpose, powerful machines, suitable for scrubbing, cleaning and polishing virtually every floor type.",
+    "heroImage": "/content_images/cimex-cyclone-38-slow-speed.png",
+    "galleryImages": [
+      "/content_images/cimex-cyclone-38-slow-speed-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "THREE BRUSH CONTRA-ROTATING",
+        "text": "For unbeatable scrubbing, these scrubber dryers are simple to operate and extremely efficient",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-feature-1.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Ideal for scrubbing, polishing and cleaning virtually all floor types including vinyl, ceramic and uneven surfaces",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-feature-2.jpg"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "Floating brushes provide effective cleaning action of grout lines, slip resistant floors and textured natural stone",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-feature-3.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Non-marking wheels for a truly professional finish",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-feature-4.jpg"
+      },
+      {
+        "title": "PRODUCTIVE",
+        "text": "Reversing brush action extends brush life",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-feature-5.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "A complete range of brushes are available for carpet shampooing, scrubbing hard floors, quarry tiles & uneven surfaces",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-feature-6.png"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-1.jpg"
+      },
+      {
+        "title": "CERAMIC",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-2.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-3.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-4.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-5.jpg"
+      },
+      {
+        "title": "NON-SLIP SAFETY FLOORS",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-6.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-7.jpg"
+      },
+      {
+        "title": "VINYL",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-8.jpg"
+      },
+      {
+        "title": "WOOD",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-floor-9.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50 / 60",
+      "Motor power (W)": "370",
+      "Pad / brush diameter (cm)": "16.5",
+      "Pad / brush speed (rpm)": "400",
+      "Pad / brush pressure (g/cm2)": "45",
+      "Working width (cm)": "38",
+      "Productivity rate - scrubbing (m2/h)": "1140",
+      "Productivity rate - polishing (m2/h)": "1710",
+      "Productivity rate - Spray cleaning (m2/h)": "850",
+      "Productivity rate - shampooing (m2/h)": "1140",
+      "Sound pressure level (dB(A))": "60",
+      "Solution tank capacity (litres)": "25",
+      "Dimensions (L x W x H) (cm)": "74 x 40 x 112",
+      "Weight (kg)": "38",
+      "Motor height - clearance (mm)": "42",
+      "Cable length (m)": "15",
+      "Warranty": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "11-1662-0500",
+        "text": "Drive disc",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-acc-1.png"
+      },
+      {
+        "title": "11-1601-0500",
+        "text": "Fibre (biscuit) – general purpose scrubbing",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-acc-2.png"
+      },
+      {
+        "title": "11-1603-0500",
+        "text": "Polypropylene (yellow) – light scrub",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-acc-3.png"
+      },
+      {
+        "title": "11-1604-0500",
+        "text": "Polypropylene (yellow) – medium scrub",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-acc-4.png"
+      },
+      {
+        "title": "11-1605-0500",
+        "text": "Nylon (white) – standard scrub",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-acc-5.png"
+      },
+      {
+        "title": "11-1607-0500",
+        "text": "Shampoo brush (white)",
+        "image": "/content_images/cimex-cyclone-38-slow-speed-acc-6.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-CYCLONE-REV.04-0824.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-CYCLONE-REV.03-0425.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-CYCLONE-REV.02-0824.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-7983-0000-Cimex-Cyclone-Issue-4-0425.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/CRS38.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/zvMwWeDsZt"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/qkiNNEueJu"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/6jdjAJ36AG"
+          },
+          {
+            "title": "Other Downloads",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "cimex-cyclone-48": {
+    "id": "cimex-cyclone-48",
+    "name": "Cimex® Cyclone 48",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "Cimex Cyclone scrubber / polishers are multi-purpose, powerful machines, suitable for scrubbing, cleaning and polishing virtually every floor type.",
+    "heroImage": "/content_images/cimex-cyclone-48.png",
+    "galleryImages": [
+      "/content_images/cimex-cyclone-48-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "THREE BRUSH CONTRA-ROTATING",
+        "text": "For unbeatable scrubbing, these scrubber dryers are simple to operate and extremely efficient",
+        "image": "/content_images/cimex-cyclone-48-feature-1.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Ideal for scrubbing, polishing and cleaning virtually all floor types including vinyl, ceramic and uneven surfaces",
+        "image": "/content_images/cimex-cyclone-48-feature-2.jpg"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "Floating brushes provide effective cleaning action of grout lines, slip resistant floors and textured natural stone",
+        "image": "/content_images/cimex-cyclone-48-feature-3.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Non-marking wheels for a truly professional finish",
+        "image": "/content_images/cimex-cyclone-48-feature-4.jpg"
+      },
+      {
+        "title": "PRODUCTIVE",
+        "text": "Reversing brush action extends brush life",
+        "image": "/content_images/cimex-cyclone-48-feature-5.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "A complete range of brushes are available for carpet shampooing, scrubbing hard floors, quarry tiles & uneven surfaces",
+        "image": "/content_images/cimex-cyclone-48-feature-6.png"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/cimex-cyclone-48-floor-1.jpg"
+      },
+      {
+        "title": "CERAMIC",
+        "image": "/content_images/cimex-cyclone-48-floor-2.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/cimex-cyclone-48-floor-3.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/cimex-cyclone-48-floor-4.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/cimex-cyclone-48-floor-5.jpg"
+      },
+      {
+        "title": "NON-SLIP SAFETY FLOORS",
+        "image": "/content_images/cimex-cyclone-48-floor-6.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/cimex-cyclone-48-floor-7.jpg"
+      },
+      {
+        "title": "VINYL",
+        "image": "/content_images/cimex-cyclone-48-floor-8.jpg"
+      },
+      {
+        "title": "WOOD",
+        "image": "/content_images/cimex-cyclone-48-floor-9.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50 / 60",
+      "Motor power (W)": "750",
+      "Pad / brush diameter (cm)": "20",
+      "Pad / brush speed (rpm)": "400",
+      "Pad / brush pressure (g/cm2)": "38",
+      "Working width (cm)": "48",
+      "Productivity rate - scrubbing (m2/h)": "1440",
+      "Productivity rate - polishing (m2/h)": "2160",
+      "Productivity rate - Spray cleaning (m2/h)": "1080",
+      "Productivity rate - shampooing (m2/h)": "1440",
+      "Sound pressure level (dB(A))": "60",
+      "Solution tank capacity (litres)": "25",
+      "Dimensions (L x W x H) (cm)": "80 x 50 x 112",
+      "Weight (kg)": "47",
+      "Motor height - clearance (mm)": "45",
+      "Cable length (m)": "15",
+      "Warranty": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "11-2062-0500",
+        "text": "Drive disc",
+        "image": "/content_images/cimex-cyclone-48-acc-1.png"
+      },
+      {
+        "title": "11-2060-0500",
+        "text": "Velcro drive disc",
+        "image": "/content_images/cimex-cyclone-48-acc-2.png"
+      },
+      {
+        "title": "11-2001-0500",
+        "text": "Fibre (biscuit) – general purpose scrubbing",
+        "image": "/content_images/cimex-cyclone-48-acc-3.png"
+      },
+      {
+        "title": "11-2003-0500",
+        "text": "Polypropylene (yellow) – light scrub",
+        "image": "/content_images/cimex-cyclone-48-acc-4.png"
+      },
+      {
+        "title": "11-2004-0500",
+        "text": "Polypropylene (yellow) – medium scrub",
+        "image": "/content_images/cimex-cyclone-48-acc-5.png"
+      },
+      {
+        "title": "11-2005-0500",
+        "text": "Nylon (white) – standard scrub",
+        "image": "/content_images/cimex-cyclone-48-acc-6.png"
+      },
+      {
+        "title": "11-2007-0500",
+        "text": "Shampoo brushes (pack of 3)",
+        "image": "/content_images/cimex-cyclone-48-acc-7.png"
+      },
+      {
+        "title": "11-2013-0500",
+        "text": "Bronze / Polypropylene (white / bronze) – abrasive scrub",
+        "image": "/content_images/cimex-cyclone-48-acc-8.png"
+      },
+      {
+        "title": "11-2016-0500",
+        "text": "Tynex (grey) – extra heavy-duty scrub",
+        "image": "/content_images/cimex-cyclone-48-acc-9.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-CYCLONE-REV.04-0824.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-CYCLONE-REV.03-0425.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-CYCLONE-REV.02-0824.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-7983-0000-Cimex-Cyclone-Issue-4-0425.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/CR48-Spare-Parts-List-Series-B-Issue-1.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/zvMwWeDsZt"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/6jdjAJ36AG"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/qkiNNEueJu"
+          },
+          {
+            "title": "Other Downloads",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
+          }
+        ]
+      }
+    ]
+  },
   "cimex-encap-2": {
     "id": "cimex-encap-2",
     "name": "Cimex-Encap®",
@@ -5704,6 +6123,202 @@ export const truvoxProductDetails = {
           {
             "title": "DE Fault Finding Guide",
             "url": "https://forms.office.com/r/MvRNfuU9iP"
+          },
+          {
+            "title": "Other Downloads",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "cimex-diamond-finisher": {
+    "id": "cimex-diamond-finisher",
+    "name": "Cimex® Diamond Finisher 48",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "Powerful, heavy-duty machines ideal for scarifying, industrial cleaning and floor preparation.",
+    "heroImage": "/content_images/cimex-diamond-finisher.png",
+    "galleryImages": [
+      "/content_images/cimex-diamond-finisher-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "THREE BRUSH CONTRA-ROTATING",
+        "text": "For unbeatable scrubbing, these scrubber dryers are simple to operate and extremely efficient",
+        "image": "/content_images/cimex-diamond-finisher-feature-1.jpg"
+      },
+      {
+        "title": "FLOOR PREPARATION",
+        "text": "Perfect for combating rust, paint and soiling, removing impacted oil, grease and debris",
+        "image": "/content_images/cimex-diamond-finisher-feature-2.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "All HD models are supplied with two 17kg ballast weights for more aggressive scarifying",
+        "image": "/content_images/cimex-diamond-finisher-feature-3.jpg"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "Floating brushes effective on uneven surfaces",
+        "image": "/content_images/cimex-diamond-finisher-feature-4.jpg"
+      },
+      {
+        "title": "DIAMOND FINISHER",
+        "text": "DF model for preparation and maintaining marble, terrazzo and other stone floors",
+        "image": "/content_images/cimex-diamond-finisher-feature-5.jpg"
+      },
+      {
+        "title": "ERGONOMIC",
+        "text": "Auto reverse action for extended brush life and brush tip reshaping",
+        "image": "/content_images/cimex-diamond-finisher-feature-6.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Extensive range of accessories cover all scarifying, scrubbing and floor preparation applications",
+        "image": "/content_images/cimex-diamond-finisher-feature-7.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "COLD STORE",
+        "image": "/content_images/cimex-diamond-finisher-floor-1.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/cimex-diamond-finisher-floor-2.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/cimex-diamond-finisher-floor-3.jpg"
+      },
+      {
+        "title": "MARBLE",
+        "image": "/content_images/cimex-diamond-finisher-floor-4.jpg"
+      },
+      {
+        "title": "TARRAZZO",
+        "image": "/content_images/cimex-diamond-finisher-floor-5.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50 / 60",
+      "Motor power (W)": "1550",
+      "Pad / brush diameter (cm)": "20",
+      "Pad / brush speed (rpm)": "880",
+      "Working width (cm)": "48",
+      "Sound pressure level (dB(A))": "65",
+      "Dimensions (L x W x H) (cm)": "75 x 55 x 120",
+      "Weight (kg)": "60",
+      "Ballast weights (kg)": "17",
+      "Number of weights supplied with machine": "2",
+      "Cable length (m)": "15",
+      "Warranty": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "05-4346-0000",
+        "text": "Velcro drive back for diamond tooling",
+        "image": "/content_images/cimex-diamond-finisher-acc-1.png"
+      },
+      {
+        "title": "11-2041-0500",
+        "text": "Crimped wire – chequer plate cleaning",
+        "image": "/content_images/cimex-diamond-finisher-acc-2.png"
+      },
+      {
+        "title": "11-2043-0500",
+        "text": "Steel wire 18G – concrete finishing",
+        "image": "/content_images/cimex-diamond-finisher-acc-3.png"
+      },
+      {
+        "title": "11-2045-0000",
+        "text": "Bronze wire 18G – spark free scarifying",
+        "image": "/content_images/cimex-diamond-finisher-acc-4.png"
+      },
+      {
+        "title": "11-2049-0500",
+        "text": "Steel wire 3 x 16G – general scarifying",
+        "image": "/content_images/cimex-diamond-finisher-acc-5.png"
+      },
+      {
+        "title": "11-2051-0500",
+        "text": "Steel wire 3 x 14G – heavy duty scarifying",
+        "image": "/content_images/cimex-diamond-finisher-acc-6.png"
+      },
+      {
+        "title": "03-6938-0000",
+        "text": "Spare retaining clips for heavy duty brushes (set)",
+        "image": "/content_images/cimex-diamond-finisher-acc-7.png"
+      },
+      {
+        "title": "03-7004-0000",
+        "text": "Spare horseshoe weight (17kg each)",
+        "image": "/content_images/cimex-diamond-finisher-acc-8.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/UK-CIMEX-HEAVY-DUTY-REV.03-0324-1.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/FR-CIMEX-HEAVY-DUTY-REV.03-0425.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-HEAVY-DUTY-REV.01-0724.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/03-8017-0000-Cimex-Diamond-Finisher-Issue-5-0425.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/CR48-DF_022509-1.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/VKj3Z6TCVZ"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.cloud.microsoft/r/g7T6anMi9M"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.cloud.microsoft/r/ydnhPVp5sA"
           },
           {
             "title": "Other Downloads",
