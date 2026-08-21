@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -21,102 +21,90 @@ export default function Contact() {
         </div>
       </section>
 
-      <section className="section" style={{ background: 'var(--primary)' }}>
+      <section className="section" style={{ background: '#f8fafc', padding: '6rem 0' }}>
         <div className="container max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 gap-16">
+          <div style={{ background: 'white', borderRadius: '1.5rem', overflow: 'hidden', boxShadow: '0 30px 60px rgba(0,0,0,0.08)', display: 'flex', border: '1px solid var(--border-color)' }}>
             
-            {/* Contact Information */}
-            <div className="slide-up">
-              <h2 style={{ fontSize: '2.5rem', fontWeight: 900, color: 'white', marginBottom: '0.75rem', lineHeight: 1.1 }}>We're Here to Help</h2>
-              <div style={{ width: '40px', height: '4px', background: 'var(--accent)', marginBottom: '1.5rem', borderRadius: '2px' }} />
-              <p style={{ fontSize: '1.05rem', color: '#94a3b8', marginBottom: '3rem', lineHeight: '1.8' }}>
-                Whether you need product recommendations, technical support, or customized cleaning solutions, our team is ready to assist you.
-              </p>
+            {/* Contact Information - Left Pane (Dark) */}
+            <div style={{ flex: '1', background: 'var(--primary)', padding: '4rem', position: 'relative', overflow: 'hidden' }}>
+              <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, opacity: 0.05, background: 'radial-gradient(circle at top right, white 0%, transparent 70%)' }}></div>
+              <div style={{ position: 'relative', zIndex: 1 }}>
+                <h2 style={{ fontSize: '2.5rem', fontWeight: 900, color: 'white', marginBottom: '1rem', lineHeight: 1.1 }}>Get in Touch</h2>
+                <div style={{ width: '40px', height: '4px', background: 'var(--accent)', marginBottom: '2rem', borderRadius: '2px' }} />
+                <p style={{ fontSize: '1.05rem', color: '#94a3b8', marginBottom: '3rem', lineHeight: '1.8' }}>
+                  Have questions about our industrial cleaning solutions? Our experts are ready to provide the answers.
+                </p>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-                <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                  <div style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '50%', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <MapPin size={24} color="var(--accent)" />
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '2.5rem' }}>
+                  <div className="hover-scale" style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', cursor: 'pointer' }}>
+                    <div style={{ background: 'rgba(255,255,255,0.05)', borderRadius: '50%', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(255,255,255,0.1)' }}>
+                      <MapPin size={24} color="white" />
+                    </div>
+                    <div>
+                      <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Head Office</h4>
+                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>Promac Technologies Pvt. Ltd.<br />123 Industrial Area, Phase 1, India</p>
+                    </div>
                   </div>
-                  <div>
-                    <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Head Office</h4>
-                    <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>Promac Technologies Pvt. Ltd.<br />123 Industrial Area, Phase 1, India</p>
-                  </div>
-                </div>
 
-                <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                  <div style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '50%', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <Phone size={24} color="var(--accent)" />
+                  <div className="hover-scale" style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', cursor: 'pointer' }}>
+                    <div style={{ background: 'rgba(255,255,255,0.05)', borderRadius: '50%', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(255,255,255,0.1)' }}>
+                      <Phone size={24} color="white" />
+                    </div>
+                    <div>
+                      <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Phone</h4>
+                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>+91 123 456 7890<br />+91 987 654 3210</p>
+                    </div>
                   </div>
-                  <div>
-                    <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Phone</h4>
-                    <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>+91 123 456 7890<br />+91 987 654 3210</p>
-                  </div>
-                </div>
 
-                <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                  <div style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '50%', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <Mail size={24} color="var(--accent)" />
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Email</h4>
-                    <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>info@cleanpromac.com<br />sales@cleanpromac.com</p>
-                  </div>
-                </div>
-
-                <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start' }}>
-                  <div style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '50%', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <Clock size={24} color="var(--accent)" />
-                  </div>
-                  <div>
-                    <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Business Hours</h4>
-                    <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 9:00 AM - 2:00 PM</p>
+                  <div className="hover-scale" style={{ display: 'flex', gap: '1.5rem', alignItems: 'flex-start', cursor: 'pointer' }}>
+                    <div style={{ background: 'rgba(255,255,255,0.05)', borderRadius: '50%', padding: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(255,255,255,0.1)' }}>
+                      <Mail size={24} color="white" />
+                    </div>
+                    <div>
+                      <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Email</h4>
+                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>info@cleanpromac.com<br />sales@cleanpromac.com</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Contact Form */}
-            <div className="slide-up">
-              <div style={{ background: 'rgba(2, 6, 23, 0.7)', backdropFilter: 'blur(20px)', WebkitBackdropFilter: 'blur(20px)', borderRadius: '1rem', padding: '3rem', boxShadow: '0 30px 60px rgba(0,0,0,0.4)', border: '1px solid rgba(255,255,255,0.1)', position: 'relative' }}>
-                <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent), #ff5555)', borderTopLeftRadius: '1rem', borderTopRightRadius: '1rem' }}></div>
+            {/* Contact Form - Right Pane (Light) */}
+            <div style={{ flex: '1.2', background: 'white', padding: '4rem' }}>
+              <h3 style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '2rem' }}>Send a Message</h3>
+              
+              <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+                <div className="grid grid-cols-2 gap-6">
+                  <div>
+                    <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>First Name</label>
+                    <input type="text" style={{ width: '100%', background: 'var(--bg-gray)', border: '1px solid transparent', borderRadius: '0.5rem', padding: '1rem', color: 'var(--text-dark)', outline: 'none', transition: 'all 0.3s', fontWeight: 500 }} onFocus={(e) => { e.target.style.borderColor = 'var(--primary)'; e.target.style.background = 'white'; e.target.style.boxShadow = '0 0 0 4px rgba(0,31,63,0.1)'; }} onBlur={(e) => { e.target.style.borderColor = 'transparent'; e.target.style.background = 'var(--bg-gray)'; e.target.style.boxShadow = 'none'; }} placeholder="John" />
+                  </div>
+                  <div>
+                    <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Last Name</label>
+                    <input type="text" style={{ width: '100%', background: 'var(--bg-gray)', border: '1px solid transparent', borderRadius: '0.5rem', padding: '1rem', color: 'var(--text-dark)', outline: 'none', transition: 'all 0.3s', fontWeight: 500 }} onFocus={(e) => { e.target.style.borderColor = 'var(--primary)'; e.target.style.background = 'white'; e.target.style.boxShadow = '0 0 0 4px rgba(0,31,63,0.1)'; }} onBlur={(e) => { e.target.style.borderColor = 'transparent'; e.target.style.background = 'var(--bg-gray)'; e.target.style.boxShadow = 'none'; }} placeholder="Doe" />
+                  </div>
+                </div>
                 
-                <h3 style={{ fontSize: '1.75rem', fontWeight: 800, color: 'white', marginBottom: '2rem' }}>Send us a Message</h3>
+                <div>
+                  <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Email Address</label>
+                  <input type="email" style={{ width: '100%', background: 'var(--bg-gray)', border: '1px solid transparent', borderRadius: '0.5rem', padding: '1rem', color: 'var(--text-dark)', outline: 'none', transition: 'all 0.3s', fontWeight: 500 }} onFocus={(e) => { e.target.style.borderColor = 'var(--primary)'; e.target.style.background = 'white'; e.target.style.boxShadow = '0 0 0 4px rgba(0,31,63,0.1)'; }} onBlur={(e) => { e.target.style.borderColor = 'transparent'; e.target.style.background = 'var(--bg-gray)'; e.target.style.boxShadow = 'none'; }} placeholder="john@company.com" />
+                </div>
                 
-                <form style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: '#94a3b8', marginBottom: '0.5rem', textTransform: 'uppercase' }}>First Name</label>
-                      <input type="text" style={{ width: '100%', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '0.5rem', padding: '1rem', color: 'white', outline: 'none', transition: 'all 0.3s' }} onFocus={(e) => { e.target.style.borderColor = 'var(--accent)'; e.target.style.background = 'rgba(255,255,255,0.05)'; }} onBlur={(e) => { e.target.style.borderColor = 'rgba(255,255,255,0.1)'; e.target.style.background = 'rgba(255,255,255,0.03)'; }} />
-                    </div>
-                    <div>
-                      <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: '#94a3b8', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Last Name</label>
-                      <input type="text" style={{ width: '100%', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '0.5rem', padding: '1rem', color: 'white', outline: 'none', transition: 'all 0.3s' }} onFocus={(e) => { e.target.style.borderColor = 'var(--accent)'; e.target.style.background = 'rgba(255,255,255,0.05)'; }} onBlur={(e) => { e.target.style.borderColor = 'rgba(255,255,255,0.1)'; e.target.style.background = 'rgba(255,255,255,0.03)'; }} />
-                    </div>
-                  </div>
-                  
-                  <div>
-                    <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: '#94a3b8', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Email Address</label>
-                    <input type="email" style={{ width: '100%', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '0.5rem', padding: '1rem', color: 'white', outline: 'none', transition: 'all 0.3s' }} onFocus={(e) => { e.target.style.borderColor = 'var(--accent)'; e.target.style.background = 'rgba(255,255,255,0.05)'; }} onBlur={(e) => { e.target.style.borderColor = 'rgba(255,255,255,0.1)'; e.target.style.background = 'rgba(255,255,255,0.03)'; }} />
-                  </div>
-                  
-                  <div>
-                    <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: '#94a3b8', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Subject</label>
-                    <input type="text" style={{ width: '100%', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '0.5rem', padding: '1rem', color: 'white', outline: 'none', transition: 'all 0.3s' }} onFocus={(e) => { e.target.style.borderColor = 'var(--accent)'; e.target.style.background = 'rgba(255,255,255,0.05)'; }} onBlur={(e) => { e.target.style.borderColor = 'rgba(255,255,255,0.1)'; e.target.style.background = 'rgba(255,255,255,0.03)'; }} />
-                  </div>
-                  
-                  <div>
-                    <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: '#94a3b8', marginBottom: '0.5rem', textTransform: 'uppercase' }}>Message</label>
-                    <textarea rows={4} style={{ width: '100%', background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '0.5rem', padding: '1rem', color: 'white', outline: 'none', transition: 'all 0.3s', resize: 'vertical' }} onFocus={(e) => { e.target.style.borderColor = 'var(--accent)'; e.target.style.background = 'rgba(255,255,255,0.05)'; }} onBlur={(e) => { e.target.style.borderColor = 'rgba(255,255,255,0.1)'; e.target.style.background = 'rgba(255,255,255,0.03)'; }}></textarea>
-                  </div>
-                  
-                  <button type="button" className="btn-3d" style={{ marginTop: '0.5rem', width: '100%' }}>
-                    SEND MESSAGE
-                  </button>
-                </form>
-              </div>
+                <div>
+                  <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Subject</label>
+                  <input type="text" style={{ width: '100%', background: 'var(--bg-gray)', border: '1px solid transparent', borderRadius: '0.5rem', padding: '1rem', color: 'var(--text-dark)', outline: 'none', transition: 'all 0.3s', fontWeight: 500 }} onFocus={(e) => { e.target.style.borderColor = 'var(--primary)'; e.target.style.background = 'white'; e.target.style.boxShadow = '0 0 0 4px rgba(0,31,63,0.1)'; }} onBlur={(e) => { e.target.style.borderColor = 'transparent'; e.target.style.background = 'var(--bg-gray)'; e.target.style.boxShadow = 'none'; }} placeholder="How can we help?" />
+                </div>
+                
+                <div>
+                  <label style={{ display: 'block', fontSize: '0.8rem', fontWeight: 700, color: 'var(--text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Message</label>
+                  <textarea rows={4} style={{ width: '100%', background: 'var(--bg-gray)', border: '1px solid transparent', borderRadius: '0.5rem', padding: '1rem', color: 'var(--text-dark)', outline: 'none', transition: 'all 0.3s', fontWeight: 500, resize: 'vertical' }} onFocus={(e) => { e.target.style.borderColor = 'var(--primary)'; e.target.style.background = 'white'; e.target.style.boxShadow = '0 0 0 4px rgba(0,31,63,0.1)'; }} onBlur={(e) => { e.target.style.borderColor = 'transparent'; e.target.style.background = 'var(--bg-gray)'; e.target.style.boxShadow = 'none'; }} placeholder="Write your message here..."></textarea>
+                </div>
+                
+                <button type="button" className="btn-3d" style={{ marginTop: '1rem', width: '100%', padding: '1.25rem', fontSize: '1rem', letterSpacing: '0.1em' }}>
+                  SEND MESSAGE
+                </button>
+              </form>
             </div>
-            
           </div>
         </div>
       </section>

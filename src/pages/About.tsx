@@ -172,40 +172,44 @@ export default function About() {
         <div className="container max-w-6xl mx-auto">
           <div className="grid grid-cols-2 gap-16 items-start">
 
-            <div style={{ position: 'sticky', top: '8rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', background: 'white', padding: '3rem', borderRadius: '1.25rem', border: '1px solid var(--border-color)', boxShadow: '0 24px 50px rgba(0,0,0,0.05)' }}>
+            <div className="process-container" style={{ position: 'sticky', top: '8rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', background: 'rgba(255,255,255,0.02)', padding: '3rem', borderRadius: '1.25rem', border: '1px solid var(--border-color)', boxShadow: '0 24px 50px rgba(0,0,0,0.05)' }}>
               <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1rem', textAlign: 'center' }}>The Promac Process</h3>
               
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
-                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)' }}>
-                  <div style={{ background: 'white', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+                <div className="hover-scale" style={{ background: 'white', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)', cursor: 'pointer', transition: 'all 0.3s ease', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+                  <div style={{ background: 'var(--bg-gray)', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', transition: 'all 0.3s ease' }}>
                     <Target size={20} color="var(--primary)" />
                   </div>
-                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Assess</h4>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>Assess</h4>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', opacity: 0.8 }}>We evaluate your specific facility needs.</p>
                 </div>
                 
-                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)' }}>
-                  <div style={{ background: 'white', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+                <div className="hover-scale" style={{ background: 'white', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)', cursor: 'pointer', transition: 'all 0.3s ease', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+                  <div style={{ background: 'var(--bg-gray)', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', transition: 'all 0.3s ease' }}>
                     <Lightbulb size={20} color="var(--primary)" />
                   </div>
-                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Design</h4>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>Design</h4>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', opacity: 0.8 }}>We engineer a customized cleaning plan.</p>
                 </div>
                 
-                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--accent)' }}>
-                  <div style={{ background: 'var(--accent)', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(227,30,36,0.2)' }}>
+                <div className="hover-scale" style={{ background: 'white', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--accent)', cursor: 'pointer', transition: 'all 0.3s ease', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+                  <div style={{ background: 'var(--accent)', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(227,30,36,0.2)', transition: 'all 0.3s ease' }}>
                     <Wrench size={20} color="white" />
                   </div>
-                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Execute</h4>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>Execute</h4>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', opacity: 0.8 }}>Deployment of top-tier equipment.</p>
                 </div>
                 
-                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)' }}>
-                  <div style={{ background: 'white', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+                <div className="hover-scale" style={{ background: 'white', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)', cursor: 'pointer', transition: 'all 0.3s ease', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }}>
+                  <div style={{ background: 'var(--bg-gray)', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', transition: 'all 0.3s ease' }}>
                     <Shield size={20} color="var(--primary)" />
                   </div>
-                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Maintain</h4>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)', marginBottom: '0.5rem' }}>Maintain</h4>
+                  <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', opacity: 0.8 }}>Ongoing support and maintenance.</p>
                 </div>
               </div>
               
-              <div style={{ background: 'var(--bg-dark)', borderRadius: '1rem', padding: '1.5rem', marginTop: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+              <div className="hover-scale" style={{ background: 'var(--primary)', borderRadius: '1rem', padding: '1.5rem', marginTop: '1rem', display: 'flex', alignItems: 'center', gap: '1rem', cursor: 'pointer' }}>
                 <div style={{ background: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%' }}>
                   <CheckCircle2 size={24} color="white" />
                 </div>

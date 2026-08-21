@@ -17,11 +17,12 @@ export interface TruvoxProduct {
 
 export const truvoxCategories = {
   scrubberDryers: [
-    { id: "multiwash-pro", name: "Multiwash Pro", image: "/content_images/image_4.png" },
-    { id: "multiwash-steam", name: "Multiwash Steam", image: "/content_images/image_4.png" },
-    { id: "multiscrub-440", name: "Multiscrub 440", image: "/content_images/image_4.png" },
-    { id: "iscrub", name: "iScrub", image: "/content_images/image_4.png" },
-    { id: "imop-lite", name: "imop Lite", image: "/content_images/image_4.png" }
+    { id: "multiwash-pro-340", name: "Multiwash Pro 340", image: "/content_images/multiwash-pro.png" },
+    { id: "multiwash-pro-440", name: "Multiwash Pro 440", image: "/content_images/multiwash-pro-440.png" },
+    { id: "multiwash-pro-steam", name: "Multiwash Pro Steam", image: "/content_images/multiwash-pro-steam.png" },
+    { id: "multiwash-pro-battery", name: "Multiwash Pro Battery", image: "/content_images/multiwash-pro-battery.png" },
+    { id: "i-scrub-21b", name: "i-scrub 21B", image: "/content_images/i-scrub-21b.png" },
+    { id: "imop-lite", name: "imop Lite", image: "/content_images/imop-lite.png" }
   ],
   singleDisc: [
     { id: "orbis-200", name: "ORBIS 200 (43cm)", image: "/content_images/image_4.png" },

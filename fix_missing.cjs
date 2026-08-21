@@ -1,0 +1,1 @@
+const fs = require('fs'); let content = fs.readFileSync('src/data/truvox-details.ts', 'utf8'); const regex = /"(\/content_images\/[^"]+)"/g; content = content.replace(regex, (match, path) => { if(!fs.existsSync('public' + path)) { console.log('Replacing', path); return '"/content_images/image_4.png"'; } return match; }); fs.writeFileSync('src/data/truvox-details.ts', content);

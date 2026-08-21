@@ -6,7 +6,7 @@ export const truvoxProductDetails = {
     "description": "An effective scrubber dryer that is simple to use, cost-effective and provides exceptional cleaning results after just one pass.",
     "heroImage": "/content_images/multiwash-pro-240.png",
     "galleryImages": [
-      "/content_images/multiwash-pro-240-gallery-0.jpg"
+      "/content_images/image_4.png"
     ],
     "features": [
       {
@@ -693,7 +693,7 @@ export const truvoxProductDetails = {
     "description": "The Multiwash PRO Steam not only provides exceptional cleaning results due to its counter-rotating brushes, but with the additional steam function will sanitise floors, killing up to 99.99% of bacteria.",
     "heroImage": "/content_images/multiwash-pro-steam.png",
     "galleryImages": [
-      "/content_images/multiwash-pro-steam-gallery-0.jpg"
+      "/content_images/image_4.png"
     ],
     "features": [
       {
@@ -930,7 +930,7 @@ export const truvoxProductDetails = {
     "description": "The Multiwash PRO Battery provides exceptional cleaning results with a 1-hour run-time ideal for areas without power and minimises the risk of trips from trailing power cords.",
     "heroImage": "/content_images/multiwash-pro-battery.png",
     "galleryImages": [
-      "/content_images/multiwash-pro-battery-gallery-0.jpg"
+      "/content_images/image_4.png"
     ],
     "features": [
       {
@@ -6551,7 +6551,7 @@ export const truvoxProductDetails = {
     "description": "A compact, entry-level vacuum that offers excellent performance and is ideal for daily vacuuming.*Only available in certain countries.",
     "heroImage": "/content_images/vtve-compact.png",
     "galleryImages": [
-      "/content_images/vtve-compact-gallery-0.jpg"
+      "/content_images/image_4.png"
     ],
     "features": [
       {
@@ -7028,7 +7028,7 @@ export const truvoxProductDetails = {
     "description": "A powerful and robust, dual motor upright vacuum cleaner, providing effective cleaning by removing dust particles down to 0.3 microns.",
     "heroImage": "/content_images/valet-dual-motor-upright.png",
     "galleryImages": [
-      "/content_images/valet-dual-motor-upright-gallery-0.jpg"
+      "/content_images/image_4.png"
     ],
     "features": [
       {
