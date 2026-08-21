@@ -20,11 +20,19 @@ export default function TruvoxBrand() {
     {
       category: 'SINGLE DISC',
       products: [
-        { id: 'orbis-motorscrubber-20', name: 'Orbis MotorScrubber 20' },
-        { id: 'orbis-eco', name: 'Orbis eco' },
-        { id: 'orbis-200-38cm', name: 'Orbis (200 / 38cm)' },
-        { id: 'orbis-uhs-1500', name: 'Orbis UHS 1500 Folding Handle' },
-        { id: 'orbis-uhs-cordless', name: 'Orbis UHS Cordless Burnisher' }
+        { id: 'orbis-motorscrubber-20-2', name: 'Orbis MotorScrubber 20' },
+        { id: 'orbis-eco-200', name: 'Orbis eco 200' },
+        { id: 'orbis-eco-400', name: 'Orbis eco 400' },
+        { id: 'orbis-eco-duo', name: 'Orbis eco Duo' },
+        { id: 'orbis-200-38cm', name: 'Orbis 200 (38cm)' },
+        { id: 'orbis-400-38cm-15-copy', name: 'Orbis 400 (38cm)' },
+        { id: 'orbis-200-43', name: 'Orbis 200 (43cm)' },
+        { id: 'orbis-200-hd', name: 'Orbis 200 HD' },
+        { id: 'orbis-400-43cm', name: 'Orbis 400 (43cm)' },
+        { id: 'orbis-duo', name: 'Orbis Duo' },
+        { id: 'orbis-uhs-1500-43', name: 'Orbis UHS 1500 (43cm)' },
+        { id: 'orbis-uhs-1500-50', name: 'Orbis UHS 1500 (50cm)' },
+        { id: 'orbis-uhs-cordless-burnisher', name: 'Orbis UHS Cordless Burnisher' }
       ]
     },
     {
