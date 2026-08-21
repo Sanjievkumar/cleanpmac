@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target } from 'lucide-react';
+import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target, Shield, CheckCircle2 } from 'lucide-react';
 
 export default function About() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -156,8 +156,8 @@ export default function About() {
             </div>
 
             <div style={{ position: 'relative', borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.2)', minHeight: '480px' }}>
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'url("/content_images/image_35.png") center/cover no-repeat' }}></div>
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to top, rgba(0,31,63,0.9), rgba(0,31,63,0.1))' }}></div>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'url("/content_images/operational_excellence.jpg") center/cover no-repeat' }}></div>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to top, rgba(0,31,63,0.95), rgba(0,31,63,0.2))' }}></div>
               <div style={{ position: 'absolute', bottom: '2rem', left: '2rem', right: '2rem' }}>
                 <div style={{ display: 'inline-block', background: 'var(--accent)', color: 'white', padding: '0.5rem 1rem', borderRadius: '0.25rem', fontWeight: 800, fontSize: '0.8rem', letterSpacing: '0.1em', marginBottom: '1rem' }}>EXCELLENCE</div>
                 <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: 700, lineHeight: 1.3 }}>Delivering superior performance across every facility we serve.</h3>
@@ -172,9 +172,48 @@ export default function About() {
         <div className="container max-w-6xl mx-auto">
           <div className="grid grid-cols-2 gap-16 items-start">
 
-            <div style={{ borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.1)', minHeight: '520px', position: 'sticky', top: '8rem' }}>
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'url("/content_images/image_1.jpeg") center/cover no-repeat' }}></div>
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to right, rgba(0,31,63,0.4), rgba(0,31,63,0.1))' }}></div>
+            <div style={{ position: 'sticky', top: '8rem', display: 'flex', flexDirection: 'column', gap: '1.5rem', background: 'white', padding: '3rem', borderRadius: '1.25rem', border: '1px solid var(--border-color)', boxShadow: '0 24px 50px rgba(0,0,0,0.05)' }}>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1rem', textAlign: 'center' }}>The Promac Process</h3>
+              
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)' }}>
+                  <div style={{ background: 'white', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+                    <Target size={20} color="var(--primary)" />
+                  </div>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Assess</h4>
+                </div>
+                
+                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)' }}>
+                  <div style={{ background: 'white', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+                    <Lightbulb size={20} color="var(--primary)" />
+                  </div>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Design</h4>
+                </div>
+                
+                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--accent)' }}>
+                  <div style={{ background: 'var(--accent)', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(227,30,36,0.2)' }}>
+                    <Wrench size={20} color="white" />
+                  </div>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Execute</h4>
+                </div>
+                
+                <div style={{ background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', textAlign: 'center', borderBottom: '3px solid var(--primary)' }}>
+                  <div style={{ background: 'white', width: '3rem', height: '3rem', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 1rem auto', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }}>
+                    <Shield size={20} color="var(--primary)" />
+                  </div>
+                  <h4 style={{ fontWeight: 800, fontSize: '0.9rem', color: 'var(--primary)' }}>Maintain</h4>
+                </div>
+              </div>
+              
+              <div style={{ background: 'var(--bg-dark)', borderRadius: '1rem', padding: '1.5rem', marginTop: '1rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <div style={{ background: 'rgba(255,255,255,0.1)', padding: '0.75rem', borderRadius: '50%' }}>
+                  <CheckCircle2 size={24} color="white" />
+                </div>
+                <div>
+                  <h4 style={{ color: 'white', fontWeight: 700, fontSize: '1rem' }}>End-to-End Reliability</h4>
+                  <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '0.85rem' }}>We stand by our equipment long after installation.</p>
+                </div>
+              </div>
             </div>
 
             {/* Steps */}
