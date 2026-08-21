@@ -1,0 +1,1 @@
+const fs = require('fs'); const brand = fs.readFileSync('src/pages/TruvoxBrand.tsx', 'utf8'); const details = fs.readFileSync('src/data/truvox-details.ts', 'utf8'); const regex = /{ id: '([^']+)'/g; let m; while((m = regex.exec(brand)) !== null) { const id = m[1]; if (!details.includes('"' + id + '": {')) { console.log('MISSING IN DETAILS:', id); } }

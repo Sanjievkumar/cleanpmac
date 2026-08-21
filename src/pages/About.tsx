@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target, Shield } from 'lucide-react';
+import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target } from 'lucide-react';
 
 export default function About() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -172,59 +172,10 @@ export default function About() {
         <div className="container max-w-6xl mx-auto">
           <div className="grid grid-cols-2 gap-16 items-start">
 
-            <div className="process-container" style={{ position: 'sticky', top: '8rem', background: 'white', padding: '3rem', borderRadius: '1.25rem', border: '1px solid var(--border-color)', boxShadow: '0 24px 50px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '2rem', textAlign: 'center' }}>The Promac Process</h3>
-              
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', position: 'relative' }}>
-                {/* Connecting Line */}
-                <div style={{ position: 'absolute', left: '2rem', top: '2rem', bottom: '2rem', width: '2px', background: 'var(--border-color)', zIndex: 0 }}></div>
-
-                {/* Step 1 */}
-                <div className="hover-scale" style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', position: 'relative', zIndex: 1, background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', cursor: 'pointer', borderLeft: '4px solid var(--primary)' }}>
-                  <div style={{ width: '4rem', height: '4rem', borderRadius: '50%', background: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(0,0,0,0.05)', flexShrink: 0 }}>
-                    <Target size={24} color="var(--primary)" />
-                  </div>
-                  <div>
-                    <h4 style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--primary)', marginBottom: '0.25rem' }}>1. Assess</h4>
-                    <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>We evaluate your specific facility needs and challenges.</p>
-                  </div>
-                </div>
-
-                {/* Step 2 */}
-                <div className="hover-scale" style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', position: 'relative', zIndex: 1, background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', cursor: 'pointer', borderLeft: '4px solid var(--primary)' }}>
-                  <div style={{ width: '4rem', height: '4rem', borderRadius: '50%', background: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(0,0,0,0.05)', flexShrink: 0 }}>
-                    <Lightbulb size={24} color="var(--primary)" />
-                  </div>
-                  <div>
-                    <h4 style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--primary)', marginBottom: '0.25rem' }}>2. Design</h4>
-                    <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>We engineer a customized, highly efficient cleaning plan.</p>
-                  </div>
-                </div>
-
-                {/* Step 3 */}
-                <div className="hover-scale" style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', position: 'relative', zIndex: 1, background: 'var(--primary)', padding: '1.5rem', borderRadius: '1rem', cursor: 'pointer', borderLeft: '4px solid var(--accent)', boxShadow: '0 10px 25px rgba(0,31,63,0.2)' }}>
-                  <div style={{ width: '4rem', height: '4rem', borderRadius: '50%', background: 'var(--accent)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(227,30,36,0.3)', flexShrink: 0 }}>
-                    <Wrench size={24} color="white" />
-                  </div>
-                  <div>
-                    <h4 style={{ fontWeight: 800, fontSize: '1.1rem', color: 'white', marginBottom: '0.25rem' }}>3. Execute</h4>
-                    <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.8)' }}>Deployment of top-tier industrial equipment.</p>
-                  </div>
-                </div>
-
-                {/* Step 4 */}
-                <div className="hover-scale" style={{ display: 'flex', gap: '1.5rem', alignItems: 'center', position: 'relative', zIndex: 1, background: 'var(--bg-gray)', padding: '1.5rem', borderRadius: '1rem', cursor: 'pointer', borderLeft: '4px solid var(--primary)' }}>
-                  <div style={{ width: '4rem', height: '4rem', borderRadius: '50%', background: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 10px rgba(0,0,0,0.05)', flexShrink: 0 }}>
-                    <Shield size={24} color="var(--primary)" />
-                  </div>
-                  <div>
-                    <h4 style={{ fontWeight: 800, fontSize: '1.1rem', color: 'var(--primary)', marginBottom: '0.25rem' }}>4. Maintain</h4>
-                    <p style={{ fontSize: '0.9rem', color: 'var(--text-muted)' }}>Ongoing dedicated support and rapid maintenance.</p>
-                  </div>
-                </div>
-              </div>
+            <div className="hover-scale" style={{ borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.1)', minHeight: '520px', position: 'sticky', top: '8rem', cursor: 'pointer' }}>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'url("/content_images/promac_process_diagram.jpg") center/contain no-repeat', backgroundColor: 'white' }}></div>
             </div>
-
+            
             {/* Steps */}
             <div>
               <p style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.15em', color: 'var(--accent)', textTransform: 'uppercase', marginBottom: '1rem' }}>HOW WE WORK</p>
@@ -272,3 +223,4 @@ export default function About() {
     </div>
   );
 }
+
