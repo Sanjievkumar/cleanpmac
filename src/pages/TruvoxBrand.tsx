@@ -13,17 +13,17 @@ export default function TruvoxBrand() {
         { id: 'multiwash-pro-440', name: 'Multiwash PRO 440' },
         { id: 'multiwash-pro-steam', name: 'Multiwash PRO Steam' },
         { id: 'multiwash-pro-battery', name: 'Multiwash PRO Battery' },
-        { id: 'i-scrub-21b', name: 'i-scrub 21B' },
-        { id: 'imop-lite', name: 'imop Lite' }
+        { id: 'i-scrub-21b', name: 'i-scrub 21b' },
+        { id: 'imop-lite', name: 'imop lite' }
       ]
     },
     {
       category: 'SINGLE DISC',
       products: [
         { id: 'orbis-motorscrubber-20-2', name: 'Orbis MotorScrubber 20' },
-        { id: 'orbis-eco-200', name: 'Orbis eco 200' },
-        { id: 'orbis-eco-400', name: 'Orbis eco 400' },
-        { id: 'orbis-eco-duo', name: 'Orbis eco Duo' },
+        { id: 'orbis-eco-200', name: 'Orbis Eco 200' },
+        { id: 'orbis-eco-400', name: 'Orbis Eco 400' },
+        { id: 'orbis-eco-duo', name: 'Orbis Eco Duo' },
         { id: 'orbis-200-38cm', name: 'Orbis 200 (38cm)' },
         { id: 'orbis-400-38cm-15-copy', name: 'Orbis 400 (38cm)' },
         { id: 'orbis-200-43', name: 'Orbis 200 (43cm)' },
@@ -50,9 +50,12 @@ export default function TruvoxBrand() {
     {
       category: 'CIMEX (THREE BRUSH)',
       products: [
-        { id: 'cimex-cyclone', name: 'Cimex® Cyclone 38' },
-        { id: 'cimex-encap-2', name: 'Cimex-Encap®' },
-        { id: 'cimex-heavy-duty', name: 'Cimex® Heavy Duty' }
+        { id: 'cimex-cyclone', name: 'Cimex Cyclone 38' },
+        { id: 'cimex-cyclone-38-slow-speed', name: 'Cimex Cyclone 38 Slow Speed' },
+        { id: 'cimex-cyclone-48', name: 'Cimex Cyclone 48' },
+        { id: 'cimex-encap-2', name: 'Cimex-Encap' },
+        { id: 'cimex-heavy-duty', name: 'Cimex Heavy Duty' },
+        { id: 'cimex-diamond-finisher', name: 'Cimex Diamond Finisher' }
       ]
     },
     {
@@ -78,7 +81,7 @@ export default function TruvoxBrand() {
       category: 'ESCALATOR / SWEEPERS',
       products: [
         { id: 'trusweep-460', name: 'TruSweep 460' },
-        { id: 'cimex-x46', name: 'Cimex® X46' }
+        { id: 'cimex-x46', name: 'Cimex X46' }
       ]
     },
     {
