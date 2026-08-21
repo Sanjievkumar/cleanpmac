@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target, ImageIcon } from 'lucide-react';
+import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target } from 'lucide-react';
 
 export default function About() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
@@ -155,13 +155,13 @@ export default function About() {
               </div>
             </div>
 
-            {/* Image placeholder */}
-            <div style={{ background: 'var(--bg-gray)', borderRadius: '1.25rem', border: '2px dashed var(--border-color)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '480px', gap: '1rem' }}>
-              <div style={{ background: 'var(--border-color)', borderRadius: '50%', padding: '1.5rem' }}>
-                <ImageIcon size={36} color="var(--text-muted)" />
+            <div style={{ position: 'relative', borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.2)', minHeight: '480px' }}>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'url("/content_images/image_35.png") center/cover no-repeat' }}></div>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to top, rgba(0,31,63,0.9), rgba(0,31,63,0.1))' }}></div>
+              <div style={{ position: 'absolute', bottom: '2rem', left: '2rem', right: '2rem' }}>
+                <div style={{ display: 'inline-block', background: 'var(--accent)', color: 'white', padding: '0.5rem 1rem', borderRadius: '0.25rem', fontWeight: 800, fontSize: '0.8rem', letterSpacing: '0.1em', marginBottom: '1rem' }}>EXCELLENCE</div>
+                <h3 style={{ color: 'white', fontSize: '1.5rem', fontWeight: 700, lineHeight: 1.3 }}>Delivering superior performance across every facility we serve.</h3>
               </div>
-              <p style={{ color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.9rem', letterSpacing: '0.05em' }}>IMAGE PLACEHOLDER</p>
-              <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>Commitment section image</p>
             </div>
           </div>
         </div>
@@ -172,13 +172,9 @@ export default function About() {
         <div className="container max-w-6xl mx-auto">
           <div className="grid grid-cols-2 gap-16 items-start">
 
-            {/* Image placeholder */}
-            <div style={{ background: 'white', borderRadius: '1.25rem', border: '2px dashed var(--border-color)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '520px', gap: '1rem', position: 'sticky', top: '8rem' }}>
-              <div style={{ background: 'var(--border-color)', borderRadius: '50%', padding: '1.5rem' }}>
-                <ImageIcon size={36} color="var(--text-muted)" />
-              </div>
-              <p style={{ color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.9rem', letterSpacing: '0.05em' }}>IMAGE PLACEHOLDER</p>
-              <p style={{ color: 'var(--text-muted)', fontSize: '0.8rem' }}>Approach section image</p>
+            <div style={{ borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.1)', minHeight: '520px', position: 'sticky', top: '8rem' }}>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'url("/content_images/image_1.jpeg") center/cover no-repeat' }}></div>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to right, rgba(0,31,63,0.4), rgba(0,31,63,0.1))' }}></div>
             </div>
 
             {/* Steps */}

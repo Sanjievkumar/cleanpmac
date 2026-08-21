@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Wrench, ShieldCheck, Users, Package, HeartHandshake, CheckCircle, Clock, ArrowRight, Settings } from 'lucide-react';
+import { Wrench, ShieldCheck, Users, Package, HeartHandshake, CheckCircle, Clock, ArrowRight } from 'lucide-react';
 import { useState } from 'react';
 
 export default function Support() {
@@ -95,9 +95,8 @@ export default function Support() {
             {/* Image placeholder */}
             <div style={{ flex: '0 0 400px', position: 'relative', paddingBottom: '18px', paddingLeft: '18px' }}>
               <div style={{ position: 'absolute', bottom: 0, left: 0, width: 'calc(100% - 18px)', height: 'calc(100% - 18px)', background: 'var(--accent)', borderRadius: '1.25rem', zIndex: 0 }} />
-              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '500px', background: 'var(--bg-gray)', border: '2px dashed var(--border-color)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
-                <Settings size={40} color="var(--text-muted)" />
-                <p style={{ color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.85rem', letterSpacing: '0.05em' }}>SERVICE IMAGE</p>
+              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '500px' }}>
+                <div style={{ width: '100%', height: '100%', background: 'url("/content_images/image_10.png") center/cover no-repeat' }}></div>
               </div>
             </div>
           </div>
