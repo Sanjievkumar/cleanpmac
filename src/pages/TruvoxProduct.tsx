@@ -1,11 +1,12 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, CheckCircle } from 'lucide-react';
+import { ArrowLeft, Download } from 'lucide-react';
 import { useState } from 'react';
 import { truvoxProductDetails } from '../data/truvox-details';
 
 export default function TruvoxProduct() {
   const { productId } = useParams();
   const [activeTab, setActiveTab] = useState('FEATURES');
+  const [activeImage, setActiveImage] = useState(0);
 
   // Fetch the real product data based on the URL parameter
   const productData = productId && productId in truvoxProductDetails 
@@ -21,7 +22,19 @@ export default function TruvoxProduct() {
     );
   }
 
-  const tabs = ['FEATURES', 'SPECIFICATIONS', 'ACCESSORIES', 'DOWNLOADS'];
+  const tabs = [];
+  if (productData.features && productData.features.length > 0) tabs.push('FEATURES');
+  if (productData.floorTypes && productData.floorTypes.length > 0) tabs.push('FLOOR TYPES');
+  if (Object.keys(productData.specifications).length > 0) tabs.push('SPECIFICATIONS');
+  if (productData.accessories && productData.accessories.length > 0) tabs.push('ACCESSORIES');
+  if (productData.downloads && productData.downloads.length > 0) tabs.push('DOWNLOADS');
+
+  // If initial activeTab isn't in tabs, set it
+  if (tabs.length > 0 && !tabs.includes(activeTab)) {
+      setActiveTab(tabs[0]);
+  }
+
+  const allImages = [productData.heroImage, ...(productData.galleryImages || [])];
 
   return (
     <div className="fade-in" style={{ backgroundColor: 'var(--bg-light)', minHeight: '100vh', padding: '4rem 0' }}>
@@ -39,32 +52,22 @@ export default function TruvoxProduct() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
             <div style={{ height: '500px', background: 'white', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyItems: 'center', padding: '2rem', border: '1px solid var(--border-color)' }}>
               <img 
-                src={productData.heroImage} 
+                src={allImages[activeImage]} 
                 alt={productData.name} 
                 style={{ width: '100%', height: '100%', objectFit: 'contain' }}
-                onError={(e) => {
-                  // Fallback to removing the WordPress resize suffix if it fails
-                  if (e.currentTarget.src.includes('-768x1024')) {
-                    e.currentTarget.src = e.currentTarget.src.replace('-768x1024', '');
-                  }
-                }}
               />
             </div>
             
-            {productData.galleryImages && productData.galleryImages.length > 0 && (
+            {allImages.length > 1 && (
               <div className="grid grid-cols-4 gap-4">
-                {productData.galleryImages.map((img, i) => (
-                  <div key={i} style={{ aspectRatio: '1', background: 'white', border: '1px solid var(--border-color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.5rem', cursor: 'pointer' }} className="hover:border-[var(--accent)] transition-colors">
-                    <img 
-                      src={img} 
-                      alt={`${productData.name} view ${i+1}`} 
-                      style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
-                      onError={(e) => {
-                        if (e.currentTarget.src.includes('-768x1024')) {
-                          e.currentTarget.src = e.currentTarget.src.replace('-768x1024', '');
-                        }
-                      }}
-                    />
+                {allImages.map((img, i) => (
+                  <div 
+                    key={i} 
+                    onClick={() => setActiveImage(i)}
+                    style={{ aspectRatio: '1', background: 'white', border: activeImage === i ? '2px solid var(--accent)' : '1px solid var(--border-color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.5rem', cursor: 'pointer' }} 
+                    className="hover:border-[var(--accent)] transition-colors"
+                  >
+                    <img src={img} alt={`${productData.name} view ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                   </div>
                 ))}
               </div>
@@ -87,19 +90,6 @@ export default function TruvoxProduct() {
               </p>
             </div>
 
-            {/* Key Features (Quick look) */}
-            <div style={{ marginBottom: '3rem' }}>
-              <h3 style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1.5rem' }}>Quick Overview</h3>
-              <ul style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                {productData.features.slice(0, 4).map((feature, idx) => (
-                  <li key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-                    <CheckCircle size={22} color="var(--accent)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                    <span style={{ fontSize: '1.05rem', color: 'var(--text-dark)', lineHeight: 1.6 }}>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
             {/* CTA */}
             <div style={{ marginTop: 'auto' }}>
               <Link to="/contact" className="btn-3d" style={{ padding: '1.25rem 2.5rem', fontSize: '1.1rem', width: '100%', textAlign: 'center', display: 'block' }}>
@@ -110,82 +100,119 @@ export default function TruvoxProduct() {
         </div>
 
         {/* Tabbed Content Area */}
-        <div style={{ marginTop: '3rem', background: 'white', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 20px 40px rgba(0,0,0,0.03)', border: '1px solid var(--border-color)' }}>
-           
-           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', borderBottom: '2px solid var(--border-color)', paddingBottom: '1.5rem', marginBottom: '3rem' }}>
-              {tabs.map((tab) => (
-                <button
-                  key={tab}
-                  onClick={() => setActiveTab(tab)}
-                  style={{
-                    fontSize: '1.25rem',
-                    fontWeight: 800,
-                    color: activeTab === tab ? 'var(--accent)' : 'var(--text-muted)',
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.05em',
-                    borderBottom: activeTab === tab ? '3px solid var(--accent)' : 'none',
-                    paddingBottom: activeTab === tab ? '1.5rem' : '0',
-                    marginBottom: activeTab === tab ? '-1.5rem' : '0',
-                    background: 'none',
-                    border: 'none',
-                    borderBottomWidth: activeTab === tab ? '3px' : '0',
-                    cursor: 'pointer',
-                    transition: 'all 0.2s ease'
-                  }}
-                  className="hover:text-[var(--primary)]"
-                >
-                  {tab}
-                </button>
-              ))}
-           </div>
+        {tabs.length > 0 && (
+            <div style={{ marginTop: '3rem', background: 'white', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 20px 40px rgba(0,0,0,0.03)', border: '1px solid var(--border-color)' }}>
+            
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '2rem', borderBottom: '2px solid var(--border-color)', paddingBottom: '1.5rem', marginBottom: '3rem' }}>
+                {tabs.map((tab) => (
+                    <button
+                    key={tab}
+                    onClick={() => setActiveTab(tab)}
+                    style={{
+                        fontSize: '1.25rem',
+                        fontWeight: 800,
+                        color: activeTab === tab ? 'var(--accent)' : 'var(--text-muted)',
+                        textTransform: 'uppercase',
+                        letterSpacing: '0.05em',
+                        borderBottom: activeTab === tab ? '3px solid var(--accent)' : 'none',
+                        paddingBottom: activeTab === tab ? '1.5rem' : '0',
+                        marginBottom: activeTab === tab ? '-1.5rem' : '0',
+                        background: 'none',
+                        border: 'none',
+                        borderBottomWidth: activeTab === tab ? '3px' : '0',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease'
+                    }}
+                    className="hover:text-[var(--primary)]"
+                    >
+                    {tab}
+                    </button>
+                ))}
+            </div>
 
-           <div>
-              {activeTab === 'FEATURES' && (
-                <div>
-                  <h3 style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1.5rem' }}>All Features</h3>
-                  <ul style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxWidth: '800px' }}>
-                    {productData.features.map((feature, idx) => (
-                      <li key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-                        <CheckCircle size={22} color="var(--accent)" style={{ flexShrink: 0, marginTop: '2px' }} />
-                        <span style={{ fontSize: '1.1rem', color: 'var(--text-dark)', lineHeight: 1.6 }}>{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-
-              {activeTab === 'SPECIFICATIONS' && (
-                <div className="grid md:grid-cols-2 gap-x-16 gap-y-4">
-                  {Object.entries(productData.specifications).map(([key, value], index) => (
-                    <div key={index} style={{ display: 'flex', justifyContent: 'space-between', padding: '1.25rem 0', borderBottom: '1px solid var(--bg-gray)' }}>
-                        <span style={{ fontWeight: 600, color: 'var(--text-muted)', fontSize: '1.1rem' }}>{key}</span>
-                        <span style={{ fontWeight: 700, color: 'var(--text-dark)', textAlign: 'right', fontSize: '1.1rem' }}>{value as React.ReactNode}</span>
+            <div>
+                {activeTab === 'FEATURES' && (
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {productData.features.map((feature: any, idx: number) => (
+                        <div key={idx} style={{ background: 'var(--bg-light)', borderRadius: '1rem', padding: '1.5rem', border: '1px solid var(--border-color)' }}>
+                            {feature.image && (
+                                <div style={{ height: '200px', marginBottom: '1.5rem', background: 'white', borderRadius: '0.5rem', padding: '1rem' }}>
+                                    <img src={feature.image} alt={feature.title} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                                </div>
+                            )}
+                            <h4 style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.5rem' }}>{feature.title}</h4>
+                            <p style={{ color: 'var(--text-muted)', lineHeight: 1.6 }}>{feature.text}</p>
+                        </div>
+                        ))}
                     </div>
-                  ))}
-                </div>
-              )}
+                )}
 
-              {activeTab === 'ACCESSORIES' && (
-                <div style={{ padding: '1rem', color: 'var(--text-dark)' }}>
-                  {productData.accessories ? (
-                    <div dangerouslySetInnerHTML={{ __html: productData.accessories }} />
-                  ) : (
-                    <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>Accessories detailed catalog is currently being updated for {productData.name}. Please contact us for a full list of compatible pads and brushes.</p>
-                  )}
-                </div>
-              )}
+                {activeTab === 'FLOOR TYPES' && (
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        {productData.floorTypes.map((floor: any, idx: number) => (
+                        <div key={idx} style={{ textAlign: 'center' }}>
+                            <div style={{ aspectRatio: '1', borderRadius: '50%', overflow: 'hidden', marginBottom: '1rem', border: '3px solid white', boxShadow: '0 4px 15px rgba(0,0,0,0.1)' }}>
+                                <img src={floor.image} alt={floor.title} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            </div>
+                            <span style={{ fontWeight: 700, color: 'var(--primary)', fontSize: '0.9rem', letterSpacing: '0.05em' }}>{floor.title}</span>
+                        </div>
+                        ))}
+                    </div>
+                )}
 
-              {activeTab === 'DOWNLOADS' && (
-                <div style={{ padding: '1rem', color: 'var(--text-dark)' }}>
-                  {productData.downloads ? (
-                    <div dangerouslySetInnerHTML={{ __html: productData.downloads }} />
-                  ) : (
-                    <p style={{ fontSize: '1.2rem', textAlign: 'center' }}>Brochures and operating manuals for {productData.name} will be available for download shortly.</p>
-                  )}
-                </div>
-              )}
-           </div>
-        </div>
+                {activeTab === 'SPECIFICATIONS' && (
+                    <div className="grid md:grid-cols-2 gap-x-16 gap-y-4">
+                    {Object.entries(productData.specifications).map(([key, value], index) => (
+                        <div key={index} style={{ display: 'flex', justifyContent: 'space-between', padding: '1.25rem 0', borderBottom: '1px solid var(--bg-gray)' }}>
+                            <span style={{ fontWeight: 600, color: 'var(--text-muted)', fontSize: '1.1rem' }}>{key}</span>
+                            <span style={{ fontWeight: 700, color: 'var(--text-dark)', textAlign: 'right', fontSize: '1.1rem' }}>{value as React.ReactNode}</span>
+                        </div>
+                    ))}
+                    </div>
+                )}
+
+                {activeTab === 'ACCESSORIES' && (
+                    <div className="grid md:grid-cols-3 gap-6">
+                        {productData.accessories.map((acc: any, idx: number) => (
+                        <div key={idx} style={{ display: 'flex', alignItems: 'center', gap: '1rem', background: 'var(--bg-light)', padding: '1rem', borderRadius: '1rem', border: '1px solid var(--border-color)' }}>
+                            {acc.image && (
+                                <div style={{ width: '80px', height: '80px', flexShrink: 0, background: 'white', borderRadius: '0.5rem', padding: '0.5rem' }}>
+                                    <img src={acc.image} alt={acc.title} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                                </div>
+                            )}
+                            <div>
+                                <div style={{ fontSize: '0.85rem', color: 'var(--accent)', fontWeight: 800, marginBottom: '0.25rem' }}>{acc.title}</div>
+                                <div style={{ fontSize: '0.95rem', color: 'var(--primary)', fontWeight: 600, lineHeight: 1.4 }}>{acc.text}</div>
+                            </div>
+                        </div>
+                        ))}
+                    </div>
+                )}
+
+                {activeTab === 'DOWNLOADS' && (
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        {productData.downloads.map((cat: any, idx: number) => (
+                            <div key={idx}>
+                                <h4 style={{ fontSize: '1.2rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1rem', paddingBottom: '0.5rem', borderBottom: '2px solid var(--bg-gray)' }}>
+                                    {cat.category}
+                                </h4>
+                                <ul style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                                    {cat.links.map((link: any, lIdx: number) => (
+                                        <li key={lIdx}>
+                                            <a href={link.url} target="_blank" rel="noreferrer" style={{ display: 'flex', alignItems: 'flex-start', gap: '0.5rem', color: 'var(--text-muted)', fontWeight: 500 }} className="hover:text-[var(--accent)] transition-colors">
+                                                <Download size={18} style={{ flexShrink: 0, marginTop: '2px' }} />
+                                                <span style={{ lineHeight: 1.4 }}>{link.title}</span>
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                )}
+            </div>
+            </div>
+        )}
 
       </div>
     </div>

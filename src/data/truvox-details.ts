@@ -9,7 +9,117 @@ export const truvoxProductDetails = {
     "heroImage": "/content_images/multiwash-pro-240.png",
     "galleryImages": [],
     "features": [
-      "Detailed features not available. Please contact us."
+      {
+        "title": "SIMPLE",
+        "text": "Easy to use, manoeuvre and maintain",
+        "image": "/content_images/multiwash-pro-240-feature-1.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Contra-rotating cylindrical brushes scrub and lift dirt, giving a more hygienic and deeper clean",
+        "image": "/content_images/multiwash-pro-240-feature-2.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Wash, scrub and dry in just one pass, leaving floors ready to walk on in seconds",
+        "image": "/content_images/multiwash-pro-240-feature-3.jpg"
+      },
+      {
+        "title": "PRODUCTIVE",
+        "text": "Giving a quicker and more effective clean than traditional cleaning methods, saving you time and money",
+        "image": "/content_images/multiwash-pro-240-feature-4.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Effective on all floors with brushes available for carpets, hard floors, escalators and entrance matting",
+        "image": "/content_images/multiwash-pro-240-feature-5.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Side brush allows you to clean right up to the edge",
+        "image": "/content_images/multiwash-pro-240-feature-6.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/multiwash-pro-240-floor-1.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/multiwash-pro-240-floor-2.jpg"
+      },
+      {
+        "title": "ESCALATOR",
+        "image": "/content_images/multiwash-pro-240-floor-3.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/multiwash-pro-240-floor-4.jpg"
+      },
+      {
+        "title": "ENTRANCE MATTING",
+        "image": "/content_images/multiwash-pro-240-floor-5.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/multiwash-pro-240-floor-6.jpg"
+      },
+      {
+        "title": "NON-SLIP SAFETY FLOORS",
+        "image": "/content_images/multiwash-pro-240-floor-7.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/multiwash-pro-240-floor-8.jpg"
+      }
+    ],
+    "accessories": [
+      {
+        "title": "90-0727-0000",
+        "text": "MWPRO240 Standard brush – black \n(pack of 2)",
+        "image": "/content_images/multiwash-pro-240-acc-1.png"
+      },
+      {
+        "title": "90-0730-0000",
+        "text": "MWPRO240 Soft brush – grey \n(pack of 2)",
+        "image": "/content_images/multiwash-pro-240-acc-2.png"
+      },
+      {
+        "title": "90-0733-0000",
+        "text": "MWPRO240 Hard brush – blue \n(pack of 2)",
+        "image": "/content_images/multiwash-pro-240-acc-3.png"
+      },
+      {
+        "title": "90-1019-0000",
+        "text": "MWPRO240 Escalator brush – blue \n(pack of 2)",
+        "image": "/content_images/multiwash-pro-240-acc-4.png"
+      },
+      {
+        "title": "90-0722-0000",
+        "text": "MWPRO240 Side brush – standard",
+        "image": "/content_images/multiwash-pro-240-acc-5.png"
+      },
+      {
+        "title": "90-0842-0000",
+        "text": "MWPRO240 Side brush – soft",
+        "image": "/content_images/multiwash-pro-240-acc-6.png"
+      },
+      {
+        "title": "90-0843-0000",
+        "text": "MWPRO240 Side brush – hard",
+        "image": "/content_images/multiwash-pro-240-acc-7.png"
+      },
+      {
+        "title": "05-4781-0500",
+        "text": "Trolley",
+        "image": "/content_images/multiwash-pro-240-acc-8.png"
+      },
+      {
+        "title": "90-0826-0000",
+        "text": "7 litre tank",
+        "image": "/content_images/multiwash-pro-240-acc-9.png"
+      }
     ],
     "specifications": {
       "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
@@ -26,8 +136,97 @@ export const truvoxProductDetails = {
       "Cable length (m)": "12",
       "Warranty": "1 year*"
     },
-    "accessories": "<h4>STANDARD ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0727-0000 Multiwash PRO 240 standard brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0727-0000 Multiwash PRO 240 standard brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0727-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0727-0000</h5><p>MWPRO240 Standard brush – black \n(pack of 2)</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div><div class=\"acc-divider\"></div><h4>OPTIONAL ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0730-0000 Multiwash PRO 240 soft brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0730-0000 Multiwash PRO 240 soft brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0730-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0730-0000</h5><p>MWPRO240 Soft brush – grey \n(pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0733-0000 Multiwash PRO 240 hard brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0733-0000 Multiwash PRO 240 hard brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0733-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0733-0000</h5><p>MWPRO240 Hard brush – blue \n(pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-1019-0000 Multiwash PRO 240 escalator brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-1019-0000 Multiwash PRO 240 escalator brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-1019-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-1019-0000</h5><p>MWPRO240 Escalator brush – blue \n(pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0722-0000 Multiwash PRO 240 side brush standard\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0722-0000 Multiwash PRO 240 side brush standard\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0722-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0722-0000</h5><p>MWPRO240 Side brush – standard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0842-0000 Multiwash PRO 240 side brush soft\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0842-0000 Multiwash PRO 240 side brush soft\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0842-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0842-0000</h5><p>MWPRO240 Side brush – soft</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/01/90-0843-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0843-0000</h5><p>MWPRO240 Side brush – hard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>05-4781-0500</h5><p>Trolley</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0826-0000</h5><p>7 litre tank</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div>",
-    "downloads": "<ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Sales Literature</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf\">UK Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf\">FR Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf\">DE Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf\">ES Sales Literature</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">User Manuals</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf\">User Manual</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Parts Lists</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf\">Parts List</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Fault Finding Guides</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/t7HM4PdCUG\">UK Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/GAhrJ7wdqF\">FR Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/cD6AHgvGR3\">DE Fault Finding Guide</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Other Downloads</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf\">UK Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf\">FR Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf\">DE Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">UK Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">FR Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf\">DE Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/MWPRO-User-Guide-Pictorial-REV.01-0725-Folder.pdf\">UK User Guide Pictorial</a></li></ul></li></ul><div class=\"boundary-border\"></div>"
+    "downloads": [
+      {
+        "category": "Sales Literature",
+        "links": [
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf"
+          },
+          {
+            "title": "ES Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf"
+          }
+        ]
+      },
+      {
+        "category": "User Manuals",
+        "links": [
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Parts Lists",
+        "links": [
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Fault Finding Guides",
+        "links": [
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/t7HM4PdCUG"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/GAhrJ7wdqF"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/cD6AHgvGR3"
+          }
+        ]
+      },
+      {
+        "category": "Other Downloads",
+        "links": [
+          {
+            "title": "UK Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
+          },
+          {
+            "title": "FR Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
+          },
+          {
+            "title": "DE Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf"
+          },
+          {
+            "title": "UK User Guide Pictorial",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/MWPRO-User-Guide-Pictorial-REV.01-0725-Folder.pdf"
+          }
+        ]
+      }
+    ]
   },
   "multiwash-pro-340": {
     "id": "multiwash-pro-340",
@@ -37,7 +236,117 @@ export const truvoxProductDetails = {
     "heroImage": "/content_images/multiwash-pro-340.png",
     "galleryImages": [],
     "features": [
-      "Detailed features not available. Please contact us."
+      {
+        "title": "SIMPLE",
+        "text": "Easy to use, manoeuvre and maintain",
+        "image": "/content_images/multiwash-pro-340-feature-1.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Contra-rotating cylindrical brushes scrub and lift dirt, giving a more hygienic and deeper clean",
+        "image": "/content_images/multiwash-pro-340-feature-2.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Wash, scrub and dry in just one pass, leaving floors ready to walk on in seconds",
+        "image": "/content_images/multiwash-pro-340-feature-3.jpg"
+      },
+      {
+        "title": "PRODUCTIVE",
+        "text": "Giving a quicker and more effective clean than traditional cleaning methods, saving you time and money",
+        "image": "/content_images/multiwash-pro-340-feature-4.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Effective on all floors with brushes available for carpets, hard floors, escalators and entrance matting",
+        "image": "/content_images/multiwash-pro-340-feature-5.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Side brush allows you to clean right up to the edge",
+        "image": "/content_images/multiwash-pro-340-feature-6.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/multiwash-pro-340-floor-1.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/multiwash-pro-340-floor-2.jpg"
+      },
+      {
+        "title": "ESCALATOR",
+        "image": "/content_images/multiwash-pro-340-floor-3.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/multiwash-pro-340-floor-4.jpg"
+      },
+      {
+        "title": "ENTRANCE MATTING",
+        "image": "/content_images/multiwash-pro-340-floor-5.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/multiwash-pro-340-floor-6.jpg"
+      },
+      {
+        "title": "NON-SLIP SAFETY FLOORS",
+        "image": "/content_images/multiwash-pro-340-floor-7.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/multiwash-pro-340-floor-8.jpg"
+      }
+    ],
+    "accessories": [
+      {
+        "title": "90-0728-0000",
+        "text": "MWPRO340 Standard brush - black (Pack of 2)",
+        "image": "/content_images/multiwash-pro-340-acc-1.png"
+      },
+      {
+        "title": "90-0731-0000",
+        "text": "MWPRO340 Soft brush - Grey (Pack of 2)",
+        "image": "/content_images/multiwash-pro-340-acc-2.png"
+      },
+      {
+        "title": "90-0734-0000",
+        "text": "MWPRO340 Hard brush - blue (Pack of 2)",
+        "image": "/content_images/multiwash-pro-340-acc-3.png"
+      },
+      {
+        "title": "90-1020-0000",
+        "text": "MWPRO340 Escalator brush - blue (Pack of 2)",
+        "image": "/content_images/multiwash-pro-340-acc-4.png"
+      },
+      {
+        "title": "90-0723-0000",
+        "text": "MWPRO340 Side brush - standard",
+        "image": "/content_images/multiwash-pro-340-acc-5.png"
+      },
+      {
+        "title": "90-0845-0000",
+        "text": "MWPRO340 Side brush - soft",
+        "image": "/content_images/multiwash-pro-340-acc-6.png"
+      },
+      {
+        "title": "90-0846-0000",
+        "text": "MWPRO340 Side brush - hard",
+        "image": "/content_images/multiwash-pro-340-acc-7.png"
+      },
+      {
+        "title": "05-4781-0500",
+        "text": "Trolley",
+        "image": "/content_images/multiwash-pro-340-acc-8.png"
+      },
+      {
+        "title": "90-0826-0000",
+        "text": "7 litre tank",
+        "image": "/content_images/multiwash-pro-340-acc-9.png"
+      }
     ],
     "specifications": {
       "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
@@ -54,8 +363,97 @@ export const truvoxProductDetails = {
       "Cable length (m)": "12",
       "Warranty": "1 year*"
     },
-    "accessories": "<h4>STANDARD ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0728-0000 Multiwash PRO 340 Standard brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0728-0000 Multiwash PRO 340 Standard brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0728-0000</h5><p>MWPRO340 Standard brush - black (Pack of 2)</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div><div class=\"acc-divider\"></div><h4>OPTIONAL ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0731-0000 Multiwash PRO 340 Soft Brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0731-0000 Multiwash PRO 340 Soft Brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0731-0000</h5><p>MWPRO340 Soft brush - Grey (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0734-0000 Multiwash PRO 340 hard brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0734-0000 Multiwash PRO 340 hard brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0734-0000</h5><p>MWPRO340 Hard brush - blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-1020-0000 Multiwash PRO 340 escalator brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-1020-0000 Multiwash PRO 340 escalator brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-1020-0000</h5><p>MWPRO340 Escalator brush - blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0723-0000 Multiwash PRO 340 side brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0723-0000 Multiwash PRO 340 side brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0723-0000</h5><p>MWPRO340 Side brush - standard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0845-0000 Multiwash PRO 340 side brush soft\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0845-0000 Multiwash PRO 340 side brush soft\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0845-0000</h5><p>MWPRO340 Side brush - soft</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0846-0000 Multiwash PRO 340 side brush hard\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0846-0000 Multiwash PRO 340 side brush hard\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0846-0000</h5><p>MWPRO340 Side brush - hard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>05-4781-0500</h5><p>Trolley</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0826-0000</h5><p>7 litre tank</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div>",
-    "downloads": "<ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Sales Literature</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf\">UK Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf\">FR Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf\">DE Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf\">ES Sales Literature</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">User Manuals</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf\">User Manual</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Parts Lists</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf\">Parts List</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Fault Finding Guides</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/t7HM4PdCUG\">UK Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/GAhrJ7wdqF\">FR Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/cD6AHgvGR3\">DE Fault Finding Guide</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Other Downloads</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf\">UK Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf\">FR Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf\">DE Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">UK Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">FR Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf\">DE Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/MWPRO-User-Guide-Pictorial-REV.01-0725-Folder.pdf\">UK User Guide Pictorial</a></li></ul></li></ul><div class=\"boundary-border\"></div>"
+    "downloads": [
+      {
+        "category": "Sales Literature",
+        "links": [
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf"
+          },
+          {
+            "title": "ES Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf"
+          }
+        ]
+      },
+      {
+        "category": "User Manuals",
+        "links": [
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Parts Lists",
+        "links": [
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Fault Finding Guides",
+        "links": [
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/t7HM4PdCUG"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/GAhrJ7wdqF"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/cD6AHgvGR3"
+          }
+        ]
+      },
+      {
+        "category": "Other Downloads",
+        "links": [
+          {
+            "title": "UK Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
+          },
+          {
+            "title": "FR Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
+          },
+          {
+            "title": "DE Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf"
+          },
+          {
+            "title": "UK User Guide Pictorial",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/MWPRO-User-Guide-Pictorial-REV.01-0725-Folder.pdf"
+          }
+        ]
+      }
+    ]
   },
   "multiwash-pro-440": {
     "id": "multiwash-pro-440",
@@ -65,7 +463,117 @@ export const truvoxProductDetails = {
     "heroImage": "/content_images/multiwash-pro-440.png",
     "galleryImages": [],
     "features": [
-      "Detailed features not available. Please contact us."
+      {
+        "title": "SIMPLE",
+        "text": "Easy to use, manoeuvre and maintain",
+        "image": "/content_images/multiwash-pro-440-feature-1.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Contra-rotating cylindrical brushes scrub and lift dirt, giving a more hygienic and deeper clean",
+        "image": "/content_images/multiwash-pro-440-feature-2.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Wash, scrub and dry in just one pass, leaving floors ready to walk on in seconds",
+        "image": "/content_images/multiwash-pro-440-feature-3.jpg"
+      },
+      {
+        "title": "PRODUCTIVE",
+        "text": "Giving a quicker and more effective clean than traditional cleaning methods, saving you time and money",
+        "image": "/content_images/multiwash-pro-440-feature-4.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Effective on all floors with brushes available for carpets, hard floors, escalators and entrance matting",
+        "image": "/content_images/multiwash-pro-440-feature-5.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Side brush allows you to clean right up to the edge",
+        "image": "/content_images/multiwash-pro-440-feature-6.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/multiwash-pro-440-floor-1.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/multiwash-pro-440-floor-2.jpg"
+      },
+      {
+        "title": "ESCALATOR",
+        "image": "/content_images/multiwash-pro-440-floor-3.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/multiwash-pro-440-floor-4.jpg"
+      },
+      {
+        "title": "ENTRANCE MATTING",
+        "image": "/content_images/multiwash-pro-440-floor-5.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/multiwash-pro-440-floor-6.jpg"
+      },
+      {
+        "title": "NON-SLIP SAFETY FLOORS",
+        "image": "/content_images/multiwash-pro-440-floor-7.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/multiwash-pro-440-floor-8.jpg"
+      }
+    ],
+    "accessories": [
+      {
+        "title": "90-0729-0000",
+        "text": "MWPRO440 Standard brush – black (pack of 2)",
+        "image": "/content_images/multiwash-pro-440-acc-1.png"
+      },
+      {
+        "title": "90-0732-0000",
+        "text": "MWPRO440 Soft brush – grey \n(pack of 2)",
+        "image": "/content_images/multiwash-pro-440-acc-2.png"
+      },
+      {
+        "title": "90-0735-0000",
+        "text": "MWPRO440 Hard brush – blue \n(pack of 2)",
+        "image": "/content_images/multiwash-pro-440-acc-3.png"
+      },
+      {
+        "title": "90-1021-0000",
+        "text": "MWPRO440 Escalator brush – blue \n(pack of 2)",
+        "image": "/content_images/multiwash-pro-440-acc-4.png"
+      },
+      {
+        "title": "90-0724-0000",
+        "text": "MWPRO440 Side brush – standard",
+        "image": "/content_images/multiwash-pro-440-acc-5.png"
+      },
+      {
+        "title": "90-0848-0000",
+        "text": "MWPRO440 Side brush – soft",
+        "image": "/content_images/multiwash-pro-440-acc-6.png"
+      },
+      {
+        "title": "90-0849-0000",
+        "text": "MWPRO440 Side brush – hard",
+        "image": "/content_images/multiwash-pro-440-acc-7.png"
+      },
+      {
+        "title": "05-4781-0500",
+        "text": "Trolley",
+        "image": "/content_images/multiwash-pro-440-acc-8.png"
+      },
+      {
+        "title": "90-0826-0000",
+        "text": "7 litre tank",
+        "image": "/content_images/multiwash-pro-440-acc-9.png"
+      }
     ],
     "specifications": {
       "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
@@ -82,8 +590,97 @@ export const truvoxProductDetails = {
       "Cable length (m)": "12",
       "Warranty": "1 year*"
     },
-    "accessories": "<h4>STANDARD ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0729-0000 Multiwash PRO 440 standard brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0729-0000 Multiwash PRO 440 standard brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0729-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0729-0000</h5><p>MWPRO440 Standard brush – black (pack of 2)</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div><div class=\"acc-divider\"></div><h4>OPTIONAL ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0732-0000 Multiwash PRO 440 soft brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0732-0000 Multiwash PRO 440 soft brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0732-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0732-0000</h5><p>MWPRO440 Soft brush – grey \n(pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0735-0000 Multiwash PRO 440 hard brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0735-0000 Multiwash PRO 440 hard brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0735-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0735-0000</h5><p>MWPRO440 Hard brush – blue \n(pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-1021-0000 Multiwash PRO 440 escalator brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-1021-0000 Multiwash PRO 440 escalator brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-1021-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5> 90-1021-0000</h5><p>MWPRO440 Escalator brush – blue \n(pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0724-0000 Multiwash PRO 440 side brush standard\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0724-0000 Multiwash PRO 440 side brush standard\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0724-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0724-0000</h5><p>MWPRO440 Side brush – standard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0848-0000 Multiwash PRO 440 side brush soft\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0848-0000 Multiwash PRO 440 side brush soft\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0848-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0848-0000</h5><p>MWPRO440 Side brush – soft</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0849-0000 Multiwash PRO 440 side brush hard\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0849-0000 Multiwash PRO 440 side brush hard\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0849-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0849-0000</h5><p>MWPRO440 Side brush – hard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>05-4781-0500</h5><p>Trolley</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0826-0000</h5><p>7 litre tank</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div>",
-    "downloads": "<ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Sales Literature</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf\">UK Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf\">FR Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf\">DE Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf\">ES Sales Literature</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">User Manuals</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf\">User Manual</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Parts Lists</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf\">Parts List</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Fault Finding Guides</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/t7HM4PdCUG\">UK Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/GAhrJ7wdqF\">FR Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/cD6AHgvGR3\">DE Fault Finding Guide</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Other Downloads</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf\">UK Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf\">FR Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf\">DE Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">UK Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">FR Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf\">DE Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/01/MWPRO-User-Guide-Pictorial-REV.01-0725-Folder.pdf\">UK User Guide Pictorial</a></li></ul></li></ul><div class=\"boundary-border\"></div>"
+    "downloads": [
+      {
+        "category": "Sales Literature",
+        "links": [
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf"
+          },
+          {
+            "title": "ES Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf"
+          }
+        ]
+      },
+      {
+        "category": "User Manuals",
+        "links": [
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Parts Lists",
+        "links": [
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Fault Finding Guides",
+        "links": [
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/t7HM4PdCUG"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/GAhrJ7wdqF"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/cD6AHgvGR3"
+          }
+        ]
+      },
+      {
+        "category": "Other Downloads",
+        "links": [
+          {
+            "title": "UK Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
+          },
+          {
+            "title": "FR Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
+          },
+          {
+            "title": "DE Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf"
+          },
+          {
+            "title": "UK User Guide Pictorial",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/MWPRO-User-Guide-Pictorial-REV.01-0725-Folder.pdf"
+          }
+        ]
+      }
+    ]
   },
   "multiwash-pro-steam": {
     "id": "multiwash-pro-steam",
@@ -93,7 +690,123 @@ export const truvoxProductDetails = {
     "heroImage": "/content_images/multiwash-pro-steam.png",
     "galleryImages": [],
     "features": [
-      "Detailed features not available. Please contact us."
+      {
+        "title": "HYGIENIC",
+        "text": "Tested in a certified lab to remove >99.99% of S. aureus, E. coli, P. aeruginosa and B. subtilis bacteria",
+        "image": "/content_images/multiwash-pro-steam-feature-1.jpg"
+      },
+      {
+        "title": "INFECTION CONTROL",
+        "text": "With the addition of the steam, dirt and grime will be removed easier than traditional cleaning methods",
+        "image": "/content_images/multiwash-pro-steam-feature-2.jpg"
+      },
+      {
+        "title": "SIMPLE",
+        "text": "Easy to use, manoeuvre and maintain",
+        "image": "/content_images/multiwash-pro-steam-feature-3.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Counter-rotating cylindrical brushes scrub and lift dirt, giving a more hygienic and deeper clean",
+        "image": "/content_images/multiwash-pro-steam-feature-4.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Wash, scrub and dry in just one pass, leaving floors ready to walk on in seconds",
+        "image": "/content_images/multiwash-pro-steam-feature-5.jpg"
+      },
+      {
+        "title": "PRODUCTIVE",
+        "text": "Giving a quicker and more effective clean than traditional cleaning methods, saving you time and money",
+        "image": "/content_images/multiwash-pro-steam-feature-6.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Effective on all floors with brushes available for carpets, hard floors and entrance matting",
+        "image": "/content_images/multiwash-pro-steam-feature-7.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Optional accessories available for all your cleaning needs",
+        "image": "/content_images/multiwash-pro-steam-feature-8.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/multiwash-pro-steam-floor-1.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/multiwash-pro-steam-floor-2.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/multiwash-pro-steam-floor-3.jpg"
+      },
+      {
+        "title": "ENTRANCE MATTING",
+        "image": "/content_images/multiwash-pro-steam-floor-4.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/multiwash-pro-steam-floor-5.jpg"
+      },
+      {
+        "title": "NON-SLIP SAFETY FLOORS",
+        "image": "/content_images/multiwash-pro-steam-floor-6.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/multiwash-pro-steam-floor-7.jpg"
+      }
+    ],
+    "accessories": [
+      {
+        "title": "90-0728-0000",
+        "text": "MWPRO340 Standard brush - black (Pack of 2)",
+        "image": "/content_images/multiwash-pro-steam-acc-1.png"
+      },
+      {
+        "title": "90-0731-0000",
+        "text": "MWPRO340 Soft brush - Grey (Pack of 2)",
+        "image": "/content_images/multiwash-pro-steam-acc-2.png"
+      },
+      {
+        "title": "90-0734-0000",
+        "text": "MWPRO340 Hard brush - blue (Pack of 2)",
+        "image": "/content_images/multiwash-pro-steam-acc-3.png"
+      },
+      {
+        "title": "90-1020-0000",
+        "text": "MWPRO340 Escalator brush - blue (Pack of 2)",
+        "image": "/content_images/multiwash-pro-steam-acc-4.png"
+      },
+      {
+        "title": "90-0723-0000",
+        "text": "MWPRO340 Side brush - standard",
+        "image": "/content_images/multiwash-pro-steam-acc-5.png"
+      },
+      {
+        "title": "90-0845-0000",
+        "text": "MWPRO340 Side brush - soft",
+        "image": "/content_images/multiwash-pro-steam-acc-6.png"
+      },
+      {
+        "title": "90-0846-0000",
+        "text": "MWPRO340 Side brush - hard",
+        "image": "/content_images/multiwash-pro-steam-acc-7.png"
+      },
+      {
+        "title": "05-4781-0500",
+        "text": "Trolley",
+        "image": "/content_images/multiwash-pro-steam-acc-8.png"
+      },
+      {
+        "title": "90-0826-0000",
+        "text": "7 litre tank",
+        "image": "/content_images/multiwash-pro-steam-acc-9.png"
+      }
     ],
     "specifications": {
       "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
@@ -112,8 +825,97 @@ export const truvoxProductDetails = {
       "Cable length (m)": "12",
       "Warranty": "1 year*"
     },
-    "accessories": "<h4>STANDARD ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0728-0000 Multiwash PRO 340 Standard brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0728-0000 Multiwash PRO 340 Standard brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0728-0000</h5><p>MWPRO340 Standard brush - black (Pack of 2)</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div><div class=\"acc-divider\"></div><h4>OPTIONAL ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0731-0000 Multiwash PRO 340 Soft Brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0731-0000 Multiwash PRO 340 Soft Brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0731-0000</h5><p>MWPRO340 Soft brush - Grey (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0734-0000 Multiwash PRO 340 hard brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0734-0000 Multiwash PRO 340 hard brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0734-0000</h5><p>MWPRO340 Hard brush - blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-1020-0000 Multiwash PRO 340 escalator brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-1020-0000 Multiwash PRO 340 escalator brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-1020-0000</h5><p>MWPRO340 Escalator brush - blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0723-0000 Multiwash PRO 340 side brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0723-0000 Multiwash PRO 340 side brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0723-0000</h5><p>MWPRO340 Side brush - standard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0845-0000 Multiwash PRO 340 side brush soft\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0845-0000 Multiwash PRO 340 side brush soft\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0845-0000</h5><p>MWPRO340 Side brush - soft</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0846-0000 Multiwash PRO 340 side brush hard\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0846-0000 Multiwash PRO 340 side brush hard\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0846-0000</h5><p>MWPRO340 Side brush - hard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>05-4781-0500</h5><p>Trolley</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0826-0000</h5><p>7 litre tank</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div>",
-    "downloads": "<ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Sales Literature</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/UK-MWPRO-STEAM-REV.01-0325.pdf\">UK Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/FR-MWPRO-STEAM-REV.01-0325.pdf\">FR Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/DE-MWPRO-STEAM-REV.01-0325.pdf\">DE Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/ES-MWPRO-STEAM-REV.01-0325.pdf\">ES Sales Literature</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">User Manuals</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/03-8580-0000-Multiwash-PRO-Steam-Issue-7-0526.pdf\">User Manual</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Parts Lists</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Steam-Parts-List-Series-A-Issue-1-11-24.pdf\">Parts List</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Fault Finding Guides</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/u7i55LnbyM\">UK Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/UxH910EK44\">FR Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/eUqJU4G5RX\">DE Fault Finding Guide</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Other Downloads</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf\">UK Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf\">FR Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf\">DE Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">UK Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">FR Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BRUSH-GUIDE-REV.00-0924.pdf\">DE Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Steam-How-To-Pictorial-REV.02-0725-1.pdf\">UK User Guide Pictorial</a></li></ul></li></ul><div class=\"boundary-border\"></div>"
+    "downloads": [
+      {
+        "category": "Sales Literature",
+        "links": [
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/UK-MWPRO-STEAM-REV.01-0325.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/FR-MWPRO-STEAM-REV.01-0325.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/DE-MWPRO-STEAM-REV.01-0325.pdf"
+          },
+          {
+            "title": "ES Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/ES-MWPRO-STEAM-REV.01-0325.pdf"
+          }
+        ]
+      },
+      {
+        "category": "User Manuals",
+        "links": [
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/03-8580-0000-Multiwash-PRO-Steam-Issue-7-0526.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Parts Lists",
+        "links": [
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Steam-Parts-List-Series-A-Issue-1-11-24.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Fault Finding Guides",
+        "links": [
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/u7i55LnbyM"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/UxH910EK44"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/eUqJU4G5RX"
+          }
+        ]
+      },
+      {
+        "category": "Other Downloads",
+        "links": [
+          {
+            "title": "UK Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
+          },
+          {
+            "title": "FR Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
+          },
+          {
+            "title": "DE Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BRUSH-GUIDE-REV.00-0924.pdf"
+          },
+          {
+            "title": "UK User Guide Pictorial",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Steam-How-To-Pictorial-REV.02-0725-1.pdf"
+          }
+        ]
+      }
+    ]
   },
   "multiwash-pro-battery": {
     "id": "multiwash-pro-battery",
@@ -123,7 +925,137 @@ export const truvoxProductDetails = {
     "heroImage": "/content_images/multiwash-pro-battery.png",
     "galleryImages": [],
     "features": [
-      "Detailed features not available. Please contact us."
+      {
+        "title": "BATTERY POWERED",
+        "text": "Run-time of up to 60 minutes giving excellent productivity and with no trailing cables",
+        "image": "/content_images/multiwash-pro-battery-feature-1.jpg"
+      },
+      {
+        "title": "FAST CHARGE BATTERY",
+        "text": "With a 2hr charge time and a quick change battery system, there will be minimum down time when charging",
+        "image": "/content_images/multiwash-pro-battery-feature-2.jpg"
+      },
+      {
+        "title": "SIMPLE",
+        "text": "Easy to use, manoeuvre and maintain",
+        "image": "/content_images/multiwash-pro-battery-feature-3.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Contra-rotating cylindrical brushes scrub and lift dirt, giving a more hygienic and deeper clean",
+        "image": "/content_images/multiwash-pro-battery-feature-4.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Wash, scrub and dry in just one pass, leaving floors ready to walk on in seconds",
+        "image": "/content_images/multiwash-pro-battery-feature-5.jpg"
+      },
+      {
+        "title": "PRODUCTIVE",
+        "text": "Giving a quicker and more effective clean than traditional cleaning methods, saving you time and money",
+        "image": "/content_images/multiwash-pro-battery-feature-6.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Effective on all floors with brushes available for carpets, hard floors, escalators and entrance matting",
+        "image": "/content_images/multiwash-pro-battery-feature-7.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Side brush allows you to clean right up to the edge",
+        "image": "/content_images/multiwash-pro-battery-feature-8.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/multiwash-pro-battery-floor-1.jpg"
+      },
+      {
+        "title": "CONCRETE",
+        "image": "/content_images/multiwash-pro-battery-floor-2.jpg"
+      },
+      {
+        "title": "ESCALATOR",
+        "image": "/content_images/multiwash-pro-battery-floor-3.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/multiwash-pro-battery-floor-4.jpg"
+      },
+      {
+        "title": "ENTRANCE MATTING",
+        "image": "/content_images/multiwash-pro-battery-floor-5.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/multiwash-pro-battery-floor-6.jpg"
+      },
+      {
+        "title": "NON-SLIP SAFETY FLOORS",
+        "image": "/content_images/multiwash-pro-battery-floor-7.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/multiwash-pro-battery-floor-8.jpg"
+      }
+    ],
+    "accessories": [
+      {
+        "title": "90-0728-0000",
+        "text": "MWPRO340 Standard brush - black (Pack of 2)",
+        "image": "/content_images/multiwash-pro-battery-acc-1.png"
+      },
+      {
+        "title": "WL0272-1",
+        "text": "Battery",
+        "image": "/content_images/multiwash-pro-battery-acc-2.png"
+      },
+      {
+        "title": "04-4089-0000",
+        "text": "Charger (UK & Euro)",
+        "image": "/content_images/multiwash-pro-battery-acc-3.png"
+      },
+      {
+        "title": "90-0731-0000",
+        "text": "MWPRO340 Soft brush - Grey (Pack of 2)",
+        "image": "/content_images/multiwash-pro-battery-acc-4.png"
+      },
+      {
+        "title": "90-0734-0000",
+        "text": "MWPRO340 Hard brush - blue (Pack of 2)",
+        "image": "/content_images/multiwash-pro-battery-acc-5.png"
+      },
+      {
+        "title": "90-1020-0000",
+        "text": "MWPRO340 Escalator brush - blue (Pack of 2)",
+        "image": "/content_images/multiwash-pro-battery-acc-6.png"
+      },
+      {
+        "title": "90-0723-0000",
+        "text": "MWPRO340 Side brush - standard",
+        "image": "/content_images/multiwash-pro-battery-acc-7.png"
+      },
+      {
+        "title": "90-0845-0000",
+        "text": "MWPRO340 Side brush - soft",
+        "image": "/content_images/multiwash-pro-battery-acc-8.png"
+      },
+      {
+        "title": "90-0846-0000",
+        "text": "MWPRO340 Side brush - hard",
+        "image": "/content_images/multiwash-pro-battery-acc-9.png"
+      },
+      {
+        "title": "05-4781-0500",
+        "text": "Trolley",
+        "image": "/content_images/multiwash-pro-battery-acc-10.png"
+      },
+      {
+        "title": "90-0826-0000",
+        "text": "7 litre tank",
+        "image": "/content_images/multiwash-pro-battery-acc-11.png"
+      }
     ],
     "specifications": {
       "Charging Voltage AC (~) / Frequency (V/Hz)": "100 - 240 / 50 - 60",
@@ -143,8 +1075,89 @@ export const truvoxProductDetails = {
       "Weight (kg)": "23.5",
       "Warranty": "1 year*"
     },
-    "accessories": "<h4>STANDARD ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0728-0000 Multiwash PRO 340 Standard brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0728-0000 Multiwash PRO 340 Standard brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0728-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0728-0000</h5><p>MWPRO340 Standard brush - black (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"WL0272-1\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"WL0272-1\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/07/WL0272-1-HR.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>WL0272-1</h5><p>Battery</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"04-4089-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"04-4089-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/07/04-4089-0000-EU-UK-Plug-HR.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>04-4089-0000</h5><p>Charger (UK &amp; Euro)</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div><div class=\"acc-divider\"></div><h4>OPTIONAL ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0731-0000 Multiwash PRO 340 Soft Brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0731-0000 Multiwash PRO 340 Soft Brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0731-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0731-0000</h5><p>MWPRO340 Soft brush - Grey (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0734-0000 Multiwash PRO 340 hard brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0734-0000 Multiwash PRO 340 hard brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0734-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0734-0000</h5><p>MWPRO340 Hard brush - blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-1020-0000 Multiwash PRO 340 escalator brushes\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-1020-0000 Multiwash PRO 340 escalator brushes\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/90-0737-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-1020-0000</h5><p>MWPRO340 Escalator brush - blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0723-0000 Multiwash PRO 340 side brush\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0723-0000 Multiwash PRO 340 side brush\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0723-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0723-0000</h5><p>MWPRO340 Side brush - standard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0845-0000 Multiwash PRO 340 side brush soft\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0845-0000 Multiwash PRO 340 side brush soft\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0845-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0845-0000</h5><p>MWPRO340 Side brush - soft</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0846-0000 Multiwash PRO 340 side brush hard\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0846-0000 Multiwash PRO 340 side brush hard\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/12/90-0846-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0846-0000</h5><p>MWPRO340 Side brush - hard</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"05-4781-0000 Multiwash trolley\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>05-4781-0500</h5><p>Trolley</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"90-0826-0000 Multiwash PRO 7 Litre tank\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2023/11/05-4781-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>90-0826-0000</h5><p>7 litre tank</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div>",
-    "downloads": "<ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Sales Literature</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BATTERY-REV.03-0925.pdf\">UK Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BATTERY-REV.03-0925.pdf\">FR Sales Literature</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BATTERY-REV.03-0925.pdf\">DE Sales Literature</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">User Manuals</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/03-8596-0000-Multiwash-PRO-Battery-Issue-8-0526.pdf\">User Manual</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Parts Lists</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/MWPRO-Battery-Parts-list-Series-A-Issue-1-0824.pdf\">Parts List</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Fault Finding Guides</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/Jeh3VDKirf\">UK Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/MkkrwvBMCd\">FR Fault Finding Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://forms.office.com/r/KuHqznmhmc\">DE Fault Finding Guide</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Other Downloads</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf\">UK Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf\">FR Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf\">DE Booklet</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">UK Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf\">FR Brush Guide</a></li><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BRUSH-GUIDE-REV.00-0924.pdf\">DE Brush Guide</a></li></ul></li></ul><div class=\"boundary-border\"></div>"
+    "downloads": [
+      {
+        "category": "Sales Literature",
+        "links": [
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BATTERY-REV.03-0925.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BATTERY-REV.03-0925.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BATTERY-REV.03-0925.pdf"
+          }
+        ]
+      },
+      {
+        "category": "User Manuals",
+        "links": [
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/03-8596-0000-Multiwash-PRO-Battery-Issue-8-0526.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Parts Lists",
+        "links": [
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/MWPRO-Battery-Parts-list-Series-A-Issue-1-0824.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Fault Finding Guides",
+        "links": [
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/Jeh3VDKirf"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/MkkrwvBMCd"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/KuHqznmhmc"
+          }
+        ]
+      },
+      {
+        "category": "Other Downloads",
+        "links": [
+          {
+            "title": "UK Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
+          },
+          {
+            "title": "FR Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
+          },
+          {
+            "title": "DE Booklet",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
+          },
+          {
+            "title": "UK Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "FR Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
+          },
+          {
+            "title": "DE Brush Guide",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BRUSH-GUIDE-REV.00-0924.pdf"
+          }
+        ]
+      }
+    ]
   },
   "i-scrub-21b": {
     "id": "i-scrub-21b",
@@ -154,7 +1167,94 @@ export const truvoxProductDetails = {
     "heroImage": "/content_images/i-scrub-21b.png",
     "galleryImages": [],
     "features": [
-      "Detailed features not available. Please contact us."
+      {
+        "title": "360 degrees motion",
+        "text": "the adjustable head can rotate in 360° and is so flexible you can clean at any angle, may it be horizontal or vertical.",
+        "image": "/content_images/i-scrub-21b-feature-1.jpg"
+      },
+      {
+        "title": "Dual brush",
+        "text": "Equipped with two brush heads, for higher mechanical power and cleaning narrow gaps in sturdy areas.",
+        "image": "/content_images/i-scrub-21b-feature-2.jpg"
+      },
+      {
+        "title": "Centralised controls",
+        "text": "The in height adjustable telescopic wand is easily controlled at the grip.",
+        "image": "/content_images/i-scrub-21b-feature-3.jpg"
+      },
+      {
+        "title": "Manually dose",
+        "text": "Manually dose your solution to your satisfaction with the push of a button.",
+        "image": "/content_images/i-scrub-21b-feature-4.jpg"
+      }
+    ],
+    "floorTypes": [],
+    "accessories": [
+      {
+        "title": "86-0280-0000",
+        "text": "Brush Black 10cm (2pcs)",
+        "image": "/content_images/i-scrub-21b-acc-1.png"
+      },
+      {
+        "title": "86-0281-0000",
+        "text": "Brush Blue 10cm (2pcs)",
+        "image": "/content_images/i-scrub-21b-acc-2.jpg"
+      },
+      {
+        "title": "86-0286-0000",
+        "text": "Pad Holder",
+        "image": "/content_images/i-scrub-21b-acc-3.png"
+      },
+      {
+        "title": "86-0282-0000",
+        "text": "Microfibre Pad",
+        "image": "/content_images/i-scrub-21b-acc-4.png"
+      },
+      {
+        "title": "86-0017-0000",
+        "text": "Pad Mixed 10cm (10pcs)",
+        "image": "/content_images/i-scrub-21b-acc-5.png"
+      },
+      {
+        "title": "86-0020-0000",
+        "text": "Battery Pack (without case)",
+        "image": "/content_images/i-scrub-21b-acc-6.png"
+      },
+      {
+        "title": "86-0021-0000",
+        "text": "Charger EU",
+        "image": "/content_images/i-scrub-21b-acc-7.png"
+      },
+      {
+        "title": "86-0022-0000",
+        "text": "Charger UK",
+        "image": "/content_images/i-scrub-21b-acc-8.png"
+      },
+      {
+        "title": "86-0283-0000",
+        "text": "Pad White 10cm (10pcs)",
+        "image": "/content_images/i-scrub-21b-acc-9.jpg"
+      },
+      {
+        "title": "86-0018-0000",
+        "text": "Pad Red 10cm (10pcs)",
+        "image": "/content_images/i-scrub-21b-acc-10.png"
+      },
+      {
+        "title": "86-0019-0000",
+        "text": "Pad Blue 10cm (10pcs)",
+        "image": "/content_images/i-scrub-21b-acc-11.png"
+      },
+      {
+        "title": "86-0284-0000",
+        "text": "Pad Green 10cm (10pcs)",
+        "image": "/content_images/i-scrub-21b-acc-12.jpg"
+      },
+      {
+        "title": "86-0285-0000",
+        "text": "Pad Black 10cm (10pcs)",
+        "image": "/content_images/i-scrub-21b-acc-13.jpg"
+      }
     ],
     "specifications": {
       "Charging Voltage AC (~) / Frequency (V/Hz)": "110-240/ 50/60",
@@ -172,8 +1272,35 @@ export const truvoxProductDetails = {
       "Weight (kg)": "4.2",
       "Warranty": "1 year*"
     },
-    "accessories": "<h4>STANDARD ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0280-0000</h5><p>Brush Black 10cm (2pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-284x284.jpg\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0286-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-768x768.jpg 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-1920x1920.jpg 1920w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-1536x1536.jpg 1536w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-2048x2048.jpg 2048w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-100x100.jpg 100w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-284x284.jpg\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0286-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-768x768.jpg 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-1920x1920.jpg 1920w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-1536x1536.jpg 1536w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-2048x2048.jpg 2048w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0286-0000-100x100.jpg 100w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0281-0000</h5><p>Brush Blue 10cm (2pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/3-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/3-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/3-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/3-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/3-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/3.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/3-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/3-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/3-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/3-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/3-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/3.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0286-0000</h5><p>Pad Holder</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/4-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/4-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/4-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/4-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/4-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/4.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/4-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/4-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/4-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/4-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/4-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/4.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0282-0000</h5><p>Microfibre Pad</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0017-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0017-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0017-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0017-0000</h5><p>Pad Mixed 10cm (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0020-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0020-0000</h5><p>Battery Pack (without case)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0021-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0021-0000</h5><p>Charger EU</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0022-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0022-0000</h5><p>Charger UK</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div><div class=\"acc-divider\"></div><h4>OPTIONAL ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-284x284.jpg\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-100x100.jpg 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1.jpg 700w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-284x284.jpg\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1-100x100.jpg 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0283-0000-1.jpg 700w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0283-0000</h5><p>Pad White 10cm (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0018-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0018-0000</h5><p>Pad Red 10cm (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0019-0000-3.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0019-0000</h5><p>Pad Blue 10cm (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-284x284.jpg\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-100x100.jpg 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1.jpg 700w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-284x284.jpg\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1-100x100.jpg 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0284-0000-1.jpg 700w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0284-0000</h5><p>Pad Green 10cm (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-284x284.jpg\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-100x100.jpg 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1.jpg 700w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-284x284.jpg\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-284x284.jpg 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-570x570.jpg 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1-100x100.jpg 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0285-0000-1.jpg 700w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5> 86-0285-0000</h5><p>Pad Black 10cm (10pcs)</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div>",
-    "downloads": "<ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Sales Literature</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/02/UK-ISCRUB-REV.00-0224-6.pdf\">UK Sales Literature</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">User Manuals</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/02/03-8584-0000-iscrub-21B-User-Manual-Issue-2-10-24.pdf\">User Manual</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Parts Lists</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/02/I-scrub-21B-Parts-List-Series-A-Issue-2-02-26.pdf\">Parts List</a></li></ul></li></ul><div class=\"boundary-border\"></div>"
+    "downloads": [
+      {
+        "category": "Sales Literature",
+        "links": [
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ISCRUB-REV.00-0224-6.pdf"
+          }
+        ]
+      },
+      {
+        "category": "User Manuals",
+        "links": [
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-8584-0000-iscrub-21B-User-Manual-Issue-2-10-24.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Parts Lists",
+        "links": [
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/I-scrub-21B-Parts-List-Series-A-Issue-2-02-26.pdf"
+          }
+        ]
+      }
+    ]
   },
   "imop-lite": {
     "id": "imop-lite",
@@ -183,7 +1310,119 @@ export const truvoxProductDetails = {
     "heroImage": "/content_images/imop-lite.png",
     "galleryImages": [],
     "features": [
-      "Detailed features not available. Please contact us."
+      {
+        "title": "LIGHTWEIGHT",
+        "text": "Same weight as a mop and bucket together.",
+        "image": "/content_images/imop-lite-feature-1.jpg"
+      },
+      {
+        "title": "EASY",
+        "text": "Extremely manoeuvrable and easy to transport.",
+        "image": "/content_images/imop-lite-feature-2.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Save up to 75% worktime.",
+        "image": "/content_images/imop-lite-feature-3.jpg"
+      },
+      {
+        "title": "CORDLESS",
+        "text": "No trip hazards. Runs on portable, lithium batteries.",
+        "image": "/content_images/imop-lite-feature-4.jpg"
+      },
+      {
+        "title": "ERGONOMIC",
+        "text": "Simple and easy to use and more job satisfaction for the cleaner.",
+        "image": "/content_images/imop-lite-feature-5.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Powerful cleaning on all hard floor surfaces, with high speed 500 rpm brushes.",
+        "image": "/content_images/imop-lite-feature-6.jpg"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "Scrubs right to the edge.",
+        "image": "/content_images/imop-lite-feature-7.jpg"
+      }
+    ],
+    "floorTypes": [],
+    "accessories": [
+      {
+        "title": "86-0004-0000",
+        "text": "Squeegee Kit Front Primothane (10pcs)",
+        "image": "/content_images/imop-lite-acc-1.png"
+      },
+      {
+        "title": "86-0005-0000",
+        "text": "Squeegee Kit Rear Primothane (10pcs)",
+        "image": "/content_images/imop-lite-acc-2.png"
+      },
+      {
+        "title": "86-0010-0000",
+        "text": "Natural Brush Blue (Pack of 2)",
+        "image": "/content_images/imop-lite-acc-3.png"
+      },
+      {
+        "title": "86-0014-0000",
+        "text": "Battery Pack",
+        "image": "/content_images/imop-lite-acc-4.png"
+      },
+      {
+        "title": "86-0016-0000",
+        "text": "Charger UK",
+        "image": "/content_images/imop-lite-acc-5.png"
+      },
+      {
+        "title": "86-0001-0000",
+        "text": "i-dose 3 Sanitary Pink 10ML(120pcs)",
+        "image": "/content_images/imop-lite-acc-6.png"
+      },
+      {
+        "title": "86-0002-0000",
+        "text": "i-dose 5 Daily Blue 10ML (120pcs)",
+        "image": "/content_images/imop-lite-acc-7.png"
+      },
+      {
+        "title": "86-0003-0000",
+        "text": "i-dose 7 Degreasing Green 10ML(120pcs)",
+        "image": "/content_images/imop-lite-acc-8.png"
+      },
+      {
+        "title": "86-0006-0000",
+        "text": "Squeegee Kit Front Linatex (10pcs)",
+        "image": "/content_images/imop-lite-acc-9.png"
+      },
+      {
+        "title": "86-0007-0000",
+        "text": "Squeegee Kit Rear Linatex (10pcs)",
+        "image": "/content_images/imop-lite-acc-10.png"
+      },
+      {
+        "title": "86-0008-0000",
+        "text": "Medium Brush Blue (Pack of 2)",
+        "image": "/content_images/imop-lite-acc-11.png"
+      },
+      {
+        "title": "86-0009-0000",
+        "text": "Hard Brush Red (Pack of 2)",
+        "image": "/content_images/imop-lite-acc-12.png"
+      },
+      {
+        "title": "86-0011-0000",
+        "text": "Pad Drive Blue (1 piece)",
+        "image": "/content_images/imop-lite-acc-13.png"
+      },
+      {
+        "title": "86-0012-0000",
+        "text": "Pad Red (Pack of 10)",
+        "image": "/content_images/imop-lite-acc-14.png"
+      },
+      {
+        "title": "86-0013-0000",
+        "text": "Twister Pad Green (1 piece)",
+        "image": "/content_images/imop-lite-acc-15.png"
+      }
     ],
     "specifications": {
       "Charging Voltage AC (~) / Frequency (V/Hz)": "110-240/ 50/60",
@@ -202,7 +1441,34 @@ export const truvoxProductDetails = {
       "Weight (kg)": "12.5",
       "Warranty": "1 year*"
     },
-    "accessories": "<h4>STANDARD ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0004-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0004-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0004-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0004-0000</h5><p>Squeegee Kit Front Primothane (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0005-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0005-0000</h5><p>Squeegee Kit Rear Primothane (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0008-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0008-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0008-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0010-0000</h5><p>Natural Brush Blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0014-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0014-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0014-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0014-0000</h5><p>Battery Pack</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0016-0000.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0016-0000</h5><p>Charger UK</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div><div class=\"acc-divider\"></div><h4>OPTIONAL ACCESSORIES</h4><div class=\"flexbox\"><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0001-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0001-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0001-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0001-0000</h5><p>i-dose 3 Sanitary Pink 10ML(120pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0002-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0002-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0002-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0002-0000</h5><p>i-dose 5 Daily Blue 10ML (120pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0003-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0003-0000</h5><p>i-dose 7 Degreasing Green 10ML(120pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0006-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0006-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0006-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0006-0000</h5><p>Squeegee Kit Front Linatex (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0007-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0007-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0007-0000-2.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0007-0000</h5><p>Squeegee Kit Rear Linatex (10pcs)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"86-0010-0000\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"86-0010-0000\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0010-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0008-0000</h5><p>Medium Brush Blue (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0009-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0009-0000</h5><p>Hard Brush Red (Pack of 2)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0011-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0011-0000</h5><p>Pad Drive Blue (1 piece)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0012-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0012-0000</h5><p>Pad Red (Pack of 10)</p></div></div></div><div class=\"item with-image\"><div class=\"flexbox\"><div class=\"col image\"><noscript><img width=\"284\" height=\"284\" src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-284x284.png\" class=\"attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1.png 1080w\" sizes=\"(max-width: 284px) 100vw, 284px\" /></noscript><img src=\"data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20284%20284%22%3E%3C/svg%3E\" width=\"284\" height=\"284\" data-src=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-284x284.png\" class=\"lazyload attachment-square-thumb size-square-thumb\" alt=\"\" decoding=\"async\" data-srcset=\"https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-284x284.png 284w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-768x768.png 768w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-570x570.png 570w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1-100x100.png 100w, https://www.truvox.com/wp-content/uploads/2024/02/86-0013-0000-1.png 1080w\" data-sizes=\"(max-width: 284px) 100vw, 284px\"></div><div class=\"col text\"><h5>86-0013-0000</h5><p>Twister Pad Green (1 piece)</p></div></div></div><div class=\"item without-image blank\"></div><div class=\"item without-image blank\"></div></div>",
-    "downloads": "<ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Sales Literature</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/02/UK-IMOPLITE-REV.00-0224-4.pdf\">Sales Literature</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">User Manuals</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/02/03-8583-0000-imop-Lite-User-Manual-Issue-2-10-24.pdf\">User Manual</a></li></ul></li></ul><ul class=\"downloads\"><li><a class=\"accordion\" href=\"javascript:void(0);\">Parts Lists</a><ul><li><a class=\"link\" target=\"_blank\" href=\"https://www.truvox.com/wp-content/uploads/2024/02/imop-lite-parts-list-series-A-issue-3-07-26.pdf\">Parts List</a></li></ul></li></ul><div class=\"boundary-border\"></div>"
+    "downloads": [
+      {
+        "category": "Sales Literature",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-IMOPLITE-REV.00-0224-4.pdf"
+          }
+        ]
+      },
+      {
+        "category": "User Manuals",
+        "links": [
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-8583-0000-imop-Lite-User-Manual-Issue-2-10-24.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Parts Lists",
+        "links": [
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/02/imop-lite-parts-list-series-A-issue-3-07-26.pdf"
+          }
+        ]
+      }
+    ]
   }
 };
