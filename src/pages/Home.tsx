@@ -32,10 +32,12 @@ export default function Home() {
               <span style={{ fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.25em', color: 'var(--accent)', textTransform: 'uppercase' }}>Professional Equipment</span>
             </div>
 
-            <h1 style={{ fontSize: 'clamp(3.8rem, 6.5vw, 6rem)', fontWeight: 900, lineHeight: 0.95, letterSpacing: '-0.03em', marginBottom: '2rem' }}>
+            <h1 style={{ fontSize: 'clamp(3.8rem, 6.5vw, 6rem)', fontWeight: 900, lineHeight: 0.95, letterSpacing: '-0.03em', marginBottom: '1rem' }}>
               <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>CLEAN</span>
-              <span style={{ color: 'var(--accent)', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>PROMAC</span>
+              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>PROMAC</span>
             </h1>
+            
+            <div style={{ width: '120px', height: '6px', backgroundColor: 'var(--accent)', borderRadius: '3px', marginBottom: '2rem' }}></div>
 
             <p style={{ fontSize: '1.15rem', color: 'rgba(255,255,255,0.85)', lineHeight: '1.8', marginBottom: '2.5rem', maxWidth: '500px', fontWeight: 500 }}>
               Advanced solutions for a cleaner, safer, and more productive environment — for every industry across India.
