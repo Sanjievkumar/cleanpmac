@@ -1,0 +1,1 @@
+const fs = require('fs'); let content = fs.readFileSync('src/data/truvox-details.ts', 'utf8'); content = content.replace(/("heroImage": ")(\/content_images\/[^"]+)",\s*"galleryImages": \[\s*"\/content_images\/image_4\.png"\s*\]/g, '$1$2",\n      "galleryImages": [\n        "$2"\n      ]'); fs.writeFileSync('src/data/truvox-details.ts', content);
