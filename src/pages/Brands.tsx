@@ -8,22 +8,13 @@ export default function Brands() {
     return (
       <div className="fade-in">
 
-        {/* ─── HERO: full-bleed building image, NO red overlay ─── */}
+        {/* ─── HERO: full-bleed building image, NO text/logo overlay ─── */}
         <div style={{ position: 'relative', height: '70vh', minHeight: '500px', overflow: 'hidden' }}>
           <img
             src="/content_images/image_9.png"
             alt="Klenco Building"
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }}
           />
-          {/* very subtle dark scrim so text is legible */}
-          <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.55) 100%)' }} />
-          <div style={{ position: 'absolute', inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', paddingBottom: '4rem', textAlign: 'center' }}>
-            <div style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.25em', textTransform: 'uppercase', marginBottom: '1rem' }}>Since 1971 · Singapore</div>
-            <img src="/content_images/klenco-logo.png" alt="Klenco" style={{ height: '60px', objectFit: 'contain', filter: 'brightness(0) invert(1)', marginBottom: '1.5rem' }} onError={(e) => e.currentTarget.style.display = 'none'} />
-            <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', fontWeight: 900, color: 'white', letterSpacing: '-0.02em', textShadow: '0 2px 16px rgba(0,0,0,0.4)' }}>
-              KLENCO SINGAPORE
-            </h1>
-          </div>
         </div>
 
         {/* ─── CONTENT 1: Legacy – white band below hero ─── */}
@@ -42,7 +33,7 @@ export default function Brands() {
           </div>
         </section>
 
-        {/* ─── CONTENT 2: One Brand – dark navy band ─── */}
+        {/* ─── CONTENT 2: One Brand – dark navy, stats on right instead of screenshot ─── */}
         <section style={{ backgroundColor: 'var(--primary)', padding: '6rem 0', color: 'white' }}>
           <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5rem', alignItems: 'center' }}>
@@ -62,7 +53,7 @@ export default function Brands() {
                     { title: 'Municipal Cleaning Solutions', desc: 'Road sweepers, high-pressure systems and litter collection equipment for streets, parks and public infrastructure.' },
                   ].map((item) => (
                     <div key={item.title} style={{ display: 'flex', gap: '1rem', alignItems: 'flex-start' }}>
-                      <div style={{ width: '4px', minWidth: '4px', height: '100%', minHeight: '40px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
+                      <div style={{ width: '4px', minWidth: '4px', alignSelf: 'stretch', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
                       <div>
                         <div style={{ fontWeight: 800, color: 'white', marginBottom: '0.25rem', fontSize: '0.95rem' }}>{item.title}</div>
                         <div style={{ color: 'rgba(255,255,255,0.65)', fontSize: '0.9rem', lineHeight: 1.6 }}>{item.desc}</div>
@@ -71,19 +62,33 @@ export default function Brands() {
                   ))}
                 </div>
               </div>
-              <div>
-                <img
-                  src="/content_images/image_10.png"
-                  alt="Klenco Complete Solutions"
-                  style={{ width: '100%', borderRadius: '1rem', boxShadow: '0 30px 60px rgba(0,0,0,0.4)' }}
-                  onError={(e) => e.currentTarget.style.display = 'none'}
-                />
+
+              {/* Right side: key stats/highlights instead of screenshot */}
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+                {[
+                  { number: '1971', label: 'Founded in Singapore' },
+                  { number: '20+', label: 'Countries Served' },
+                  { number: '50+', label: 'Years of Experience' },
+                  { number: '4', label: 'Core Product Divisions' },
+                ].map((stat) => (
+                  <div key={stat.number} style={{
+                    backgroundColor: 'rgba(255,255,255,0.08)',
+                    border: '1px solid rgba(255,255,255,0.15)',
+                    borderRadius: '1rem',
+                    padding: '2rem',
+                    textAlign: 'center',
+                    backdropFilter: 'blur(4px)',
+                  }}>
+                    <div style={{ fontSize: '2.8rem', fontWeight: 900, color: 'var(--accent)', lineHeight: 1, marginBottom: '0.5rem' }}>{stat.number}</div>
+                    <div style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.85rem', fontWeight: 600, lineHeight: 1.4 }}>{stat.label}</div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>
         </section>
 
-        {/* ─── CONTENT 3: Industries – light grey, icon grid ─── */}
+        {/* ─── CONTENT 3: Industries – 4x2 grid ─── */}
         <section style={{ backgroundColor: '#f5f7f9', padding: '6rem 0' }}>
           <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
@@ -110,7 +115,6 @@ export default function Brands() {
                   padding: '2rem 1.5rem',
                   textAlign: 'center',
                   transition: 'all 0.25s ease',
-                  cursor: 'default',
                 }}
                 onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-6px)'; e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)'; e.currentTarget.style.borderColor = 'var(--accent)'; }}
                 onMouseLeave={(e) => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.borderColor = 'var(--border-color)'; }}>
@@ -122,70 +126,64 @@ export default function Brands() {
           </div>
         </section>
 
-        {/* ─── CONTENT 4: Products – white, image cards ─── */}
+        {/* ─── CONTENT 4: Products – no images, bold styled cards ─── */}
         <section style={{ backgroundColor: 'white', padding: '6rem 0' }}>
           <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto 4rem auto' }}>
               <div style={{ color: 'var(--accent)', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '1rem' }}>Product Range</div>
               <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em', marginBottom: '1.5rem' }}>PRODUCTS</h2>
               <p style={{ color: 'var(--text-muted)', lineHeight: 1.8 }}>
-                Klenco offers a comprehensive portfolio of professional cleaning solutions designed to meet the diverse requirements of commercial, industrial, institutional, and municipal environments.
+                Klenco offers a comprehensive portfolio of professional cleaning solutions designed to meet the diverse requirements of commercial, industrial, institutional, and municipal environments. Every product is engineered to deliver superior cleaning performance, enhanced productivity, and long-term reliability.
               </p>
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '2rem' }}>
               {[
                 {
+                  num: '01',
                   title: 'FLOOR CLEANING',
-                  image: '/content_images/image_31.jpeg',
                   desc: "Achieve exceptional floor cleaning performance with Klenco's range of scrubber dryers, sweepers, single disc machines, burnishers, carpet extractors, and steam cleaners. Designed to improve productivity while delivering spotless results across every floor type.",
-                  link: '#',
+                  arrow: 'Explore Floor Cleaning',
                 },
                 {
+                  num: '02',
                   title: 'VACUUM CLEANING',
-                  image: '/content_images/image_20.png',
                   desc: 'From compact commercial vacuum cleaners to powerful industrial vacuum systems, Klenco provides reliable solutions for removing dust, debris, liquids, and fine particles across diverse working environments.',
-                  link: '#',
+                  arrow: 'Explore Vacuum Cleaning',
                 },
                 {
+                  num: '03',
                   title: 'HIGH PRESSURE CLEANER',
-                  image: '/content_images/image_27.png',
-                  desc: 'A complete range of high-performance high pressure cleaners formulated for floor care, housekeeping, washrooms, kitchens, industrial maintenance, and specialized cleaning applications, ensuring superior hygiene and consistent results.',
-                  link: '#',
+                  desc: 'A complete range of high-pressure cleaners engineered for exceptional cleaning power — removing stubborn dirt, grease, oil, mud, and grime from a wide range of surfaces in commercial and industrial environments.',
+                  arrow: 'Explore High Pressure Cleaner',
                 },
                 {
+                  num: '04',
                   title: 'PROFESSIONAL CLEANING CHEMICALS',
-                  image: '/content_images/image_35.png',
                   desc: 'A complete range of high-performance cleaning chemicals formulated for floor care, housekeeping, washrooms, kitchens, industrial maintenance, and specialized cleaning applications, ensuring superior hygiene and consistent results.',
-                  link: '#',
+                  arrow: 'Explore Cleaning Chemicals',
                 },
-              ].map((cat) => (
-                <div key={cat.title} style={{
-                  position: 'relative',
+              ].map((cat, i) => (
+                <div key={i} style={{
                   borderRadius: '1rem',
-                  overflow: 'hidden',
                   border: '1px solid var(--border-color)',
                   backgroundColor: 'white',
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.04)',
+                  overflow: 'hidden',
                   display: 'flex',
                   flexDirection: 'column',
                   transition: 'box-shadow 0.3s ease, transform 0.3s ease',
                 }}
                 onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 16px 40px rgba(0,0,0,0.1)'; e.currentTarget.style.transform = 'translateY(-4px)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = '0 4px 20px rgba(0,0,0,0.04)'; e.currentTarget.style.transform = 'none'; }}>
-                  <div style={{ height: '220px', overflow: 'hidden', backgroundColor: '#f5f7f9' }}>
-                    <img
-                      src={cat.image}
-                      alt={cat.title}
-                      style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
-                      onError={(e) => { e.currentTarget.parentElement!.style.background = 'linear-gradient(135deg, var(--primary) 0%, #1e3a5f 100%)'; e.currentTarget.style.display = 'none'; }}
-                    />
-                  </div>
-                  <div style={{ padding: '2rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
-                    <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.75rem', letterSpacing: '0.02em' }}>{cat.title}</h3>
-                    <p style={{ color: 'var(--text-muted)', lineHeight: 1.7, fontSize: '0.9rem', flex: 1, marginBottom: '1.5rem' }}>{cat.desc}</p>
+                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'none'; }}>
+                  {/* Colored top bar */}
+                  <div style={{ height: '6px', backgroundColor: 'var(--accent)' }} />
+                  <div style={{ padding: '2.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    {/* Number badge */}
+                    <div style={{ fontSize: '3.5rem', fontWeight: 900, color: '#f0f2f5', lineHeight: 1, marginBottom: '0.5rem', letterSpacing: '-0.04em' }}>{cat.num}</div>
+                    <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1rem', letterSpacing: '0.02em' }}>{cat.title}</h3>
+                    <p style={{ color: 'var(--text-muted)', lineHeight: 1.7, fontSize: '0.9rem', flex: 1, marginBottom: '2rem' }}>{cat.desc}</p>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent)', fontWeight: 700, fontSize: '0.9rem' }}>
-                      Explore {cat.title.split(' ').slice(0,2).join(' ')} <span style={{ fontSize: '1.1rem' }}>→</span>
+                      {cat.arrow} <span>→</span>
                     </div>
                   </div>
                 </div>
