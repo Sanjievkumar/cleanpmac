@@ -5,7 +5,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "An effective scrubber dryer that is simple to use, cost-effective and provides exceptional cleaning results after just one pass.",
     "heroImage": "/content_images/multiwash-pro-240.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/multiwash-pro-240-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -232,7 +234,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "An effective scrubber dryer that is simple to use, cost-effective and provides exceptional cleaning results after just one pass.",
     "heroImage": "/content_images/multiwash-pro-340.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/multiwash-pro-340-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -459,7 +463,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "An effective scrubber dryer that is simple to use, cost-effective and provides exceptional cleaning results after just one pass.",
     "heroImage": "/content_images/multiwash-pro-440.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/multiwash-pro-440-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -686,7 +692,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The Multiwash PRO Steam not only provides exceptional cleaning results due to its counter-rotating brushes, but with the additional steam function will sanitise floors, killing up to 99.99% of bacteria.",
     "heroImage": "/content_images/multiwash-pro-steam.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/multiwash-pro-steam-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "HYGIENIC",
@@ -921,7 +929,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The Multiwash PRO Battery provides exceptional cleaning results with a 1-hour run-time ideal for areas without power and minimises the risk of trips from trailing power cords.",
     "heroImage": "/content_images/multiwash-pro-battery.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/multiwash-pro-battery-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "BATTERY POWERED",
@@ -1163,7 +1173,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A brilliant machine that allows the user to scrub any surface with extreme power. Easily convert your machine into a handheld unit for polishing.*Only available in certain countries.",
     "heroImage": "/content_images/i-scrub-21b.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/i-scrub-21b-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "360 degrees motion",
@@ -1186,7 +1198,20 @@ export const truvoxProductDetails = {
         "image": "/content_images/i-scrub-21b-feature-4.jpg"
       }
     ],
-    "floorTypes": [],
+    "floorTypes": [
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/i-scrub-21b-floor-1.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/i-scrub-21b-floor-2.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/i-scrub-21b-floor-3.jpg"
+      }
+    ],
     "specifications": {
       "Charging Voltage AC (~) / Frequency (V/Hz)": "110-240/ 50/60",
       "Battery voltage DC (V/Hz)": "12",
@@ -1308,7 +1333,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The unique upright design puts more weight on the brushes and combined with its powerful battery-driven motor, gives more cleaning power than any auto scrubber in its class.*Only available in certain countries.",
     "heroImage": "/content_images/imop-lite.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/imop-lite-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "LIGHTWEIGHT",
@@ -1346,7 +1373,12 @@ export const truvoxProductDetails = {
         "image": "/content_images/imop-lite-feature-7.jpg"
       }
     ],
-    "floorTypes": [],
+    "floorTypes": [
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/imop-lite-floor-1.jpg"
+      }
+    ],
     "specifications": {
       "Charging Voltage AC (~) / Frequency (V/Hz)": "110-240/ 50/60",
       "Battery voltage DC (V/Hz)": "18",
@@ -1479,7 +1511,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A compact, battery powered scrubbing machine that is ideal for confined, hard-to-reach areas, giving outstanding results every time.*Only available in certain countries.",
     "heroImage": "/content_images/orbis-motorscrubber-20-2.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-motorscrubber-20-2-gallery-0.png"
+    ],
     "features": [
       {
         "title": "BATTERY",
@@ -1512,7 +1546,40 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-motorscrubber-20-2-feature-6.jpg"
       }
     ],
-    "floorTypes": [],
+    "floorTypes": [
+      {
+        "title": "CERAMIC",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-1.jpg"
+      },
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-2.jpg"
+      },
+      {
+        "title": "MARBLE",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-3.jpg"
+      },
+      {
+        "title": "STUDDED RUBBER",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-4.jpg"
+      },
+      {
+        "title": "TARRAZZO",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-5.jpg"
+      },
+      {
+        "title": "TILES",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-6.jpg"
+      },
+      {
+        "title": "VINYL",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-7.jpg"
+      },
+      {
+        "title": "WOOD",
+        "image": "/content_images/orbis-motorscrubber-20-2-floor-8.jpg"
+      }
+    ],
     "specifications": {
       "Charging Voltage AC (~) / Frequency (V/Hz)": "100-240 / 50-60",
       "Battery voltage DC (V/Hz)": "12",
@@ -1723,7 +1790,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The perfect single disc machine for the contract cleaner that comes preassembled with the handle and includes drive board. Ideal for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-eco-200.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-eco-200-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -1928,7 +1997,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The perfect single disc machine for the contract cleaner that comes preassembled with the handle and includes drive board. Ideal for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-eco-400.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-eco-400-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -2123,7 +2194,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The perfect single disc machine for the contract cleaner that comes preassembled with the handle and includes drive board. Ideal for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-eco-duo.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-eco-duo-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -2328,7 +2401,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-200-38cm.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-200-38cm-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "EFFECTIVE",
@@ -2528,7 +2603,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-400-38cm-15-copy.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-400-38cm-15-copy-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "EFFECTIVE",
@@ -2723,7 +2800,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-200-43.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-200-43-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "EFFECTIVE",
@@ -2938,7 +3017,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-200-hd.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-200-hd-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "EFFECTIVE",
@@ -3158,7 +3239,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-400-43cm.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-400-43cm-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "EFFECTIVE",
@@ -3363,7 +3446,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
     "heroImage": "/content_images/orbis-duo.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-duo-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "EFFECTIVE",
@@ -3578,7 +3663,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "An ultra high-speed single disc burnisher that delivers high productivity and high quality polishing results.Orbis UHS machines feature an integral drive disc. Pads are required to be completely operational.",
     "heroImage": "/content_images/orbis-uhs-1500-43.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-uhs-1500-43-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -3616,7 +3703,12 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-uhs-1500-43-feature-7.png"
       }
     ],
-    "floorTypes": [],
+    "floorTypes": [
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/orbis-uhs-1500-43-floor-1.jpg"
+      }
+    ],
     "specifications": {
       "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
       "Motor power (W)": "1100",
@@ -3710,7 +3802,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "An ultra high-speed single disc burnisher that delivers high productivity and high quality polishing results.Orbis UHS machines feature an integral drive disc. Pads are required to be completely operational.",
     "heroImage": "/content_images/orbis-uhs-1500-50.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-uhs-1500-50-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -3743,7 +3837,12 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-uhs-1500-50-feature-6.jpg"
       }
     ],
-    "floorTypes": [],
+    "floorTypes": [
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/orbis-uhs-1500-50-floor-1.jpg"
+      }
+    ],
     "specifications": {
       "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
       "Motor power (W)": "1100",
@@ -3837,7 +3936,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A battery powered, ultra high-speed burnisher designed for daytime cleaning and provides exceptional ‘wet look’ burnishing results.",
     "heroImage": "/content_images/orbis-uhs-cordless-burnisher.png",
-    "galleryImages": [],
+    "galleryImages": [
+      "/content_images/orbis-uhs-cordless-burnisher-gallery-0.jpg"
+    ],
     "features": [
       {
         "title": "EFFECTIVE",
@@ -3880,7 +3981,12 @@ export const truvoxProductDetails = {
         "image": "/content_images/orbis-uhs-cordless-burnisher-feature-8.jpg"
       }
     ],
-    "floorTypes": [],
+    "floorTypes": [
+      {
+        "title": "HARD FLOORS",
+        "image": "/content_images/orbis-uhs-cordless-burnisher-floor-1.jpg"
+      }
+    ],
     "specifications": {
       "Charging Voltage AC (~) / Frequency (V/Hz)": "100-230 / 50-60",
       "Battery voltage DC (V/Hz)": "24 (2 x 12v)",
