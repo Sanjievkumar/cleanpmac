@@ -89,7 +89,7 @@ export default function TruvoxBrand() {
           <div className="flex justify-center bg-white rounded-lg p-6 mb-8 mx-auto shadow-lg" style={{ maxWidth: '300px' }}>
              <img src="/content_images/truvox-logo.png" alt="Truvox International" style={{ width: '100%', objectFit: 'contain' }} />
           </div>
-          <h1 style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '1.5rem', letterSpacing: '-0.02em' }}>
+          <h1 style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '1.5rem', letterSpacing: '-0.02em', color: 'white' }}>
             Truvox International
           </h1>
           <div style={{ color: 'rgba(255,255,255,0.95)', maxWidth: '900px', margin: '0 auto', fontSize: '1.15rem', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
