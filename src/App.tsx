@@ -24,11 +24,12 @@ function App() {
           <Route path="/brands" element={<Brands />} />
           <Route path="/support" element={<Support />} />
           <Route path="/contact" element={<Contact />} />
+          
           {/* Dedicated Brand Pages */}
           <Route path="/brands/truvox" element={<TruvoxBrand />} />
           <Route path="/brands/truvox/:productId" element={<TruvoxProduct />} />
           
-          {/* Legacy generic brand page (for klenco currently) */}
+          {/* Legacy generic brand page */}
           <Route path="/brands/:id" element={<Brands />} />
         </Routes>
       </main>
