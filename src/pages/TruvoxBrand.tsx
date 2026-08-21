@@ -50,17 +50,17 @@ export default function TruvoxBrand() {
     {
       category: 'CIMEX (THREE BRUSH)',
       products: [
-        { id: 'cimex-cyclone', name: 'Cimex Cyclone' },
-        { id: 'cimex-encap', name: 'Cimex-Encap' },
-        { id: 'cimex-heavy-duty', name: 'Cimex Heavy Duty' }
+        { id: 'cimex-cyclone', name: 'Cimex® Cyclone 38' },
+        { id: 'cimex-encap-2', name: 'Cimex-Encap®' },
+        { id: 'cimex-heavy-duty', name: 'Cimex® Heavy Duty' }
       ]
     },
     {
       category: 'DRY VACUUMS',
       products: [
+        { id: 'valet-backpack-pro-battery', name: 'Valet Backpack PRO Battery' },
         { id: 'vtve-compact', name: 'VTVe Compact' },
         { id: 'vtve', name: 'VTVe' },
-        { id: 'valet-backpack-pro', name: 'Valet Backpack PRO Battery' },
         { id: 'valet-battery-upright-ii', name: 'Valet Battery Upright II' },
         { id: 'valet-dual-motor-upright', name: 'Valet Dual Motor Upright' },
         { id: 'valet-wide-area-vac', name: 'Valet Wide Area Vac' }
@@ -71,14 +71,14 @@ export default function TruvoxBrand() {
       products: [
         { id: 'valet-aqua-20', name: 'Valet Aqua 20' },
         { id: 'valet-aqua-40', name: 'Valet Aqua 40' },
-        { id: 'valet-aqua-55-hd', name: 'Valet Aqua 55 Heavy Duty' }
+        { id: 'valet-aqua-55-heavy-duty', name: 'Valet Aqua 55 Heavy Duty' }
       ]
     },
     {
       category: 'ESCALATOR / SWEEPERS',
       products: [
         { id: 'trusweep-460', name: 'TruSweep 460' },
-        { id: 'cimex-x46', name: 'Cimex X46' }
+        { id: 'cimex-x46', name: 'Cimex® X46' }
       ]
     },
     {
