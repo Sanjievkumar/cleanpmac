@@ -39,10 +39,12 @@ export default function TruvoxBrand() {
       category: 'CARPET CLEANERS',
       products: [
         { id: 'hydromist-lite', name: 'Hydromist Lite' },
-        { id: 'hydromist-10-20hd', name: 'Hydromist 10 / 20HD' },
+        { id: 'hydromist-10', name: 'Hydromist 10' },
+        { id: 'hydromist-20hd', name: 'Hydromist 20HD' },
         { id: 'hydromist-compact', name: 'Hydromist Compact' },
         { id: 'hydromist-35', name: 'Hydromist 35' },
-        { id: 'hydromist-40', name: 'Hydromist 40' }
+        { id: 'hydromist-40-120', name: 'Hydromist 40-120' },
+        { id: 'hydromist-40-220', name: 'Hydromist 40-220' }
       ]
     },
     {

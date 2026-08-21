@@ -3235,427 +3235,29 @@ export const truvoxProductDetails = {
   },
   "orbis-400-43cm": {
     "id": "orbis-400-43cm",
-    "name": "Orbis® 400 43cm (17″)",
+    "name": "",
     "brand": "TRUVOX INTERNATIONAL",
-    "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
-    "heroImage": "/content_images/orbis-400-43cm.png",
-    "galleryImages": [
-      "/content_images/orbis-400-43cm-gallery-0.jpg"
-    ],
-    "features": [
-      {
-        "title": "EFFECTIVE",
-        "text": "High pad / brush pressure for effective cleaning",
-        "image": "/content_images/orbis-400-43cm-feature-1.jpg"
-      },
-      {
-        "title": "EFFICIENT",
-        "text": "Large wheels for easy transportation. Plus, low motor height gives access under low furniture",
-        "image": "/content_images/orbis-400-43cm-feature-2.jpg"
-      },
-      {
-        "title": "ERGONOMIC",
-        "text": "Soft start motor system, low vibration levels and adjustable handle for operator comfort and ease of use",
-        "image": "/content_images/orbis-400-43cm-feature-3.jpg"
-      },
-      {
-        "title": "VERSATILE",
-        "text": "Available in 2 cleaning widths: 15 inch (38cm) & 17 inch (43cm)\nAvailable in 200 rpm, 400 rpm and Dual speed",
-        "image": "/content_images/orbis-400-43cm-feature-4.jpg"
-      },
-      {
-        "title": "HEAVY-DUTY",
-        "text": "200 rpm heavy duty model available with 8kg weight to give increased pad / brush pressure for more aggressive cleaning",
-        "image": "/content_images/orbis-400-43cm-feature-5.jpg"
-      },
-      {
-        "title": "DUAL SPEED",
-        "text": "Offering two machines in one, the Orbis Duo offers a highly cost-effective solution for cleaning & polishing hard floors",
-        "image": "/content_images/orbis-400-43cm-feature-6.jpg"
-      },
-      {
-        "title": "SAFETY",
-        "text": "High visibility power cord and dead man’s switch for increased safety",
-        "image": "/content_images/orbis-400-43cm-feature-7.jpg"
-      },
-      {
-        "title": "ACCESSORIES",
-        "text": "Comprehensive range of accessories to suit all cleaning needs, including optional solution tank for wet scrubbing",
-        "image": "/content_images/orbis-400-43cm-feature-8.jpg"
-      }
-    ],
-    "floorTypes": [
-      {
-        "title": "CARPET",
-        "image": "/content_images/orbis-400-43cm-floor-1.jpg"
-      },
-      {
-        "title": "CONCRETE",
-        "image": "/content_images/orbis-400-43cm-floor-2.jpg"
-      },
-      {
-        "title": "HARD FLOORS",
-        "image": "/content_images/orbis-400-43cm-floor-3.jpg"
-      },
-      {
-        "title": "MARBLE",
-        "image": "/content_images/orbis-400-43cm-floor-4.jpg"
-      },
-      {
-        "title": "STUDDED RUBBER",
-        "image": "/content_images/orbis-400-43cm-floor-5.jpg"
-      },
-      {
-        "title": "NON-SLIP SAFETY FLOORS",
-        "image": "/content_images/orbis-400-43cm-floor-6.jpg"
-      },
-      {
-        "title": "TARRAZZO",
-        "image": "/content_images/orbis-400-43cm-floor-7.jpg"
-      },
-      {
-        "title": "TILES",
-        "image": "/content_images/orbis-400-43cm-floor-8.jpg"
-      }
-    ],
-    "specifications": {
-      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
-      "Motor power (W)": "1100",
-      "Pad / brush diameter (cm)": "43",
-      "Pad / brush speed (rpm)": "380",
-      "Pad / brush pressure (g/cm2)": "22",
-      "Productivity rate (m2/h)": "475",
-      "Sound pressure level (dB(A))": "53",
-      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
-      "Weight (kg)": "32",
-      "Cable length (m)": "15",
-      "Warranty": "2 years*"
-    },
-    "accessories": [
-      {
-        "title": "05-3437-0500",
-        "text": "Flexi Drive Disc",
-        "image": "/content_images/orbis-400-43cm-acc-1.png"
-      },
-      {
-        "title": "05-3435-0500",
-        "text": "Palmyra floor brush (dry use only)",
-        "image": "/content_images/orbis-400-43cm-acc-2.png"
-      },
-      {
-        "title": "05-3469-0500",
-        "text": "Polypropylene scrubbing brush",
-        "image": "/content_images/orbis-400-43cm-acc-3.png"
-      },
-      {
-        "title": "05-3434-0500",
-        "text": "Bassine polishing brush (wet or dry use)",
-        "image": "/content_images/orbis-400-43cm-acc-4.png"
-      },
-      {
-        "title": "03-6111-0000",
-        "text": "Furniture guard",
-        "image": "/content_images/orbis-400-43cm-acc-5.png"
-      },
-      {
-        "title": "05-3151-0000",
-        "text": "Anti-splash skirt",
-        "image": "/content_images/orbis-400-43cm-acc-6.png"
-      },
-      {
-        "title": "05-4156-0000",
-        "text": "Spray system kit\n(including mounting bracket & tubing)",
-        "image": "/content_images/orbis-400-43cm-acc-7.png"
-      }
-    ],
-    "downloads": [
-      {
-        "category": "Downloads",
-        "links": [
-          {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "UK Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "User manual",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
-          },
-          {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "Parts List",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/Truvox-230v-50hz-200-400-17inch-Series-E-Issue-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "UK Fault Finding Guide",
-            "url": "https://forms.office.com/r/iCxH4C6vfh"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "UK Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
-          }
-        ]
-      }
-    ]
+    "description": "",
+    "heroImage": "/content_images/orbis-400-43cm.jpg",
+    "galleryImages": [],
+    "features": [],
+    "floorTypes": [],
+    "specifications": {},
+    "accessories": [],
+    "downloads": []
   },
   "orbis-duo": {
     "id": "orbis-duo",
-    "name": "Orbis® Duo 43cm (17″)",
+    "name": "",
     "brand": "TRUVOX INTERNATIONAL",
-    "description": "A powerful range of single disc machines, that offer exceptional handling and productivity for cleaning and polishing hard floors.",
-    "heroImage": "/content_images/orbis-duo.png",
-    "galleryImages": [
-      "/content_images/orbis-duo-gallery-0.jpg"
-    ],
-    "features": [
-      {
-        "title": "EFFECTIVE",
-        "text": "High pad / brush pressure for effective cleaning",
-        "image": "/content_images/orbis-duo-feature-1.jpg"
-      },
-      {
-        "title": "EFFICIENT",
-        "text": "Large wheels for easy transportation. Plus, low motor height gives access under low furniture",
-        "image": "/content_images/orbis-duo-feature-2.jpg"
-      },
-      {
-        "title": "ERGONOMIC",
-        "text": "Soft start motor system, low vibration levels and adjustable handle for operator comfort and ease of use",
-        "image": "/content_images/orbis-duo-feature-3.jpg"
-      },
-      {
-        "title": "VERSATILE",
-        "text": "Available in 2 cleaning widths: 15 inch (38cm) & 17 inch (43cm)\nAvailable in 200 rpm, 400 rpm and Dual speed",
-        "image": "/content_images/orbis-duo-feature-4.jpg"
-      },
-      {
-        "title": "HEAVY-DUTY",
-        "text": "200 rpm heavy duty model available with 8kg weight to give increased pad / brush pressure for more aggressive cleaning",
-        "image": "/content_images/orbis-duo-feature-5.jpg"
-      },
-      {
-        "title": "DUAL SPEED",
-        "text": "Offering two machines in one, the Orbis Duo offers a highly cost-effective solution for cleaning & polishing hard floors",
-        "image": "/content_images/orbis-duo-feature-6.jpg"
-      },
-      {
-        "title": "SAFETY",
-        "text": "High visibility power cord and dead man’s switch for increased safety",
-        "image": "/content_images/orbis-duo-feature-7.jpg"
-      },
-      {
-        "title": "ACCESSORIES",
-        "text": "Comprehensive range of accessories to suit all cleaning needs, including optional solution tank for wet scrubbing",
-        "image": "/content_images/orbis-duo-feature-8.jpg"
-      }
-    ],
-    "floorTypes": [
-      {
-        "title": "CARPET",
-        "image": "/content_images/orbis-duo-floor-1.jpg"
-      },
-      {
-        "title": "CONCRETE",
-        "image": "/content_images/orbis-duo-floor-2.jpg"
-      },
-      {
-        "title": "HARD FLOORS",
-        "image": "/content_images/orbis-duo-floor-3.jpg"
-      },
-      {
-        "title": "MARBLE",
-        "image": "/content_images/orbis-duo-floor-4.jpg"
-      },
-      {
-        "title": "STUDDED RUBBER",
-        "image": "/content_images/orbis-duo-floor-5.jpg"
-      },
-      {
-        "title": "NON-SLIP SAFETY FLOORS",
-        "image": "/content_images/orbis-duo-floor-6.jpg"
-      },
-      {
-        "title": "TARRAZZO",
-        "image": "/content_images/orbis-duo-floor-7.jpg"
-      },
-      {
-        "title": "TILES",
-        "image": "/content_images/orbis-duo-floor-8.jpg"
-      }
-    ],
-    "specifications": {
-      "Voltage AC (~) / Frequency (V/Hz)": "220 - 240 / 50 - 60",
-      "Motor power (W)": "1100 / 550",
-      "Pad / brush diameter (cm)": "43",
-      "Pad / brush speed (rpm)": "154 / 309",
-      "Pad / brush pressure (g/cm2)": "27",
-      "Productivity rate (m2/h)": "475",
-      "Sound pressure level (dB(A))": "53",
-      "Dimensions (L x W x H) (cm)": "62 x 43 x 121",
-      "Weight (kg)": "36",
-      "Cable length (m)": "15",
-      "Warranty": "2 years*"
-    },
-    "accessories": [
-      {
-        "title": "05-3437-0500",
-        "text": "Flexi Drive Disc",
-        "image": "/content_images/orbis-duo-acc-1.png"
-      },
-      {
-        "title": "05-3435-0500",
-        "text": "Palmyra floor brush (dry use only)",
-        "image": "/content_images/orbis-duo-acc-2.png"
-      },
-      {
-        "title": "05-3469-0500",
-        "text": "Polypropylene scrubbing brush",
-        "image": "/content_images/orbis-duo-acc-3.png"
-      },
-      {
-        "title": "05-3433-0000",
-        "text": "Carpet shampoo brush",
-        "image": "/content_images/orbis-duo-acc-4.png"
-      },
-      {
-        "title": "05-3434-0500",
-        "text": "Bassine polishing brush (wet or dry use)",
-        "image": "/content_images/orbis-duo-acc-5.png"
-      },
-      {
-        "title": "03-6111-0000",
-        "text": "Furniture guard",
-        "image": "/content_images/orbis-duo-acc-6.png"
-      },
-      {
-        "title": "05-3151-0000",
-        "text": "Anti-splash skirt",
-        "image": "/content_images/orbis-duo-acc-7.png"
-      },
-      {
-        "title": "05-3468-0000",
-        "text": "Solution Tank (12 litres)",
-        "image": "/content_images/orbis-duo-acc-8.png"
-      },
-      {
-        "title": "05-4156-0000",
-        "text": "Spray system kit\n(including mounting bracket & tubing)",
-        "image": "/content_images/orbis-duo-acc-9.png"
-      }
-    ],
-    "downloads": [
-      {
-        "category": "Downloads",
-        "links": [
-          {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "UK Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "User manual",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
-          },
-          {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "Parts List",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/Orbis-Duo-UK-and-EURO-Series-H-Issue-2.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "UK Fault Finding Guide",
-            "url": "https://forms.office.com/r/iCxH4C6vfh"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "UK Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
-          }
-        ]
-      }
-    ]
+    "description": "",
+    "heroImage": "/content_images/orbis-duo.jpg",
+    "galleryImages": [],
+    "features": [],
+    "floorTypes": [],
+    "specifications": {},
+    "accessories": [],
+    "downloads": []
   },
   "orbis-uhs-1500-43": {
     "id": "orbis-uhs-1500-43",
@@ -4066,6 +3668,1091 @@ export const truvoxProductDetails = {
           {
             "title": "DE Fault Finding Guide",
             "url": "https://forms.office.com/r/L0hxEibHZ9"
+          }
+        ]
+      }
+    ]
+  },
+  "hydromist-lite": {
+    "id": "hydromist-lite",
+    "name": "Hydromist® Lite",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "An entry-level professional carpet and upholstery cleaner, providing exceptional cleaning results and outstanding value for money.",
+    "heroImage": "/content_images/hydromist-lite.png",
+    "galleryImages": [
+      "/content_images/hydromist-lite-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "COMPACT",
+        "text": "Lightweight and easy to carry, this machine is easy to manoeuvre and transport between jobs",
+        "image": "/content_images/hydromist-lite-feature-1.jpg"
+      },
+      {
+        "title": "ANTI-FOAM",
+        "text": "A separate tank to add any anti-foam detergent",
+        "image": "/content_images/hydromist-lite-feature-2.jpg"
+      },
+      {
+        "title": "SIMPLE",
+        "text": "Independent spray and vacuum controls for greater cleaning flexibility",
+        "image": "/content_images/hydromist-lite-feature-3.jpg"
+      },
+      {
+        "title": "EASY",
+        "text": "Easy to fill and empty, removeable solution and recovery tanks",
+        "image": "/content_images/hydromist-lite-feature-4.jpg"
+      },
+      {
+        "title": "DURABLE",
+        "text": "Stainless steal wand for durability",
+        "image": "/content_images/hydromist-lite-feature-5.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Comes complete with tools for cleaning carpets, upholstery and car interiors",
+        "image": "/content_images/hydromist-lite-feature-6.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/hydromist-lite-floor-1.jpg"
+      },
+      {
+        "title": "UPHOLSTERY",
+        "image": "/content_images/hydromist-lite-floor-2.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50-60",
+      "Vacuum motor power (W)": "1200",
+      "Pump type": "Magnet",
+      "Pump power (W)": "50",
+      "Pump pressure (bar/psi)": "4 / 58",
+      "Airflow rate (m/s)": "46.1",
+      "Solution flow rate (l/min)": "2",
+      "Sound pressure level (dB(A))": "78",
+      "Solution tank capacity (litres)": "6.5",
+      "Recovery tank capacity (litres)": "7",
+      "Dimensions (L x W x H) (cm)": "53 x 37 x 43",
+      "Weight (kg)": "10",
+      "Hose length (m)": "3",
+      "Cable length (m)": "4.5",
+      "Warranty": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "20-0153-0000",
+        "text": "Hose assembly including vacuum and solution hose",
+        "image": "/content_images/hydromist-lite-acc-1.png"
+      },
+      {
+        "title": "20-0155-0000",
+        "text": "Wand",
+        "image": "/content_images/hydromist-lite-acc-2.png"
+      },
+      {
+        "title": "20-0156-0000",
+        "text": "Tool set including carpet and upholstery tools",
+        "image": "/content_images/hydromist-lite-acc-3.png"
+      },
+      {
+        "title": "03-6029-0000",
+        "text": "Hose bag for storage of hose & tools",
+        "image": "/content_images/hydromist-lite-acc-4.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-HML-REV.02-0324-1.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-HML-REV.02-0424-1.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-HML-REV.01-0424.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8179-0000-Hydromist-Lite-User-Manual-Issue-7-0425.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/HML-Parts-List-Issue-E.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/PnXqxdRv9y"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/kCGz90Wkn3"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/KauUpt30uj"
+          }
+        ]
+      }
+    ]
+  },
+  "hydromist-10": {
+    "id": "hydromist-10",
+    "name": "Hydromist® 10",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "A compact and powerful carpet and upholstery cleaner that is easy to use.",
+    "heroImage": "/content_images/hydromist-10.png",
+    "galleryImages": [
+      "/content_images/hydromist-10-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "COMPACT",
+        "text": "Compact size enables cleaning in confined areas",
+        "image": "/content_images/hydromist-10-feature-1.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Powerful 63 psi pump sprays solution deep into carpet pile",
+        "image": "/content_images/hydromist-10-feature-2.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Strong 1100W vacuum maximises solution recovery, minimising carpet drying time",
+        "image": "/content_images/hydromist-10-feature-3.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Robust construction and available in 10 or 20 litre capacity",
+        "image": "/content_images/hydromist-10-feature-4.jpg"
+      },
+      {
+        "title": "EASY",
+        "text": "Free moving casters for exceptional manoeuvrability. Plus, easy to transport and store, fitting in most car boots",
+        "image": "/content_images/hydromist-10-feature-5.jpg"
+      },
+      {
+        "title": "SIMPLE",
+        "text": "Clear and separate controls that are labelled and illuminate when switched on",
+        "image": "/content_images/hydromist-10-feature-6.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Inclusive of hose, wand and carpet tool. Optional upholstery tools available",
+        "image": "/content_images/hydromist-10-feature-7.png"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/hydromist-10-floor-1.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50-60",
+      "Vacuum motor power (W)": "1100",
+      "Pump type": "Magnet",
+      "Pump power (W)": "48",
+      "Pump pressure (bar/psi)": "4.4 / 63.81",
+      "Airflow rate (m/s)": "32.2",
+      "Solution flow rate (l/min)": "1.5",
+      "Vacuum / water lift (kPa / mmwg)": "21 / 2141",
+      "Sound pressure level (dB(A))": "78",
+      "Solution tank capacity (litres)": "10",
+      "Recovery tank capacity (litres)": "10",
+      "Dimensions (L x W x H) (cm)": "51 x 37.5 x 43",
+      "Weight (kg)": "16.5",
+      "Hose length (m)": "3",
+      "Cable length (m)": "10",
+      "Warranty": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "93-0140-0000",
+        "text": "Standard carpet tool with wand and hose",
+        "image": "/content_images/hydromist-10-acc-1.png"
+      },
+      {
+        "title": "93-0125-0000",
+        "text": "Hose assembly",
+        "image": "/content_images/hydromist-10-acc-2.png"
+      },
+      {
+        "title": "03-6029-0000",
+        "text": "Hose bag for storage of hose & tools",
+        "image": "/content_images/hydromist-10-acc-3.png"
+      },
+      {
+        "title": "93-0142-0000",
+        "text": "Standard upholstery tool",
+        "image": "/content_images/hydromist-10-acc-4.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/UK-HM10HM20HD-REV.03-0324-1.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/FR-HM10HM20HD-REV.03-0425.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/DE-HM10HM20HD-REV.01-0424-1.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8015-0000-Hydromist-10-20HD-User-Manual-Issue-5-0425.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/HM10HD-Parts-List-Issue-6.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/yYZqLBG3XY"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": ""
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/YT1JcREVtZ"
+          }
+        ]
+      }
+    ]
+  },
+  "hydromist-20hd": {
+    "id": "hydromist-20hd",
+    "name": "Hydromist® 20HD",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "A compact and powerful carpet and upholstery cleaner that is easy to use.",
+    "heroImage": "/content_images/hydromist-20hd.png",
+    "galleryImages": [
+      "/content_images/hydromist-20hd-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "COMPACT",
+        "text": "Compact size enables cleaning in confined areas",
+        "image": "/content_images/hydromist-20hd-feature-1.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Powerful 72.5 psi pump sprays solution deep into carpet pile",
+        "image": "/content_images/hydromist-20hd-feature-2.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "Strong 1100W vacuum maximises solution recovery, minimising carpet drying time",
+        "image": "/content_images/hydromist-20hd-feature-3.jpg"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "Robust construction and available in 10 or 20 litre capacity",
+        "image": "/content_images/hydromist-20hd-feature-4.jpg"
+      },
+      {
+        "title": "EASY",
+        "text": "Free moving casters for exceptional manoeuvrability. Plus, easy to transport and store, fitting in most car boots",
+        "image": "/content_images/hydromist-20hd-feature-5.jpg"
+      },
+      {
+        "title": "SIMPLE",
+        "text": "Clear and separate controls that are labelled and illuminate when switched on",
+        "image": "/content_images/hydromist-20hd-feature-6.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Inclusive of hose, wand and carpet tool. Optional upholstery tools available",
+        "image": "/content_images/hydromist-20hd-feature-7.png"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/hydromist-20hd-floor-1.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50-60",
+      "Vacuum motor power (W)": "1100",
+      "Pump type": "Diaphragm",
+      "Pump power (W)": "40",
+      "Pump pressure (bar/psi)": "5.5 / 72.5",
+      "Airflow rate (m/s)": "32.2",
+      "Solution flow rate (l/min)": "1.5",
+      "Vacuum / water lift (kPa / mmwg)": "21 / 2141",
+      "Sound pressure level (dB(A))": "78",
+      "Solution tank capacity (litres)": "20",
+      "Recovery tank capacity (litres)": "20",
+      "Dimensions (L x W x H) (cm)": "51 x 37.5 x 54",
+      "Weight (kg)": "22",
+      "Hose length (m)": "3",
+      "Cable length (m)": "10",
+      "Warranty": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "93-0141-0000",
+        "text": "Heavy duty carpet tool with wand and hose",
+        "image": "/content_images/hydromist-20hd-acc-1.png"
+      },
+      {
+        "title": "93-0125-0000",
+        "text": "Hose assembly",
+        "image": "/content_images/hydromist-20hd-acc-2.png"
+      },
+      {
+        "title": "03-6029-0000",
+        "text": "Hose bag for storage of hose & tools",
+        "image": "/content_images/hydromist-20hd-acc-3.png"
+      },
+      {
+        "title": "93-0143-0000",
+        "text": "Heavy duty upholstery tool",
+        "image": "/content_images/hydromist-20hd-acc-4.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/UK-HM10HM20HD-REV.03-0324-1.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/FR-HM10HM20HD-REV.03-0425.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/DE-HM10HM20HD-REV.01-0424-1.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8015-0000-Hydromist-10-20HD-User-Manual-Issue-5-0425.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/12/HM20HD-Parts-List-Series-B-Issue-6.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/yYZqLBG3XY"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/8sehJMUXTY"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/YT1JcREVtZ"
+          }
+        ]
+      }
+    ]
+  },
+  "hydromist-compact": {
+    "id": "hydromist-compact",
+    "name": "Hydromist® Compact",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "A compact all-in-one machine for carpet and upholstery cleaning, with an agitating brush that provides high productivity and excellent cleaning results.",
+    "heroImage": "/content_images/hydromist-compact.png",
+    "galleryImages": [
+      "/content_images/hydromist-compact-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "COMPACT",
+        "text": "Handle folds down for storage and transportation in vehicles",
+        "image": "/content_images/hydromist-compact-feature-1.jpg"
+      },
+      {
+        "title": "CAPACITY",
+        "text": "14 litre solution tank for high productivity",
+        "image": "/content_images/hydromist-compact-feature-2.jpg"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "24cm cleaning width, ideal for small to medium carpeted areas",
+        "image": "/content_images/hydromist-compact-feature-3.jpg"
+      },
+      {
+        "title": "CONVENIENT",
+        "text": "Removable recovery tank for easy emptying",
+        "image": "/content_images/hydromist-compact-feature-4.jpg"
+      },
+      {
+        "title": "EASY",
+        "text": "Simple switches for ease of use",
+        "image": "/content_images/hydromist-compact-feature-5.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Rotating brush gives a deep clean and revives carpets. Plus, powerful vacuum allows carpets to dry quicker",
+        "image": "/content_images/hydromist-compact-feature-6.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Optional upholstery kit for detailed cleaning",
+        "image": "/content_images/hydromist-compact-feature-7.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/hydromist-compact-floor-1.jpg"
+      },
+      {
+        "title": "UPHOLSTERY",
+        "image": "/content_images/hydromist-compact-floor-2.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50-60",
+      "Vacuum motor power (W)": "1200",
+      "Pump power (W)": "26",
+      "Pump pressure (bar/psi)": "1.5 / 21.76",
+      "Brush width (cm)": "24.5",
+      "Brush speed (rpm)": "800 - 1000",
+      "Airflow rate (m/s)": "56",
+      "Solution flow rate (l/min)": "0.8",
+      "Vacuum / water lift (kPa / mmwg)": "22 / 2243",
+      "Sound pressure level (dB(A))": "73",
+      "Solution tank capacity (litres)": "14",
+      "Recovery tank capacity (litres)": "11.5",
+      "Dimensions (L x W x H) (cm)": "54 x 36 x 87",
+      "Dimensions (L x W x H) (without handle) (cm)": "54 x 36 x 66",
+      "Weight (kg)": "22.5",
+      "Cable length (m)": "12",
+      "Warranty*": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "05-3679-0500",
+        "text": "Wand (heavy duty)",
+        "image": "/content_images/hydromist-compact-acc-1.png"
+      },
+      {
+        "title": "05-3406-0000",
+        "text": "Accessory kit inc. bag, hose & upholstery kit",
+        "image": "/content_images/hydromist-compact-acc-2.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-HC250-REV.04-0324-3.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-HC250-REV.02-0424.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-HC250-REV.01-0424.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-6066-0000-HC250-User-Manual-Issue-7-0425.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/HC250-Parts-List-Series-D-Issue-6-04-25.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/RVJ6aiv6pm"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/fH3juvc624"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/pZsRxsnuj0"
+          }
+        ]
+      }
+    ]
+  },
+  "hydromist-35": {
+    "id": "hydromist-35",
+    "name": "Hydromist® 35",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "An all-in-one carpet cleaner with an agitating brush that cleans in a single pass, providing a deep, powerful clean.",
+    "heroImage": "/content_images/hydromist-35.png",
+    "galleryImages": [
+      "/content_images/hydromist-35-gallery-0.jpg"
+    ],
+    "features": [
+      {
+        "title": "Simple",
+        "text": "Separate vacuum, brush and pump switches for greater cleaning flexibility",
+        "image": "/content_images/hydromist-35-feature-1.jpg"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "35 litre capacity and 45cm cleaning path ideal for large carpeted areas",
+        "image": "/content_images/hydromist-35-feature-2.jpg"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "Solution delivered at 100 psi through two jets for even application and high vacuum power",
+        "image": "/content_images/hydromist-35-feature-3.jpg"
+      },
+      {
+        "title": "POWERFUL",
+        "text": "Floating brush head maintains contact with the carpet for improved agitation and revives carpet pile",
+        "image": "/content_images/hydromist-35-feature-4.jpg"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Optional hose, wand and upholstery tool available for carpet and detail cleaning",
+        "image": "/content_images/hydromist-35-feature-5.jpg"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/hydromist-35-floor-1.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "230 / 50",
+      "Vacuum motor power (W)": "1350",
+      "Pump type": "Electrovanne",
+      "Pump power (W)": "180",
+      "Pump pressure (bar/psi)": "6.9 / 100",
+      "Brush width (cm)": "45",
+      "Brush speed (rpm)": "1800",
+      "Airflow rate (m/s)": "42.5",
+      "Solution flow rate (l/min)": "6.8",
+      "Vacuum / water lift (kPa / mmwg)": "30 / 3059",
+      "Brush Adjustment": "Floating",
+      "Sound pressure level (dB(A))": "78",
+      "Solution tank capacity (litres)": "35",
+      "Recovery tank capacity (litres)": "35",
+      "Dimensions (L x W x H) (cm)": "93 x 47 x 88",
+      "Weight (kg)": "47",
+      "Cable length (m)": "15",
+      "Warranty": "1 year*"
+    },
+    "accessories": [
+      {
+        "title": "20-0175-0000",
+        "text": "6m low pressure hose (up to 100psi)",
+        "image": "/content_images/hydromist-35-acc-1.png"
+      },
+      {
+        "title": "20-0176-0000",
+        "text": "15m low pressure hose (up to 100psi)",
+        "image": "/content_images/hydromist-35-acc-2.png"
+      },
+      {
+        "title": "20-0179-0000",
+        "text": "Standard upholstery tool",
+        "image": "/content_images/hydromist-35-acc-3.png"
+      },
+      {
+        "title": "20-0182-0000",
+        "text": "Heavy duty upholstery tool",
+        "image": "/content_images/hydromist-35-acc-4.png"
+      },
+      {
+        "title": "20-0183-0000",
+        "text": "Upholstery cleaning kit including hose and tool",
+        "image": "/content_images/hydromist-35-acc-5.png"
+      },
+      {
+        "title": "20-0177-0000",
+        "text": "Wand - single jet stainless steel, up to 400psi",
+        "image": "/content_images/hydromist-35-acc-6.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-HM35-REV.03-0324.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-HM35-REV.03-0424.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-HM35-REV.01-0424.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8207-0000-HM35-Issue-6-1125.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2023/11/HM35-Parts-List-Issue-14.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/b7HTR3ubQx"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/11RNTe7YqE"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/XnukinttX8"
+          }
+        ]
+      }
+    ]
+  },
+  "hydromist-40-120": {
+    "id": "hydromist-40-120",
+    "name": "Hydromist® 40-120",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "A powerful, compact range of carpet cleaners delivering high-performance cleaning, efficient water extraction for reduced drying times, and dependable operation in commercial applications.",
+    "heroImage": "/content_images/hydromist-40-120.png",
+    "galleryImages": [
+      "/content_images/hydromist-40-120-gallery-0.png"
+    ],
+    "features": [
+      {
+        "title": "SIMPLE",
+        "text": "Front-mounted power switches for operator convenience",
+        "image": "/content_images/hydromist-40-120-feature-1.png"
+      },
+      {
+        "title": "DURABLE",
+        "text": "High density, roto-moulded housing for durability",
+        "image": "/content_images/hydromist-40-120-feature-2.png"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "High performance vacuum motors that provide excellent solution recovery and minimise drying time",
+        "image": "/content_images/hydromist-40-120-feature-3.png"
+      },
+      {
+        "title": "EASY",
+        "text": "Convenient front-mounted drain hose for easy emptying",
+        "image": "/content_images/hydromist-40-120-feature-4.png"
+      },
+      {
+        "title": "ERGONOMIC",
+        "text": "Built-in handle, large 10” wheels and handle-mounted transport wheels for ease of transportation",
+        "image": "/content_images/hydromist-40-120-feature-5.png"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "120psi & 220 psi models available",
+        "image": "/content_images/hydromist-40-120-feature-6.png"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "Large 40 litre capacity, ideal for deep cleaning medium to large areas",
+        "image": "/content_images/hydromist-40-120-feature-7.png"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Kits available with 6m / 15m hoses and single / dual jet wands.",
+        "image": "/content_images/hydromist-40-120-feature-8.png"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/hydromist-40-120-floor-1.jpg"
+      },
+      {
+        "title": "UPHOLSTERY",
+        "image": "/content_images/hydromist-40-120-floor-2.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220-240 / 50/60",
+      "Vacuum motor power (W)": "2 x 1200",
+      "Pump type": "Rotary Diaphragm",
+      "Pump power (W)": "152",
+      "Pump pressure (bar/psi)": "8.3 / 120",
+      "Airflow rate (m/s)": "38",
+      "Solution flow rate (l/min)": "4.92",
+      "Vacuum / water lift (kPa / mmwg)": "55 / 5600",
+      "Sound pressure level (dB(A))": "80",
+      "Sound power level (dB(A))": "90",
+      "Solution tank capacity (litres)": "40",
+      "Recovery tank capacity (litres)": "28",
+      "Dimensions (L x W x H) (cm)": "78 x 54 x 90",
+      "Weight (kg)": "42.5",
+      "Cable length (m)": "15",
+      "Warranty": "1 Year*"
+    },
+    "accessories": [
+      {
+        "title": "20-0177-0000",
+        "text": "Wand – single jet stainless steel",
+        "image": "/content_images/hydromist-40-120-acc-1.png"
+      },
+      {
+        "title": "20-0178-0000",
+        "text": "Wand – twin jet stainless steel",
+        "image": "/content_images/hydromist-40-120-acc-2.png"
+      },
+      {
+        "title": "20-0175-0000",
+        "text": "6m hose assembly",
+        "image": "/content_images/hydromist-40-120-acc-3.png"
+      },
+      {
+        "title": "20-0176-0000",
+        "text": "15m hose assembly",
+        "image": "/content_images/hydromist-40-120-acc-4.png"
+      },
+      {
+        "title": "20-0179-0000",
+        "text": "Standard upholstery tool",
+        "image": "/content_images/hydromist-40-120-acc-5.png"
+      },
+      {
+        "title": "PORT-A-HEAT",
+        "text": "Port-a-Heat",
+        "image": "/content_images/hydromist-40-120-acc-6.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/UK-HM40-REV.00-1225-2.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/FR-HM40-REV.00-1225-2.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/DE-HM40-REV.00-1225-3.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Hydromist 40 User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/03-8544-0000-HM40-Issue-3-0126-1.pdf"
+          },
+          {
+            "title": "Port-A-Heat User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/03-8545-0000-port-a-heat-User-Manual-REV.03-0126.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Hydromist 40 Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2025/12/HM40.PARTS-LIST-ISSUE-2-10-25.pdf"
+          },
+          {
+            "title": "Port-A-Heat Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/Port-A-Heat-Parts-List-Series-A-Issue-201-24.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/sG2QBeSbat"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/2vAjqmTd5d"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/t7u58DKfgw"
+          }
+        ]
+      }
+    ]
+  },
+  "hydromist-40-220": {
+    "id": "hydromist-40-220",
+    "name": "Hydromist® 40-220",
+    "brand": "TRUVOX INTERNATIONAL",
+    "description": "A powerful, compact range of carpet cleaners delivering high-performance cleaning, efficient water extraction for reduced drying times, and dependable operation in commercial applications.",
+    "heroImage": "/content_images/hydromist-40-220.png",
+    "galleryImages": [
+      "/content_images/hydromist-40-220-gallery-0.png"
+    ],
+    "features": [
+      {
+        "title": "SIMPLE",
+        "text": "Front-mounted power switches for operator convenience",
+        "image": "/content_images/hydromist-40-220-feature-1.png"
+      },
+      {
+        "title": "DURABLE",
+        "text": "High density, roto-moulded housing for durability",
+        "image": "/content_images/hydromist-40-220-feature-2.png"
+      },
+      {
+        "title": "EFFICIENT",
+        "text": "High performance vacuum motors that provide excellent solution recovery and minimise drying time",
+        "image": "/content_images/hydromist-40-220-feature-3.png"
+      },
+      {
+        "title": "EASY",
+        "text": "Convenient front-mounted drain hose for easy emptying",
+        "image": "/content_images/hydromist-40-220-feature-4.png"
+      },
+      {
+        "title": "ERGONOMIC",
+        "text": "Built-in handle, large 10” wheels and handle-mounted transport wheels for ease of transportation",
+        "image": "/content_images/hydromist-40-220-feature-5.png"
+      },
+      {
+        "title": "VERSATILE",
+        "text": "120psi & 220 psi models available",
+        "image": "/content_images/hydromist-40-220-feature-6.png"
+      },
+      {
+        "title": "EFFECTIVE",
+        "text": "Large 40 litre capacity, ideal for deep cleaning medium to large areas",
+        "image": "/content_images/hydromist-40-220-feature-7.png"
+      },
+      {
+        "title": "ACCESSORIES",
+        "text": "Kits available with 6m / 15m hoses and single / dual jet wands.",
+        "image": "/content_images/hydromist-40-220-feature-8.png"
+      }
+    ],
+    "floorTypes": [
+      {
+        "title": "CARPET",
+        "image": "/content_images/hydromist-40-220-floor-1.jpg"
+      },
+      {
+        "title": "UPHOLSTERY",
+        "image": "/content_images/hydromist-40-220-floor-2.jpg"
+      }
+    ],
+    "specifications": {
+      "Voltage AC (~) / Frequency (V/Hz)": "220-240 / 50/60",
+      "Vacuum motor power (W)": "2 x 1200",
+      "Pump type": "Rotary Diaphragm",
+      "Pump power (W)": "193",
+      "Pump pressure (bar/psi)": "15.2 / 220",
+      "Airflow rate (m/s)": "38",
+      "Solution flow rate (l/min)": "4.92",
+      "Vacuum / water lift (kPa / mmwg)": "55 / 5600",
+      "Sound pressure level (dB(A))": "80",
+      "Sound power level (dB(A))": "90",
+      "Solution tank capacity (litres)": "40",
+      "Recovery tank capacity (litres)": "28",
+      "Dimensions (L x W x H) (cm)": "78 x 54 x 90",
+      "Weight (kg)": "42.5",
+      "Cable length (m)": "15",
+      "Warranty": "1 Year*"
+    },
+    "accessories": [
+      {
+        "title": "20-0177-0000",
+        "text": "Wand – single jet stainless steel",
+        "image": "/content_images/hydromist-40-220-acc-1.png"
+      },
+      {
+        "title": "20-0178-0000",
+        "text": "Wand – twin jet stainless steel",
+        "image": "/content_images/hydromist-40-220-acc-2.png"
+      },
+      {
+        "title": "20-0175-0000",
+        "text": "6m hose assembly",
+        "image": "/content_images/hydromist-40-220-acc-3.png"
+      },
+      {
+        "title": "20-0176-0000",
+        "text": "15m hose assembly",
+        "image": "/content_images/hydromist-40-220-acc-4.png"
+      },
+      {
+        "title": "20-0179-0000",
+        "text": "Standard upholstery tool",
+        "image": "/content_images/hydromist-40-220-acc-5.png"
+      },
+      {
+        "title": "PORT-A-HEAT",
+        "text": "Port-a-Heat",
+        "image": "/content_images/hydromist-40-220-acc-6.png"
+      }
+    ],
+    "downloads": [
+      {
+        "category": "Downloads",
+        "links": [
+          {
+            "title": "Sales Literature",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/UK-HM40-REV.00-1225-2.pdf"
+          },
+          {
+            "title": "FR Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/FR-HM40-REV.00-1225-2.pdf"
+          },
+          {
+            "title": "DE Sales Literature",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/DE-HM40-REV.00-1225-3.pdf"
+          },
+          {
+            "title": "User Manuals",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Hydromist 40 User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/03-8544-0000-HM40-Issue-3-0126-1.pdf"
+          },
+          {
+            "title": "Port-A-Heat User Manual",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/03-8545-0000-port-a-heat-User-Manual-REV.03-0126.pdf"
+          },
+          {
+            "title": "Parts Lists",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "Hydromist 40 Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2025/12/HM40.PARTS-LIST-ISSUE-2-10-25.pdf"
+          },
+          {
+            "title": "Port-A-Heat Parts List",
+            "url": "https://www.truvox.com/wp-content/uploads/2026/01/Port-A-Heat-Parts-List-Series-A-Issue-201-24.pdf"
+          },
+          {
+            "title": "Fault Finding Guides",
+            "url": "javascript:void(0);"
+          },
+          {
+            "title": "UK Fault Finding Guide",
+            "url": "https://forms.office.com/r/sG2QBeSbat"
+          },
+          {
+            "title": "FR Fault Finding Guide",
+            "url": "https://forms.office.com/r/2vAjqmTd5d"
+          },
+          {
+            "title": "DE Fault Finding Guide",
+            "url": "https://forms.office.com/r/t7u58DKfgw"
           }
         ]
       }
