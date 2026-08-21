@@ -6,6 +6,8 @@ import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Brands from './pages/Brands';
+import TruvoxBrand from './pages/TruvoxBrand';
+import TruvoxProduct from './pages/TruvoxProduct';
 import Support from './pages/Support';
 import Contact from './pages/Contact';
 
@@ -22,7 +24,11 @@ function App() {
           <Route path="/brands" element={<Brands />} />
           <Route path="/support" element={<Support />} />
           <Route path="/contact" element={<Contact />} />
-          {/* We will add specific brand pages later */}
+          {/* Dedicated Brand Pages */}
+          <Route path="/brands/truvox" element={<TruvoxBrand />} />
+          <Route path="/brands/truvox/:productId" element={<TruvoxProduct />} />
+          
+          {/* Legacy generic brand page (for klenco currently) */}
           <Route path="/brands/:id" element={<Brands />} />
         </Routes>
       </main>

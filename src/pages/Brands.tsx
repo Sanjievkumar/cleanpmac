@@ -5,12 +5,10 @@ import { floorCleaningData } from '../data/klenco-floor-cleaning';
 import { vacuumData } from '../data/klenco-vacuum-cleaners';
 import { highPressureData } from '../data/klenco-high-pressure';
 import { chemicalsData } from '../data/klenco-chemicals';
-import { truvoxCategories, mockTruvoxProduct } from '../data/truvox-products';
 
 export default function Brands() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [activeTab, setActiveTab] = useState('FEATURES');
   const [klencoTab, setKlencoTab] = useState('FLOOR CLEANING');
   const [selectedSubCategory, setSelectedSubCategory] = useState<string | null>(null);
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
@@ -20,124 +18,6 @@ export default function Brands() {
     setSelectedSubCategory(null);
     setSelectedProduct(null);
   }, [klencoTab]);
-
-  const [truvoxProduct, setTruvoxProduct] = useState<string | null>(null);
-
-  if (id === 'truvox') {
-    return (
-      <div className="fade-in">
-        <section className="section" style={{
-          background: 'linear-gradient(rgba(0, 75, 135, 0.8), rgba(0, 75, 135, 0.8)), url("/content_images/image_8.png")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          color: 'white',
-          padding: '8rem 0'
-        }}>
-          <div className="container text-center slide-up">
-            <div className="flex justify-center bg-white rounded-lg p-6 mb-6 mx-auto" style={{ maxWidth: '300px' }}>
-               <img src="/content_images/truvox-logo.png" alt="Truvox" style={{ width: '100%', objectFit: 'contain' }} />
-            </div>
-            <p className="text-lead" style={{ color: 'var(--text-light)', maxWidth: '800px', margin: '0 auto' }}>
-              Since 1960 – Global name in commercial and industrial floorcare equipment.
-            </p>
-          </div>
-        </section>
-
-        <section className="section">
-          <div className="container">
-            {truvoxProduct ? (
-               <div className="fade-in max-w-6xl mx-auto">
-                  <button onClick={() => setTruvoxProduct(null)} className="mb-6 font-bold flex items-center gap-2 hover:text-[#00b0f0] transition-colors">
-                    &larr; Back to Products
-                  </button>
-                  <div className="grid grid-cols-2 gap-12 mb-12">
-                    <div className="bg-white p-8 rounded-lg shadow-sm border flex items-center justify-center">
-                      <img src={mockTruvoxProduct.image} alt={mockTruvoxProduct.name} style={{ width: '100%', maxHeight: '400px', objectFit: 'contain' }} />
-                    </div>
-                    <div>
-                      <h2 className="heading-lg mb-2" style={{ color: 'var(--primary)' }}>{mockTruvoxProduct.name}</h2>
-                      <h3 className="text-xl font-bold mb-6 text-muted">{mockTruvoxProduct.category}</h3>
-                      <p className="text-muted mb-8">{mockTruvoxProduct.description}</p>
-                      <button className="btn btn-primary">Find a Dealer</button>
-                    </div>
-                  </div>
-                  
-                  {/* Truvox Sub-navigation Bar */}
-                  <div style={{ backgroundColor: '#4b5563', color: 'white', borderRadius: '0.5rem', overflow: 'hidden', marginBottom: '2rem' }}>
-                    <div className="flex justify-center text-sm font-bold tracking-wider overflow-x-auto">
-                      {['FEATURES', 'SPECIFICATIONS', 'ACCESSORIES', 'GALLERY', 'DOWNLOADS', 'FLOOR TYPES', 'RELATED PRODUCTS'].map(tab => (
-                        <button 
-                          key={tab} 
-                          onClick={() => setActiveTab(tab)}
-                          style={{ 
-                            color: activeTab === tab ? '#38bdf8' : 'white', 
-                            borderBottom: activeTab === tab ? '3px solid #38bdf8' : '3px solid transparent', 
-                            padding: '1rem 1.5rem',
-                            transition: 'all 0.2s ease'
-                          }}
-                        >
-                          {tab}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                  
-                  <div className="bg-white p-8 rounded-lg border min-h-[300px]">
-                     {activeTab === 'FEATURES' && (
-                        <ul className="list-disc pl-5 text-muted space-y-2">
-                           {mockTruvoxProduct.tabs.features.map((f, i) => <li key={i}>{f}</li>)}
-                        </ul>
-                     )}
-                     {activeTab === 'SPECIFICATIONS' && (
-                        <div className="grid grid-cols-2 gap-4">
-                           {Object.entries(mockTruvoxProduct.tabs.specifications).map(([k, v]) => (
-                             <div key={k} className="flex justify-between border-b py-2">
-                               <span className="font-bold text-muted">{k}</span>
-                               <span>{v}</span>
-                             </div>
-                           ))}
-                        </div>
-                     )}
-                     {/* Other tabs omitted for brevity, logic identical */}
-                     {activeTab !== 'FEATURES' && activeTab !== 'SPECIFICATIONS' && (
-                        <p className="text-muted italic">Content for {activeTab} will load here.</p>
-                     )}
-                  </div>
-               </div>
-            ) : (
-               <>
-                <h2 className="heading-lg mb-12 text-center" style={{ color: 'var(--primary)' }}>Product Categories</h2>
-                <div className="grid grid-cols-4 gap-8">
-                  {Object.entries({
-                    "SCRUBBER DRYER": truvoxCategories.scrubberDryers,
-                    "SINGLE DISC": truvoxCategories.singleDisc,
-                    "CARPET CLEANERS": truvoxCategories.carpetCleaners,
-                    "CIMEX": truvoxCategories.cimex,
-                    "DRY VACUUM": truvoxCategories.dryVacuum,
-                    "WET & DRY VACUUM": truvoxCategories.wetDryVacuum,
-                    "ESCALATOR SWEEPERS": truvoxCategories.escalatorSweepers
-                  }).map(([categoryName, products]) => (
-                    <div key={categoryName} className="card p-6 flex flex-col">
-                      <h3 className="mb-4 font-bold text-lg" style={{ color: 'var(--primary)', borderBottom: '2px solid var(--border-color)', paddingBottom: '0.5rem' }}>{categoryName}</h3>
-                      <ul className="text-muted flex flex-col gap-3">
-                        {products.map(p => (
-                          <li key={p.id}>
-                            <button onClick={() => setTruvoxProduct(p.id)} className="hover:text-[var(--primary)] text-left w-full transition-colors flex items-center justify-between">
-                              {p.name} <span className="text-xs">&rarr;</span>
-                            </button>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  ))}
-                </div>
-               </>
-            )}
-          </div>
-        </section>
-      </div>
-    );
-  }
 
   if (id === 'klenco') {
     return (
