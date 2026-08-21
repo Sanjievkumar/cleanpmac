@@ -1,10 +1,20 @@
-import { useParams, useNavigate } from 'react-router-dom';
+const fs = require('fs');
 
-export default function Brands() {
-  const { id } = useParams();
-  const navigate = useNavigate();
+const path = 'src/pages/Brands.tsx';
+const content = fs.readFileSync(path, 'utf8');
 
-  if (id === 'klenco') {
+const startStr = "  if (id === 'klenco') {";
+const endStr = "  // General Brands Overview";
+
+const startIndex = content.indexOf(startStr);
+const endIndex = content.indexOf(endStr);
+
+if (startIndex === -1 || endIndex === -1) {
+  console.log("Could not find blocks. Start:", startIndex, "End:", endIndex);
+  process.exit(1);
+}
+
+const newKlencoBlock = `  if (id === 'klenco') {
     return (
       <div className="fade-in">
 
@@ -172,9 +182,7 @@ export default function Brands() {
                   display: 'flex',
                   flexDirection: 'column',
                   transition: 'box-shadow 0.3s ease, transform 0.3s ease',
-                  cursor: 'pointer',
                 }}
-                onClick={() => navigate(['/brands/klenco/floor-cleaning', '/brands/klenco/vacuum-cleaners', '/brands/klenco/high-pressure-cleaners', '/brands/klenco/chemicals'][i])}
                 onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 16px 40px rgba(0,0,0,0.1)'; e.currentTarget.style.transform = 'translateY(-4px)'; }}
                 onMouseLeave={(e) => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'none'; }}>
                   {/* Colored top bar */}
@@ -200,38 +208,8 @@ export default function Brands() {
       </div>
     );
   }
+`;
 
-  // General Brands Overview
-  return (
-    <div className="fade-in">
-      <section className="section" style={{ backgroundColor: 'var(--primary)', color: 'white', padding: '6rem 0' }}>
-        <div className="container text-center slide-up">
-          <h1 className="heading-xl mb-4">Our Brands</h1>
-          <p className="text-lead" style={{ color: 'var(--text-light)', maxWidth: '800px', margin: '0 auto' }}>
-            We represent globally recognized brands and provide application-focused cleaning solutions.
-          </p>
-        </div>
-      </section>
-      <section className="section section-dark">
-        <div className="container grid grid-cols-2 gap-12">
-          <div className="card card-dark p-6 cursor-pointer hover:shadow-lg transition-all" onClick={() => navigate('/brands/truvox')} style={{ padding: '3rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-6 w-full max-w-[250px]">
-              <img src="/content_images/truvox-logo.png" alt="Truvox" style={{ height: '80px', objectFit: 'contain' }} />
-            </div>
-            <h2 className="heading-lg mb-4" style={{ color: 'white' }}>TRUVOX</h2>
-            <p className="text-muted mb-8" style={{ color: '#cbd5e1' }}>UK - Since 1960. Commercial and industrial floorcare equipment.</p>
-            <span className="btn btn-primary">Explore Products</span>
-          </div>
-          <div className="card card-dark p-6 cursor-pointer hover:shadow-lg transition-all" onClick={() => navigate('/brands/klenco')} style={{ padding: '3rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-6 w-full max-w-[250px]">
-              <img src="/content_images/klenco-logo.png" alt="Klenco" style={{ height: '80px', objectFit: 'contain' }} />
-            </div>
-            <h2 className="heading-lg mb-4" style={{ color: 'white' }}>KLENCO</h2>
-            <p className="text-muted mb-8" style={{ color: '#cbd5e1' }}>Singapore - Since 1971. Professional cleaning machines and chemicals.</p>
-            <span className="btn btn-primary" style={{ backgroundColor: '#e31837' }}>Explore Products</span>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+const newContent = content.substring(0, startIndex) + newKlencoBlock + "\n" + content.substring(endIndex);
+fs.writeFileSync(path, newContent, 'utf8');
+console.log("Done. All 4 errors fixed.");

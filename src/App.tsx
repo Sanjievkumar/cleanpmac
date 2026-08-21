@@ -8,6 +8,7 @@ import About from './pages/About';
 import Brands from './pages/Brands';
 import TruvoxBrand from './pages/TruvoxBrand';
 import TruvoxProduct from './pages/TruvoxProduct';
+import KlencoPage from './pages/KlencoPage';
 import Support from './pages/Support';
 import Contact from './pages/Contact';
 
@@ -28,6 +29,10 @@ function App() {
           {/* Dedicated Brand Pages */}
           <Route path="/brands/truvox" element={<TruvoxBrand />} />
           <Route path="/brands/truvox/:productId" element={<TruvoxProduct />} />
+          
+          {/* Klenco Category & Product Pages */}
+          <Route path="/brands/klenco/:categoryId/:productId" element={<KlencoPage />} />
+          <Route path="/brands/klenco/:categoryId" element={<KlencoPage />} />
           
           {/* Legacy generic brand page */}
           <Route path="/brands/:id" element={<Brands />} />
