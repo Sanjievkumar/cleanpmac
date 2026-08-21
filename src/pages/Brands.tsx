@@ -1,30 +1,15 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import type { Product } from '../data/klenco-floor-cleaning';
-import { floorCleaningData } from '../data/klenco-floor-cleaning';
-import { vacuumData } from '../data/klenco-vacuum-cleaners';
-import { highPressureData } from '../data/klenco-high-pressure';
-import { chemicalsData } from '../data/klenco-chemicals';
 
 export default function Brands() {
   const { id } = useParams();
   const navigate = useNavigate();
-  const [klencoTab, setKlencoTab] = useState('FLOOR CLEANING');
-  const [selectedSubCategory, setSelectedSubCategory] = useState<string | null>(null);
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
-
-  useEffect(() => {
-    // Reset sub-category and product when main tab changes
-    setSelectedSubCategory(null);
-    setSelectedProduct(null);
-  }, [klencoTab]);
 
   if (id === 'klenco') {
     return (
       <div className="fade-in" style={{ backgroundColor: '#f8f9fa' }}>
         {/* HERO SECTION - No red overlay, clear image */}
         <section className="section" style={{
-          backgroundImage: 'url("/content_images/image_9.jpeg")',
+          backgroundImage: 'url("/content_images/image_9.png")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           padding: '12rem 0',
@@ -157,7 +142,7 @@ export default function Brands() {
                 <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', flex: 1, lineHeight: 1.6 }}>
                   Achieve exceptional floor cleaning performance with Klenco's range of scrubber dryers, sweepers, single disc machines, burnishers, carpet extractors, and steam cleaners. Designed to improve productivity while delivering spotless results across every floor type.
                 </p>
-                <button onClick={() => { setKlencoTab('FLOOR CLEANING'); window.scrollTo({ top: document.getElementById('klenco-products-view')?.offsetTop || 0, behavior: 'smooth' }); }} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+                <button onClick={() => navigate('/brands/klenco/floor-cleaning')} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
                   Explore Floor Cleaning &rarr;
                 </button>
               </div>
@@ -168,7 +153,7 @@ export default function Brands() {
                 <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', flex: 1, lineHeight: 1.6 }}>
                   From compact commercial vacuum cleaners to powerful industrial vacuum systems, Klenco provides reliable solutions for removing dust, debris, liquids, and fine particles across diverse working environments.
                 </p>
-                <button onClick={() => { setKlencoTab('VACUUM CLEANERS'); window.scrollTo({ top: document.getElementById('klenco-products-view')?.offsetTop || 0, behavior: 'smooth' }); }} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+                <button onClick={() => navigate('/brands/klenco/vacuum-cleaners')} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
                   Explore Vacuum Cleaning &rarr;
                 </button>
               </div>
@@ -179,7 +164,7 @@ export default function Brands() {
                 <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', flex: 1, lineHeight: 1.6 }}>
                   A complete range of high-performance cleaning chemicals formulated for floor care, housekeeping, washrooms, kitchens, industrial maintenance, and specialized cleaning applications, ensuring superior hygiene and consistent results.
                 </p>
-                <button onClick={() => { setKlencoTab('HIGH PRESSURE CLEANERS'); window.scrollTo({ top: document.getElementById('klenco-products-view')?.offsetTop || 0, behavior: 'smooth' }); }} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+                <button onClick={() => navigate('/brands/klenco/high-pressure-cleaners')} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
                   Explore High Pressure Cleaner &rarr;
                 </button>
               </div>
@@ -190,167 +175,10 @@ export default function Brands() {
                 <p style={{ color: 'var(--text-muted)', marginBottom: '2rem', flex: 1, lineHeight: 1.6 }}>
                   A complete range of high-performance cleaning chemicals formulated for floor care, housekeeping, washrooms, kitchens, industrial maintenance, and specialized cleaning applications, ensuring superior hygiene and consistent results.
                 </p>
-                <button onClick={() => { setKlencoTab('CHEMICALS'); window.scrollTo({ top: document.getElementById('klenco-products-view')?.offsetTop || 0, behavior: 'smooth' }); }} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
+                <button onClick={() => navigate('/brands/klenco/chemicals')} style={{ color: '#e31837', fontWeight: 700, display: 'inline-flex', alignItems: 'center', gap: '0.5rem', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
                   Explore Cleaning Chemicals &rarr;
                 </button>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Existing interactive product catalog section */}
-        <section id="klenco-products-view" className="pt-12 pb-24" style={{ backgroundColor: 'white' }}>
-          <div className="container">
-            <div className="flex border-b border-gray-300 justify-center">
-              {['FLOOR CLEANING', 'VACUUM CLEANERS', 'HIGH PRESSURE CLEANERS', 'CHEMICALS'].map(tab => (
-                <button
-                  key={tab}
-                  onClick={() => setKlencoTab(tab)}
-                  style={{
-                    padding: '1rem 2rem',
-                    fontWeight: 700,
-                    color: klencoTab === tab ? '#e31837' : 'var(--text-dark)',
-                    borderBottom: klencoTab === tab ? '3px solid #e31837' : '3px solid transparent',
-                    backgroundColor: klencoTab === tab ? '#f8f9fa' : 'transparent',
-                    transition: 'all 0.2s ease',
-                    marginBottom: '-1px'
-                  }}
-                >
-                  {tab}
-                </button>
-              ))}
-            </div>
-            
-            <div className="py-12">
-              {selectedProduct ? (
-                <div className="fade-in max-w-5xl mx-auto">
-                  <button onClick={() => setSelectedProduct(null)} className="mb-6 font-bold flex items-center gap-2 hover:text-[#e31837] transition-colors">
-                    &larr; Back to {selectedSubCategory || klencoTab}
-                  </button>
-                  <div className="grid grid-cols-2 gap-12">
-                    <div className="bg-white p-8 rounded-lg shadow-sm border flex items-center justify-center">
-                      <img src={selectedProduct.image} alt={selectedProduct.name} style={{ width: '100%', maxHeight: '400px', objectFit: 'contain' }} onError={(e) => e.currentTarget.style.display = 'none'} />
-                    </div>
-                    <div>
-                      <h2 className="heading-lg mb-2" style={{ color: '#e31837' }}>{selectedProduct.name}</h2>
-                      <h3 className="text-xl font-bold mb-6">{selectedProduct.subtitle}</h3>
-                      <p className="text-muted mb-8">{selectedProduct.description}</p>
-                      
-                      <h4 className="font-bold mb-4">Key Features</h4>
-                      <ul className="list-disc pl-5 mb-8 text-muted space-y-2">
-                        {selectedProduct.features.map((feature, i) => <li key={i}>{feature}</li>)}
-                      </ul>
-                      
-                      {selectedProduct.applications && (
-                        <>
-                          <h4 className="font-bold mb-4">Ideal Applications</h4>
-                          <ul className="list-disc pl-5 mb-8 text-muted space-y-2">
-                            {selectedProduct.applications.map((app, i) => <li key={i}>{app}</li>)}
-                          </ul>
-                        </>
-                      )}
-                      
-                      {selectedProduct.brochureAvailable && (
-                        <button className="btn btn-primary" style={{ backgroundColor: '#e31837' }}>Download Brochure</button>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              ) : selectedSubCategory ? (
-                <div className="fade-in">
-                  <button onClick={() => setSelectedSubCategory(null)} className="mb-6 font-bold flex items-center gap-2 hover:text-[#e31837] transition-colors">
-                    &larr; Back to Categories
-                  </button>
-                  <h3 className="text-2xl font-bold mb-8 text-center" style={{ color: '#e31837' }}>{selectedSubCategory.toUpperCase()}</h3>
-                  <div className="grid grid-cols-3 gap-8">
-                    {klencoTab === 'FLOOR CLEANING' && (() => {
-                      let data: Product[] = [];
-                      if (selectedSubCategory === 'Single Disc Machines' || selectedSubCategory === 'SINGLE DISC') data = floorCleaningData.singleDisc;
-                      if (selectedSubCategory === 'Carpet Extractors' || selectedSubCategory === 'EXTRACTORS') data = floorCleaningData.extractors;
-                      if (selectedSubCategory === 'Scrubber Dryers' || selectedSubCategory === 'SCRUBBERS') data = floorCleaningData.scrubbers;
-                      if (selectedSubCategory === 'Sweepers' || selectedSubCategory === 'SWEEPERS') data = floorCleaningData.sweepers;
-                      if (selectedSubCategory === 'Steam Cleaners' || selectedSubCategory === 'STEAM') data = floorCleaningData.steam;
-                      
-                      return data.map(product => (
-                         <div key={product.id} className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedProduct(product)}>
-                            <img src={product.image} style={{ height: '200px', objectFit: 'contain', marginBottom: '1.5rem' }} alt={product.name} onError={(e) => e.currentTarget.style.display = 'none'} />
-                            <h4 className="font-bold text-lg mb-2">{product.name}</h4>
-                            <p className="text-sm text-muted text-center">{product.subtitle}</p>
-                         </div>
-                      ));
-                    })()}
-                  </div>
-                </div>
-              ) : (
-                <>
-                  {klencoTab === 'FLOOR CLEANING' && (
-                    <div className="fade-in text-center">
-                       <h3 className="text-2xl font-bold mb-4" style={{ color: '#e31837' }}>FLOOR CLEANING MACHINES</h3>
-                       <div className="grid grid-cols-5 gap-8">
-                         <div className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedSubCategory('Single Disc Machines')}>
-                            <img src="/content_images/image_20.jpeg" style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt="Single Disc" />
-                            <h4 className="font-bold">SINGLE DISC</h4>
-                         </div>
-                         <div className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedSubCategory('Carpet Extractors')}>
-                            <img src="/content_images/image_26.jpeg" style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt="Carpet Extractors" onError={(e) => e.currentTarget.style.display = 'none'} />
-                            <h4 className="font-bold">EXTRACTORS</h4>
-                         </div>
-                         <div className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedSubCategory('Scrubber Dryers')}>
-                            <img src="/content_images/image_31.png" style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt="Scrubber Dryers" onError={(e) => e.currentTarget.style.display = 'none'} />
-                            <h4 className="font-bold">SCRUBBERS</h4>
-                         </div>
-                         <div className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedSubCategory('Sweepers')}>
-                            <img src="/content_images/image_33.png" style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt="Sweepers" onError={(e) => e.currentTarget.style.display = 'none'} />
-                            <h4 className="font-bold">SWEEPERS</h4>
-                         </div>
-                         <div className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedSubCategory('Steam Cleaners')}>
-                            <img src="/content_images/image_34.jpeg" style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt="Steam Cleaners" onError={(e) => e.currentTarget.style.display = 'none'} />
-                            <h4 className="font-bold">STEAM</h4>
-                         </div>
-                       </div>
-                    </div>
-                  )}
-                  {klencoTab === 'VACUUM CLEANERS' && (
-                    <div className="fade-in text-center">
-                       <h3 className="text-2xl font-bold mb-4" style={{ color: '#e31837' }}>VACUUM CLEANERS</h3>
-                       <div className="grid grid-cols-4 gap-8">
-                         {vacuumData.vacuums.map(product => (
-                           <div key={product.id} className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedProduct(product)}>
-                              <img src={product.image} style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt={product.name} onError={(e) => e.currentTarget.style.display = 'none'} />
-                              <h4 className="font-bold">{product.name}</h4>
-                           </div>
-                         ))}
-                       </div>
-                    </div>
-                  )}
-                  {klencoTab === 'HIGH PRESSURE CLEANERS' && (
-                    <div className="fade-in text-center">
-                       <h3 className="text-2xl font-bold mb-4" style={{ color: '#e31837' }}>HIGH PRESSURE CLEANERS</h3>
-                       <div className="grid grid-cols-3 gap-8">
-                         {highPressureData.highPressure.map(product => (
-                           <div key={product.id} className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedProduct(product)}>
-                              <img src={product.image} style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt={product.name} onError={(e) => e.currentTarget.style.display = 'none'} />
-                              <h4 className="font-bold">{product.name}</h4>
-                           </div>
-                         ))}
-                       </div>
-                    </div>
-                  )}
-                  {klencoTab === 'CHEMICALS' && (
-                    <div className="fade-in text-center">
-                       <h3 className="text-2xl font-bold mb-4" style={{ color: '#e31837' }}>CLEANING CHEMICALS</h3>
-                       <div className="grid grid-cols-4 gap-8">
-                         {chemicalsData.chemicals.map(product => (
-                           <div key={product.id} className="card p-6 flex flex-col items-center cursor-pointer hover-scale" onClick={() => setSelectedProduct(product)}>
-                              <img src={product.image} style={{ height: '150px', objectFit: 'contain', marginBottom: '1rem' }} alt={product.name} onError={(e) => e.currentTarget.style.display = 'none'} />
-                              <h4 className="font-bold">{product.name}</h4>
-                           </div>
-                         ))}
-                       </div>
-                    </div>
-                  )}
-                </>
-              )}
             </div>
           </div>
         </section>
