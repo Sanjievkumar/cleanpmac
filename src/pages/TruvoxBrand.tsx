@@ -81,9 +81,7 @@ export default function TruvoxBrand() {
     <div className="fade-in">
       {/* ═══════════ TRUVOX HERO ═══════════ */}
       <section className="section" style={{
-        background: 'linear-gradient(rgba(0, 75, 135, 0.85), rgba(0, 75, 135, 0.95)), url("/content_images/image_8.png")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%)',
         color: 'white',
         padding: '8rem 0'
       }}>
