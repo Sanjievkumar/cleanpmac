@@ -154,18 +154,24 @@ export default function TruvoxBrand() {
                         backgroundColor: 'white'
                       }}
                       onMouseEnter={(e) => {
+                        e.currentTarget.style.backgroundColor = 'var(--accent)';
                         e.currentTarget.style.borderColor = 'var(--accent)';
-                        e.currentTarget.style.color = 'var(--accent)';
-                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.08)';
+                        e.currentTarget.style.color = 'white';
+                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.15)';
+                        const icon = e.currentTarget.querySelector('svg');
+                        if (icon) icon.style.color = 'white';
                       }}
                       onMouseLeave={(e) => {
+                        e.currentTarget.style.backgroundColor = 'white';
                         e.currentTarget.style.borderColor = 'var(--border-color)';
                         e.currentTarget.style.color = 'var(--text-dark)';
                         e.currentTarget.style.boxShadow = 'none';
+                        const icon = e.currentTarget.querySelector('svg');
+                        if (icon) icon.style.color = 'var(--text-muted)';
                       }}
                     >
                       <span>{product.name}</span>
-                      <ArrowRight size={16} style={{ color: 'var(--text-muted)' }} />
+                      <ArrowRight size={16} style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease' }} />
                     </Link>
                   ))}
                 </div>
