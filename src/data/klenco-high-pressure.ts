@@ -4,9 +4,9 @@ export const highPressureCleaners: Product[] = [
   {
     id: "monsoon-336",
     name: "MONSOON 336",
-    subtitle: "Cold Water Electric High Pressure Cleaner",
+    subtitle: "MONSOON 336 - Cold Water Electric High Pressure Cleaner",
     description: "The Klenco Monsoon 336 is a powerful, compact, and versatile cold water electric high pressure cleaner designed for professional cleaning across commercial, industrial, and institutional environments. Engineered for maximum flexibility, it can be configured as a portable hand-held unit, trolley-mounted system, or wall-mounted installation, making it suitable for both indoor and outdoor cleaning applications. Equipped with a professional induction motor, industrial brass pump with ceramic pistons, and an adjustable pressure system, the Monsoon 336 delivers reliable, high-performance cleaning while maintaining low operating noise and long service life.",
-    image: "/content_images/image_40.jpeg", // Using next logical image number, to be verified
+    image: "/content_images/klenco-monsoon-336.jpg",
     features: [
       "Maximum pressure of 160 bar for effective removal of stubborn dirt, grease, mud, and grime",
       "Water flow rate of 540 L/hr for fast and efficient cleaning",
@@ -32,9 +32,9 @@ export const highPressureCleaners: Product[] = [
   {
     id: "monsoon-444",
     name: "MONSOON 444",
-    subtitle: "Cold Water Electric High Pressure Cleaner",
+    subtitle: "MONSOON 444 - Cold Water Electric High Pressure Cleaner",
     description: "The Klenco Monsoon 444 is a medium-duty cold water electric high pressure cleaner engineered for professional cleaning applications where reliability, durability, and consistent performance are essential. Powered by a slow-running 4-pole induction motor (1450 rpm) and a heavy-duty brass pump with ceramic-coated pistons, it delivers powerful cleaning performance while ensuring extended service life and reduced wear. Designed with a reinforced steel chassis, large transport wheels, and an automatic Total Stop System, the Monsoon 444 is ideal for demanding commercial, industrial, automotive, and facility maintenance applications.",
-    image: "/content_images/image_41.jpeg",
+    image: "/content_images/klenco-monsoon-444.jpg",
     features: [
       "Maximum pressure of 150 bar for effective removal of stubborn dirt, grease, oil, and grime",
       "Water flow up to 660 L/hr for fast and efficient cleaning",
@@ -61,9 +61,9 @@ export const highPressureCleaners: Product[] = [
   {
     id: "monsoon-525",
     name: "MONSOON 525",
-    subtitle: "Cold Water Electric High Pressure Cleaner",
+    subtitle: "MONSOON 525 - Professional Cold Water Electric High Pressure Cleaner",
     description: "The Klenco Monsoon 525 is a professional cold water electric high pressure cleaner designed for medium-duty commercial and industrial cleaning applications. Powered by a 4-pole, 1450 rpm slow-running motor and a heavy-duty crankshaft pump with a brass pump head and ceramic-coated pistons, it delivers powerful cleaning performance while ensuring exceptional durability and long service life. Equipped with an automatic Total Stop System, integrated detergent tank, and heavy-duty steel chassis, the Monsoon 525 provides reliable, efficient, and economical cleaning for a wide range of professional applications.",
-    image: "/content_images/image_42.jpeg",
+    image: "/content_images/klenco-monsoon-525.jpg",
     features: [
       "Maximum pressure of 150 bar with a working pressure of 120 bar",
       "Maximum water flow of 660 L/hr for fast and efficient cleaning",
