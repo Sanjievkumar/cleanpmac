@@ -94,10 +94,17 @@ export default function TruvoxBrand() {
           <h1 style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '1.5rem', letterSpacing: '-0.02em' }}>
             Truvox International
           </h1>
-          <p className="text-lead" style={{ color: 'rgba(255,255,255,0.9)', maxWidth: '800px', margin: '0 auto', fontSize: '1.25rem', lineHeight: 1.8 }}>
-            Since 1960 – Global name in commercial and industrial floorcare equipment.
-            {/* Note for User: You can provide expanded hero content here */}
-          </p>
+          <div style={{ color: 'rgba(255,255,255,0.95)', maxWidth: '900px', margin: '0 auto', fontSize: '1.15rem', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+            <p>
+              Truvox International is a leading global manufacturer and supplier of commercial and industrial floorcare machines, based in Southampton, England. With a history dating back to 1960, Truvox has earned a strong reputation for producing innovative and reliable cleaning solutions, becoming the first choice in floorcare equipment in over 70 countries worldwide.
+            </p>
+            <p>
+              We offer a wide range of well-established brands and machines, including Orbis single disc machines, Hydromist carpet cleaners, Valet vacuums, Multiwash scrubbers, and Cimex Three Brush Technology. Our products are designed to tackle various cleaning challenges and meet the highest standards of quality, efficiency, and durability.
+            </p>
+            <p>
+              Providing efficient and effective solutions to meet cleaning needs in a range of sectors, including facilities management, healthcare, education, retail, and leisure.
+            </p>
+          </div>
         </div>
       </section>
 
