@@ -114,13 +114,17 @@ export default function TruvoxBrand() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="columns-1 md:columns-2 lg:columns-4 gap-6 space-y-6">
             {truvoxData.map((category) => (
-              <div key={category.category} style={{ 
+              <div key={category.category} className="break-inside-avoid" style={{ 
                 background: 'white', 
                 borderRadius: '1rem', 
-                padding: '2rem 1.5rem',
-                boxShadow: '0 10px 30px rgba(0,0,0,0.03)'
+                padding: '1.5rem',
+                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                border: '1px solid var(--border-color)',
+                marginBottom: '1.5rem',
+                display: 'inline-block',
+                width: '100%'
               }}>
                 <h3 style={{ 
                   fontSize: '1rem', 
@@ -134,7 +138,7 @@ export default function TruvoxBrand() {
                   {category.category}
                 </h3>
                 
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                   {category.products.map((product) => (
                     <Link 
                       key={product.id} 
@@ -143,11 +147,11 @@ export default function TruvoxBrand() {
                         display: 'flex', 
                         justifyContent: 'space-between',
                         alignItems: 'center',
-                        padding: '0.85rem 1rem',
+                        padding: '0.6rem 0.8rem',
                         border: '1px solid var(--border-color)',
-                        borderRadius: '0.5rem',
+                        borderRadius: '0.4rem',
                         color: 'var(--text-dark)',
-                        fontSize: '0.85rem',
+                        fontSize: '0.8rem',
                         fontWeight: 500,
                         transition: 'all 0.2s ease',
                         backgroundColor: 'white'
