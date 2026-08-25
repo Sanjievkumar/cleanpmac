@@ -169,53 +169,41 @@ export default function About() {
 
       {/* ═══════════ APPROACH ═══════════ */}
       <section className="section" style={{ background: 'var(--bg-gray)' }}>
-        <div className="container max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 gap-16 items-start">
+        <div className="container max-w-5xl mx-auto">
+          <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <p style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.15em', color: 'var(--accent)', textTransform: 'uppercase', marginBottom: '1rem' }}>HOW WE WORK</p>
+            <h2 style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)', marginBottom: '0.75rem', lineHeight: 1.1 }}>Our Approach</h2>
+            <div style={{ width: '50px', height: '4px', background: 'var(--accent)', margin: '0 auto 3rem auto', borderRadius: '2px' }} />
+          </div>
 
-            <div className="hover-scale" style={{ borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.1)', minHeight: '520px', position: 'sticky', top: '8rem', cursor: 'pointer' }}>
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'url("/content_images/promac_process_diagram.jpg") center/contain no-repeat', backgroundColor: 'white' }}></div>
-            </div>
+          <div className="timeline-container">
+            <div className="timeline-line"></div>
             
-            {/* Steps */}
-            <div>
-              <p style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.15em', color: 'var(--accent)', textTransform: 'uppercase', marginBottom: '1rem' }}>HOW WE WORK</p>
-              <h2 style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)', marginBottom: '0.75rem', lineHeight: 1.1 }}>Our Approach</h2>
-              <div style={{ width: '50px', height: '4px', background: 'var(--accent)', marginBottom: '3rem', borderRadius: '2px' }} />
+            {[
+              { num: '01', title: 'Understand', text: 'We assess your facility, cleaning challenges, and operational requirements before recommending anything.', accent: false },
+              { num: '02', title: 'Recommend', text: 'We identify the most effective cleaning solution based on your application and operational goals.', accent: false },
+              { num: '03', title: 'Implement', text: 'We install, commission, and train your team for optimal performance from day one.', accent: false },
+              { num: '04', title: 'Support', text: 'Comprehensive after-sales support, preventive maintenance, AMC, genuine spare parts, and expert assistance throughout the lifecycle.', accent: true },
+            ].map((step) => (
+              <div key={step.num} className="timeline-row">
+                {/* Timeline badge in the exact middle */}
+                <div className="timeline-badge" style={{
+                  background: step.accent ? 'var(--accent)' : 'var(--primary)',
+                  boxShadow: step.accent ? '0 8px 20px rgba(227,30,36,0.35)' : '0 8px 20px rgba(0,31,63,0.2)',
+                }}>
+                  {step.num}
+                </div>
 
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
-                {[
-                  { num: '01', title: 'Understand', text: 'We assess your facility, cleaning challenges, and operational requirements before recommending anything.', accent: false },
-                  { num: '02', title: 'Recommend', text: 'We identify the most effective cleaning solution based on your application and operational goals.', accent: false },
-                  { num: '03', title: 'Implement', text: 'We install, commission, and train your team for optimal performance from day one.', accent: false },
-                  { num: '04', title: 'Support', text: 'Comprehensive after-sales support, preventive maintenance, AMC, genuine spare parts, and expert assistance throughout the lifecycle.', accent: true },
-                ].map((step, i, arr) => (
-                  <div key={step.num} style={{ display: 'flex', gap: '1.75rem', paddingBottom: i < arr.length - 1 ? '2rem' : 0, position: 'relative' }}>
-                    {i < arr.length - 1 && (
-                      <div style={{ position: 'absolute', left: '23px', top: '50px', bottom: 0, width: '2px', background: 'linear-gradient(180deg, var(--border-color), transparent)' }} />
-                    )}
-                    <div style={{
-                      width: '48px', height: '48px', borderRadius: '50%',
-                      background: step.accent ? 'var(--accent)' : 'var(--primary)',
-                      display: 'flex', alignItems: 'center', justifyContent: 'center',
-                      fontWeight: 900, fontSize: '0.85rem', color: 'white', flexShrink: 0,
-                      position: 'relative', zIndex: 1,
-                      boxShadow: step.accent ? '0 8px 20px rgba(227,30,36,0.35)' : '0 8px 20px rgba(0,31,63,0.2)',
-                    }}>
-                      {step.num}
-                    </div>
-                    <div style={{
-                      background: 'white', borderRadius: '1rem', padding: '1.75rem 2rem', flex: 1,
-                      border: '1px solid var(--border-color)',
-                      borderLeft: `4px solid ${step.accent ? 'var(--accent)' : 'var(--primary)'}`,
-                      boxShadow: '0 4px 16px rgba(0,0,0,0.04)',
-                    }}>
-                      <h3 style={{ fontSize: '1.1rem', fontWeight: 800, color: step.accent ? 'var(--accent)' : 'var(--primary)', marginBottom: '0.5rem' }}>{step.title}</h3>
-                      <p style={{ color: 'var(--text-muted)', lineHeight: '1.7', fontSize: '0.93rem' }}>{step.text}</p>
-                    </div>
-                  </div>
-                ))}
+                {/* Timeline Card */}
+                <div className={`timeline-card ${step.accent ? 'accent-red' : 'accent-blue'}`}>
+                  <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: step.accent ? 'var(--accent)' : 'var(--primary)', marginBottom: '0.5rem' }}>{step.title}</h3>
+                  <p style={{ color: 'var(--text-muted)', lineHeight: '1.7', fontSize: '0.95rem' }}>{step.text}</p>
+                </div>
+
+                {/* Timeline Spacer for the other half */}
+                <div className="timeline-spacer"></div>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
