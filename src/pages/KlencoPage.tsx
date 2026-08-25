@@ -4,12 +4,13 @@ import type { Product } from '../data/klenco-floor-cleaning';
 import { vacuumData } from '../data/klenco-vacuum-cleaners';
 import { highPressureData } from '../data/klenco-high-pressure';
 import { chemicalsData } from '../data/klenco-chemicals';
+import StudioBanner from '../components/StudioBanner';
 
 // ─── MASTER CATALOG ─────────────────────────────────────────────────────────
 
 export const klencoCatalog = {
   'floor-cleaning': {
-      banner: '/content_images/klenco_floor_banner.jpg',
+      bannerImages: ['/content_images/klenco-curve.png', '/content_images/klenco-rock-8.png', '/content_images/klenco-cycline-s401.png', '/content_images/klenco-tempest-ms900.png', '/content_images/klenco-cyclone-kw17.png'],
     label: 'Floor Cleaning',
     hasSubCategories: true,
     subCategories: [
@@ -48,21 +49,21 @@ export const klencoCatalog = {
     ],
   },
   'vacuum-cleaners': {
-      banner: '/content_images/klenco_vacuum_banner.jpg',
+      bannerImages: ['/content_images/klenco-typhoon-nova-q.png', '/content_images/klenco-typhoon-r327.png', '/content_images/klenco-typhoon-432.png', '/content_images/klenco-typhoon-463.jpg'],
     label: 'Vacuum Cleaners',
     hasSubCategories: false,
     subCategories: [],
     allProducts: vacuumData.vacuums as Product[],
   },
   'high-pressure-cleaners': {
-      banner: '/content_images/klenco_pressure_banner.jpg',
+      bannerImages: ['/content_images/klenco-monsoon-336.jpg', '/content_images/klenco-monsoon-444.jpg', '/content_images/klenco-monsoon-525.jpg'],
     label: 'High Pressure Cleaners',
     hasSubCategories: false,
     subCategories: [],
     allProducts: highPressureData.highPressure as Product[],
   },
   'chemicals': {
-      banner: '/content_images/klenco_chemicals_banner.jpg',
+      bannerImages: ['/content_images/klenco-action-170-s.jpg', '/content_images/klenco-power-lime.jpg', '/content_images/klenco-campaign.jpg', '/content_images/klenco-power-spotter.jpg', '/content_images/klenco-easy-clean.jpg'],
     label: 'Professional Cleaning Chemicals',
     hasSubCategories: false,
     subCategories: [],
@@ -81,11 +82,9 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
 
   return (
     <div className="fade-in">
-              {/* Hero */}
+                      {/* Hero */}
         <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
-          <div style={{ width: '100%', height: '450px', position: 'relative', overflow: 'hidden', backgroundColor: '#f8f9fa' }}>
-            <img src={cat.banner} alt={cat.label} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
-          </div>
+          <StudioBanner images={cat.bannerImages} height="450px" />
           <div className="container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '4rem 1rem' }}>
             <button
               onClick={() => navigate('/brands/klenco')}
@@ -292,5 +291,7 @@ export default function KlencoPage() {
   }
   return null;
 }
+
+
 
 
