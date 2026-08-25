@@ -4,13 +4,12 @@ import type { Product } from '../data/klenco-floor-cleaning';
 import { vacuumData } from '../data/klenco-vacuum-cleaners';
 import { highPressureData } from '../data/klenco-high-pressure';
 import { chemicalsData } from '../data/klenco-chemicals';
-import StudioBanner from '../components/StudioBanner';
 
 // ─── MASTER CATALOG ─────────────────────────────────────────────────────────
 
 export const klencoCatalog = {
   'floor-cleaning': {
-      bannerImages: ['/content_images/klenco-cycline-s401.png', '/content_images/klenco-tempest-ms900.png', '/content_images/klenco-cyclone-kw17.png'],
+    bannerImage: '/content_images/klenco_floor_banner_edited.jpg',
     label: 'Floor Cleaning',
     hasSubCategories: true,
     subCategories: [
@@ -49,14 +48,14 @@ export const klencoCatalog = {
     ],
   },
   'vacuum-cleaners': {
-      bannerImages: ['/content_images/klenco-typhoon-nova-q.png', '/content_images/klenco-typhoon-r327.png', '/content_images/klenco-typhoon-432.png', '/content_images/klenco-typhoon-463.jpg'],
+    bannerImage: '/content_images/klenco_vacuum_banner_edited.jpg',
     label: 'Vacuum Cleaners',
     hasSubCategories: false,
     subCategories: [],
     allProducts: vacuumData.vacuums as Product[],
   },
   'high-pressure-cleaners': {
-      bannerImages: ['/content_images/klenco-monsoon-336.jpg'],
+    bannerImage: '/content_images/klenco_pressure_banner_edited.jpg',
     label: 'High Pressure Cleaners',
     hasSubCategories: false,
     subCategories: [],
@@ -82,9 +81,11 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
   return (
     <div className="fade-in">
       {/* Hero */}
-      {'bannerImages' in cat && cat.bannerImages ? (
+      {'bannerImage' in cat && cat.bannerImage ? (
         <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
-          <StudioBanner images={cat.bannerImages} height="450px" />
+          <div style={{ width: '100%', height: '450px', backgroundColor: '#f8f9fa', position: 'relative', overflow: 'hidden' }}>
+            <img src={cat.bannerImage} alt={cat.label} style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          </div>
           <div className="container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '4rem 1rem' }}>
             <button
               onClick={() => navigate('/brands/klenco')}

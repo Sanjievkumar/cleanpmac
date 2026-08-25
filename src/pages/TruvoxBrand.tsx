@@ -2,18 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 // import { truvoxCategories } from '../data/truvox-products'; // Will be used when real data is available
 
-import StudioBanner from '../components/StudioBanner';
-
 export default function TruvoxBrand() {
-  // Complete Truvox Product Categories Data
-  const truvoxBannerImages = [
-    '/content_images/multiwash-pro-340.png',
-    '/content_images/orbis-200-43.png',
-    '/content_images/hydromist-10.png',
-    '/content_images/valet-aqua-20.png',
-    '/content_images/trusweep-460.png'
-  ];
-
   const truvoxData = [
     {
       category: 'SCRUBBER DRYERS',
@@ -108,7 +97,9 @@ export default function TruvoxBrand() {
       {/* ?????????? TRUVOX HERO ?????????? */}
       <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
         {/* Banner Image Area */}
-        <StudioBanner images={truvoxBannerImages} height="550px" />
+        <div style={{ width: '100%', height: '550px', backgroundColor: '#f8f9fa', position: 'relative', overflow: 'hidden' }}>
+          <img src="/content_images/truvox_banner_edited.jpg" alt="Truvox Brand Banner" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+        </div>
         
         {/* Text Area Below Banner */}
         <div className="container slide-up" style={{ padding: '5rem 1rem', textAlign: 'center' }}>
