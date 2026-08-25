@@ -24,23 +24,76 @@ export default function StudioBanner({ images, height = "450px" }: StudioBannerP
       {images.map((img, i) => {
         // Vary the height and zIndex slightly to give depth
         const isCenter = i === Math.floor(images.length / 2);
-        const itemHeight = isCenter ? "85%" : (i % 2 === 0 ? "65%" : "75%");
+        const itemHeight = isCenter ? "75%" : (i % 2 === 0 ? "55%" : "65%");
         const zIndex = isCenter ? 3 : (i % 2 === 0 ? 1 : 2);
         
         return (
-          <div key={i} style={{ position: "relative", height: itemHeight, display: "flex", alignItems: "flex-end", zIndex }}>
-            <img 
-              src={img} 
-              alt="Product" 
-              style={{ 
-                maxHeight: "100%", 
-                maxWidth: "240px", 
-                objectFit: "contain", 
-                mixBlendMode: "multiply"
-              }} 
-            />
-            {/* Floor Shadow */}
-            <div style={{ position: "absolute", bottom: "-10px", left: "10%", width: "80%", height: "15px", background: "radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%, transparent 70%)", borderRadius: "50%", zIndex: -1 }}></div>
+          <div key={i} style={{ 
+            position: "relative", 
+            height: "100%", 
+            width: "240px", 
+            display: "flex", 
+            flexDirection: "column",
+            justifyContent: "flex-end", 
+            alignItems: "center", 
+            zIndex 
+          }}>
+            {/* Product Image */}
+            <div style={{ 
+              height: itemHeight, 
+              display: "flex", 
+              alignItems: "flex-end", 
+              justifyContent: "center",
+              marginBottom: "12px",
+              position: "relative",
+              zIndex: 2
+            }}>
+              <img 
+                src={img} 
+                alt="Product" 
+                style={{ 
+                  maxHeight: "100%", 
+                  maxWidth: "100%", 
+                  objectFit: "contain", 
+                  mixBlendMode: "multiply",
+                  transform: "translateY(6px)"
+                }} 
+              />
+            </div>
+
+            {/* Showroom Podium */}
+            <div style={{
+              width: "160px",
+              height: "14px",
+              background: "linear-gradient(to bottom, #f1f5f9, #cbd5e1)",
+              borderRadius: "50%",
+              border: "1px solid #94a3b8",
+              position: "relative",
+              zIndex: 1,
+              boxShadow: "inset 0 1px 3px rgba(255,255,255,0.8), 0 4px 6px rgba(0,0,0,0.05)"
+            }}>
+              {/* Inner top highlight */}
+              <div style={{
+                position: "absolute",
+                top: "1px",
+                left: "1px",
+                right: "1px",
+                bottom: "1px",
+                background: "radial-gradient(circle at center, #ffffff 0%, #f1f5f9 100%)",
+                borderRadius: "50%"
+              }} />
+            </div>
+
+            {/* Under-podium soft floor shadow */}
+            <div style={{ 
+              position: "absolute", 
+              bottom: "-4px", 
+              width: "180px", 
+              height: "12px", 
+              background: "radial-gradient(ellipse at center, rgba(0,0,0,0.12) 0%, transparent 70%)", 
+              borderRadius: "50%", 
+              zIndex: 0 
+            }} />
           </div>
         );
       })}

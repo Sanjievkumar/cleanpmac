@@ -3,6 +3,7 @@ import { Globe, Wrench, Users, CheckCircle, Lightbulb, Target } from 'lucide-rea
 
 export default function About() {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  const [activeStep, setActiveStep] = useState<string | null>(null);
 
   return (
     <div className="fade-in">
@@ -180,30 +181,40 @@ export default function About() {
             <div className="timeline-line"></div>
             
             {[
-              { num: '01', title: 'Understand', text: 'We assess your facility, cleaning challenges, and operational requirements before recommending anything.', accent: false },
-              { num: '02', title: 'Recommend', text: 'We identify the most effective cleaning solution based on your application and operational goals.', accent: false },
-              { num: '03', title: 'Implement', text: 'We install, commission, and train your team for optimal performance from day one.', accent: false },
-              { num: '04', title: 'Support', text: 'Comprehensive after-sales support, preventive maintenance, AMC, genuine spare parts, and expert assistance throughout the lifecycle.', accent: true },
-            ].map((step) => (
-              <div key={step.num} className="timeline-row">
-                {/* Timeline badge in the exact middle */}
-                <div className="timeline-badge" style={{
-                  background: step.accent ? 'var(--accent)' : 'var(--primary)',
-                  boxShadow: step.accent ? '0 8px 20px rgba(227,30,36,0.35)' : '0 8px 20px rgba(0,31,63,0.2)',
-                }}>
-                  {step.num}
-                </div>
+              { num: '01', title: 'Understand', text: 'We assess your facility, cleaning challenges, and operational requirements before recommending anything.' },
+              { num: '02', title: 'Recommend', text: 'We identify the most effective cleaning solution based on your application and operational goals.' },
+              { num: '03', title: 'Implement', text: 'We install, commission, and train your team for optimal performance from day one.' },
+              { num: '04', title: 'Support', text: 'Comprehensive after-sales support, preventive maintenance, AMC, genuine spare parts, and expert assistance throughout the lifecycle.' },
+            ].map((step) => {
+              const isHovered = activeStep === step.num;
+              return (
+                <div 
+                  key={step.num} 
+                  className="timeline-row"
+                  onMouseEnter={() => setActiveStep(step.num)}
+                  onMouseLeave={() => setActiveStep(null)}
+                >
+                  {/* Timeline badge in the exact middle */}
+                  <div className="timeline-badge" style={{
+                    background: isHovered ? 'var(--accent)' : 'var(--primary)',
+                    boxShadow: isHovered ? '0 8px 20px rgba(227,30,36,0.35)' : '0 8px 20px rgba(0,31,63,0.2)',
+                    transition: 'all 0.3s ease',
+                    transform: `translateX(-50%) ${isHovered ? 'scale(1.15)' : 'scale(1)'}`
+                  }}>
+                    {step.num}
+                  </div>
 
-                {/* Timeline Card */}
-                <div className={`timeline-card ${step.accent ? 'accent-red' : 'accent-blue'}`}>
-                  <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: step.accent ? 'var(--accent)' : 'var(--primary)', marginBottom: '0.5rem' }}>{step.title}</h3>
-                  <p style={{ color: 'var(--text-muted)', lineHeight: '1.7', fontSize: '0.95rem' }}>{step.text}</p>
-                </div>
+                  {/* Timeline Card */}
+                  <div className={`timeline-card ${isHovered ? 'accent-red' : 'accent-blue'}`}>
+                    <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: isHovered ? 'var(--accent)' : 'var(--primary)', marginBottom: '0.5rem', transition: 'color 0.3s ease' }}>{step.title}</h3>
+                    <p style={{ color: 'var(--text-muted)', lineHeight: '1.7', fontSize: '0.95rem' }}>{step.text}</p>
+                  </div>
 
-                {/* Timeline Spacer for the other half */}
-                <div className="timeline-spacer"></div>
-              </div>
-            ))}
+                  {/* Timeline Spacer for the other half */}
+                  <div className="timeline-spacer"></div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
