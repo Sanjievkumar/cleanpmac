@@ -8,17 +8,18 @@ export default function StudioBanner({ images, height = "450px" }: StudioBannerP
     <div style={{
       width: "100%",
       height: height,
-      background: "radial-gradient(ellipse at bottom, #ffffff 0%, #eaedf2 100%)",
+      backgroundColor: "#ffffff",
       position: "relative",
       display: "flex",
       justifyContent: "center",
       alignItems: "flex-end",
       paddingBottom: "3rem",
-      gap: "2rem",
-      overflow: "hidden"
+      gap: "3rem",
+      overflow: "hidden",
+      borderBottom: "1px solid var(--border-color)"
     }}>
-      {/* Background Studio Lights */}
-      <div style={{ position: "absolute", top: "-10%", left: "50%", transform: "translateX(-50%)", width: "80%", height: "50%", background: "radial-gradient(ellipse at top, rgba(255,255,255,0.8) 0%, transparent 70%)", zIndex: 0 }}></div>
+      {/* Background soft studio light */}
+      <div style={{ position: "absolute", top: "0", left: "50%", transform: "translateX(-50%)", width: "100%", height: "100%", background: "radial-gradient(circle at center, rgba(245,247,250,0.8) 0%, #ffffff 80%)", zIndex: 0 }}></div>
 
       {images.map((img, i) => {
         // Vary the height and zIndex slightly to give depth
@@ -28,15 +29,21 @@ export default function StudioBanner({ images, height = "450px" }: StudioBannerP
         
         return (
           <div key={i} style={{ position: "relative", height: itemHeight, display: "flex", alignItems: "flex-end", zIndex }}>
-            <img src={img} alt="Product" style={{ maxHeight: "100%", maxWidth: "220px", objectFit: "contain", filter: "drop-shadow(0 20px 20px rgba(0,0,0,0.15))" }} />
+            <img 
+              src={img} 
+              alt="Product" 
+              style={{ 
+                maxHeight: "100%", 
+                maxWidth: "240px", 
+                objectFit: "contain", 
+                mixBlendMode: "multiply"
+              }} 
+            />
             {/* Floor Shadow */}
-            <div style={{ position: "absolute", bottom: "-15px", left: "10%", width: "80%", height: "20px", background: "radial-gradient(ellipse at center, rgba(0,0,0,0.15) 0%, transparent 70%)", borderRadius: "50%", zIndex: -1 }}></div>
+            <div style={{ position: "absolute", bottom: "-10px", left: "10%", width: "80%", height: "15px", background: "radial-gradient(ellipse at center, rgba(0,0,0,0.1) 0%, transparent 70%)", borderRadius: "50%", zIndex: -1 }}></div>
           </div>
         );
       })}
-      
-      {/* Glossy Floor Reflection Gradient */}
-      <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "4rem", background: "linear-gradient(to top, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.4) 40%, transparent 100%)", zIndex: 10, pointerEvents: "none" }}></div>
     </div>
   );
 }

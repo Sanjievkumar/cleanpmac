@@ -10,7 +10,7 @@ import StudioBanner from '../components/StudioBanner';
 
 export const klencoCatalog = {
   'floor-cleaning': {
-      bannerImages: ['/content_images/klenco-curve.png', '/content_images/klenco-rock-8.png', '/content_images/klenco-cycline-s401.png', '/content_images/klenco-tempest-ms900.png', '/content_images/klenco-cyclone-kw17.png'],
+      bannerImages: ['/content_images/klenco-cycline-s401.png', '/content_images/klenco-tempest-ms900.png', '/content_images/klenco-cyclone-kw17.png'],
     label: 'Floor Cleaning',
     hasSubCategories: true,
     subCategories: [
@@ -56,14 +56,13 @@ export const klencoCatalog = {
     allProducts: vacuumData.vacuums as Product[],
   },
   'high-pressure-cleaners': {
-      bannerImages: ['/content_images/klenco-monsoon-336.jpg', '/content_images/klenco-monsoon-444.jpg', '/content_images/klenco-monsoon-525.jpg'],
+      bannerImages: ['/content_images/klenco-monsoon-336.jpg'],
     label: 'High Pressure Cleaners',
     hasSubCategories: false,
     subCategories: [],
     allProducts: highPressureData.highPressure as Product[],
   },
   'chemicals': {
-      bannerImages: ['/content_images/klenco-action-170-s.jpg', '/content_images/klenco-power-lime.jpg', '/content_images/klenco-campaign.jpg', '/content_images/klenco-power-spotter.jpg', '/content_images/klenco-easy-clean.jpg'],
     label: 'Professional Cleaning Chemicals',
     hasSubCategories: false,
     subCategories: [],
@@ -82,7 +81,8 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
 
   return (
     <div className="fade-in">
-                      {/* Hero */}
+      {/* Hero */}
+      {'bannerImages' in cat && cat.bannerImages ? (
         <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
           <StudioBanner images={cat.bannerImages} height="450px" />
           <div className="container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '4rem 1rem' }}>
@@ -96,6 +96,20 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
             <h1 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, letterSpacing: '-0.02em', color: 'var(--primary)' }}>{cat.label}</h1>
           </div>
         </section>
+      ) : (
+        <section style={{ background: 'linear-gradient(135deg, var(--primary) 0%, #1a3050 100%)', padding: '5rem 0', color: 'white' }}>
+          <div className="container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '0 1rem' }}>
+            <button
+              onClick={() => navigate('/brands/klenco')}
+              style={{ color: 'rgba(255,255,255,0.7)', fontWeight: 600, fontSize: '0.9rem', background: 'none', border: 'none', cursor: 'pointer', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
+            >
+              &larr; Back to Klenco
+            </button>
+            <div style={{ color: 'var(--accent)', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.75rem' }}>Klenco Product Range</div>
+            <h1 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, letterSpacing: '-0.02em', color: 'white' }}>{cat.label}</h1>
+          </div>
+        </section>
+      )}
 
       <section style={{ backgroundColor: '#f5f7f9', padding: '5rem 0' }}>
         <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
@@ -291,6 +305,7 @@ export default function KlencoPage() {
   }
   return null;
 }
+
 
 
 
