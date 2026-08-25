@@ -91,12 +91,7 @@ export default function TruvoxProduct() {
               </p>
             </div>
 
-            {/* CTA */}
-            <div style={{ marginTop: 'auto' }}>
-              <Link to="/contact" className="btn-3d" style={{ padding: '1.25rem 2.5rem', fontSize: '1.1rem', width: '100%', textAlign: 'center', display: 'block' }}>
-                REQUEST A QUOTE
-              </Link>
-            </div>
+
           </div>
         </div>
 
@@ -235,7 +230,17 @@ export default function TruvoxProduct() {
             </div>
         )}
 
+
+        {/* Full Width CTA */}
+        <div style={{ marginTop: '4rem', textAlign: 'center', background: 'white', padding: '4rem 2rem', borderRadius: '1rem', border: '1px solid var(--border-color)', boxShadow: '0 10px 30px rgba(0,0,0,0.02)' }}>
+          <h3 style={{ fontSize: '2rem', fontWeight: 900, color: 'var(--primary)', marginBottom: '1.5rem' }}>Ready to Upgrade Your Floorcare?</h3>
+          <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '2.5rem', maxWidth: '600px', margin: '0 auto 2.5rem auto' }}>Get in touch with our experts to request a quote, arrange a demonstration, or learn more about this product.</p>
+          <Link to="/contact" className="btn-3d" style={{ padding: '1.25rem 3.5rem', fontSize: '1.1rem', display: 'inline-block' }}>
+            REQUEST A QUOTE
+          </Link>
+        </div>
       </div>
     </div>
   );
 }
+

@@ -94,28 +94,31 @@ export default function TruvoxBrand() {
 
   return (
     <div className="fade-in">
-      {/* ═══════════ TRUVOX HERO ═══════════ */}
-      <section className="section" style={{
-        background: 'linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%)',
-        color: 'white',
-        padding: '8rem 0'
-      }}>
-        <div className="container text-center slide-up">
-          <div className="flex justify-center bg-white rounded-lg p-6 mb-8 mx-auto shadow-lg" style={{ maxWidth: '300px' }}>
-             <img src="/content_images/truvox-logo.png" alt="Truvox International" style={{ width: '100%', objectFit: 'contain' }} />
+      
+      {/* ?????????? TRUVOX HERO ?????????? */}
+      <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
+        {/* Banner Image Area */}
+        <div style={{ width: '100%', height: '550px', backgroundColor: '#f8f9fa', position: 'relative', overflow: 'hidden' }}>
+          <img src="/content_images/truvox_banner.jpg" alt="Truvox Machines Banner" style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+        </div>
+        
+        {/* Text Area Below Banner */}
+        <div className="container slide-up" style={{ padding: '5rem 1rem', textAlign: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+            <div className="bg-white rounded-lg p-6 shadow-sm border" style={{ maxWidth: '300px', width: '100%' }}>
+               <img src="/content_images/truvox-logo.png" alt="Truvox International" style={{ width: '100%', objectFit: 'contain' }} />
+            </div>
           </div>
-          <h1 style={{ fontSize: '3rem', fontWeight: 800, marginBottom: '1.5rem', letterSpacing: '-0.02em', color: 'white' }}>
-            Truvox International
-          </h1>
-          <div style={{ color: 'rgba(255,255,255,0.95)', maxWidth: '900px', margin: '0 auto', fontSize: '1.15rem', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+          
+          <div style={{ maxWidth: '900px', margin: '0 auto', fontSize: '1.15rem', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1.5rem', color: 'var(--text-muted)' }}>
+            <p style={{ color: 'var(--primary)', fontSize: '1.5rem', fontWeight: 600, lineHeight: 1.4 }}>
+              Truvox International is a leading global manufacturer and supplier of commercial and industrial floorcare machines.
+            </p>
             <p>
-              Truvox International is a leading global manufacturer and supplier of commercial and industrial floorcare machines, based in Southampton, England. With a history dating back to 1960, Truvox has earned a strong reputation for producing innovative and reliable cleaning solutions, becoming the first choice in floorcare equipment in over 70 countries worldwide.
+              Based in Southampton, England, with a history dating back to 1960, Truvox has earned a strong reputation for producing innovative and reliable cleaning solutions, becoming the first choice in floorcare equipment in over 70 countries worldwide.
             </p>
             <p>
               We offer a wide range of well-established brands and machines, including Orbis single disc machines, Hydromist carpet cleaners, Valet vacuums, Multiwash scrubbers, and Cimex Three Brush Technology. Our products are designed to tackle various cleaning challenges and meet the highest standards of quality, efficiency, and durability.
-            </p>
-            <p>
-              Providing efficient and effective solutions to meet cleaning needs in a range of sectors, including facilities management, healthcare, education, retail, and leisure.
             </p>
           </div>
         </div>
@@ -209,3 +212,5 @@ export default function TruvoxBrand() {
     </div>
   );
 }
+
+
