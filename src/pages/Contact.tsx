@@ -42,7 +42,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Head Office</h4>
-                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>Promac Technologies Pvt. Ltd.<br />123 Industrial Area, Phase 1, India</p>
+                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>Promac Technologies Pvt. Ltd.<br />Sapthagiri Nagar, Puzhuthivakkam<br />(near Redington), Chennai - 600091</p>
                     </div>
                   </div>
 
@@ -52,7 +52,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Phone</h4>
-                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>+91 123 456 7890<br />+91 987 654 3210</p>
+                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>+91 9566340888</p>
                     </div>
                   </div>
 
@@ -62,7 +62,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 style={{ fontSize: '1.1rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Email</h4>
-                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>info@cleanpromac.com<br />sales@cleanpromac.com</p>
+                      <p style={{ color: '#94a3b8', lineHeight: '1.6' }}>senthil@cleanpromac.com</p>
                     </div>
                   </div>
                 </div>

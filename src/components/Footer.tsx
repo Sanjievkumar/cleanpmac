@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container grid grid-cols-4 gap-12 mb-12">
         <div className="footer-col">
           <div style={{ background: 'white', display: 'inline-block', padding: '0.5rem', borderRadius: '0.25rem', marginBottom: '1.25rem' }}>
-            <img src="/content_images/clean-promac-logo.jpg" alt="Clean Promac Technologies" style={{ height: '40px', objectFit: 'contain' }} />
+            <img src="/content_images/clean-promac-logo.png" alt="Clean Promac Technologies" style={{ height: '40px', objectFit: 'contain' }} />
           </div>
           <p className="footer-text">Professional Cleaning Solutions for Every Industry. We provide complete lifecycle support to maximize productivity and equipment performance.</p>
         </div>
@@ -27,9 +27,9 @@ export default function Footer() {
         </div>
         <div className="footer-col">
           <h4 className="footer-heading">Contact Info</h4>
-          <p className="footer-text mb-2"><strong>Email:</strong> info@cleanpromac.com</p>
-          <p className="footer-text mb-2"><strong>Phone:</strong> +91 123 456 7890</p>
-          <p className="footer-text"><strong>Address:</strong> Promac Technologies Pvt. Ltd.<br/>123 Industrial Area, Phase 1</p>
+          <p className="footer-text mb-2"><strong>Email:</strong> senthil@cleanpromac.com</p>
+          <p className="footer-text mb-2"><strong>Phone:</strong> +91 9566340888</p>
+          <p className="footer-text"><strong>Address:</strong> Promac Technologies Pvt. Ltd.<br/>Sapthagiri Nagar, Puzhuthivakkam<br/>(near Redington), Chennai - 600091</p>
         </div>
       </div>
       <div className="container footer-bottom">

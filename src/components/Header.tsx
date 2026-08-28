@@ -17,7 +17,7 @@ export default function Header() {
     <header className={`header ${scrolled ? 'header-scrolled' : ''}`}>
       <div className="container flex justify-between items-center" style={{ height: '110px' }}>
         <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-          <img src="/content_images/clean-promac-logo.jpg" alt="Clean Promac Technologies" style={{ height: '80px', objectFit: 'contain' }} />
+          <img src="/content_images/clean-promac-logo.png" alt="Clean Promac Technologies" style={{ height: '80px', objectFit: 'contain' }} />
         </Link>
 
         {/* Desktop Nav */}
