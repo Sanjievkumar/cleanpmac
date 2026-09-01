@@ -15,10 +15,12 @@ export default function Support() {
           alt="Support & Service"
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: '75% center' }}
         />
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(0,15,30,0.95) 0%, rgba(0,15,30,0.8) 30%, rgba(0,15,30,0.35) 50%, rgba(0,15,30,0.05) 65%, transparent 100%)' }} />
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 30%)' }} />
+        {/* Diagonal gradient overlay */}
+        <div className="support-hero-overlay-desktop" />
+        <div className="support-hero-overlay-mobile" />
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 30%)', zIndex: 1 }} />
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
-        <div style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '5px', background: 'var(--accent)', borderRadius: '0 3px 3px 0', zIndex: 2 }} />
+        <div className="hero-accent-bar" style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '5px', background: 'var(--accent)', borderRadius: '0 3px 3px 0', zIndex: 2 }} />
 
         <div className="container support-hero-container">
           <div style={{ maxWidth: '620px' }}>
@@ -247,6 +249,15 @@ export default function Support() {
           height: 80vh;
           min-height: 550px;
         }
+        .support-hero-overlay-desktop {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(105deg, rgba(0,15,30,0.95) 0%, rgba(0,15,30,0.8) 30%, rgba(0,15,30,0.35) 50%, rgba(0,15,30,0.05) 65%, transparent 100%);
+          z-index: 1;
+        }
+        .support-hero-overlay-mobile {
+          display: none;
+        }
         .support-hero-container {
           position: relative;
           z-index: 3;
@@ -302,8 +313,22 @@ export default function Support() {
             min-height: 440px;
             padding: 5rem 0 3.5rem;
           }
+          .support-hero-overlay-desktop {
+            display: none;
+          }
+          .support-hero-overlay-mobile {
+            display: block;
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,15,30,0.96) 0%, rgba(0,15,30,0.88) 50%, rgba(0,15,30,0.95) 100%);
+            z-index: 1;
+          }
+          .hero-accent-bar {
+            display: none;
+          }
           .support-hero-container {
-            padding-left: 0;
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
           }
           .support-hero-title {
             font-size: clamp(2.5rem, 8vw, 4rem);

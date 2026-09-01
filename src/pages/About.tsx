@@ -17,13 +17,14 @@ export default function About() {
           style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center center' }}
         />
         {/* Diagonal gradient overlay */}
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(0,15,30,0.95) 0%, rgba(0,15,30,0.8) 30%, rgba(0,15,30,0.35) 50%, rgba(0,15,30,0.05) 65%, transparent 100%)' }} />
+        <div className="about-hero-overlay-desktop" />
+        <div className="about-hero-overlay-mobile" />
         {/* subtle vignette at bottom */}
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 30%)' }} />
+        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 30%)', zIndex: 1 }} />
         {/* Red top accent line */}
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
         {/* Vertical red bar */}
-        <div style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '5px', background: 'var(--accent)', borderRadius: '0 3px 3px 0', zIndex: 2 }} />
+        <div className="hero-accent-bar" style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '5px', background: 'var(--accent)', borderRadius: '0 3px 3px 0', zIndex: 2 }} />
 
         {/* Content */}
         <div className="container about-hero-container">
@@ -214,6 +215,15 @@ export default function About() {
           height: 90vh;
           min-height: 600px;
         }
+        .about-hero-overlay-desktop {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(105deg, rgba(0,15,30,0.95) 0%, rgba(0,15,30,0.8) 30%, rgba(0,15,30,0.35) 50%, rgba(0,15,30,0.05) 65%, transparent 100%);
+          z-index: 1;
+        }
+        .about-hero-overlay-mobile {
+          display: none;
+        }
         .about-hero-container {
           position: relative;
           z-index: 3;
@@ -281,8 +291,22 @@ export default function About() {
             min-height: 480px;
             padding: 5rem 0 3.5rem;
           }
+          .about-hero-overlay-desktop {
+            display: none;
+          }
+          .about-hero-overlay-mobile {
+            display: block;
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,15,30,0.96) 0%, rgba(0,15,30,0.88) 50%, rgba(0,15,30,0.95) 100%);
+            z-index: 1;
+          }
+          .hero-accent-bar {
+            display: none;
+          }
           .about-hero-container {
-            padding-left: 0;
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
           }
           .about-hero-title {
             font-size: clamp(2.8rem, 9vw, 4.5rem);

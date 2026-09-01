@@ -14,13 +14,14 @@ export default function Home() {
           className="home-hero-img"
         />
         
-        {/* Premium Gradient Overlay */}
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(0,15,30,0.98) 0%, rgba(0,15,30,0.92) 30%, rgba(0,15,30,0.5) 55%, transparent 100%)', zIndex: 1 }} />
+        {/* Premium Gradient Overlay - Desktop & Mobile versions */}
+        <div className="home-hero-overlay-desktop" />
+        <div className="home-hero-overlay-mobile" />
         <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 20%)', zIndex: 1 }} />
         
         {/* Accent Lines */}
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
-        <div style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '6px', background: 'var(--accent)', borderRadius: '0 4px 4px 0', zIndex: 2 }} />
+        <div className="hero-accent-bar" style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '6px', background: 'var(--accent)', borderRadius: '0 4px 4px 0', zIndex: 2 }} />
 
         {/* Content Container */}
         <div className="container home-hero-container">
@@ -39,7 +40,7 @@ export default function Home() {
             
             <div style={{ width: '100px', height: '5px', backgroundColor: 'var(--accent)', borderRadius: '3px', marginBottom: '1.5rem' }}></div>
 
-            <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.85)', lineHeight: '1.8', marginBottom: '2rem', maxWidth: '500px', fontWeight: 500 }}>
+            <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.85)', lineHeight: '1.8', marginBottom: '2rem', maxWidth: '500px', fontWeight: 500 }}>
               Advanced solutions for a cleaner, safer, and more productive environment — for every industry across India.
             </p>
 
@@ -335,10 +336,19 @@ export default function Home() {
           object-position: center 20%;
           z-index: 0;
         }
+        .home-hero-overlay-desktop {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(105deg, rgba(0,15,30,0.98) 0%, rgba(0,15,30,0.92) 35%, rgba(0,15,30,0.5) 55%, transparent 100%);
+          z-index: 1;
+        }
+        .home-hero-overlay-mobile {
+          display: none;
+        }
         .home-hero-container {
           position: relative;
           z-index: 3;
-          padding-left: 4rem;
+          padding-left: 3rem;
           display: flex;
           justify-content: space-between;
           align-items: flex-end;
@@ -389,8 +399,22 @@ export default function Home() {
             min-height: 560px;
             padding: 5rem 0 3rem;
           }
+          .home-hero-overlay-desktop {
+            display: none;
+          }
+          .home-hero-overlay-mobile {
+            display: block;
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(0,15,30,0.96) 0%, rgba(0,15,30,0.88) 50%, rgba(0,15,30,0.95) 100%);
+            z-index: 1;
+          }
+          .hero-accent-bar {
+            display: none;
+          }
           .home-hero-container {
-            padding-left: 0;
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
