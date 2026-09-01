@@ -27,7 +27,7 @@ export default function TruvoxProduct() {
   if (productData.floorTypes && productData.floorTypes.length > 0) tabs.push('FLOOR TYPES');
   if (Object.keys(productData.specifications).length > 0) tabs.push('SPECIFICATIONS');
   if (productData.accessories && productData.accessories.length > 0) tabs.push('ACCESSORIES');
-  if (productData.downloads && productData.downloads.length > 0) tabs.push('DOWNLOADS');
+  if (productData.downloads && productData.downloads.length > 0 && productData.downloads.some((d: any) => d.links && d.links.length > 0)) tabs.push('DOWNLOADS');
 
   // If initial activeTab isn't in tabs, set it
   if (tabs.length > 0 && !tabs.includes(activeTab)) {
