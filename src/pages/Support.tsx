@@ -9,7 +9,7 @@ export default function Support() {
     <div className="fade-in">
 
       {/* ═══════════ HERO ═══════════ */}
-      <section style={{ position: 'relative', height: '80vh', overflow: 'hidden' }}>
+      <section className="support-hero" style={{ position: 'relative', overflow: 'hidden' }}>
         <img
           src="/content_images/support-hero.jpg"
           alt="Support & Service"
@@ -20,19 +20,19 @@ export default function Support() {
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
         <div style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '5px', background: 'var(--accent)', borderRadius: '0 3px 3px 0', zIndex: 2 }} />
 
-        <div className="container" style={{ position: 'relative', zIndex: 3, height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', paddingLeft: '5rem' }}>
+        <div className="container support-hero-container">
           <div style={{ maxWidth: '620px' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '2rem' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1.5rem' }}>
               <div style={{ width: '28px', height: '2px', background: 'var(--accent)' }} />
               <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.22em', color: 'var(--accent)', textTransform: 'uppercase' }}>AFTER-SALES EXCELLENCE</span>
             </div>
 
-            <h1 style={{ fontSize: 'clamp(3.5rem, 6vw, 5.5rem)', fontWeight: 900, lineHeight: 0.9, letterSpacing: '-0.04em', marginBottom: '2rem' }}>
+            <h1 className="support-hero-title">
               <span style={{ color: 'white', display: 'block' }}>SUPPORT</span>
               <span style={{ WebkitTextStroke: '2px var(--accent)', color: 'transparent', display: 'block' }}>&amp; SERVICE</span>
             </h1>
 
-            <p style={{ fontSize: '1.1rem', color: 'rgba(255,255,255,0.75)', lineHeight: '1.9', maxWidth: '520px' }}>
+            <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.75)', lineHeight: '1.8', maxWidth: '520px' }}>
               Keeping your cleaning operations performing at their best — with expert technical support, preventive maintenance, and genuine spare parts.
             </p>
           </div>
@@ -48,19 +48,19 @@ export default function Support() {
               <span style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.15em', color: 'var(--accent)', textTransform: 'uppercase' }}>OUR COMMITMENT</span>
               <div style={{ width: '30px', height: '3px', background: 'var(--accent)', borderRadius: '2px' }} />
             </div>
-            <h2 style={{ fontSize: '2.5rem', fontWeight: 900, color: 'var(--primary)', lineHeight: 1.1, marginBottom: '2rem' }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 2.5rem)', fontWeight: 900, color: 'var(--primary)', lineHeight: 1.15, marginBottom: '1.5rem' }}>
               Keeping Your Cleaning Operations<br />Performing at Their Best
             </h2>
           </div>
 
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', maxWidth: '800px', margin: '0 auto' }}>
-            <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', lineHeight: '1.9', textAlign: 'center' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem', maxWidth: '800px', margin: '0 auto' }}>
+            <p style={{ fontSize: '1rem', color: 'var(--text-muted)', lineHeight: '1.8', textAlign: 'center' }}>
               At Promac Cleaning Solutions, we believe outstanding service goes beyond maintaining equipment—it's about helping our customers achieve consistent cleaning performance, maximum productivity, and long-term operational efficiency.
             </p>
-            <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', lineHeight: '1.9', textAlign: 'center' }}>
+            <p style={{ fontSize: '1rem', color: 'var(--text-muted)', lineHeight: '1.8', textAlign: 'center' }}>
               Our experienced technical team supports customers throughout the lifecycle of their equipment, delivering expert guidance, proactive maintenance, and responsive technical assistance to ensure every machine continues to perform at its highest standard.
             </p>
-            <p style={{ fontSize: '1.05rem', color: 'var(--primary)', lineHeight: '1.9', textAlign: 'center', fontWeight: 600 }}>
+            <p style={{ fontSize: '1rem', color: 'var(--primary)', lineHeight: '1.8', textAlign: 'center', fontWeight: 600 }}>
               By combining technical expertise with a customer-first approach, we help businesses reduce downtime, extend equipment life, and maintain uninterrupted operations.
             </p>
           </div>
@@ -70,33 +70,33 @@ export default function Support() {
       {/* ═══════════ OUR APPROACH ═══════════ */}
       <section className="section" style={{ background: 'var(--bg-gray)' }}>
         <div className="container max-w-6xl mx-auto">
-          <div style={{ display: 'flex', gap: '5rem', alignItems: 'center' }}>
+          <div className="support-approach-split">
 
             {/* Navy dark text panel */}
-            <div style={{ flex: 1, background: 'var(--bg-dark)', borderRadius: '1.25rem', padding: '4rem', position: 'relative', overflow: 'hidden', boxShadow: '0 24px 48px rgba(0,31,63,0.2)' }}>
+            <div className="support-approach-card">
               <div style={{ position: 'absolute', top: 0, left: 0, width: '5px', height: '100%', background: 'var(--accent)' }} />
               <div style={{ position: 'absolute', bottom: '-60px', right: '-60px', width: '220px', height: '220px', borderRadius: '50%', background: 'rgba(227,30,36,0.06)' }} />
 
               <p style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.15em', color: 'var(--accent)', textTransform: 'uppercase', marginBottom: '1.25rem' }}>SERVICE PHILOSOPHY</p>
-              <h2 style={{ fontSize: '2.2rem', fontWeight: 900, color: 'white', marginBottom: '1rem', lineHeight: 1.1 }}>Our Approach</h2>
-              <div style={{ width: '40px', height: '3px', background: 'var(--accent)', marginBottom: '2rem', borderRadius: '2px' }} />
+              <h2 style={{ fontSize: 'clamp(1.8rem, 3vw, 2.2rem)', fontWeight: 900, color: 'white', marginBottom: '1rem', lineHeight: 1.1 }}>Our Approach</h2>
+              <div style={{ width: '40px', height: '3px', background: 'var(--accent)', marginBottom: '1.75rem', borderRadius: '2px' }} />
 
-              <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.75)', lineHeight: '1.9', marginBottom: '1.5rem' }}>
+              <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.75)', lineHeight: '1.8', marginBottom: '1.25rem' }}>
                 Every facility has unique cleaning challenges, and every machine plays a critical role in daily operations. That's why our approach is built around understanding your operational requirements and providing practical, long-term support rather than simply responding to service requests.
               </p>
-              <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.75)', lineHeight: '1.9', marginBottom: '1.5rem' }}>
+              <p style={{ fontSize: '1rem', color: 'rgba(255,255,255,0.75)', lineHeight: '1.8', marginBottom: '1.25rem' }}>
                 We focus on maintaining machine performance through regular inspections, preventive care, operator guidance, and technical expertise, enabling our customers to achieve greater reliability, lower operating costs, and improved cleaning productivity.
               </p>
-              <p style={{ fontSize: '1.05rem', color: 'white', lineHeight: '1.9', fontWeight: 600 }}>
+              <p style={{ fontSize: '1rem', color: 'white', lineHeight: '1.8', fontWeight: 600 }}>
                 Our commitment is to become a trusted service partner who helps you maximize the value of your investment throughout the equipment lifecycle.
               </p>
             </div>
 
             {/* Image placeholder */}
-            <div style={{ flex: '0 0 400px', position: 'relative', paddingBottom: '18px', paddingLeft: '18px' }}>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: 'calc(100% - 18px)', height: 'calc(100% - 18px)', background: 'var(--accent)', borderRadius: '1.25rem', zIndex: 0 }} />
-              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '500px' }}>
-                <div style={{ width: '100%', height: '100%', background: 'url("/content_images/service_philosophy.jpg") center/cover no-repeat' }}></div>
+            <div className="support-approach-img-wrap">
+              <div style={{ position: 'absolute', bottom: 0, left: 0, width: 'calc(100% - 14px)', height: 'calc(100% - 14px)', background: 'var(--accent)', borderRadius: '1.25rem', zIndex: 0 }} />
+              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '100%', minHeight: '380px' }}>
+                <div style={{ width: '100%', height: '100%', minHeight: '380px', background: 'url("/content_images/service_philosophy.jpg") center/cover no-repeat' }}></div>
               </div>
             </div>
           </div>
@@ -106,14 +106,14 @@ export default function Support() {
       {/* ═══════════ GENUINE SPARE PARTS ═══════════ */}
       <section className="section" style={{ background: 'white' }}>
         <div className="container max-w-6xl mx-auto">
-          <div style={{ display: 'flex', gap: '5rem', alignItems: 'center' }}>
+          <div className="spare-parts-split">
 
             {/* Icon side */}
-            <div style={{ flex: '0 0 320px', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-              <div style={{ background: 'rgba(227,30,36,0.08)', borderRadius: '50%', padding: '2.5rem', marginBottom: '2rem' }}>
-                <Package size={64} color="var(--accent)" strokeWidth={1.5} />
+            <div className="spare-parts-icon-pane">
+              <div style={{ background: 'rgba(227,30,36,0.08)', borderRadius: '50%', padding: '2rem', marginBottom: '1.5rem', display: 'inline-flex' }}>
+                <Package size={56} color="var(--accent)" strokeWidth={1.5} />
               </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem', width: '100%' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', width: '100%' }}>
                 {[
                   'Maintain optimum machine performance',
                   'Reduce equipment downtime',
@@ -131,18 +131,6 @@ export default function Support() {
                       transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
                       cursor: 'default',
                       animationDelay: `${i * 0.1}s`,
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = 'translateX(8px)';
-                      e.currentTarget.style.borderColor = 'var(--accent)';
-                      e.currentTarget.style.background = 'rgba(227,30,36,0.06)';
-                      e.currentTarget.style.boxShadow = '0 4px 16px rgba(227,30,36,0.12)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = 'translateX(0)';
-                      e.currentTarget.style.borderColor = 'var(--border-color)';
-                      e.currentTarget.style.background = 'var(--bg-gray)';
-                      e.currentTarget.style.boxShadow = 'none';
                     }}
                   >
                     <CheckCircle size={18} color="var(--accent)" style={{ flexShrink: 0, transition: 'transform 0.3s ease' }} />
@@ -248,12 +236,100 @@ export default function Support() {
       <section style={{ background: 'var(--bg-dark)', padding: '4rem 0' }}>
         <div className="container max-w-6xl mx-auto">
           <div style={{ textAlign: 'center' }}>
-            <h2 style={{ fontSize: '2rem', fontWeight: 900, color: 'white', letterSpacing: '0.05em' }}>SOLUTIONS FOR EVERY INDUSTRY</h2>
+            <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', fontWeight: 900, color: 'white', letterSpacing: '0.05em' }}>SOLUTIONS FOR EVERY INDUSTRY</h2>
             <div style={{ width: '60px', height: '4px', background: 'var(--accent)', margin: '1.5rem auto 0', borderRadius: '2px' }} />
           </div>
         </div>
       </section>
 
+      <style>{`
+        .support-hero {
+          height: 80vh;
+          min-height: 550px;
+        }
+        .support-hero-container {
+          position: relative;
+          z-index: 3;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 5rem;
+        }
+        .support-hero-title {
+          font-size: clamp(3rem, 6vw, 5.5rem);
+          font-weight: 900;
+          line-height: 0.9;
+          letter-spacing: -0.04em;
+          margin-bottom: 2rem;
+        }
+        .support-approach-split {
+          display: flex;
+          gap: 4rem;
+          align-items: stretch;
+        }
+        .support-approach-card {
+          flex: 1;
+          background: var(--bg-dark);
+          border-radius: 1.25rem;
+          padding: 3.5rem;
+          position: relative;
+          overflow: hidden;
+          box-shadow: 0 24px 48px rgba(0,31,63,0.2);
+        }
+        .support-approach-img-wrap {
+          flex: 0 0 380px;
+          position: relative;
+          padding-bottom: 14px;
+          padding-left: 14px;
+        }
+        .spare-parts-split {
+          display: flex;
+          gap: 4rem;
+          align-items: center;
+        }
+        .spare-parts-icon-pane {
+          flex: 0 0 320px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+
+        @media (max-width: 900px) {
+          .support-hero {
+            height: auto;
+            min-height: 440px;
+            padding: 5rem 0 3.5rem;
+          }
+          .support-hero-container {
+            padding-left: 0;
+          }
+          .support-hero-title {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            margin-bottom: 1.5rem;
+          }
+          .support-approach-split {
+            flex-direction: column;
+            gap: 2rem;
+          }
+          .support-approach-card {
+            padding: 2.25rem 1.5rem;
+          }
+          .support-approach-img-wrap {
+            flex: none;
+            width: 100%;
+          }
+          .spare-parts-split {
+            flex-direction: column;
+            gap: 2.5rem;
+          }
+          .spare-parts-icon-pane {
+            flex: none;
+            width: 100%;
+          }
+        }
+      `}</style>
     </div>
   );
 }

@@ -34,9 +34,9 @@ export default function Brands() {
         </section>
 
         {/* ─── CONTENT 2: One Brand – dark navy, stats on right instead of screenshot ─── */}
-        <section style={{ backgroundColor: 'var(--primary)', padding: '6rem 0', color: 'white' }}>
+        <section style={{ backgroundColor: 'var(--primary)', padding: '5rem 0', color: 'white' }}>
           <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '5rem', alignItems: 'center' }}>
+            <div className="one-brand-grid">
               <div>
                 <div style={{ color: 'var(--accent)', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '1rem' }}>What We Offer</div>
                 <h2 style={{ fontSize: 'clamp(1.8rem, 3vw, 2.8rem)', fontWeight: 900, color: 'white', letterSpacing: '-0.02em', lineHeight: 1.15, marginBottom: '1.5rem' }}>
@@ -63,8 +63,8 @@ export default function Brands() {
                 </div>
               </div>
 
-              {/* Right side: key stats/highlights instead of screenshot */}
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem' }}>
+              {/* Right side: key stats/highlights */}
+              <div className="brand-stats-grid">
                 {[
                   { number: '1971', label: 'Founded in Singapore' },
                   { number: '20+', label: 'Countries Served' },
@@ -75,11 +75,11 @@ export default function Brands() {
                     backgroundColor: 'rgba(255,255,255,0.08)',
                     border: '1px solid rgba(255,255,255,0.15)',
                     borderRadius: '1rem',
-                    padding: '2rem',
+                    padding: '1.75rem 1.25rem',
                     textAlign: 'center',
                     backdropFilter: 'blur(4px)',
                   }}>
-                    <div style={{ fontSize: '2.8rem', fontWeight: 900, color: 'var(--accent)', lineHeight: 1, marginBottom: '0.5rem' }}>{stat.number}</div>
+                    <div style={{ fontSize: 'clamp(2.2rem, 4vw, 2.8rem)', fontWeight: 900, color: 'var(--accent)', lineHeight: 1, marginBottom: '0.5rem' }}>{stat.number}</div>
                     <div style={{ color: 'rgba(255,255,255,0.75)', fontSize: '0.85rem', fontWeight: 600, lineHeight: 1.4 }}>{stat.label}</div>
                   </div>
                 ))}
@@ -89,15 +89,15 @@ export default function Brands() {
         </section>
 
         {/* ─── CONTENT 3: Industries – 4x2 grid ─── */}
-        <section style={{ backgroundColor: '#f5f7f9', padding: '6rem 0' }}>
+        <section style={{ backgroundColor: '#f5f7f9', padding: '5rem 0' }}>
           <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+            <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
               <div style={{ color: 'var(--accent)', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '1rem' }}>Who We Serve</div>
               <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em' }}>
                 Solutions Across Every Industry
               </h2>
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1.5rem' }}>
+            <div className="industries-grid">
               {[
                 { icon: '🏨', label: 'Hotels & Hospitality' },
                 { icon: '🏥', label: 'Hospitals & Healthcare' },
@@ -112,24 +112,24 @@ export default function Brands() {
                   backgroundColor: 'white',
                   border: '1px solid var(--border-color)',
                   borderRadius: '0.75rem',
-                  padding: '2rem 1.5rem',
+                  padding: '1.75rem 1.25rem',
                   textAlign: 'center',
                   transition: 'all 0.25s ease',
                 }}
                 onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-6px)'; e.currentTarget.style.boxShadow = '0 12px 30px rgba(0,0,0,0.08)'; e.currentTarget.style.borderColor = 'var(--accent)'; }}
                 onMouseLeave={(e) => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.borderColor = 'var(--border-color)'; }}>
-                  <div style={{ fontSize: '2.2rem', marginBottom: '0.75rem' }}>{item.icon}</div>
-                  <div style={{ fontWeight: 700, color: 'var(--primary)', fontSize: '0.9rem', lineHeight: 1.4 }}>{item.label}</div>
+                  <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>{item.icon}</div>
+                  <div style={{ fontWeight: 700, color: 'var(--primary)', fontSize: '0.88rem', lineHeight: 1.4 }}>{item.label}</div>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
-        {/* ─── CONTENT 4: Products – no images, bold styled cards ─── */}
-        <section style={{ backgroundColor: 'white', padding: '6rem 0' }}>
+        {/* ─── CONTENT 4: Products ─── */}
+        <section style={{ backgroundColor: 'white', padding: '5rem 0' }}>
           <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto 4rem auto' }}>
+            <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto 3.5rem auto' }}>
               <div style={{ color: 'var(--accent)', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '1rem' }}>Product Range</div>
               <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em', marginBottom: '1.5rem' }}>PRODUCTS</h2>
               <p style={{ color: 'var(--text-muted)', lineHeight: 1.8 }}>
@@ -137,7 +137,7 @@ export default function Brands() {
               </p>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '2rem' }}>
+            <div className="products-grid">
               {[
                 {
                   num: '01',
@@ -179,11 +179,11 @@ export default function Brands() {
                 onMouseLeave={(e) => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'none'; }}>
                   {/* Colored top bar */}
                   <div style={{ height: '6px', backgroundColor: 'var(--accent)' }} />
-                  <div style={{ padding: '2.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
+                  <div style={{ padding: '2rem 1.75rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
                     {/* Number badge */}
-                    <div style={{ fontSize: '3.5rem', fontWeight: 900, color: '#f0f2f5', lineHeight: 1, marginBottom: '0.5rem', letterSpacing: '-0.04em' }}>{cat.num}</div>
-                    <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '1rem', letterSpacing: '0.02em' }}>{cat.title}</h3>
-                    <p style={{ color: 'var(--text-muted)', lineHeight: 1.7, fontSize: '0.9rem', flex: 1, marginBottom: '2rem' }}>{cat.desc}</p>
+                    <div style={{ fontSize: '3rem', fontWeight: 900, color: '#f0f2f5', lineHeight: 1, marginBottom: '0.5rem', letterSpacing: '-0.04em' }}>{cat.num}</div>
+                    <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.75rem', letterSpacing: '0.02em' }}>{cat.title}</h3>
+                    <p style={{ color: 'var(--text-muted)', lineHeight: 1.7, fontSize: '0.9rem', flex: 1, marginBottom: '1.5rem' }}>{cat.desc}</p>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent)', fontWeight: 700, fontSize: '0.9rem' }}>
                       {cat.arrow} <span>→</span>
                     </div>
@@ -197,6 +197,54 @@ export default function Brands() {
             </p>
           </div>
         </section>
+
+        <style>{`
+          .one-brand-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 4rem;
+            align-items: center;
+          }
+          .brand-stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.25rem;
+          }
+          .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.25rem;
+          }
+          .products-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.75rem;
+          }
+
+          @media (max-width: 900px) {
+            .one-brand-grid {
+              grid-template-columns: 1fr;
+              gap: 2.5rem;
+            }
+            .industries-grid {
+              grid-template-columns: repeat(2, 1fr);
+              gap: 1rem;
+            }
+            .products-grid {
+              grid-template-columns: 1fr;
+              gap: 1.25rem;
+            }
+          }
+
+          @media (max-width: 500px) {
+            .brand-stats-grid {
+              grid-template-columns: 1fr;
+            }
+            .industries-grid {
+              grid-template-columns: 1fr;
+            }
+          }
+        `}</style>
       </div>
     );
   }
@@ -204,36 +252,34 @@ export default function Brands() {
   // General Brands Overview
   return (
     <div className="fade-in">
-      <section className="section" style={{ backgroundColor: 'var(--primary)', color: 'white', padding: '6rem 0' }}>
+      <section className="section" style={{ backgroundColor: 'var(--primary)', color: 'white', padding: '5rem 0' }}>
         <div className="container text-center slide-up">
-          <h1 className="heading-xl mb-4">Our Brands</h1>
-          <p className="text-lead" style={{ color: 'var(--text-light)', maxWidth: '800px', margin: '0 auto' }}>
+          <h1 className="heading-xl mb-4" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)' }}>Our Brands</h1>
+          <p className="text-lead" style={{ color: 'var(--text-light)', maxWidth: '800px', margin: '0 auto', fontSize: '1.05rem' }}>
             We represent globally recognized brands and provide application-focused cleaning solutions.
           </p>
         </div>
       </section>
       <section className="section section-dark">
-        <div className="container grid grid-cols-2 gap-12">
-          <div className="card card-dark p-6 cursor-pointer hover:shadow-lg transition-all" onClick={() => navigate('/brands/truvox')} style={{ padding: '3rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-6 w-full max-w-[250px]">
-              <img src="/content_images/truvox-logo.png" alt="Truvox" style={{ height: '80px', objectFit: 'contain' }} />
+        <div className="container grid grid-cols-2 gap-8">
+          <div className="card card-dark cursor-pointer hover:shadow-lg transition-all" onClick={() => navigate('/brands/truvox')} style={{ padding: '2.5rem 1.5rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '1rem' }}>
+            <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-6 w-full max-w-[220px]">
+              <img src="/content_images/truvox-logo.png" alt="Truvox" style={{ height: '60px', objectFit: 'contain' }} />
             </div>
-            <h2 className="heading-lg mb-4" style={{ color: 'white' }}>TRUVOX</h2>
-            <p className="text-muted mb-8" style={{ color: '#cbd5e1' }}>UK - Since 1960. Commercial and industrial floorcare equipment.</p>
-            <span className="btn btn-primary">Explore Products</span>
+            <h2 className="heading-lg mb-3" style={{ color: 'white', fontSize: '1.75rem' }}>TRUVOX</h2>
+            <p className="text-muted mb-6" style={{ color: '#cbd5e1', fontSize: '0.95rem' }}>UK - Since 1960. Commercial and industrial floorcare equipment.</p>
+            <span className="btn btn-primary" style={{ padding: '0.75rem 1.75rem' }}>Explore Products</span>
           </div>
-          <div className="card card-dark p-6 cursor-pointer hover:shadow-lg transition-all" onClick={() => navigate('/brands/klenco')} style={{ padding: '3rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-6 w-full max-w-[250px]">
-              <img src="/content_images/klenco-logo.png" alt="Klenco" style={{ height: '80px', objectFit: 'contain' }} />
+          <div className="card card-dark cursor-pointer hover:shadow-lg transition-all" onClick={() => navigate('/brands/klenco')} style={{ padding: '2.5rem 1.5rem', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '1rem' }}>
+            <div className="bg-white rounded-lg flex items-center justify-center p-4 mb-6 w-full max-w-[220px]">
+              <img src="/content_images/klenco-logo.png" alt="Klenco" style={{ height: '60px', objectFit: 'contain' }} />
             </div>
-            <h2 className="heading-lg mb-4" style={{ color: 'white' }}>KLENCO</h2>
-            <p className="text-muted mb-8" style={{ color: '#cbd5e1' }}>Singapore - Since 1971. Professional cleaning machines and chemicals.</p>
-            <span className="btn btn-primary" style={{ backgroundColor: '#e31837' }}>Explore Products</span>
+            <h2 className="heading-lg mb-3" style={{ color: 'white', fontSize: '1.75rem' }}>KLENCO</h2>
+            <p className="text-muted mb-6" style={{ color: '#cbd5e1', fontSize: '0.95rem' }}>Singapore - Since 1971. Professional cleaning machines and chemicals.</p>
+            <span className="btn btn-primary" style={{ backgroundColor: '#e31837', padding: '0.75rem 1.75rem' }}>Explore Products</span>
           </div>
         </div>
       </section>
     </div>
   );
 }
-
-

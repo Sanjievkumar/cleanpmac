@@ -97,7 +97,7 @@ export default function TruvoxBrand() {
       {/* ?????????? TRUVOX HERO ?????????? */}
       <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
         {/* Banner Image Area */}
-        <div style={{ width: '100%', height: '450px', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ width: '100%', height: 'clamp(220px, 35vh, 450px)', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden' }}>
           <img src="/content_images/truvox_banner_edited.jpg" alt="Truvox Brand Banner" style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center' }} />
         </div>
         
