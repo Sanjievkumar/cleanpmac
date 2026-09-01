@@ -97,17 +97,22 @@ export default function TruvoxBrand() {
       {/* ?????????? TRUVOX HERO ?????????? */}
       <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
         {/* Banner Video Area */}
-        <div style={{ width: '100%', height: 'clamp(280px, 45vh, 540px)', backgroundColor: '#000814', position: 'relative', overflow: 'hidden' }}>
+        <div style={{ width: '100%', backgroundColor: '#000814', position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <video
             autoPlay
             loop
             muted
             playsInline
-            style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }}
+            style={{ 
+              width: '100%', 
+              maxHeight: '85vh', 
+              aspectRatio: '16 / 9',
+              objectFit: 'contain', 
+              display: 'block' 
+            }}
           >
             <source src="/videos/truvox-hero.mp4" type="video/mp4" />
             <source src="/videos/truvox-hero.mov" type="video/quicktime" />
-            <source src="/videos/truvox-hero.mp4.mov" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
