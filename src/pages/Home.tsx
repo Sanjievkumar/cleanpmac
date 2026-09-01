@@ -14,11 +14,8 @@ export default function Home() {
           className="home-hero-img"
         />
         
-        {/* Clean Translucent Navy Overlay for optimal contrast & full image visibility */}
+        {/* Translucent Dark Gradient Overlay */}
         <div className="home-hero-overlay" />
-        
-        {/* Red Accent Top Border */}
-        <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
 
         {/* Content Container */}
         <div className="container home-hero-container">
@@ -75,12 +72,12 @@ export default function Home() {
 
           {/* Floating Glassmorphic Badge */}
           <div className="home-hero-badge">
-            <div style={{ background: 'var(--accent)', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-              <span style={{ color: 'white', fontSize: '1.2rem' }}>✦</span>
+            <div style={{ background: 'rgba(255,255,255,0.15)', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+              <span style={{ color: 'var(--accent)', fontSize: '1.2rem' }}>✦</span>
             </div>
             <div>
               <div style={{ fontWeight: 800, fontSize: '0.88rem', color: 'white', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Truvox Multiwash PRO</div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 600, letterSpacing: '0.02em' }}>Global Floorcare Solutions</div>
+              <div style={{ fontSize: '0.75rem', color: '#94a3b8', fontWeight: 600, letterSpacing: '0.02em' }}>Global Floorcare Solutions</div>
             </div>
           </div>
 
@@ -114,8 +111,7 @@ export default function Home() {
 
             {/* Image — LEFT */}
             <div className="revolution-img-wrapper" style={{ flex: 1, order: 1 }}>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: 'calc(100% - 14px)', height: 'calc(100% - 14px)', background: 'var(--accent)', borderRadius: '1.25rem', zIndex: 0 }} />
-              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '420px' }}>
+              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '420px', border: '1px solid var(--border-color)' }}>
                 <img
                   src="/content_images/hero-lady.jpg"
                   alt="Professional Cleaning Solutions"
