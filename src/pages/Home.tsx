@@ -14,14 +14,11 @@ export default function Home() {
           className="home-hero-img"
         />
         
-        {/* Premium Gradient Overlay - Desktop & Mobile versions */}
-        <div className="home-hero-overlay-desktop" />
-        <div className="home-hero-overlay-mobile" />
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 20%)', zIndex: 1 }} />
+        {/* Clean Translucent Navy Overlay for optimal contrast & full image visibility */}
+        <div className="home-hero-overlay" />
         
-        {/* Accent Lines */}
+        {/* Red Accent Top Border */}
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
-        <div className="hero-accent-bar" style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '6px', background: 'var(--accent)', borderRadius: '0 4px 4px 0', zIndex: 2 }} />
 
         {/* Content Container */}
         <div className="container home-hero-container">
@@ -34,13 +31,13 @@ export default function Home() {
             </div>
 
             <h1 className="home-hero-title">
-              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>CLEAN</span>
-              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>PROMAC</span>
+              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>CLEAN</span>
+              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>PROMAC</span>
             </h1>
             
             <div style={{ width: '100px', height: '5px', backgroundColor: 'var(--accent)', borderRadius: '3px', marginBottom: '1.5rem' }}></div>
 
-            <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.85)', lineHeight: '1.8', marginBottom: '2rem', maxWidth: '500px', fontWeight: 500 }}>
+            <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.9)', lineHeight: '1.8', marginBottom: '2rem', maxWidth: '500px', fontWeight: 500 }}>
               Advanced solutions for a cleaner, safer, and more productive environment — for every industry across India.
             </p>
 
@@ -49,8 +46,8 @@ export default function Home() {
               {['Simple to Use & Deploy', 'Easy to Maintain', 'Expert Support'].map((feat) => (
                 <div key={feat} style={{ 
                   display: 'flex', alignItems: 'center', gap: '0.5rem', 
-                  background: 'rgba(255,255,255,0.08)', backdropFilter: 'blur(10px)', 
-                  border: '1px solid rgba(255,255,255,0.15)', borderRadius: '2rem', 
+                  background: 'rgba(0,31,63,0.6)', backdropFilter: 'blur(10px)', 
+                  border: '1px solid rgba(255,255,255,0.2)', borderRadius: '2rem', 
                   padding: '0.45rem 1.1rem', color: 'white' 
                 }}>
                   <div style={{ color: 'var(--accent)', display: 'flex', alignItems: 'center' }}>
@@ -333,17 +330,14 @@ export default function Home() {
           width: 100%;
           height: 100%;
           object-fit: cover;
-          object-position: center 20%;
+          object-position: 75% center;
           z-index: 0;
         }
-        .home-hero-overlay-desktop {
+        .home-hero-overlay {
           position: absolute;
           inset: 0;
-          background: linear-gradient(105deg, rgba(0,15,30,0.98) 0%, rgba(0,15,30,0.92) 35%, rgba(0,15,30,0.5) 55%, transparent 100%);
+          background: linear-gradient(110deg, rgba(0,20,40,0.95) 0%, rgba(0,20,40,0.82) 40%, rgba(0,20,40,0.3) 70%, rgba(0,20,40,0.15) 100%);
           z-index: 1;
-        }
-        .home-hero-overlay-mobile {
-          display: none;
         }
         .home-hero-container {
           position: relative;
@@ -399,18 +393,8 @@ export default function Home() {
             min-height: 560px;
             padding: 5rem 0 3rem;
           }
-          .home-hero-overlay-desktop {
-            display: none;
-          }
-          .home-hero-overlay-mobile {
-            display: block;
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(180deg, rgba(0,15,30,0.96) 0%, rgba(0,15,30,0.88) 50%, rgba(0,15,30,0.95) 100%);
-            z-index: 1;
-          }
-          .hero-accent-bar {
-            display: none;
+          .home-hero-overlay {
+            background: linear-gradient(180deg, rgba(0,20,40,0.95) 0%, rgba(0,20,40,0.85) 60%, rgba(0,20,40,0.95) 100%);
           }
           .home-hero-container {
             padding-left: 1.5rem !important;
