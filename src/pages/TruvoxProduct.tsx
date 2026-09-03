@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Download } from 'lucide-react';
+import { ArrowLeft, Download, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 import { truvoxProductDetails } from '../data/truvox-details';
 
@@ -34,7 +34,15 @@ export default function TruvoxProduct() {
       setActiveTab(tabs[0]);
   }
 
-  const allImages = Array.from(new Set([productData.heroImage, ...(productData.galleryImages || [])]));
+  const allImages = Array.from(new Set([productData.heroImage, ...(productData.galleryImages || [])])).filter(Boolean);
+
+  const nextImage = () => {
+    setActiveImage((prev) => (prev + 1) % allImages.length);
+  };
+
+  const prevImage = () => {
+    setActiveImage((prev) => (prev - 1 + allImages.length) % allImages.length);
+  };
 
   return (
     <div className="fade-in" style={{ backgroundColor: 'var(--bg-light)', minHeight: '100vh', padding: '4rem 0' }}>
@@ -48,31 +56,136 @@ export default function TruvoxProduct() {
 
         <div className="grid lg:grid-cols-2 gap-12" style={{ background: '#00A8B0', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 20px 40px rgba(0, 168, 176, 0.2)', border: 'none' }}>
           
-          {/* Product Images Area (Inner Box) */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-            <div style={{ height: 'clamp(280px, 45vh, 480px)', background: 'white', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1.25rem', border: '1px solid rgba(255,255,255,0.4)', boxShadow: '0 10px 25px rgba(0,0,0,0.06)' }}>
+          {/* Product Images Area (Inner Box Slideshow) */}
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div 
+              style={{ 
+                position: 'relative', 
+                height: 'clamp(320px, 50vh, 480px)', 
+                background: 'white', 
+                borderRadius: '1rem', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center', 
+                padding: '2rem', 
+                border: '1px solid rgba(255,255,255,0.4)', 
+                boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
+                overflow: 'hidden'
+              }}
+            >
               <img 
+                key={activeImage}
                 src={allImages[activeImage]} 
-                alt={productData.name} 
-                style={{ width: '100%', height: '100%', objectFit: 'contain' }}
+                alt={`${productData.name} view ${activeImage + 1}`} 
+                style={{ width: '100%', height: '100%', objectFit: 'contain', transition: 'opacity 0.3s ease' }}
                 onError={(e) => (e.currentTarget.style.display = 'none')}
               />
-            </div>
-            
-            {allImages.length > 1 && (
-              <div className="grid grid-cols-4 gap-3">
-                {allImages.map((img, i) => (
-                  <div 
-                    key={i} 
-                    onClick={() => setActiveImage(i)}
-                    style={{ aspectRatio: '1', background: 'white', border: activeImage === i ? '2px solid white' : '1px solid rgba(255,255,255,0.4)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.4rem', cursor: 'pointer', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }} 
-                    className="hover:scale-105 transition-all"
+
+              {/* Navigation Arrows (Shown when more than 1 image) */}
+              {allImages.length > 1 && (
+                <>
+                  <button
+                    onClick={prevImage}
+                    aria-label="Previous image"
+                    style={{
+                      position: 'absolute',
+                      left: '0.85rem',
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      background: 'rgba(0, 31, 63, 0.8)',
+                      backdropFilter: 'blur(6px)',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: '50%',
+                      width: '44px',
+                      height: '44px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s ease',
+                      boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+                      zIndex: 10
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = '#00A8B0';
+                      e.currentTarget.style.transform = 'translateY(-50%) scale(1.1)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = 'rgba(0, 31, 63, 0.8)';
+                      e.currentTarget.style.transform = 'translateY(-50%) scale(1)';
+                    }}
                   >
-                    <img src={img} alt={`${productData.name} view ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} onError={(e) => (e.currentTarget.parentElement!.style.display = 'none')} />
+                    <ChevronLeft size={26} />
+                  </button>
+
+                  <button
+                    onClick={nextImage}
+                    aria-label="Next image"
+                    style={{
+                      position: 'absolute',
+                      right: '0.85rem',
+                      top: '50%',
+                      transform: 'translateY(-50%)',
+                      background: 'rgba(0, 31, 63, 0.8)',
+                      backdropFilter: 'blur(6px)',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: '50%',
+                      width: '44px',
+                      height: '44px',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      transition: 'all 0.2s ease',
+                      boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
+                      zIndex: 10
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background = '#00A8B0';
+                      e.currentTarget.style.transform = 'translateY(-50%) scale(1.1)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background = 'rgba(0, 31, 63, 0.8)';
+                      e.currentTarget.style.transform = 'translateY(-50%) scale(1)';
+                    }}
+                  >
+                    <ChevronRight size={26} />
+                  </button>
+
+                  {/* Dot Indicators */}
+                  <div style={{
+                    position: 'absolute',
+                    bottom: '1rem',
+                    left: 0,
+                    right: 0,
+                    display: 'flex',
+                    justifyContent: 'center',
+                    gap: '0.5rem',
+                    zIndex: 10
+                  }}>
+                    {allImages.map((_, idx) => (
+                      <button
+                        key={idx}
+                        onClick={() => setActiveImage(idx)}
+                        aria-label={`Go to image ${idx + 1}`}
+                        style={{
+                          width: activeImage === idx ? '22px' : '8px',
+                          height: '8px',
+                          borderRadius: '4px',
+                          background: activeImage === idx ? '#00A8B0' : 'rgba(0, 31, 63, 0.25)',
+                          border: 'none',
+                          cursor: 'pointer',
+                          transition: 'all 0.3s ease',
+                          padding: 0
+                        }}
+                      />
+                    ))}
                   </div>
-                ))}
-              </div>
-            )}
+                </>
+              )}
+            </div>
           </div>
 
           {/* Product Info Area */}
