@@ -340,12 +340,12 @@ export default function Home() {
           padding-left: 3rem;
           display: flex;
           justify-content: space-between;
-          align-items: flex-end;
+          align-items: center;
           height: 100%;
         }
         .home-hero-text {
           max-width: 650px;
-          padding-bottom: 10vh;
+          padding-bottom: 2rem;
         }
         .home-hero-title {
           font-size: clamp(2.8rem, 6.5vw, 6rem);
@@ -361,8 +361,9 @@ export default function Home() {
           flex-wrap: wrap;
         }
         .home-hero-badge {
-          margin-bottom: 10vh;
-          margin-right: 2rem;
+          position: absolute;
+          bottom: 3.5rem;
+          right: 2rem;
           background: rgba(0,15,30,0.65);
           backdrop-filter: blur(12px);
           border: 1px solid rgba(255,255,255,0.15);
@@ -407,6 +408,7 @@ export default function Home() {
             font-size: clamp(2.4rem, 9vw, 3.8rem);
           }
           .home-hero-badge {
+            position: static;
             margin-bottom: 0;
             margin-right: 0;
             width: 100%;
