@@ -46,11 +46,11 @@ export default function TruvoxProduct() {
           </Link>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12" style={{ background: 'white', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 20px 40px rgba(0,0,0,0.03)', border: '1px solid var(--border-color)' }}>
+        <div className="grid lg:grid-cols-2 gap-12" style={{ background: '#00A8B0', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 20px 40px rgba(0, 168, 176, 0.2)', border: 'none' }}>
           
-          {/* Product Images Area */}
+          {/* Product Images Area (Inner Box) */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-            <div style={{ height: 'clamp(280px, 45vh, 480px)', background: 'white', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1.25rem', border: '1px solid var(--border-color)' }}>
+            <div style={{ height: 'clamp(280px, 45vh, 480px)', background: 'white', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1.25rem', border: '1px solid rgba(255,255,255,0.4)', boxShadow: '0 10px 25px rgba(0,0,0,0.06)' }}>
               <img 
                 src={allImages[activeImage]} 
                 alt={productData.name} 
@@ -65,8 +65,8 @@ export default function TruvoxProduct() {
                   <div 
                     key={i} 
                     onClick={() => setActiveImage(i)}
-                    style={{ aspectRatio: '1', background: 'white', border: activeImage === i ? '2px solid var(--accent)' : '1px solid var(--border-color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.4rem', cursor: 'pointer' }} 
-                    className="hover:border-[var(--accent)] transition-colors"
+                    style={{ aspectRatio: '1', background: 'white', border: activeImage === i ? '2px solid white' : '1px solid rgba(255,255,255,0.4)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.4rem', cursor: 'pointer', boxShadow: '0 4px 10px rgba(0,0,0,0.05)' }} 
+                    className="hover:scale-105 transition-all"
                   >
                     <img src={img} alt={`${productData.name} view ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} onError={(e) => (e.currentTarget.parentElement!.style.display = 'none')} />
                   </div>
@@ -76,17 +76,17 @@ export default function TruvoxProduct() {
           </div>
 
           {/* Product Info Area */}
-          <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <div>
-              <div style={{ display: 'inline-block', background: 'rgba(0, 75, 135, 0.1)', color: 'var(--primary)', padding: '0.35rem 0.9rem', borderRadius: '2rem', fontSize: '0.82rem', fontWeight: 700, letterSpacing: '0.05em', marginBottom: '1.25rem' }}>
+              <div style={{ display: 'inline-block', background: 'rgba(255, 255, 255, 0.2)', backdropFilter: 'blur(8px)', color: 'white', border: '1px solid rgba(255, 255, 255, 0.35)', padding: '0.4rem 1rem', borderRadius: '2rem', fontSize: '0.82rem', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
                 {productData.brand}
               </div>
               
-              <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', fontWeight: 900, color: 'var(--primary)', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.02em' }}>
+              <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', fontWeight: 900, color: 'white', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.02em', textShadow: '0 2px 10px rgba(0,0,0,0.1)' }}>
                 {productData.name}
               </h1>
               
-              <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: 1.8 }}>
+              <p style={{ fontSize: '1.05rem', color: 'rgba(255, 255, 255, 0.95)', marginBottom: '2rem', lineHeight: 1.8, fontWeight: 500 }}>
                 {productData.description}
               </p>
             </div>
