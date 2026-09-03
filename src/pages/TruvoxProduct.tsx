@@ -212,8 +212,8 @@ export default function TruvoxProduct() {
             
             <style>{`
               .tab-btn { padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 700; transition: all 0.3s ease; border: 2px solid transparent; font-size: 0.88rem; letter-spacing: 0.05em; text-transform: uppercase; cursor: pointer; }
-              .tab-btn:hover { background-color: rgba(0,75,135,0.05); color: var(--primary); }
-              .tab-btn.active { background-color: var(--primary); color: white; box-shadow: 0 4px 15px rgba(0,75,135,0.25); border-color: var(--primary); }
+              .tab-btn:hover { background-color: rgba(0, 168, 176, 0.1); color: #00A8B0; }
+              .tab-btn.active { background-color: #00A8B0; color: white; box-shadow: 0 4px 15px rgba(0, 168, 176, 0.35); border-color: #00A8B0; }
               .tab-btn.inactive { background-color: white; color: var(--text-muted); border-color: var(--border-color); }
               
               .feature-card { background: white; border-radius: 1rem; padding: 2rem; border: 1px solid var(--border-color); transition: transform 0.3s, box-shadow 0.3s; height: 100%; display: flex; flex-direction: column; }
