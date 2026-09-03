@@ -1,4 +1,5 @@
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 import { floorCleaningData } from '../data/klenco-floor-cleaning';
 import type { Product } from '../data/klenco-floor-cleaning';
 import { vacuumData } from '../data/klenco-vacuum-cleaners';
@@ -113,29 +114,95 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
       )}
 
       <section style={{ backgroundColor: '#f5f7f9', padding: '5rem 0' }}>
-        <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
+        <div className="container max-w-7xl mx-auto px-4">
 
           {/* Has sub-categories (Floor Cleaning) */}
-          {cat.hasSubCategories && cat.subCategories.map((sub) => (
-            <div key={sub.id} style={{ marginBottom: '4rem' }}>
-              <div style={{
-                display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '2rem',
-                paddingBottom: '1rem', borderBottom: '2px solid var(--border-color)',
-              }}>
-                <div style={{ width: '4px', height: '28px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
-                <h2 style={{ fontSize: '1.35rem', fontWeight: 800, color: 'var(--primary)' }}>{sub.label}</h2>
+          {cat.hasSubCategories && (
+            <div>
+              <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
+                <div style={{ color: 'var(--accent)', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem' }}>
+                  The Klenco Floorcare Range
+                </div>
+                <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em' }}>
+                  PRODUCT CATEGORIES
+                </h2>
               </div>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '1.5rem' }}>
-                {sub.products.map((product) => (
-                  <ProductCard
-                    key={product.id}
-                    product={product}
-                    onClick={() => navigate(`/brands/klenco/${categoryId}/${product.id}`)}
-                  />
+
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.5rem',
+                alignItems: 'stretch'
+              }}>
+                {cat.subCategories.map((sub) => (
+                  <div key={sub.id} style={{ 
+                    background: 'white', 
+                    borderRadius: '1rem', 
+                    padding: '1.5rem',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                    border: '1px solid var(--border-color)',
+                    display: 'flex',
+                    flexDirection: 'column'
+                  }}>
+                    <h3 style={{ 
+                      fontSize: '1rem', 
+                      fontWeight: 800, 
+                      color: 'var(--primary)', 
+                      marginBottom: '1.5rem',
+                      paddingBottom: '1rem',
+                      borderBottom: '1px solid var(--border-color)',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.02em'
+                    }}>
+                      {sub.label}
+                    </h3>
+                    
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', flexGrow: 1 }}>
+                      {sub.products.map((product) => (
+                        <Link 
+                          key={product.id} 
+                          to={`/brands/klenco/${categoryId}/${product.id}`}
+                          style={{ 
+                            display: 'flex', 
+                            justifyContent: 'space-between',
+                            alignItems: 'center',
+                            padding: '0.65rem 0.85rem',
+                            border: '1px solid var(--border-color)',
+                            borderRadius: '0.4rem',
+                            color: 'var(--text-dark)',
+                            fontSize: '0.82rem',
+                            fontWeight: 500,
+                            transition: 'all 0.2s ease',
+                            backgroundColor: 'white',
+                            textDecoration: 'none'
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.backgroundColor = 'var(--accent)';
+                            e.currentTarget.style.borderColor = 'var(--accent)';
+                            e.currentTarget.style.color = 'white';
+                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.15)';
+                            const icon = e.currentTarget.querySelector('svg');
+                            if (icon) icon.style.color = 'white';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.backgroundColor = 'white';
+                            e.currentTarget.style.borderColor = 'var(--border-color)';
+                            e.currentTarget.style.color = 'var(--text-dark)';
+                            e.currentTarget.style.boxShadow = 'none';
+                            const icon = e.currentTarget.querySelector('svg');
+                            if (icon) icon.style.color = 'var(--text-muted)';
+                          }}
+                        >
+                          <span>{product.name}</span>
+                          <ArrowRight size={16} style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease', flexShrink: 0 }} />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
-          ))}
+          )}
 
           {/* Flat product list (Vacuums, High Pressure, Chemicals) */}
           {!cat.hasSubCategories && (
