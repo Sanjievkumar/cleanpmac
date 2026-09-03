@@ -96,9 +96,25 @@ export default function TruvoxBrand() {
       
       {/* ?????????? TRUVOX HERO ?????????? */}
       <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
-        {/* Banner Image Area */}
-        <div style={{ width: '100%', height: '450px', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden' }}>
-          <img src="/content_images/truvox_banner_edited.jpg" alt="Truvox Brand Banner" style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center' }} />
+        {/* Banner Video Area */}
+        <div style={{ width: '100%', backgroundColor: '#000814', position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{ 
+              width: '100%', 
+              maxHeight: '85vh', 
+              aspectRatio: '16 / 9',
+              objectFit: 'contain', 
+              display: 'block' 
+            }}
+          >
+            <source src="/videos/truvox-hero.mp4" type="video/mp4" />
+            <source src="/videos/truvox-hero.mov" type="video/quicktime" />
+            Your browser does not support the video tag.
+          </video>
         </div>
         
         {/* Text Area Below Banner */}

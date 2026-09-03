@@ -27,7 +27,7 @@ export default function TruvoxProduct() {
   if (productData.floorTypes && productData.floorTypes.length > 0) tabs.push('FLOOR TYPES');
   if (Object.keys(productData.specifications).length > 0) tabs.push('SPECIFICATIONS');
   if (productData.accessories && productData.accessories.length > 0) tabs.push('ACCESSORIES');
-  if (productData.downloads && productData.downloads.length > 0) tabs.push('DOWNLOADS');
+  if (productData.downloads && productData.downloads.length > 0 && productData.downloads.some((d: any) => d.links && d.links.length > 0)) tabs.push('DOWNLOADS');
 
   // If initial activeTab isn't in tabs, set it
   if (tabs.length > 0 && !tabs.includes(activeTab)) {
@@ -49,8 +49,8 @@ export default function TruvoxProduct() {
         <div className="grid lg:grid-cols-2 gap-12" style={{ background: 'white', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 20px 40px rgba(0,0,0,0.03)', border: '1px solid var(--border-color)' }}>
           
           {/* Product Images Area */}
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-            <div style={{ height: '500px', background: 'white', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyItems: 'center', padding: '2rem', border: '1px solid var(--border-color)' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+            <div style={{ height: 'clamp(280px, 45vh, 480px)', background: 'white', borderRadius: '1rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1.25rem', border: '1px solid var(--border-color)' }}>
               <img 
                 src={allImages[activeImage]} 
                 alt={productData.name} 
@@ -60,12 +60,12 @@ export default function TruvoxProduct() {
             </div>
             
             {allImages.length > 1 && (
-              <div className="grid grid-cols-4 gap-4">
+              <div className="grid grid-cols-4 gap-3">
                 {allImages.map((img, i) => (
                   <div 
                     key={i} 
                     onClick={() => setActiveImage(i)}
-                    style={{ aspectRatio: '1', background: 'white', border: activeImage === i ? '2px solid var(--accent)' : '1px solid var(--border-color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.5rem', cursor: 'pointer' }} 
+                    style={{ aspectRatio: '1', background: 'white', border: activeImage === i ? '2px solid var(--accent)' : '1px solid var(--border-color)', borderRadius: '0.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.4rem', cursor: 'pointer' }} 
                     className="hover:border-[var(--accent)] transition-colors"
                   >
                     <img src={img} alt={`${productData.name} view ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'contain' }} onError={(e) => (e.currentTarget.parentElement!.style.display = 'none')} />
@@ -78,29 +78,27 @@ export default function TruvoxProduct() {
           {/* Product Info Area */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <div>
-              <div style={{ display: 'inline-block', background: 'rgba(0, 75, 135, 0.1)', color: 'var(--primary)', padding: '0.4rem 1rem', borderRadius: '2rem', fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.05em', marginBottom: '1.5rem' }}>
+              <div style={{ display: 'inline-block', background: 'rgba(0, 75, 135, 0.1)', color: 'var(--primary)', padding: '0.35rem 0.9rem', borderRadius: '2rem', fontSize: '0.82rem', fontWeight: 700, letterSpacing: '0.05em', marginBottom: '1.25rem' }}>
                 {productData.brand}
               </div>
               
-              <h1 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, color: 'var(--primary)', marginBottom: '1.5rem', lineHeight: 1.1, letterSpacing: '-0.02em' }}>
+              <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', fontWeight: 900, color: 'var(--primary)', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.02em' }}>
                 {productData.name}
               </h1>
               
-              <p style={{ fontSize: '1.15rem', color: 'var(--text-muted)', marginBottom: '2.5rem', lineHeight: 1.8 }}>
+              <p style={{ fontSize: '1.05rem', color: 'var(--text-muted)', marginBottom: '2rem', lineHeight: 1.8 }}>
                 {productData.description}
               </p>
             </div>
-
-
           </div>
         </div>
 
         {/* Tabbed Content Area */}
         {tabs.length > 0 && (
-            <div style={{ marginTop: '4rem' }}>
+            <div style={{ marginTop: '3.5rem' }}>
             
             <style>{`
-              .tab-btn { padding: 0.85rem 1.75rem; border-radius: 50px; font-weight: 700; transition: all 0.3s ease; border: 2px solid transparent; font-size: 0.95rem; letter-spacing: 0.05em; text-transform: uppercase; cursor: pointer; }
+              .tab-btn { padding: 0.75rem 1.5rem; border-radius: 50px; font-weight: 700; transition: all 0.3s ease; border: 2px solid transparent; font-size: 0.88rem; letter-spacing: 0.05em; text-transform: uppercase; cursor: pointer; }
               .tab-btn:hover { background-color: rgba(0,75,135,0.05); color: var(--primary); }
               .tab-btn.active { background-color: var(--primary); color: white; box-shadow: 0 4px 15px rgba(0,75,135,0.25); border-color: var(--primary); }
               .tab-btn.inactive { background-color: white; color: var(--text-muted); border-color: var(--border-color); }
@@ -112,10 +110,10 @@ export default function TruvoxProduct() {
               .floor-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.12); border-color: var(--accent); }
               .floor-card img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
               .floor-card:hover img { transform: scale(1.08); }
-              .floor-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 3rem 1rem 1rem; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; text-align: center; font-weight: 800; font-size: 0.95rem; letter-spacing: 0.05em; pointer-events: none; }
+              .floor-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 2.5rem 0.75rem 0.75rem; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; text-align: center; font-weight: 800; font-size: 0.85rem; letter-spacing: 0.05em; pointer-events: none; }
               
               .spec-container { max-width: 900px; margin: 0 auto; background: white; border-radius: 1rem; overflow: hidden; border: 1px solid var(--border-color); box-shadow: 0 10px 30px rgba(0,0,0,0.02); }
-              .spec-row { display: flex; justify-content: space-between; padding: 1.25rem 2rem; border-bottom: 1px solid var(--border-color); transition: background-color 0.2s; }
+              .spec-row { display: flex; justify-content: space-between; padding: 1.15rem 1.75rem; border-bottom: 1px solid var(--border-color); transition: background-color 0.2s; }
               .spec-row:last-child { border-bottom: none; }
               .spec-row:nth-child(even) { background-color: #f8fafc; }
               .spec-row:hover { background-color: rgba(0,75,135,0.03); }
@@ -124,18 +122,41 @@ export default function TruvoxProduct() {
               
               .acc-card { background: white; border-radius: 1rem; border: 1px solid var(--border-color); overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s, box-shadow 0.3s; height: 100%; }
               .acc-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); border-color: rgba(0,75,135,0.2); }
-              .acc-img-wrap { padding: 2rem; background: #f8fafc; display: flex; justify-content: center; align-items: center; aspect-ratio: 1; border-bottom: 1px solid var(--border-color); }
+              .acc-img-wrap { padding: 1.5rem; background: #f8fafc; display: flex; justify-content: center; align-items: center; aspect-ratio: 1; border-bottom: 1px solid var(--border-color); }
               .acc-img-wrap img { width: 100%; height: 100%; object-fit: contain; transition: transform 0.3s; }
               .acc-card:hover .acc-img-wrap img { transform: scale(1.05); }
-              .acc-content { padding: 1.5rem; display: flex; flex-direction: column; flex-grow: 1; }
-              .acc-sku { display: inline-block; background: rgba(0, 75, 135, 0.08); color: var(--primary); padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.8rem; font-weight: 800; margin-bottom: 1rem; align-self: flex-start; }
-              .acc-title { font-size: 1.05rem; font-weight: 700; color: var(--text-dark); line-height: 1.4; }
+              .acc-content { padding: 1.25rem; display: flex; flex-direction: column; flex-grow: 1; }
+              .acc-sku { display: inline-block; background: rgba(0, 75, 135, 0.08); color: var(--primary); padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.78rem; font-weight: 800; margin-bottom: 0.75rem; align-self: flex-start; }
+              .acc-title { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); line-height: 1.4; }
               
-              .dl-cat-title { font-size: 1.35rem; font-weight: 900; color: var(--primary); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem; padding-bottom: 0.75rem; border-bottom: 2px solid var(--border-color); }
-              .dl-link { display: flex; align-items: center; justify-content: space-between; padding: 1.25rem 1.5rem; background: white; border: 1px solid var(--border-color); border-radius: 0.75rem; margin-bottom: 0.75rem; transition: all 0.2s; color: var(--text-dark); font-weight: 600; text-decoration: none; }
+              .dl-cat-title { font-size: 1.25rem; font-weight: 900; color: var(--primary); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem; padding-bottom: 0.75rem; border-bottom: 2px solid var(--border-color); }
+              .dl-link { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; background: white; border: 1px solid var(--border-color); border-radius: 0.75rem; margin-bottom: 0.75rem; transition: all 0.2s; color: var(--text-dark); font-weight: 600; text-decoration: none; }
               .dl-link:hover { border-color: var(--accent); color: var(--accent); box-shadow: 0 8px 20px rgba(227, 38, 54, 0.08); transform: translateX(6px); background: #fffcfc; }
               .dl-icon { color: var(--accent); transition: transform 0.2s; }
               .dl-link:hover .dl-icon { transform: translateY(2px); }
+
+              @media (max-width: 650px) {
+                .tab-btn {
+                  padding: 0.6rem 1.1rem;
+                  font-size: 0.8rem;
+                }
+                .spec-row {
+                  flex-direction: column;
+                  padding: 1rem;
+                  gap: 0.25rem;
+                }
+                .spec-label {
+                  width: 100%;
+                  padding-right: 0;
+                  font-size: 0.85rem;
+                }
+                .spec-value {
+                  width: 100%;
+                  padding-left: 0;
+                  text-align: left;
+                  font-size: 0.92rem;
+                }
+              }
             `}</style>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', marginBottom: '3rem' }}>

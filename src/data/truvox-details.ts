@@ -5,9 +5,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "An effective scrubber dryer that is simple to use, cost-effective and provides exceptional cleaning results after just one pass.",
     "heroImage": "/content_images/multiwash-pro-240.png",
-      "galleryImages": [
-        "/content_images/multiwash-pro-240.png"
-      ],
+    "galleryImages": [
+      "/content_images/multiwash-pro-240.png"
+    ],
     "features": [
       {
         "title": "SIMPLE",
@@ -141,84 +141,28 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf"
-          },
-          {
-            "title": "ES Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/t7HM4PdCUG"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/GAhrJ7wdqF"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/cD6AHgvGR3"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Booklet",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
           },
           {
-            "title": "FR Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
-          },
-          {
-            "title": "DE Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf"
           },
           {
             "title": "UK User Guide Pictorial",
@@ -370,84 +314,28 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf"
-          },
-          {
-            "title": "ES Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/t7HM4PdCUG"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/GAhrJ7wdqF"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/cD6AHgvGR3"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Booklet",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
           },
           {
-            "title": "FR Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
-          },
-          {
-            "title": "DE Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf"
           },
           {
             "title": "UK User Guide Pictorial",
@@ -599,84 +487,28 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-MWPRO-REV.05-0325.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/FR-MWPRO-REV.03-0325.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.02-0325.pdf"
-          },
-          {
-            "title": "ES Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/ES-MWPRO-REV.02-0325.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8522-0000-Multiwash-PRO-Issue-9-0526.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Parts-list-Series-B-Issue-1-11-24.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/t7HM4PdCUG"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/GAhrJ7wdqF"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/cD6AHgvGR3"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Booklet",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
           },
           {
-            "title": "FR Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
-          },
-          {
-            "title": "DE Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-MWPRO-REV.01-0324-1.pdf"
           },
           {
             "title": "UK User Guide Pictorial",
@@ -692,9 +524,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The Multiwash PRO Steam not only provides exceptional cleaning results due to its counter-rotating brushes, but with the additional steam function will sanitise floors, killing up to 99.99% of bacteria.",
     "heroImage": "/content_images/multiwash-pro-steam.png",
-      "galleryImages": [
-        "/content_images/multiwash-pro-steam.png"
-      ],
+    "galleryImages": [
+      "/content_images/multiwash-pro-steam.png"
+    ],
     "features": [
       {
         "title": "HYGIENIC",
@@ -836,84 +668,28 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/05/UK-MWPRO-STEAM-REV.01-0325.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/05/FR-MWPRO-STEAM-REV.01-0325.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/05/DE-MWPRO-STEAM-REV.01-0325.pdf"
-          },
-          {
-            "title": "ES Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/05/ES-MWPRO-STEAM-REV.01-0325.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/05/03-8580-0000-Multiwash-PRO-Steam-Issue-7-0526.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/05/MWPRO-Steam-Parts-List-Series-A-Issue-1-11-24.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/u7i55LnbyM"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/UxH910EK44"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/eUqJU4G5RX"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Booklet",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
           },
           {
-            "title": "FR Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
-          },
-          {
-            "title": "DE Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BRUSH-GUIDE-REV.00-0924.pdf"
           },
           {
             "title": "UK User Guide Pictorial",
@@ -929,9 +705,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "The Multiwash PRO Battery provides exceptional cleaning results with a 1-hour run-time ideal for areas without power and minimises the risk of trips from trailing power cords.",
     "heroImage": "/content_images/multiwash-pro-battery.png",
-      "galleryImages": [
-        "/content_images/multiwash-pro-battery.png"
-      ],
+    "galleryImages": [
+      "/content_images/multiwash-pro-battery.png"
+    ],
     "features": [
       {
         "title": "BATTERY POWERED",
@@ -1088,80 +864,28 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BATTERY-REV.03-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BATTERY-REV.03-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BATTERY-REV.03-0925.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/03-8596-0000-Multiwash-PRO-Battery-Issue-8-0526.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/MWPRO-Battery-Parts-list-Series-A-Issue-1-0824.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/Jeh3VDKirf"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/MkkrwvBMCd"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/KuHqznmhmc"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Booklet",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPROBOOK-REV.04-0325.pdf"
           },
           {
-            "title": "FR Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPROBOOK-REV.02-0325-1.pdf"
-          },
-          {
-            "title": "DE Booklet",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPROBOOK-REV.01-0325.pdf"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/07/UK-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/FR-MWPRO-BRUSH-GUIDE-REV.02-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/07/DE-MWPRO-BRUSH-GUIDE-REV.00-0924.pdf"
           }
         ]
       }
@@ -1300,24 +1024,12 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ISCRUB-REV.00-0224-6.pdf"
           },
           {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-8584-0000-iscrub-21B-User-Manual-Issue-2-10-24.pdf"
-          },
-          {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
           },
           {
             "title": "Parts List",
@@ -1479,23 +1191,11 @@ export const truvoxProductDetails = {
         "links": [
           {
             "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-IMOPLITE-REV.00-0224-4.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-8583-0000-imop-Lite-User-Manual-Issue-2-10-24.pdf"
-          },
-          {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
           },
           {
             "title": "Parts List",
@@ -1717,68 +1417,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2025/02/UK-OMS20-REV.07-0626.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2025/02/FR-OMS20-REV.06-0626.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2025/02/DE-OMS20-REV.03-0626.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2025/02/03-8286-0000-Motorscrubber-Issue-4-0726.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2025/02/Orbis-MotorScrubber-Issue-11.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/xNzfZCB5fa"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/ksUfTvMG21"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/mx6gxBsiv2"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
-            "title": "UK Accessories Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2025/02/UK-Orbis-MotorScrubber-20-Accessories-Guide-REV.06-0626.pdf"
-          },
-          {
-            "title": "FR Accessories Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2025/02/FR-Orbis-MotorScrubber-20-Accessories-Guide-REV.09-0626.pdf"
-          },
-          {
-            "title": "DE Accessories Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2025/02/DE-Orbis-MotorScrubber-20-Accessories-Guide-REV.01-0626.pdf"
           }
         ]
       }
@@ -1924,68 +1576,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-ORBIS-ECO-REV.07-0225.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-ORBIS-ECO-REV.08-0225.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-ORBIS-ECO-REV.02-0225.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8392-0000-Orbis-eco-Issue-5-0525.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/Orbis-eco-200-parts-list-issue-5.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/TvPjcEZnTC"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/8AsGUhsKJn"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/4Ptp6T5vWv"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -2121,68 +1729,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-ORBIS-ECO-REV.07-0225.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-ORBIS-ECO-REV.08-0225.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-ORBIS-ECO-REV.02-0225.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8392-0000-Orbis-eco-Issue-5-0525.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Orbis-eco-400-parts-list-issue-5.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/TvPjcEZnTC"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/8AsGUhsKJn"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/4Ptp6T5vWv"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -2328,68 +1892,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/UK-ORBIS-ECO-REV.07-0225.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-ORBIS-ECO-REV.08-0225.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/01/DE-ORBIS-ECO-REV.02-0225.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8392-0000-Orbis-eco-Issue-5-0525.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Orbis-eco-duo-parts-list-issue-5.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/TvPjcEZnTC"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/8AsGUhsKJn"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/4Ptp6T5vWv"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -2530,68 +2050,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Truvox-230v-50hz-ORBIS-200-400-15-inch-Series-E-Issue-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/iCxH4C6vfh"
           },
           {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -2727,68 +2203,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Truvox-230v-50hz-ORBIS-200-400-15-inch-Series-E-Issue-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/iCxH4C6vfh"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -2944,68 +2376,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Truvox-230v-50hz-200-400-17inch-Series-E-Issue-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/iCxH4C6vfh"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -3166,68 +2554,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Truvox-230V-50Hz-Orbis-HD-17inch-Series-E-Issue-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/iCxH4C6vfh"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -3373,68 +2717,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Truvox-230v-50hz-200-400-17inch-Series-E-Issue-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/iCxH4C6vfh"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -3590,68 +2890,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-REV.09-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-REV.06-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-REV.05-0925-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-6120-0000-Orbis-Issue-6-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/Orbis-Duo-UK-and-EURO-Series-H-Issue-2.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/iCxH4C6vfh"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/C26evw0XbQ"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MGFrdYa9Nq"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-BRUSH-GUIDE-REV.06-0924-1.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-BRUSH-GUIDE-REV.00-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-BRUSH-GUIDE-REV.00-0924-1.pdf"
           }
         ]
       }
@@ -3745,52 +3001,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-ORBIS-UHSFH-REV.05-0225.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-UHSFH-REV.05-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-UHSFH-REV.02-0225.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8229-0000-Orbis-UHS-1500-FH-Issue-5-0525.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/Truvox-UHS-Folding-Handle-17-inch-Series-H-Issue-2.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/LAVXeXxbd6"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/j7gPJUsw4c"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/3vJduyY7vA"
           }
         ]
       }
@@ -3879,52 +3103,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-ORBIS-UHSFH-REV.05-0225.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-ORBIS-UHSFH-REV.05-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-ORBIS-UHSFH-REV.02-0225.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-8229-0000-Orbis-UHS-1500-FH-Issue-5-0525.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/Truvox-UHS-Folding-Handle-20inch-Series-H-Issue-1.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/LAVXeXxbd6"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/j7gPJUsw4c"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/3vJduyY7vA"
           }
         ]
       }
@@ -4020,52 +3212,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-OCB-REV.05-0324-4.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-OCB-REV.04-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-OCB-REV.00-0424-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-8203-0000-Orbis-UHS-Cordless-Burnisher-Issue-3-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/1.-OCB451500-Iss-9-Series-C-from-SN-02842.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/yKFkS6ytbX"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/FWJeawa5iL"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/L0hxEibHZ9"
           }
         ]
       }
@@ -4166,52 +3326,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-HML-REV.02-0324-1.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-HML-REV.02-0424-1.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-HML-REV.01-0424.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8179-0000-Hydromist-Lite-User-Manual-Issue-7-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/HML-Parts-List-Issue-E.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/PnXqxdRv9y"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/kCGz90Wkn3"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/KauUpt30uj"
           }
         ]
       }
@@ -4314,52 +3442,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/UK-HM10HM20HD-REV.03-0324-1.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/12/FR-HM10HM20HD-REV.03-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/12/DE-HM10HM20HD-REV.01-0424-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8015-0000-Hydromist-10-20HD-User-Manual-Issue-5-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/HM10HD-Parts-List-Issue-6.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/yYZqLBG3XY"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": ""
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/YT1JcREVtZ"
           }
         ]
       }
@@ -4462,52 +3558,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/UK-HM10HM20HD-REV.03-0324-1.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/12/FR-HM10HM20HD-REV.03-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/12/DE-HM10HM20HD-REV.01-0424-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/01/03-8015-0000-Hydromist-10-20HD-User-Manual-Issue-5-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/HM20HD-Parts-List-Series-B-Issue-6.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/yYZqLBG3XY"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/8sehJMUXTY"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/YT1JcREVtZ"
           }
         ]
       }
@@ -4605,52 +3669,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-HC250-REV.04-0324-3.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-HC250-REV.02-0424.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-HC250-REV.01-0424.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-6066-0000-HC250-User-Manual-Issue-7-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/HC250-Parts-List-Series-D-Issue-6-04-25.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/RVJ6aiv6pm"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/fH3juvc624"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/pZsRxsnuj0"
           }
         ]
       }
@@ -4755,52 +3787,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-HM35-REV.03-0324.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-HM35-REV.03-0424.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-HM35-REV.01-0424.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8207-0000-HM35-Issue-6-1125.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/HM35-Parts-List-Issue-14.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/b7HTR3ubQx"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/11RNTe7YqE"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/XnukinttX8"
           }
         ]
       }
@@ -4922,24 +3922,8 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2026/01/UK-HM40-REV.00-1225-2.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/01/FR-HM40-REV.00-1225-2.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/01/DE-HM40-REV.00-1225-3.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "Hydromist 40 User Manual",
@@ -4950,10 +3934,6 @@ export const truvoxProductDetails = {
             "url": "https://www.truvox.com/wp-content/uploads/2026/01/03-8545-0000-port-a-heat-User-Manual-REV.03-0126.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Hydromist 40 Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/HM40.PARTS-LIST-ISSUE-2-10-25.pdf"
           },
@@ -4962,20 +3942,8 @@ export const truvoxProductDetails = {
             "url": "https://www.truvox.com/wp-content/uploads/2026/01/Port-A-Heat-Parts-List-Series-A-Issue-201-24.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/sG2QBeSbat"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/2vAjqmTd5d"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/t7u58DKfgw"
           }
         ]
       }
@@ -5097,24 +4065,8 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2026/01/UK-HM40-REV.00-1225-2.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/01/FR-HM40-REV.00-1225-2.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/01/DE-HM40-REV.00-1225-3.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "Hydromist 40 User Manual",
@@ -5125,10 +4077,6 @@ export const truvoxProductDetails = {
             "url": "https://www.truvox.com/wp-content/uploads/2026/01/03-8545-0000-port-a-heat-User-Manual-REV.03-0126.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Hydromist 40 Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/HM40.PARTS-LIST-ISSUE-2-10-25.pdf"
           },
@@ -5137,20 +4085,8 @@ export const truvoxProductDetails = {
             "url": "https://www.truvox.com/wp-content/uploads/2026/01/Port-A-Heat-Parts-List-Series-A-Issue-201-24.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/sG2QBeSbat"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/2vAjqmTd5d"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/t7u58DKfgw"
           }
         ]
       }
@@ -5290,68 +4226,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-CYCLONE-REV.04-0824.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-CYCLONE-REV.03-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-CYCLONE-REV.02-0824.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-7983-0000-Cimex-Cyclone-Issue-4-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/CR38.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/zvMwWeDsZt"
           },
           {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/qkiNNEueJu"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/6jdjAJ36AG"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
           }
         ]
       }
@@ -5492,68 +4384,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-CYCLONE-REV.04-0824.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-CYCLONE-REV.03-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-CYCLONE-REV.02-0824.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-7983-0000-Cimex-Cyclone-Issue-4-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/CRS38.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/zvMwWeDsZt"
           },
           {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/qkiNNEueJu"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/6jdjAJ36AG"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
           }
         ]
       }
@@ -5709,68 +4557,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-CYCLONE-REV.04-0824.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-CYCLONE-REV.03-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-CYCLONE-REV.02-0824.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-7983-0000-Cimex-Cyclone-Issue-4-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/CR48-Spare-Parts-List-Series-B-Issue-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/zvMwWeDsZt"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/6jdjAJ36AG"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/qkiNNEueJu"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
           }
         ]
       }
@@ -5884,68 +4688,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-ENCAP-REV.04-0824.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-ENCAP-REV.02-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-ENCAP-REV.02-0824.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-7983-0000-Cimex-Cyclone-Issue-4-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/Cimex-CR48-Spare-Part-Drawings-Series-B.xlsx.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/zvMwWeDsZt"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/6jdjAJ36AG"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/qkiNNEueJu"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
           }
         ]
       }
@@ -6077,68 +4837,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/UK-CIMEX-HEAVY-DUTY-REV.03-0324-1.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/12/FR-CIMEX-HEAVY-DUTY-REV.03-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-HEAVY-DUTY-REV.01-0724.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/03-7557-0000-Cimex-Heavy-Duty-Issue-4-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/R48-HD-Parts-List-Issue-D.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/LgUdwn6V0v"
           },
           {
-            "title": "FR Fault Finding Guides",
-            "url": "https://forms.office.com/r/XAafk0LNJ0"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/MvRNfuU9iP"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
           }
         ]
       }
@@ -6273,68 +4989,24 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/UK-CIMEX-HEAVY-DUTY-REV.03-0324-1.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/12/FR-CIMEX-HEAVY-DUTY-REV.03-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-HEAVY-DUTY-REV.01-0724.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/03-8017-0000-Cimex-Diamond-Finisher-Issue-5-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/12/CR48-DF_022509-1.pdf"
-          },
-          {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
           },
           {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/VKj3Z6TCVZ"
           },
           {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.cloud.microsoft/r/g7T6anMi9M"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.cloud.microsoft/r/ydnhPVp5sA"
-          },
-          {
-            "title": "Other Downloads",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Brush Guide",
             "url": "https://www.truvox.com/wp-content/uploads/2024/02/UK-CIMEX-BRUSH-GUIDE-REV.06-0924.pdf"
-          },
-          {
-            "title": "FR Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/FR-CIMEX-BRUSH-GUIDE-REV.07-0924.pdf"
-          },
-          {
-            "title": "DE Brush Guide",
-            "url": "https://www.truvox.com/wp-content/uploads/2024/02/DE-CIMEX-TOOL-GUIDE-REV.00-0924.pdf"
           }
         ]
       }
@@ -6493,52 +5165,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2026/03/UK-VBPRO-BATTERY-REV.02-0726.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/03/FR-VBPRO-BATTERY-REV.02-0726.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/03/DE-VBPRO-BATTERY-REV.02-0726.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2026/03/03-8642-0000-Valet-Backpack-PRO-Battery-Issue-2-0726-2.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2026/02/VBPRO-Battery-Parts-List-Issue-1-1025.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/7Mqbq1NnzZ"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/xgH7yiDdLp"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/NeHMhnd597"
           }
         ]
       }
@@ -6550,9 +5190,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A compact, entry-level vacuum that offers excellent performance and is ideal for daily vacuuming.*Only available in certain countries.",
     "heroImage": "/content_images/vtve-compact.png",
-      "galleryImages": [
-        "/content_images/vtve-compact.png"
-      ],
+    "galleryImages": [
+      "/content_images/vtve-compact.png"
+    ],
     "features": [
       {
         "title": "LIGHTWEIGHT",
@@ -6656,52 +5296,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-VTVE-C-REV.02-0324-2.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-VTVE-C-REV.02-0424.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-VTVE-C-REV.02-0424.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8576-0000-VTVe-Compact-User-Manual-07-24.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/Truvox-VTVe-C-parts-list-Series-A-Issue-1.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/KSuHnPFCtA"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/Hhr9KFqYAy"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/9Ct45gCf5F"
           }
         ]
       }
@@ -6817,52 +5425,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-VTVE-REV.08-0725.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-VTVE-REV.08-0725.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-VTVE-REV.01-0725.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8400-0000-VTVe-User-Manual-Issue-6-0726.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/VTVe-Parts-list-series-A-Issue-7-07-25.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/FsM9c9wmYv"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/DJPeh2ZyWv"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/83JkH0hJgR"
           }
         ]
       }
@@ -6970,52 +5546,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-VBUII-REV.02-0324-3.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-VBUII-REV.02-0424-1.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-VBUII-REV.01-0424.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8397-0000-Valet-Battery-Upright-II-Issue-5-0525-1.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/VBUII-Parts-List-Issue-6.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/pmSNef4Vxc"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": ""
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/vXTW9GtGEe"
           }
         ]
       }
@@ -7027,9 +5571,9 @@ export const truvoxProductDetails = {
     "brand": "TRUVOX INTERNATIONAL",
     "description": "A powerful and robust, dual motor upright vacuum cleaner, providing effective cleaning by removing dust particles down to 0.3 microns.",
     "heroImage": "/content_images/valet-dual-motor-upright.png",
-      "galleryImages": [
-        "/content_images/valet-dual-motor-upright.png"
-      ],
+    "galleryImages": [
+      "/content_images/valet-dual-motor-upright.png"
+    ],
     "features": [
       {
         "title": "PRODUCTIVE",
@@ -7119,52 +5663,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-VDMU-REV.03-0326.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-VDMU-REV.03-0326.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-VDMU-REV.02-0326.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8532-0000-Valet-Dual-Motor-Upright-Issue-2-0824.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/Valet-Dual-Motor-Upright-Spare-Parts-List-Series-A-Issue-2-23-04-25.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/vGQzksVXhH"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/prz0zEUGMX"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/at4kVG8KZt"
           }
         ]
       }
@@ -7250,52 +5762,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-VWAV-REV.04-0324-2.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-VWAV-REV.02-0424-2.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-VWAV-REV.00-0424.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8190-0000-VWAV-User-Manual-Issue-5-0425.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/Valet-Wide-area-Vac-Parts-list-series-A-issue-M.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/invfBcp43E"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/CNZXr4hqRG"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/51BNG5Anyv"
           }
         ]
       }
@@ -7438,52 +5918,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/UK-VA20-40-REV.00-1125.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2025/12/FR-VA20-40-REV.00-1125.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/01/DE-VA20-40-REV.00-1125.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/03-8644-0000-VA20-VA40-User-manual-Issue-01-0925.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/Parts-list-VA20.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/NNMFQc0bnT"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/195nn48eyW"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/ATWbT142D1"
           }
         ]
       }
@@ -7626,52 +6074,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/UK-VA20-40-REV.00-1125.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2025/12/FR-VA20-40-REV.00-1125.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2026/01/DE-VA20-40-REV.00-1125.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/03-8644-0000-VA20-VA40-User-manual-Issue-01-0925.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2025/12/Parts-list-VA40.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/NNMFQc0bnT"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/195nn48eyW"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/ATWbT142D1"
           }
         ]
       }
@@ -7779,52 +6195,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-VA-REV.04-0925.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-VA-REV.04-0925.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-VA-REV.01-0925.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/TEXT-ONLY-03-8112-0000-Valet-Aqua-Issue-5-0824.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/VA55HD-Series-A.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/Kw45Za4FKw"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/8RxAtq4Q24"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/8YwLudnQ8Q"
           }
         ]
       }
@@ -7909,52 +6293,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-TRU460-REV.02-0324-1.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-TRU460-REV.02-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-TRU460-REV.01-0724.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8236-0000-TruSweep460-User-Manual-Issue-5-0325.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/TruSweep-Service-List-Rev-5.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/xZUDzved2S"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/FaJc1uJG8M"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/saDRH8bzGb"
           }
         ]
       }
@@ -8042,52 +6394,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-X46-REV.02-0324-2.pdf"
-          },
-          {
-            "title": "FR Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/FR-X46-REV.02-0425.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-X46-REV.01-0724-1.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manual",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-7845-0000-X46-Issue-6-User-Manual-0325.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/X46-Parts-List-Issue-D.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/kwXRd3w1m1"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/QT49uXyvNS"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/SEcdSc48Uy"
           }
         ]
       }
@@ -8162,48 +6482,20 @@ export const truvoxProductDetails = {
         "category": "Downloads",
         "links": [
           {
-            "title": "Sales Literature",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Sales Literature",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/UK-AM3000-REV.04-0324-1.pdf"
-          },
-          {
-            "title": "DE Sales Literature",
-            "url": "https://www.truvox.com/wp-content/uploads/2023/11/DE-AM3000-REV.00-0724.pdf"
-          },
-          {
-            "title": "User Manuals",
-            "url": "javascript:void(0);"
           },
           {
             "title": "User Manuals",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/03-8433-0000-User-Manual-AM3000-Issue-3-01-23.pdf"
           },
           {
-            "title": "Parts Lists",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "Parts List",
             "url": "https://www.truvox.com/wp-content/uploads/2023/11/AM3000-Parts-List-Issue-1.pdf"
           },
           {
-            "title": "Fault Finding Guides",
-            "url": "javascript:void(0);"
-          },
-          {
             "title": "UK Fault Finding Guide",
             "url": "https://forms.office.com/r/71fn1mvqas"
-          },
-          {
-            "title": "FR Fault Finding Guide",
-            "url": "https://forms.office.com/r/dT3LKtrBmX"
-          },
-          {
-            "title": "DE Fault Finding Guide",
-            "url": "https://forms.office.com/r/b3jRihYARw"
           }
         ]
       }

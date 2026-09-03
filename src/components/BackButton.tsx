@@ -8,26 +8,10 @@ export default function BackButton() {
   if (location.pathname === '/') return null;
 
   return (
-    <div style={{ position: 'fixed', top: '130px', left: '2rem', zIndex: 50 }}>
+    <div className="back-btn-wrapper">
       <button
         onClick={() => navigate(-1)}
-        style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '0.5rem',
-          padding: '0.6rem 1.25rem',
-          background: 'white',
-          color: 'var(--primary)',
-          border: '1.5px solid var(--border-color)',
-          borderRadius: '2rem',
-          fontWeight: 700,
-          fontSize: '0.82rem',
-          letterSpacing: '0.04em',
-          cursor: 'pointer',
-          boxShadow: '0 4px 16px rgba(0,31,63,0.1)',
-          transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-          textTransform: 'uppercase',
-        }}
+        className="back-btn"
         onMouseEnter={(e) => {
           e.currentTarget.style.background = 'var(--primary)';
           e.currentTarget.style.color = 'white';
@@ -44,8 +28,44 @@ export default function BackButton() {
         }}
       >
         <ArrowLeft size={16} />
-        Back
+        <span>Back</span>
       </button>
+
+      <style>{`
+        .back-btn-wrapper {
+          position: fixed;
+          top: 120px;
+          left: 2rem;
+          z-index: 50;
+        }
+        .back-btn {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+          padding: 0.6rem 1.25rem;
+          background: white;
+          color: var(--primary);
+          border: 1.5px solid var(--border-color);
+          border-radius: 2rem;
+          font-weight: 700;
+          font-size: 0.82rem;
+          letter-spacing: 0.04em;
+          cursor: pointer;
+          box-shadow: 0 4px 16px rgba(0,31,63,0.1);
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          text-transform: uppercase;
+        }
+        @media (max-width: 768px) {
+          .back-btn-wrapper {
+            top: 80px;
+            left: 1rem;
+          }
+          .back-btn {
+            padding: 0.45rem 0.9rem;
+            font-size: 0.75rem;
+          }
+        }
+      `}</style>
     </div>
   );
 }

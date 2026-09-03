@@ -5,66 +5,61 @@ export default function Home() {
   return (
     <div className="fade-in">
       {/* ═══════════ PREMIUM HERO ═══════════ */}
-      <section style={{ position: 'relative', height: '90vh', minHeight: '650px', overflow: 'hidden', display: 'flex', alignItems: 'center' }}>
+      <section className="home-hero">
         
         {/* Background Image */}
         <img
           src="/content_images/clean_revolution.jpg"
           alt="Professional Cleaning with Truvox Multiwash PRO"
-          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center 20%', zIndex: 0 }}
+          className="home-hero-img"
         />
         
-        {/* Premium Gradient Overlay */}
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(105deg, rgba(0,15,30,0.98) 0%, rgba(0,15,30,0.92) 30%, rgba(0,15,30,0.5) 55%, transparent 100%)', zIndex: 1 }} />
-        <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(to top, rgba(0,15,30,0.4) 0%, transparent 20%)', zIndex: 1 }} />
-        
-        {/* Accent Lines */}
-        <div style={{ position: 'absolute', top: 0, left: 0, right: 0, height: '4px', background: 'linear-gradient(90deg, var(--accent) 0%, transparent 60%)', zIndex: 2 }} />
-        <div style={{ position: 'absolute', top: '15%', left: 0, height: '70%', width: '6px', background: 'var(--accent)', borderRadius: '0 4px 4px 0', zIndex: 2 }} />
+        {/* Translucent Dark Gradient Overlay */}
+        <div className="home-hero-overlay" />
 
         {/* Content Container */}
-        <div className="container" style={{ position: 'relative', zIndex: 3, paddingLeft: '4rem', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', height: '100%' }}>
+        <div className="container home-hero-container">
           
           {/* Main Text Content */}
-          <div style={{ maxWidth: '650px', paddingBottom: '10vh' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
-              <div style={{ width: '40px', height: '2px', background: 'var(--accent)' }} />
-              <span style={{ fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.25em', color: 'var(--accent)', textTransform: 'uppercase' }}>Professional Equipment</span>
+          <div className="home-hero-text">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1.25rem' }}>
+              <div style={{ width: '35px', height: '2px', background: 'var(--accent)' }} />
+              <span style={{ fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.22em', color: 'var(--accent)', textTransform: 'uppercase' }}>Professional Equipment</span>
             </div>
 
-            <h1 style={{ fontSize: 'clamp(3.8rem, 6.5vw, 6rem)', fontWeight: 900, lineHeight: 0.95, letterSpacing: '-0.03em', marginBottom: '1rem' }}>
-              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>CLEAN</span>
-              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.4)' }}>PROMAC</span>
+            <h1 className="home-hero-title">
+              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>CLEAN</span>
+              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>PROMAC</span>
             </h1>
             
-            <div style={{ width: '120px', height: '6px', backgroundColor: 'var(--accent)', borderRadius: '3px', marginBottom: '2rem' }}></div>
+            <div style={{ width: '100px', height: '5px', backgroundColor: 'var(--accent)', borderRadius: '3px', marginBottom: '1.5rem' }}></div>
 
-            <p style={{ fontSize: '1.15rem', color: 'rgba(255,255,255,0.85)', lineHeight: '1.8', marginBottom: '2.5rem', maxWidth: '500px', fontWeight: 500 }}>
+            <p style={{ fontSize: '1.05rem', color: 'rgba(255,255,255,0.9)', lineHeight: '1.8', marginBottom: '2rem', maxWidth: '500px', fontWeight: 500 }}>
               Advanced solutions for a cleaner, safer, and more productive environment — for every industry across India.
             </p>
 
-            {/* Premium Feature Pills - Horizontal layout */}
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '3rem' }}>
+            {/* Premium Feature Pills */}
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '2.5rem' }}>
               {['Simple to Use & Deploy', 'Easy to Maintain', 'Expert Support'].map((feat) => (
                 <div key={feat} style={{ 
-                  display: 'flex', alignItems: 'center', gap: '0.6rem', 
-                  background: 'rgba(255,255,255,0.08)', backdropFilter: 'blur(10px)', 
-                  border: '1px solid rgba(255,255,255,0.15)', borderRadius: '2rem', 
-                  padding: '0.5rem 1.25rem', color: 'white' 
+                  display: 'flex', alignItems: 'center', gap: '0.5rem', 
+                  background: 'rgba(0,31,63,0.6)', backdropFilter: 'blur(10px)', 
+                  border: '1px solid rgba(255,255,255,0.2)', borderRadius: '2rem', 
+                  padding: '0.45rem 1.1rem', color: 'white' 
                 }}>
                   <div style={{ color: 'var(--accent)', display: 'flex', alignItems: 'center' }}>
                     <ShieldCheck size={16} strokeWidth={3} />
                   </div>
-                  <span style={{ fontSize: '0.85rem', fontWeight: 700, letterSpacing: '0.03em' }}>{feat}</span>
+                  <span style={{ fontSize: '0.82rem', fontWeight: 700, letterSpacing: '0.02em' }}>{feat}</span>
                 </div>
               ))}
             </div>
 
             {/* CTA */}
-            <div style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
-              <Link to="/brands" className="btn-3d" style={{ padding: '1.1rem 2.5rem', fontSize: '1rem' }}>EXPLORE BRANDS</Link>
+            <div className="home-hero-cta">
+              <Link to="/brands" className="btn-3d" style={{ padding: '1rem 2.2rem', fontSize: '0.95rem' }}>EXPLORE BRANDS</Link>
               <Link to="/contact" style={{ 
-                color: 'white', fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem', 
+                color: 'white', fontWeight: 700, fontSize: '0.95rem', display: 'flex', alignItems: 'center', gap: '0.5rem', 
                 borderBottom: '2px solid transparent', paddingBottom: '0.2rem', transition: 'all 0.3s'
               }}
               onMouseEnter={(e) => { e.currentTarget.style.borderBottomColor = 'var(--accent)'; e.currentTarget.style.color = 'var(--accent)'; }}
@@ -76,19 +71,13 @@ export default function Home() {
           </div>
 
           {/* Floating Glassmorphic Badge */}
-          <div style={{ 
-            marginBottom: '10vh', marginRight: '2rem',
-            background: 'rgba(0,15,30,0.65)', backdropFilter: 'blur(12px)',
-            border: '1px solid rgba(255,255,255,0.15)', borderRadius: '1rem',
-            padding: '1.25rem 1.5rem', display: 'flex', alignItems: 'center', gap: '1rem',
-            boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
-          }}>
-            <div style={{ background: 'var(--accent)', borderRadius: '50%', width: '42px', height: '42px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <span style={{ color: 'white', fontSize: '1.2rem' }}>✦</span>
+          <div className="home-hero-badge">
+            <div style={{ background: 'rgba(255,255,255,0.15)', borderRadius: '50%', width: '40px', height: '40px', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+              <span style={{ color: 'var(--accent)', fontSize: '1.2rem' }}>✦</span>
             </div>
             <div>
-              <div style={{ fontWeight: 800, fontSize: '0.9rem', color: 'white', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Truvox Multiwash PRO</div>
-              <div style={{ fontSize: '0.75rem', color: 'var(--accent)', fontWeight: 600, letterSpacing: '0.02em' }}>Global Floorcare Solutions</div>
+              <div style={{ fontWeight: 800, fontSize: '0.88rem', color: 'white', textTransform: 'uppercase', letterSpacing: '0.08em' }}>Truvox Multiwash PRO</div>
+              <div style={{ fontSize: '0.75rem', color: '#94a3b8', fontWeight: 600, letterSpacing: '0.02em' }}>Global Floorcare Solutions</div>
             </div>
           </div>
 
@@ -99,7 +88,7 @@ export default function Home() {
       {/* The Clean Revolution */}
       <section className="section section-gray">
         <div className="container">
-          <div style={{ display: 'flex', gap: '5rem', alignItems: 'center' }}>
+          <div className="revolution-split">
 
             {/* Text — RIGHT */}
             <div style={{ flex: 1, order: 2 }}>
@@ -108,30 +97,29 @@ export default function Home() {
                 <span style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.15em', color: 'var(--accent)', textTransform: 'uppercase' }}>WHO WE ARE</span>
               </div>
               <h2 className="heading-lg mb-2" style={{ color: 'var(--primary)' }}>The Clean Revolution</h2>
-              <h3 style={{ fontSize: '1.25rem', marginBottom: '1.5rem', color: 'var(--accent)', fontWeight: 600 }}>Professional Cleaning Solutions for Every Industry</h3>
-              <p className="mb-4 text-muted" style={{ lineHeight: '1.8' }}>
+              <h3 style={{ fontSize: '1.2rem', marginBottom: '1.25rem', color: 'var(--accent)', fontWeight: 600 }}>Professional Cleaning Solutions for Every Industry</h3>
+              <p className="mb-4 text-muted" style={{ lineHeight: '1.8', fontSize: '0.95rem' }}>
                 PROMAC CLEANING SOLUTIONS is the dedicated cleaning equipment division of Promac Technologies Pvt. Ltd., delivering world-class commercial and industrial cleaning equipment across India. We partner with globally trusted brands to provide advanced cleaning technologies that improve productivity, hygiene, safety, and operational efficiency.
               </p>
-              <p className="mb-4 text-muted" style={{ lineHeight: '1.8' }}>
+              <p className="mb-4 text-muted" style={{ lineHeight: '1.8', fontSize: '0.95rem' }}>
                 From facility management companies and manufacturing plants to hospitals, hotels, airports, educational institutions, retail spaces, and commercial buildings, we provide the right cleaning solution for every application.
               </p>
-              <p style={{ fontWeight: 700, color: 'var(--primary)', marginTop: '1.5rem', lineHeight: '1.7' }}>
+              <p style={{ fontWeight: 700, color: 'var(--primary)', marginTop: '1.25rem', lineHeight: '1.7', fontSize: '0.95rem' }}>
                 With expert consultation, reliable after-sales support, and a commitment to customer success, Clean Promac is your trusted partner for professional cleaning.
               </p>
             </div>
 
             {/* Image — LEFT */}
-            <div style={{ flex: 1, order: 1, position: 'relative', paddingBottom: '18px', paddingLeft: '18px' }}>
-              <div style={{ position: 'absolute', bottom: 0, left: 0, width: 'calc(100% - 18px)', height: 'calc(100% - 18px)', background: 'var(--accent)', borderRadius: '1.25rem', zIndex: 0 }} />
-              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '460px' }}>
+            <div className="revolution-img-wrapper" style={{ flex: 1, order: 1 }}>
+              <div className="hover-scale" style={{ position: 'relative', zIndex: 1, borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 24px 50px rgba(0,0,0,0.14)', height: '420px', border: '1px solid var(--border-color)' }}>
                 <img
                   src="/content_images/hero-lady.jpg"
                   alt="Professional Cleaning Solutions"
                   style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block' }}
                 />
-                <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', background: 'rgba(0,31,63,0.85)', backdropFilter: 'blur(8px)', borderRadius: '0.6rem', padding: '0.65rem 1.1rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                <div style={{ position: 'absolute', top: '1.25rem', left: '1.25rem', background: 'rgba(0,31,63,0.85)', backdropFilter: 'blur(8px)', borderRadius: '0.6rem', padding: '0.5rem 1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                   <div style={{ width: '8px', height: '8px', borderRadius: '50%', background: 'var(--accent)', flexShrink: 0 }} />
-                  <span style={{ color: 'white', fontWeight: 700, fontSize: '0.78rem', letterSpacing: '0.08em', textTransform: 'uppercase' }}>Trusted Across Industries</span>
+                  <span style={{ color: 'white', fontWeight: 700, fontSize: '0.75rem', letterSpacing: '0.08em', textTransform: 'uppercase' }}>Trusted Across Industries</span>
                 </div>
               </div>
             </div>
@@ -313,15 +301,126 @@ export default function Home() {
       {/* Let's Find the Right Cleaning Solution */}
       <section className="section pb-12" style={{ backgroundColor: 'var(--bg-light)', borderTop: '1px solid var(--border-color)' }}>
         <div className="container">
-          <div className="card-3d" style={{ background: 'var(--primary)', padding: '5rem 4rem', textAlign: 'center', borderColor: 'var(--primary)' }}>
+          <div className="card-3d cta-banner-card" style={{ background: 'var(--primary)', textAlign: 'center', borderColor: 'var(--primary)' }}>
             <h2 className="heading-lg mb-6" style={{ color: 'white' }}>Let's Find the Right Cleaning Solution</h2>
             <p className="text-lead mx-auto" style={{ color: 'rgba(255,255,255,0.85)', maxWidth: '800px', marginBottom: '3rem' }}>
               Whether you're planning a new facility, expanding your operations, or replacing existing equipment, our specialists are ready to help you identify the most effective cleaning solution for your application.
             </p>
-            <Link to="/contact" className="btn-3d" style={{ fontSize: '1.1rem' }}>CONTACT OUR EXPERTS</Link>
+            <Link to="/contact" className="btn-3d" style={{ fontSize: '1.05rem', padding: '1.1rem 2.5rem' }}>CONTACT OUR EXPERTS</Link>
           </div>
         </div>
       </section>
+
+      <style>{`
+        .home-hero {
+          position: relative;
+          min-height: 720px;
+          height: 90vh;
+          overflow: hidden;
+          display: flex;
+          align-items: center;
+        }
+        .home-hero-img {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: 75% center;
+          z-index: 0;
+        }
+        .home-hero-overlay {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(110deg, rgba(0,20,40,0.95) 0%, rgba(0,20,40,0.82) 40%, rgba(0,20,40,0.3) 70%, rgba(0,20,40,0.15) 100%);
+          z-index: 1;
+        }
+        .home-hero-container {
+          position: relative;
+          z-index: 3;
+          padding-left: 3rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+          height: 100%;
+        }
+        .home-hero-text {
+          max-width: 650px;
+          padding-bottom: 10vh;
+        }
+        .home-hero-title {
+          font-size: clamp(2.8rem, 6.5vw, 6rem);
+          font-weight: 900;
+          line-height: 0.95;
+          letter-spacing: -0.03em;
+          margin-bottom: 1rem;
+        }
+        .home-hero-cta {
+          display: flex;
+          gap: 1.5rem;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        .home-hero-badge {
+          margin-bottom: 10vh;
+          margin-right: 2rem;
+          background: rgba(0,15,30,0.65);
+          backdrop-filter: blur(12px);
+          border: 1px solid rgba(255,255,255,0.15);
+          border-radius: 1rem;
+          padding: 1.25rem 1.5rem;
+          display: flex;
+          align-items: center;
+          gap: 1rem;
+          box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        .revolution-split {
+          display: flex;
+          gap: 5rem;
+          align-items: center;
+        }
+        .cta-banner-card {
+          padding: 5rem 4rem;
+        }
+
+        @media (max-width: 900px) {
+          .home-hero {
+            height: auto;
+            min-height: 560px;
+            padding: 5rem 0 3rem;
+          }
+          .home-hero-overlay {
+            background: linear-gradient(180deg, rgba(0,20,40,0.95) 0%, rgba(0,20,40,0.85) 60%, rgba(0,20,40,0.95) 100%);
+          }
+          .home-hero-container {
+            padding-left: 1.5rem !important;
+            padding-right: 1.5rem !important;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 2rem;
+          }
+          .home-hero-text {
+            max-width: 100%;
+            padding-bottom: 0;
+          }
+          .home-hero-title {
+            font-size: clamp(2.4rem, 9vw, 3.8rem);
+          }
+          .home-hero-badge {
+            margin-bottom: 0;
+            margin-right: 0;
+            width: 100%;
+          }
+          .revolution-split {
+            flex-direction: column;
+            gap: 2.5rem;
+          }
+          .cta-banner-card {
+            padding: 3rem 1.5rem;
+          }
+        }
+      `}</style>
     </div>
   );
 }
