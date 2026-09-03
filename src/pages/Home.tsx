@@ -28,7 +28,6 @@ export default function Home() {
             </div>
 
             <h1 className="home-hero-title">
-              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>CLEAN</span>
               <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>PROMAC</span>
             </h1>
             
