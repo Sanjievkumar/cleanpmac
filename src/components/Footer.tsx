@@ -29,7 +29,7 @@ export default function Footer() {
           <h4 className="footer-heading">Contact Info</h4>
           <p className="footer-text mb-2"><strong>Email:</strong> senthil@cleanpromac.com</p>
           <p className="footer-text mb-2"><strong>Phone:</strong> +91 9566340888</p>
-          <p className="footer-text"><strong>Address:</strong> Promac Technologies Pvt. Ltd.<br/>Sapthagiri Nagar, Puzhuthivakkam<br/>(near Redington), Chennai - 600091</p>
+          <p className="footer-text"><strong>Address:</strong> Ground Floor, Door No:5, Plot No:33,<br/>Sapthagiri Nagar, Inner Ring Road,<br/>Puludivakkam, Chennai - 600091,<br/>Tamil Nadu, India</p>
         </div>
       </div>
       <div className="container footer-bottom">
