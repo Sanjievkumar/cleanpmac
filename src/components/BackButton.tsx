@@ -5,7 +5,10 @@ export default function BackButton() {
   const navigate = useNavigate();
   const location = useLocation();
 
-  if (location.pathname === '/') return null;
+  const isTruvoxDetail = location.pathname.startsWith('/brands/truvox/') && location.pathname !== '/brands/truvox';
+  const isKlencoDetail = location.pathname.startsWith('/brands/klenco/') && location.pathname.split('/').filter(Boolean).length > 2;
+
+  if (!isTruvoxDetail && !isKlencoDetail) return null;
 
   return (
     <div className="back-btn-wrapper">

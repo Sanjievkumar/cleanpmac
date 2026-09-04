@@ -94,27 +94,17 @@ export default function TruvoxBrand() {
   return (
     <div className="fade-in">
       
-      {/* ═══════════ TRUVOX HERO (Seamless Native + Artwork Integration) ═══════════ */}
+      {/* ═══════════ TRUVOX HERO (Seamless Native + HD Artwork Integration) ═══════════ */}
       <section className="truvox-hero-section" style={{ 
         position: 'relative',
         overflow: 'hidden',
         borderBottom: '1px solid rgba(0, 168, 176, 0.25)',
       }}>
-        
-        {/* Full-Bleed Authentic Backdrop (Globe, VOX watermark, Machines, Floor reflections) */}
-        <div className="truvox-hero-bg-wrap">
-          <img 
-            src="/content_images/truvox_hero_backdrop_clean.png" 
-            alt="Truvox Commercial Floorcare Machines"
-            className="truvox-hero-bg-img"
-          />
-        </div>
-
-        {/* Content Container (Native Crisp Typography & Vector Badges) */}
+        {/* Content Container (Native Crisp Typography & Vector Badges + HD Visual Artwork) */}
         <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 truvox-hero-content-wrap" style={{ position: 'relative', zIndex: 2, padding: '3.75rem 1rem 3.25rem' }}>
           <div className="truvox-hero-grid" style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'minmax(320px, 1.18fr) minmax(280px, 0.82fr)', 
+            gridTemplateColumns: 'minmax(320px, 1.15fr) minmax(280px, 0.85fr)', 
             gap: '2.5rem', 
             alignItems: 'center' 
           }}>
@@ -200,8 +190,14 @@ export default function TruvoxBrand() {
 
             </div>
 
-            {/* Right Column: Spacer on Desktop to let background artwork shine through */}
-            <div className="truvox-hero-artwork-col" style={{ width: '100%', minHeight: '460px' }} />
+            {/* Right Column: Pristine HD Artwork */}
+            <div className="truvox-hero-artwork-wrap">
+              <img 
+                src="/content_images/truvox_hero_artwork_hd.png" 
+                alt="Truvox Commercial Floorcare Machines - Multiwash PRO, Ride-On Scrubber, Valet Extraction" 
+                className="truvox-hero-artwork-img"
+              />
+            </div>
 
           </div>
 
@@ -219,37 +215,30 @@ export default function TruvoxBrand() {
 
       <style>{`
         .truvox-hero-section {
-          background: linear-gradient(135deg, #ECF7F9 0%, #E2F5F8 50%, #CDEEF4 100%);
+          background: linear-gradient(135deg, #FFFFFF 0%, #F5FBFC 40%, #EBF8FA 70%, #D8F2F6 100%);
         }
-        .truvox-hero-bg-wrap {
-          position: absolute;
-          inset: 0;
+        .truvox-hero-artwork-wrap {
+          display: flex;
+          align-items: center;
+          justify-content: center;
           width: 100%;
-          height: 100%;
-          pointer-events: none;
-          z-index: 1;
         }
-        .truvox-hero-bg-img {
+        .truvox-hero-artwork-img {
           width: 100%;
-          height: 100%;
-          object-fit: cover;
-          object-position: right center;
+          max-width: 540px;
+          height: auto;
+          object-fit: contain;
           display: block;
+          filter: drop-shadow(0 15px 30px rgba(0, 43, 73, 0.08));
         }
         @media (max-width: 991px) {
-          .truvox-hero-bg-wrap {
-            display: none;
-          }
           .truvox-hero-grid {
             grid-template-columns: 1fr !important;
-            gap: 2rem !important;
+            gap: 2.5rem !important;
           }
-          .truvox-hero-artwork-col {
-            min-height: 280px !important;
-            background: url('/content_images/truvox_hero_backdrop_clean.png') right center / cover no-repeat;
-            border-radius: 1rem;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0, 168, 176, 0.12);
+          .truvox-hero-artwork-img {
+            max-width: 480px;
+            margin: 0 auto;
           }
         }
         @media (max-width: 600px) {
