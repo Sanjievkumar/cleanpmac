@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Building2, Globe, ShieldCheck } from 'lucide-react';
 // import { truvoxCategories } from '../data/truvox-products'; // Will be used when real data is available
 
 export default function TruvoxBrand() {
@@ -94,18 +94,145 @@ export default function TruvoxBrand() {
   return (
     <div className="fade-in">
       
-      {/* ═══════════ TRUVOX HERO ═══════════ */}
-      <section style={{ backgroundColor: '#f8fafc', padding: '2.5rem 1rem 3.5rem', borderBottom: '1px solid var(--border-color)' }}>
-        <div style={{ maxWidth: '1024px', margin: '0 auto', borderRadius: '1.25rem', overflow: 'hidden', boxShadow: '0 16px 40px rgba(0, 168, 176, 0.08)', border: '1px solid rgba(0, 168, 176, 0.15)', backgroundColor: 'white' }}>
-          <img
-            src="/content_images/truvox_brand_hero.jpg"
-            alt="Truvox International - Global Floorcare Solutions"
-            style={{ 
-              width: '100%', 
-              height: 'auto',
-              display: 'block' 
-            }}
-          />
+      {/* ═══════════ TRUVOX HERO (Native Pixel-Perfect Layout) ═══════════ */}
+      <section style={{ 
+        background: 'linear-gradient(135deg, #f2fbfc 0%, #e2f6f8 40%, #cbf0f5 100%)', 
+        borderBottom: '1px solid rgba(0, 168, 176, 0.2)',
+        position: 'relative',
+        overflow: 'hidden',
+        padding: '3.5rem 0 2.5rem'
+      }}>
+        {/* Background Decorative Large Watermark "VOX" */}
+        <div style={{
+          position: 'absolute',
+          right: '5%',
+          top: '50%',
+          transform: 'translateY(-50%)',
+          fontSize: 'clamp(10rem, 20vw, 22rem)',
+          fontWeight: 900,
+          color: 'rgba(0, 168, 176, 0.08)',
+          lineHeight: 1,
+          pointerEvents: 'none',
+          userSelect: 'none',
+          zIndex: 0,
+          fontFamily: "'Montserrat', sans-serif",
+          letterSpacing: '-0.05em'
+        }}>
+          VOX
+        </div>
+
+        <div className="container max-w-7xl mx-auto px-4" style={{ position: 'relative', zIndex: 1 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3rem', alignItems: 'center' }}>
+            
+            {/* Left Column: Native Typography & Badges */}
+            <div style={{ display: 'flex', flexDirection: 'column' }}>
+              {/* Truvox Logo & Tagline */}
+              <div>
+                <img 
+                  src="/content_images/truvox-logo.png" 
+                  alt="Truvox International" 
+                  style={{ height: '44px', objectFit: 'contain' }} 
+                />
+                <div style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.18em', color: '#008b94', textTransform: 'uppercase', marginTop: '0.4rem' }}>
+                  GLOBAL FLOORCARE SOLUTIONS
+                </div>
+              </div>
+
+              {/* Main Headline */}
+              <h1 style={{ 
+                fontSize: 'clamp(1.3rem, 2.2vw, 1.7rem)', 
+                fontWeight: 800, 
+                color: '#00808a', 
+                lineHeight: 1.35, 
+                marginTop: '1.5rem', 
+                marginBottom: '1.25rem',
+                letterSpacing: '-0.01em'
+              }}>
+                Truvox International is a leading global manufacturer and supplier of commercial and industrial floorcare machines.
+              </h1>
+
+              {/* Body Paragraphs */}
+              <p style={{ fontSize: '0.92rem', color: '#475569', lineHeight: 1.75, marginBottom: '1rem', fontWeight: 450 }}>
+                Based in Southampton, England, with a history dating back to 1960, Truvox has earned a strong reputation for producing innovative and reliable cleaning solutions, becoming the first choice in floorcare equipment in over 70 countries worldwide.
+              </p>
+
+              <p style={{ fontSize: '0.92rem', color: '#475569', lineHeight: 1.75, marginBottom: '2rem', fontWeight: 450 }}>
+                We offer a wide range of well-established brands and machines, including Orbis single disc machines, Hydromist carpet cleaners, Valet vacuums, Multiwash scrubbers, and Cimex Three Brush Technology. Our products are designed to tackle various cleaning challenges and meet the highest standards of quality, efficiency, and durability.
+              </p>
+
+              {/* 3 Circular Stat Badges */}
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1.25rem', paddingTop: '1.25rem', borderTop: '1px solid rgba(0, 168, 176, 0.2)' }}>
+                
+                {/* Badge 1 */}
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.5rem' }}>
+                  <div style={{ width: '46px', height: '46px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
+                    <Building2 size={22} color="#00A8B0" />
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '0.92rem' }}>EST. 1960</div>
+                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500 }}>Southampton, England</div>
+                  </div>
+                </div>
+
+                {/* Badge 2 */}
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.5rem' }}>
+                  <div style={{ width: '46px', height: '46px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
+                    <Globe size={22} color="#00A8B0" />
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '0.92rem' }}>70+</div>
+                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500 }}>Countries Worldwide</div>
+                  </div>
+                </div>
+
+                {/* Badge 3 */}
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.5rem' }}>
+                  <div style={{ width: '46px', height: '46px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
+                    <ShieldCheck size={22} color="#00A8B0" />
+                  </div>
+                  <div>
+                    <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '0.92rem' }}>Trusted Global Brand</div>
+                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500 }}>Innovative. Reliable. Proven.</div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            {/* Right Column: Visual Artwork with Machines & Top-Right Tag */}
+            <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+              
+              {/* Top-Right Slogan Tag */}
+              <div style={{ position: 'absolute', top: 0, right: 0, textAlign: 'right', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.35rem', zIndex: 2 }}>
+                <span style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.18em', color: '#005b63', lineHeight: 1.4 }}>
+                  CLEANER<br />SPACES<br />BRIGHTER<br />POSSIBILITIES
+                </span>
+                <div style={{ width: '32px', height: '2.5px', backgroundColor: '#00A8B0' }} />
+              </div>
+
+              {/* Machine Cluster Artwork */}
+              <div style={{ width: '100%', maxWidth: '540px', marginTop: '3.5rem', display: 'flex', justifyContent: 'center' }}>
+                <img
+                  src="/content_images/truvox_hero_right_art.png"
+                  alt="Truvox Floorcare Machines"
+                  style={{ width: '100%', height: 'auto', objectFit: 'contain', filter: 'drop-shadow(0 15px 30px rgba(0, 168, 176, 0.15))' }}
+                />
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* Bottom Footer Accent */}
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(0, 168, 176, 0.15)' }}>
+            <div style={{ width: '48px', height: '2px', backgroundColor: '#00A8B0' }} />
+            <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.2em', color: '#008b94', textTransform: 'uppercase' }}>
+              GLOBAL FLOORCARE SOLUTIONS
+            </span>
+            <div style={{ width: '48px', height: '2px', backgroundColor: '#00A8B0' }} />
+          </div>
+
         </div>
       </section>
 
