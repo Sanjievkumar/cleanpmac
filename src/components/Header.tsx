@@ -28,7 +28,7 @@ export default function Header() {
         <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
           <img 
             src="/content_images/clean-promac-logo.png" 
-            alt="Clean Promac Technologies" 
+            alt="Promac Technologies" 
             className="header-logo"
           />
         </Link>

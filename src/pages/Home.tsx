@@ -104,7 +104,7 @@ export default function Home() {
                 From facility management companies and manufacturing plants to hospitals, hotels, airports, educational institutions, retail spaces, and commercial buildings, we provide the right cleaning solution for every application.
               </p>
               <p style={{ fontWeight: 700, color: 'var(--primary)', marginTop: '1.25rem', lineHeight: '1.7', fontSize: '0.95rem' }}>
-                With expert consultation, reliable after-sales support, and a commitment to customer success, Clean Promac is your trusted partner for professional cleaning.
+                With expert consultation, reliable after-sales support, and a commitment to customer success, Promac is your trusted partner for professional cleaning.
               </p>
             </div>
 

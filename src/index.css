@@ -35,6 +35,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+button, input, textarea, select, optgroup {
+  font-family: inherit;
+}
+
 a {
   text-decoration: none;
   color: inherit;
