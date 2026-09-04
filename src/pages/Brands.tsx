@@ -17,19 +17,21 @@ export default function Brands() {
           />
         </div>
 
-        {/* ─── CONTENT 1: Legacy – white band below hero ─── */}
-        <section style={{ backgroundColor: 'white', padding: '5rem 0' }}>
-          <div className="container" style={{ maxWidth: '860px', margin: '0 auto', textAlign: 'center' }}>
-            <div style={{ color: 'var(--accent)', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '1rem' }}>Our Story</div>
-            <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em', marginBottom: '2rem' }}>
-              A Legacy of Cleaning Excellence
-            </h2>
-            <p style={{ fontSize: '1.1rem', lineHeight: 1.9, color: 'var(--text-dark)', marginBottom: '1.5rem' }}>
-              Established in 1971 in Singapore, Klenco has grown into one of Asia's leading providers of professional cleaning solutions. What began with a small range of cleaning machines and chemicals has evolved into a comprehensive portfolio serving customers in more than 20 countries across Asia, the Middle East, Australia and Europe.
-            </p>
-            <p style={{ fontSize: '1.1rem', lineHeight: 1.9, color: 'var(--text-dark)' }}>
-              Today, Klenco offers an extensive range of commercial cleaning equipment, professional chemicals, janitorial tools and industrial maintenance solutions, supported by expert technical consultation and reliable after-sales service.
-            </p>
+        {/* ─── CONTENT 1: Our Story – Graphic Banner ─── */}
+        <section style={{ backgroundColor: 'white', borderBottom: '1px solid var(--border-color)' }}>
+          <div style={{ width: '100%', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img
+              src="/content_images/klenco_our_story.png"
+              alt="Klenco - Our Story: A Legacy of Cleaning Excellence"
+              style={{ 
+                width: '100%', 
+                maxWidth: '1440px',
+                height: 'auto',
+                maxHeight: '85vh', 
+                objectFit: 'contain', 
+                display: 'block' 
+              }}
+            />
           </div>
         </section>
 
