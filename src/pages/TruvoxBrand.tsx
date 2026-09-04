@@ -110,6 +110,7 @@ export default function TruvoxBrand() {
             }}
           >
             <source src="/videos/truvox-hero.mp4" type="video/mp4" />
+            <source src="/videos/truvox-hero.mov" type="video/quicktime" />
             Your browser does not support the video tag.
           </video>
         </div>
