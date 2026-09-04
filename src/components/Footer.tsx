@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className="footer-section">
       <div className="container grid grid-cols-4 gap-12 mb-12">
         <div className="footer-col">
-          <div style={{ background: 'white', display: 'inline-block', padding: '0.5rem', borderRadius: '0.25rem', marginBottom: '1.25rem' }}>
-            <img src="/content_images/clean-promac-logo.png" alt="Promac Technologies" style={{ height: '40px', objectFit: 'contain' }} />
+          <div style={{ background: 'white', display: 'inline-flex', alignItems: 'center', padding: '0.5rem 0.85rem', borderRadius: '0.5rem', marginBottom: '1.25rem' }}>
+            <img src="/content_images/clean-promac-logo.png" alt="Promac Technologies" style={{ height: '38px', objectFit: 'contain', display: 'block' }} />
           </div>
           <p className="footer-text">Professional Cleaning Solutions for Every Industry. We provide complete lifecycle support to maximize productivity and equipment performance.</p>
         </div>
