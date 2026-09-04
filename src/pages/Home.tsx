@@ -28,7 +28,7 @@ export default function Home() {
             </div>
 
             <h1 className="home-hero-title">
-              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>PROMAC</span>
+              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>PROMAC CLEANING SOLUTIONS</span>
             </h1>
             
             <div style={{ width: '100px', height: '5px', backgroundColor: 'var(--accent)', borderRadius: '3px', marginBottom: '1.5rem' }}></div>
@@ -204,32 +204,96 @@ export default function Home() {
           </div>
           
           <div className="flex flex-col gap-12">
-            <div className="grid grid-cols-2 gap-12 items-center" style={{ background: 'white', borderRadius: '1rem', padding: '3rem', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid var(--border-color)' }}>
-              <div className="flex justify-center hover-scale" style={{ padding: '2rem' }}>
-                <img src="/content_images/truvox-logo.png" alt="Truvox" style={{ width: '100%', maxWidth: '300px', objectFit: 'contain' }} />
+            {/* Truvox International Card - Styled with Truvox Blue/Teal #00A8B0 */}
+            <div className="grid grid-cols-2 gap-12 items-center" style={{ 
+              background: 'white', 
+              borderRadius: '1rem', 
+              padding: '3rem', 
+              boxShadow: '0 10px 30px rgba(0, 168, 176, 0.08)', 
+              border: '1px solid rgba(0, 168, 176, 0.25)',
+              borderLeft: '6px solid #00A8B0',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
+              <div className="flex justify-center hover-scale" style={{ padding: '2.5rem', background: '#f0f9fa', borderRadius: '1rem', border: '1px solid rgba(0, 168, 176, 0.15)' }}>
+                <img src="/content_images/truvox-logo.png" alt="Truvox" style={{ width: '100%', maxWidth: '280px', objectFit: 'contain' }} />
               </div>
               <div>
-                <h3 className="mb-4" style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--primary)' }}>TRUVOX INTERNATIONAL - UK - Since 1960</h3>
+                <div style={{ display: 'inline-block', backgroundColor: 'rgba(0, 168, 176, 0.1)', color: '#008b94', padding: '0.35rem 0.85rem', borderRadius: '0.35rem', fontWeight: 800, fontSize: '0.75rem', letterSpacing: '0.1em', marginBottom: '1rem', textTransform: 'uppercase' }}>
+                  United Kingdom • Since 1960
+                </div>
+                <h3 className="mb-4" style={{ fontSize: '1.5rem', fontWeight: 800, color: '#00A8B0' }}>TRUVOX INTERNATIONAL</h3>
                 <p className="mb-6 text-muted" style={{ lineHeight: '1.8' }}>
                   Truvox is a global name in commercial and industrial floorcare equipment. With a heritage dating back to 1960, the brand is known for practical, reliable machines designed to make professional cleaning simpler and more effective. Its range includes scrubber dryers, single-disc machines, vacuum cleaners, carpet care equipment, sweepers, and specialist floorcare solutions—suited to facilities management, healthcare, education, retail, leisure, and industrial environments.
                 </p>
-                <Link to="/brands/truvox" className="btn btn-truvox">Explore Products</Link>
+                <Link 
+                  to="/brands/truvox" 
+                  style={{ 
+                    display: 'inline-flex', 
+                    alignItems: 'center', 
+                    gap: '0.5rem', 
+                    backgroundColor: '#00A8B0', 
+                    color: 'white', 
+                    padding: '0.85rem 2rem', 
+                    borderRadius: '0.35rem', 
+                    fontWeight: 700, 
+                    fontSize: '0.9rem', 
+                    boxShadow: '0 4px 15px rgba(0, 168, 176, 0.3)', 
+                    transition: 'all 0.3s ease' 
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#008b94'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#00A8B0'; e.currentTarget.style.transform = 'none'; }}
+                >
+                  Explore Products <ArrowRight size={18} />
+                </Link>
               </div>
             </div>
             
-            <div className="grid grid-cols-2 gap-12 items-center" style={{ background: 'white', borderRadius: '1rem', padding: '3rem', boxShadow: '0 10px 30px rgba(0,0,0,0.05)', border: '1px solid var(--border-color)' }}>
+            {/* Klenco Singapore Card - Styled with Klenco Red #E31E24 */}
+            <div className="grid grid-cols-2 gap-12 items-center" style={{ 
+              background: 'white', 
+              borderRadius: '1rem', 
+              padding: '3rem', 
+              boxShadow: '0 10px 30px rgba(227, 30, 36, 0.08)', 
+              border: '1px solid rgba(227, 30, 36, 0.22)',
+              borderLeft: '6px solid #E31E24',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
               <div>
-                <h3 className="mb-4" style={{ fontSize: '1.5rem', fontWeight: 800, color: 'var(--primary)' }}>Klenco Singapore Pte Ltd – Since 1976</h3>
+                <div style={{ display: 'inline-block', backgroundColor: 'rgba(227, 30, 36, 0.08)', color: '#E31E24', padding: '0.35rem 0.85rem', borderRadius: '0.35rem', fontWeight: 800, fontSize: '0.75rem', letterSpacing: '0.1em', marginBottom: '1rem', textTransform: 'uppercase' }}>
+                  Singapore • Since 1971
+                </div>
+                <h3 className="mb-4" style={{ fontSize: '1.5rem', fontWeight: 800, color: '#E31E24' }}>KLENCO SINGAPORE</h3>
                 <p className="mb-4 text-muted" style={{ lineHeight: '1.8' }}>
-                  Established in 1976, Klenco is a globally recognized cleaning solutions brand offering a comprehensive portfolio of professional cleaning equipment, tools, consumables, and chemicals. Its extensive range supports everyday housekeeping, floor care, industrial cleaning, hygiene management, and specialized cleaning applications across diverse industries.
+                  Established in 1971, Klenco is a globally recognized cleaning solutions brand offering a comprehensive portfolio of professional cleaning equipment, tools, consumables, and chemicals. Its extensive range supports everyday housekeeping, floor care, industrial cleaning, hygiene management, and specialized cleaning applications across diverse industries.
                 </p>
                 <p className="mb-8 text-muted" style={{ lineHeight: '1.8' }}>
                   From advanced cleaning machines and vacuum systems, Klenco delivers reliable, high-performance solutions designed to enhance cleaning efficiency, improve hygiene standards, and meet the evolving needs of commercial and industrial facilities.
                 </p>
-                <Link to="/brands/klenco" className="btn btn-klenco">Explore Products</Link>
+                <Link 
+                  to="/brands/klenco" 
+                  style={{ 
+                    display: 'inline-flex', 
+                    alignItems: 'center', 
+                    gap: '0.5rem', 
+                    backgroundColor: '#E31E24', 
+                    color: 'white', 
+                    padding: '0.85rem 2rem', 
+                    borderRadius: '0.35rem', 
+                    fontWeight: 700, 
+                    fontSize: '0.9rem', 
+                    boxShadow: '0 4px 15px rgba(227, 30, 36, 0.3)', 
+                    transition: 'all 0.3s ease' 
+                  }}
+                  onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = '#c5171d'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = '#E31E24'; e.currentTarget.style.transform = 'none'; }}
+                >
+                  Explore Products <ArrowRight size={18} />
+                </Link>
               </div>
-              <div className="flex justify-center hover-scale" style={{ padding: '3rem', background: '#f8fafc', borderRadius: '1rem', border: '1px solid #e2e8f0' }}>
-                <img src="/content_images/klenco-logo.png" alt="Klenco" style={{ width: '100%', maxWidth: '300px', objectFit: 'contain' }} />
+              <div className="flex justify-center hover-scale" style={{ padding: '2.5rem', background: '#fff5f5', borderRadius: '1rem', border: '1px solid rgba(227, 30, 36, 0.15)' }}>
+                <img src="/content_images/klenco-logo.png" alt="Klenco" style={{ width: '100%', maxWidth: '280px', objectFit: 'contain' }} />
               </div>
             </div>
           </div>
@@ -348,9 +412,9 @@ export default function Home() {
           padding-bottom: 2rem;
         }
         .home-hero-title {
-          font-size: clamp(2.8rem, 6.5vw, 6rem);
+          font-size: clamp(2.2rem, 4.8vw, 4.4rem);
           font-weight: 900;
-          line-height: 0.95;
+          line-height: 1.05;
           letter-spacing: -0.03em;
           margin-bottom: 1rem;
         }

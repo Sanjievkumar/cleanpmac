@@ -35,6 +35,9 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="desktop-nav flex gap-8 items-center" style={{ fontWeight: 600 }}>
+          {location.pathname !== '/' && (
+            <Link to="/" className="nav-link">Home</Link>
+          )}
           <Link to="/about" className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`}>About Us</Link>
           <div className="nav-dropdown relative cursor-pointer">
             <span className={`nav-link ${location.pathname.includes('/brands') ? 'active' : ''}`}>Brands ▾</span>
@@ -61,6 +64,11 @@ export default function Header() {
       {mobileMenuOpen && (
         <div className="mobile-drawer">
           <div className="mobile-drawer-inner">
+            {location.pathname !== '/' && (
+              <Link to="/" className="mobile-nav-link">
+                Home
+              </Link>
+            )}
             <Link to="/about" className={`mobile-nav-link ${location.pathname === '/about' ? 'active' : ''}`}>
               About Us
             </Link>

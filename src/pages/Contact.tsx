@@ -42,7 +42,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 style={{ fontSize: '1.05rem', fontWeight: 800, color: 'white', marginBottom: '0.25rem' }}>Head Office</h4>
-                      <p style={{ color: '#94a3b8', lineHeight: '1.6', fontSize: '0.95rem' }}>Ground Floor, Door No:5, Plot No:33,<br />Sapthagiri Nagar, Inner Ring Road,<br />Puludivakkam, Chennai - 600091,<br />Tamil Nadu, India</p>
+                      <p style={{ color: '#94a3b8', lineHeight: '1.6', fontSize: '0.95rem' }}>Promac Tech Pvt Ltd,<br />Ground Floor, Door No:5, Plot No:33,<br />Sapthagiri Nagar, Inner Ring Road,<br />Puludivakkam, Chennai - 600091,<br />Tamil Nadu, India</p>
                     </div>
                   </div>
 

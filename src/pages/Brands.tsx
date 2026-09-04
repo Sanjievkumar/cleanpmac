@@ -1,5 +1,87 @@
-import { useParams, useNavigate } from 'react-router-dom';
-import { Calendar, Globe, Building2, Handshake } from 'lucide-react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { Calendar, Globe, Building2, Handshake, ArrowRight } from 'lucide-react';
+
+const klencoFloorCategories = [
+  {
+    category: 'SINGLE DISC MACHINES',
+    categoryId: 'floor-cleaning',
+    products: [
+      { id: 'cycline-s401', name: 'Cyclone S401' },
+      { id: 'cyclone-g680', name: 'Cyclone G680' },
+      { id: 'cyclone-kw17', name: 'Cyclone KW17' },
+      { id: 'foam-generator', name: 'Foam Generator' },
+      { id: 'floor-pads', name: 'Floor Pads' },
+    ]
+  },
+  {
+    category: 'CARPET EXTRACTORS',
+    categoryId: 'floor-cleaning',
+    products: [
+      { id: 'typhoon-se20', name: 'Typhoon SE20' },
+      { id: 'typhoon-se30', name: 'Typhoon SE30' },
+      { id: 'typhoon-kw22', name: 'Typhoon KW22' },
+      { id: 'typhoon-kw22p', name: 'Typhoon KW22P' },
+    ]
+  },
+  {
+    category: 'SCRUBBER DRYERS',
+    categoryId: 'floor-cleaning',
+    products: [
+      { id: 'curve', name: 'Curve' },
+      { id: 'rock-8', name: 'Rock 8' },
+    ]
+  },
+  {
+    category: 'SWEEPERS',
+    categoryId: 'floor-cleaning',
+    products: [
+      { id: 'tempest-ms900', name: 'Tempest MS900' },
+    ]
+  },
+  {
+    category: 'STEAM CLEANERS',
+    categoryId: 'floor-cleaning',
+    products: [
+      { id: 'monsoon-st7', name: 'Monsoon ST7' },
+      { id: 'monsoon-st12-uv', name: 'Monsoon ST12 UV' },
+    ]
+  }
+];
+
+const klencoOtherCategories = [
+  {
+    category: 'VACUUM CLEANERS',
+    categoryId: 'vacuum-cleaners',
+    products: [
+      { id: 'typhoon-nova-q', name: 'Typhoon Nova Q' },
+      { id: 'typhoon-r327', name: 'Typhoon R327' },
+      { id: 'typhoon-432', name: 'Typhoon 432' },
+      { id: 'typhoon-463', name: 'Typhoon 463' },
+    ]
+  },
+  {
+    category: 'HIGH PRESSURE CLEANERS',
+    categoryId: 'high-pressure-cleaners',
+    products: [
+      { id: 'monsoon-336', name: 'Monsoon 336' },
+      { id: 'monsoon-444', name: 'Monsoon 444' },
+      { id: 'monsoon-525', name: 'Monsoon 525' },
+    ]
+  },
+  {
+    category: 'CLEANING CHEMICALS',
+    categoryId: 'chemicals',
+    products: [
+      { id: 'action-170-s', name: 'Action 170 (S)' },
+      { id: 'campaign', name: 'Campaign' },
+      { id: 'power-spotter', name: 'Power Spotter' },
+      { id: 'easy-clean', name: 'Easy Clean' },
+      { id: 'power-lime', name: 'Power Lime' },
+      { id: 'power-view', name: 'Power View' },
+      { id: 'power-lemon', name: 'Power Lemon' },
+    ]
+  }
+];
 
 export default function Brands() {
   const { id } = useParams();
@@ -258,73 +340,192 @@ export default function Brands() {
           </div>
         </section>
 
-        {/* ─── CONTENT 4: Products ─── */}
-        <section style={{ backgroundColor: 'white', padding: '5rem 0' }}>
-          <div className="container" style={{ maxWidth: '1200px', margin: '0 auto' }}>
-            <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto 3.5rem auto' }}>
-              <div style={{ color: 'var(--accent)', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.2em', textTransform: 'uppercase', marginBottom: '1rem' }}>Product Range</div>
-              <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em', marginBottom: '1.5rem' }}>PRODUCTS</h2>
-              <p style={{ color: 'var(--text-muted)', lineHeight: 1.8 }}>
-                Klenco offers a comprehensive portfolio of professional cleaning solutions designed to meet the diverse requirements of commercial, industrial, institutional, and municipal environments. Every product is engineered to deliver superior cleaning performance, enhanced productivity, and long-term reliability.
+        {/* ─── CONTENT 4: Product Categories (Truvox Box Style) ─── */}
+        <section style={{ backgroundColor: '#f5f7f9', padding: '5rem 0' }}>
+          <div className="container max-w-7xl mx-auto px-4">
+            
+            {/* Header */}
+            <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
+              <div style={{ color: '#E31E24', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.75rem' }}>
+                The Klenco Range
+              </div>
+              <h2 style={{ fontSize: 'clamp(2.2rem, 4vw, 3.2rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em', marginBottom: '1rem' }}>
+                PRODUCT CATEGORIES
+              </h2>
+              <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, maxWidth: '750px', margin: '0 auto', fontSize: '0.95rem' }}>
+                Klenco offers a comprehensive portfolio of professional cleaning solutions designed to meet the diverse requirements of commercial, industrial, institutional, and municipal environments.
               </p>
             </div>
 
-            <div className="products-grid">
-              {[
-                {
-                  num: '01',
-                  title: 'FLOOR CLEANING',
-                  desc: "Achieve exceptional floor cleaning performance with Klenco's range of scrubber dryers, sweepers, single disc machines, burnishers, carpet extractors, and steam cleaners. Designed to improve productivity while delivering spotless results across every floor type.",
-                  arrow: 'Explore Floor Cleaning',
-                },
-                {
-                  num: '02',
-                  title: 'VACUUM CLEANING',
-                  desc: 'From compact commercial vacuum cleaners to powerful industrial vacuum systems, Klenco provides reliable solutions for removing dust, debris, liquids, and fine particles across diverse working environments.',
-                  arrow: 'Explore Vacuum Cleaning',
-                },
-                {
-                  num: '03',
-                  title: 'HIGH PRESSURE CLEANER',
-                  desc: 'A complete range of high-pressure cleaners engineered for exceptional cleaning power — removing stubborn dirt, grease, oil, mud, and grime from a wide range of surfaces in commercial and industrial environments.',
-                  arrow: 'Explore High Pressure Cleaner',
-                },
-                {
-                  num: '04',
-                  title: 'PROFESSIONAL CLEANING CHEMICALS',
-                  desc: 'A complete range of high-performance cleaning chemicals formulated for floor care, housekeeping, washrooms, kitchens, industrial maintenance, and specialized cleaning applications, ensuring superior hygiene and consistent results.',
-                  arrow: 'Explore Cleaning Chemicals',
-                },
-              ].map((cat, i) => (
-                <div key={i} style={{
-                  borderRadius: '1rem',
-                  border: '1px solid var(--border-color)',
-                  backgroundColor: 'white',
-                  overflow: 'hidden',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  transition: 'box-shadow 0.3s ease, transform 0.3s ease',
-                  cursor: 'pointer',
-                }}
-                onClick={() => navigate(['/brands/klenco/floor-cleaning', '/brands/klenco/vacuum-cleaners', '/brands/klenco/high-pressure-cleaners', '/brands/klenco/chemicals'][i])}
-                onMouseEnter={(e) => { e.currentTarget.style.boxShadow = '0 16px 40px rgba(0,0,0,0.1)'; e.currentTarget.style.transform = 'translateY(-4px)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.boxShadow = 'none'; e.currentTarget.style.transform = 'none'; }}>
-                  {/* Colored top bar */}
-                  <div style={{ height: '6px', backgroundColor: 'var(--accent)' }} />
-                  <div style={{ padding: '2rem 1.75rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
-                    {/* Number badge */}
-                    <div style={{ fontSize: '3rem', fontWeight: 900, color: '#f0f2f5', lineHeight: 1, marginBottom: '0.5rem', letterSpacing: '-0.04em' }}>{cat.num}</div>
-                    <h3 style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.75rem', letterSpacing: '0.02em' }}>{cat.title}</h3>
-                    <p style={{ color: 'var(--text-muted)', lineHeight: 1.7, fontSize: '0.9rem', flex: 1, marginBottom: '1.5rem' }}>{cat.desc}</p>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent)', fontWeight: 700, fontSize: '0.9rem' }}>
-                      {cat.arrow} <span>→</span>
+            {/* Division 1: Floor Cleaning (with 5 Sub-categories) */}
+            <div style={{ marginBottom: '3.5rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem', marginBottom: '1.75rem' }}>
+                <div style={{ width: '4px', height: '24px', backgroundColor: '#E31E24', borderRadius: '2px' }} />
+                <h3 style={{ fontSize: '1.25rem', fontWeight: 900, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                  Floor Cleaning Equipment
+                </h3>
+              </div>
+
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.5rem',
+                alignItems: 'stretch'
+              }}>
+                {klencoFloorCategories.map((category) => (
+                  <div key={category.category} style={{ 
+                    background: 'white', 
+                    borderRadius: '1rem', 
+                    padding: '1.5rem',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                    border: '1px solid var(--border-color)',
+                    display: 'flex',
+                    flexDirection: 'column'
+                  }}>
+                    <h4 style={{ 
+                      fontSize: '0.95rem', 
+                      fontWeight: 800, 
+                      color: 'var(--primary)', 
+                      marginBottom: '1.25rem',
+                      paddingBottom: '0.85rem',
+                      borderBottom: '1px solid var(--border-color)',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.02em'
+                    }}>
+                      {category.category}
+                    </h4>
+                    
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', flexGrow: 1 }}>
+                      {category.products.map((product) => (
+                        <Link 
+                          key={product.id} 
+                          to={`/brands/klenco/${category.categoryId}/${product.id}`}
+                          style={{ 
+                            display: 'flex', 
+                            justifyContent: 'space-between',
+                            alignItems: 'center',
+                            padding: '0.65rem 0.85rem',
+                            border: '1px solid var(--border-color)',
+                            borderRadius: '0.4rem',
+                            color: 'var(--text-dark)',
+                            fontSize: '0.82rem',
+                            fontWeight: 500,
+                            transition: 'all 0.2s ease',
+                            backgroundColor: 'white',
+                            textDecoration: 'none'
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.backgroundColor = '#E31E24';
+                            e.currentTarget.style.borderColor = '#E31E24';
+                            e.currentTarget.style.color = 'white';
+                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.18)';
+                            const icon = e.currentTarget.querySelector('svg');
+                            if (icon) icon.style.color = 'white';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.backgroundColor = 'white';
+                            e.currentTarget.style.borderColor = 'var(--border-color)';
+                            e.currentTarget.style.color = 'var(--text-dark)';
+                            e.currentTarget.style.boxShadow = 'none';
+                            const icon = e.currentTarget.querySelector('svg');
+                            if (icon) icon.style.color = 'var(--text-muted)';
+                          }}
+                        >
+                          <span>{product.name}</span>
+                          <ArrowRight size={16} style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease', flexShrink: 0 }} />
+                        </Link>
+                      ))}
                     </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
 
-            <p style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '3rem', fontStyle: 'italic', fontSize: '0.95rem' }}>
+            {/* Division 2: Other Divisions (Vacuum Cleaners, High Pressure, Chemicals) */}
+            <div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem', marginBottom: '1.75rem' }}>
+                <div style={{ width: '4px', height: '24px', backgroundColor: '#E31E24', borderRadius: '2px' }} />
+                <h3 style={{ fontSize: '1.25rem', fontWeight: 900, color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                  Vacuum, Pressure &amp; Chemical Solutions
+                </h3>
+              </div>
+
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+                gap: '1.5rem',
+                alignItems: 'stretch'
+              }}>
+                {klencoOtherCategories.map((category) => (
+                  <div key={category.category} style={{ 
+                    background: 'white', 
+                    borderRadius: '1rem', 
+                    padding: '1.5rem',
+                    boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                    border: '1px solid var(--border-color)',
+                    display: 'flex',
+                    flexDirection: 'column'
+                  }}>
+                    <h4 style={{ 
+                      fontSize: '0.95rem', 
+                      fontWeight: 800, 
+                      color: 'var(--primary)', 
+                      marginBottom: '1.25rem',
+                      paddingBottom: '0.85rem',
+                      borderBottom: '1px solid var(--border-color)',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.02em'
+                    }}>
+                      {category.category}
+                    </h4>
+                    
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', flexGrow: 1 }}>
+                      {category.products.map((product) => (
+                        <Link 
+                          key={product.id} 
+                          to={`/brands/klenco/${category.categoryId}/${product.id}`}
+                          style={{ 
+                            display: 'flex', 
+                            justifyContent: 'space-between',
+                            alignItems: 'center',
+                            padding: '0.65rem 0.85rem',
+                            border: '1px solid var(--border-color)',
+                            borderRadius: '0.4rem',
+                            color: 'var(--text-dark)',
+                            fontSize: '0.82rem',
+                            fontWeight: 500,
+                            transition: 'all 0.2s ease',
+                            backgroundColor: 'white',
+                            textDecoration: 'none'
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.backgroundColor = '#E31E24';
+                            e.currentTarget.style.borderColor = '#E31E24';
+                            e.currentTarget.style.color = 'white';
+                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.18)';
+                            const icon = e.currentTarget.querySelector('svg');
+                            if (icon) icon.style.color = 'white';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.backgroundColor = 'white';
+                            e.currentTarget.style.borderColor = 'var(--border-color)';
+                            e.currentTarget.style.color = 'var(--text-dark)';
+                            e.currentTarget.style.boxShadow = 'none';
+                            const icon = e.currentTarget.querySelector('svg');
+                            if (icon) icon.style.color = 'var(--text-muted)';
+                          }}
+                        >
+                          <span>{product.name}</span>
+                          <ArrowRight size={16} style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease', flexShrink: 0 }} />
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <p style={{ textAlign: 'center', color: 'var(--text-muted)', marginTop: '3.5rem', fontStyle: 'italic', fontSize: '0.95rem' }}>
               Whether maintaining commercial facilities, manufacturing plants, healthcare institutions, hospitality venues, or public infrastructure, Klenco provides the right solution for every cleaning challenge.
             </p>
           </div>
