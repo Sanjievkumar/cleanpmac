@@ -97,9 +97,9 @@ export default function Brands() {
               {/* Right Flank Logo & Motto */}
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }} className="hidden lg:flex">
                 <img 
-                  src="/content_images/klenco_logo_striped_trans.png" 
+                  src="/content_images/klenco_logo_clean.png" 
                   alt="Klenco Logo" 
-                  style={{ width: '135px', height: 'auto', display: 'block', objectFit: 'contain', marginBottom: '0.85rem' }} 
+                  style={{ width: '85px', height: 'auto', display: 'block', objectFit: 'contain', marginBottom: '0.85rem' }} 
                 />
                 <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.16em', color: '#0f172a', textAlign: 'right', lineHeight: 1.65 }}>
                   A CLEANER<br />BRIGHTER<br />SAFER<br />TOMORROW

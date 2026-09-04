@@ -96,17 +96,48 @@ export default function TruvoxBrand() {
       
       {/* ═══════════ TRUVOX HERO (Pixel-Perfect Native Layout) ═══════════ */}
       <section style={{ 
-        background: 'linear-gradient(135deg, #ECF7F9 0%, #D8F2F6 45%, #A8DCE9 100%)', 
+        background: 'linear-gradient(135deg, #f0fbfc 0%, #e2f7f9 45%, #cdeff3 100%)', 
         borderBottom: '1px solid rgba(0, 168, 176, 0.25)',
         position: 'relative',
         overflow: 'hidden',
-        padding: '3.5rem 0 3rem'
+        padding: '3.75rem 0 3rem'
       }}>
+        {/* Background Decorative Large Watermark "VOX" */}
+        <div style={{
+          position: 'absolute',
+          right: '6%',
+          top: '48%',
+          transform: 'translateY(-50%)',
+          fontSize: 'clamp(9rem, 18vw, 20rem)',
+          fontWeight: 900,
+          color: 'rgba(0, 168, 176, 0.08)',
+          lineHeight: 1,
+          pointerEvents: 'none',
+          userSelect: 'none',
+          zIndex: 0,
+          fontFamily: "'Montserrat', sans-serif",
+          letterSpacing: '-0.05em'
+        }}>
+          VOX
+        </div>
+
+        {/* Subtle Top-Right Globe Network SVG */}
+        <svg style={{ position: 'absolute', top: 0, right: 0, width: '380px', height: '320px', pointerEvents: 'none', opacity: 0.35, zIndex: 0 }} viewBox="0 0 380 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="280" cy="80" r="140" stroke="#00A8B0" strokeWidth="1" strokeDasharray="3 3" />
+          <circle cx="280" cy="80" r="100" stroke="#00A8B0" strokeWidth="1" />
+          <circle cx="280" cy="80" r="60" stroke="#00A8B0" strokeWidth="1" strokeDasharray="4 4" />
+          <line x1="140" y1="80" x2="420" y2="80" stroke="#00A8B0" strokeWidth="0.75" />
+          <line x1="280" y1="-60" x2="280" y2="220" stroke="#00A8B0" strokeWidth="0.75" />
+          <circle cx="220" cy="40" r="4" fill="#00A8B0" />
+          <circle cx="330" cy="110" r="4" fill="#00A8B0" />
+          <circle cx="250" cy="130" r="3.5" fill="#00A8B0" />
+        </svg>
+
         <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ position: 'relative', zIndex: 1 }}>
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: '1.1fr 0.9fr', 
-            gap: '2.5rem', 
+            gridTemplateColumns: '1.15fr 0.85fr', 
+            gap: '3rem', 
             alignItems: 'center' 
           }} className="truvox-hero-grid">
             
@@ -126,7 +157,7 @@ export default function TruvoxBrand() {
 
               {/* Main Headline */}
               <h1 style={{ 
-                fontSize: 'clamp(1.3rem, 2.2vw, 1.7rem)', 
+                fontSize: 'clamp(1.25rem, 2vw, 1.65rem)', 
                 fontWeight: 800, 
                 color: '#00A8B0', 
                 lineHeight: 1.35, 
@@ -191,19 +222,32 @@ export default function TruvoxBrand() {
 
             </div>
 
-            {/* Right Column: Seamless Authentic Artwork Panel */}
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-              <img
-                src="/content_images/truvox_hero_seamless_right.png"
-                alt="Truvox Global Floorcare Solutions"
-                style={{ 
-                  width: '100%', 
-                  maxWidth: '560px', 
-                  height: 'auto', 
-                  display: 'block',
-                  objectFit: 'contain'
-                }}
-              />
+            {/* Right Column: Top-Right Slogan Tag & Clean Machine Cluster */}
+            <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', width: '100%' }}>
+              
+              {/* Top-Right Slogan Tag */}
+              <div style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', marginBottom: '1.5rem', position: 'relative', zIndex: 2 }}>
+                <span style={{ fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.18em', color: '#005b63', lineHeight: 1.45, textAlign: 'right' }}>
+                  CLEANER<br />SPACES<br />BRIGHTER<br />POSSIBILITIES
+                </span>
+                <div style={{ width: '38px', height: '2.5px', backgroundColor: '#00A8B0', marginTop: '0.4rem' }} />
+              </div>
+
+              {/* Clean Transparent Machine Cluster */}
+              <div style={{ width: '100%', maxWidth: '480px', display: 'flex', justifyContent: 'center', position: 'relative', zIndex: 2 }}>
+                <img
+                  src="/content_images/truvox_3_machines_trans.png"
+                  alt="Truvox Floorcare Machines"
+                  style={{ 
+                    width: '100%', 
+                    height: 'auto', 
+                    display: 'block',
+                    objectFit: 'contain',
+                    filter: 'drop-shadow(0 14px 28px rgba(0, 168, 176, 0.15))'
+                  }}
+                />
+              </div>
+
             </div>
 
           </div>
