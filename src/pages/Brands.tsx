@@ -18,17 +18,14 @@ export default function Brands() {
         </div>
 
         {/* ─── CONTENT 1: Our Story – Graphic Banner ─── */}
-        <section style={{ backgroundColor: 'white', borderBottom: '1px solid var(--border-color)' }}>
-          <div style={{ width: '100%', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <section style={{ backgroundColor: 'white', borderBottom: '1px solid var(--border-color)', width: '100%', margin: 0, padding: 0 }}>
+          <div style={{ width: '100%', position: 'relative', overflow: 'hidden' }}>
             <img
               src="/content_images/klenco_our_story.png"
               alt="Klenco - Our Story: A Legacy of Cleaning Excellence"
               style={{ 
                 width: '100%', 
-                maxWidth: '1440px',
                 height: 'auto',
-                maxHeight: '85vh', 
-                objectFit: 'contain', 
                 display: 'block' 
               }}
             />

@@ -95,17 +95,14 @@ export default function TruvoxBrand() {
     <div className="fade-in">
       
       {/* ═══════════ TRUVOX HERO ═══════════ */}
-      <section style={{ backgroundColor: '#ffffff', borderBottom: '1px solid var(--border-color)' }}>
-        <div style={{ width: '100%', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+      <section style={{ backgroundColor: '#ffffff', borderBottom: '1px solid var(--border-color)', width: '100%', margin: 0, padding: 0 }}>
+        <div style={{ width: '100%', position: 'relative', overflow: 'hidden' }}>
           <img
             src="/content_images/truvox_brand_hero.jpg"
             alt="Truvox International - Global Floorcare Solutions"
             style={{ 
               width: '100%', 
-              maxWidth: '1440px',
               height: 'auto',
-              maxHeight: '85vh', 
-              objectFit: 'contain', 
               display: 'block' 
             }}
           />
