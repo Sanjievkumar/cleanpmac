@@ -24,139 +24,143 @@ export default function Brands() {
           borderBottom: '1px solid var(--border-color)',
           position: 'relative',
           overflow: 'hidden',
-          padding: '5rem 0 4.5rem'
+          padding: '4.5rem 0 4rem'
         }}>
-          {/* Top-Left Corner Geometric Accents */}
-          <div style={{ position: 'absolute', top: 0, left: 0, width: '160px', height: '180px', pointerEvents: 'none', zIndex: 0 }}>
-            <img 
-              src="/content_images/klenco_corner_tl.png" 
-              alt="" 
-              style={{ width: '100%', height: 'auto', display: 'block' }} 
-            />
+          {/* Top-Left Corner Vector SVG Geometric Accents */}
+          <div style={{ position: 'absolute', top: 0, left: 0, width: '140px', height: '140px', pointerEvents: 'none', zIndex: 0 }}>
+            <svg width="100%" height="100%" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="0,0 80,0 0,80" fill="#E31E24" />
+              <polygon points="95,0 125,0 0,125 0,95" fill="#E31E24" opacity="0.85" />
+            </svg>
           </div>
 
-          {/* Bottom-Right Corner Geometric Accents */}
-          <div style={{ position: 'absolute', bottom: 0, right: 0, width: '160px', height: '180px', pointerEvents: 'none', zIndex: 0 }}>
-            <img 
-              src="/content_images/klenco_corner_br.png" 
-              alt="" 
-              style={{ width: '100%', height: 'auto', display: 'block' }} 
-            />
+          {/* Bottom-Right Corner Vector SVG Geometric Accents */}
+          <div style={{ position: 'absolute', bottom: 0, right: 0, width: '140px', height: '140px', pointerEvents: 'none', zIndex: 0 }}>
+            <svg width="100%" height="100%" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="140,140 60,140 140,60" fill="#E31E24" />
+              <polygon points="45,140 15,140 140,15 140,45" fill="#E31E24" opacity="0.85" />
+            </svg>
           </div>
 
-          <div className="container max-w-7xl mx-auto px-4" style={{ position: 'relative', zIndex: 1 }}>
+          <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ position: 'relative', zIndex: 1 }}>
             
-            {/* Top Area: Left Flank Motto, Center Header, Right Flank Logo */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'minmax(180px, 220px) 1fr minmax(180px, 220px)', gap: '2rem', alignItems: 'start' }}>
+            {/* 3-Column Layout: Left Flank Motto, Center Content, Right Flank Logo & Motto */}
+            <div style={{ 
+              display: 'grid', 
+              gridTemplateColumns: 'minmax(140px, 180px) 1fr minmax(140px, 180px)', 
+              gap: '2.5rem', 
+              alignItems: 'center' 
+            }} className="klenco-story-grid">
               
               {/* Left Flank Motto */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', paddingTop: '1rem' }} className="hidden md:flex">
-                <span style={{ fontSize: '0.72rem', fontWeight: 800, letterSpacing: '0.18em', color: '#64748b', lineHeight: 1.6 }}>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} className="hidden lg:flex">
+                <span style={{ fontSize: '0.74rem', fontWeight: 800, letterSpacing: '0.16em', color: '#475569', lineHeight: 1.6 }}>
                   PEOPLE<br />PRODUCTS<br />PARTNERSHIPS<br />A CLEANER TOMORROW
                 </span>
-                <div style={{ width: '36px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.6rem', borderRadius: '2px' }} />
+                <div style={{ width: '38px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
               </div>
 
-              {/* Center Main Header */}
-              <div style={{ textAlign: 'center' }}>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginBottom: '0.85rem' }}>
-                  <div style={{ width: '40px', height: '2px', backgroundColor: '#E31E24' }} />
+              {/* Center Main Story Block */}
+              <div style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto' }}>
+                {/* Header Tag */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.85rem', marginBottom: '0.75rem' }}>
+                  <div style={{ width: '36px', height: '2px', backgroundColor: '#E31E24' }} />
                   <span style={{ fontSize: '0.82rem', fontWeight: 800, letterSpacing: '0.22em', color: '#E31E24', textTransform: 'uppercase' }}>
                     OUR STORY
                   </span>
-                  <div style={{ width: '40px', height: '2px', backgroundColor: '#E31E24' }} />
+                  <div style={{ width: '36px', height: '2px', backgroundColor: '#E31E24' }} />
                 </div>
                 
+                {/* Main Headline */}
                 <h2 style={{ 
-                  fontSize: 'clamp(2rem, 3.5vw, 2.9rem)', 
+                  fontSize: 'clamp(1.9rem, 3.2vw, 2.75rem)', 
                   fontWeight: 900, 
                   color: '#E31E24', 
                   letterSpacing: '-0.02em', 
-                  lineHeight: 1.15,
-                  marginBottom: '1.75rem' 
+                  lineHeight: 1.18,
+                  marginBottom: '1.5rem' 
                 }}>
                   A Legacy of Cleaning Excellence
                 </h2>
+
+                {/* Paragraphs */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1.15rem' }}>
+                  <p style={{ fontSize: '1.02rem', lineHeight: 1.85, color: '#334155', fontWeight: 400 }}>
+                    Established in 1971 in Singapore, Klenco has grown into one of Asia's leading providers of professional cleaning solutions. What began with a small range of cleaning machines and chemicals has evolved into a comprehensive portfolio serving customers in more than 20 countries across Asia, the Middle East, Australia and Europe.
+                  </p>
+                  <p style={{ fontSize: '1.02rem', lineHeight: 1.85, color: '#334155', fontWeight: 400 }}>
+                    Today, Klenco offers an extensive range of commercial cleaning equipment, professional chemicals, janitorial tools and industrial maintenance solutions, supported by expert technical consultation and reliable after-sales service.
+                  </p>
+                </div>
               </div>
 
               {/* Right Flank Logo & Motto */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', paddingTop: '0.5rem' }} className="hidden md:flex">
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }} className="hidden lg:flex">
                 <img 
-                  src="/content_images/klenco_logo_striped.png" 
+                  src="/content_images/klenco_logo_striped_trans.png" 
                   alt="Klenco Logo" 
-                  style={{ height: '52px', objectFit: 'contain', marginBottom: '0.75rem' }} 
+                  style={{ height: '48px', objectFit: 'contain', marginBottom: '0.75rem' }} 
                 />
-                <span style={{ fontSize: '0.72rem', fontWeight: 800, letterSpacing: '0.18em', color: '#1e293b', textAlign: 'right', lineHeight: 1.5 }}>
+                <span style={{ fontSize: '0.74rem', fontWeight: 800, letterSpacing: '0.16em', color: '#0f172a', textAlign: 'right', lineHeight: 1.6 }}>
                   A CLEANER<br />BRIGHTER<br />SAFER<br />TOMORROW
                 </span>
-                <div style={{ width: '36px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.6rem', borderRadius: '2px' }} />
+                <div style={{ width: '38px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
               </div>
 
             </div>
 
-            {/* Center Story Copy */}
-            <div style={{ maxWidth: '840px', margin: '0 auto', textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-              <p style={{ fontSize: '1.05rem', lineHeight: 1.85, color: '#334155', fontWeight: 450 }}>
-                Established in 1971 in Singapore, Klenco has grown into one of Asia's leading providers of professional cleaning solutions. What began with a small range of cleaning machines and chemicals has evolved into a comprehensive portfolio serving customers in more than 20 countries across Asia, the Middle East, Australia and Europe.
-              </p>
-              <p style={{ fontSize: '1.05rem', lineHeight: 1.85, color: '#334155', fontWeight: 450 }}>
-                Today, Klenco offers an extensive range of commercial cleaning equipment, professional chemicals, janitorial tools and industrial maintenance solutions, supported by expert technical consultation and reliable after-sales service.
-              </p>
-            </div>
-
-            {/* Bottom 4 Stat Badges with Vertical Dividers */}
+            {/* Bottom 4 Stat Badges with Hairline Dividers */}
             <div style={{ 
               display: 'grid', 
-              gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', 
-              gap: '1.5rem', 
-              maxWidth: '960px', 
+              gridTemplateColumns: 'repeat(4, 1fr)', 
+              maxWidth: '920px', 
               margin: '3.5rem auto 0', 
               alignItems: 'center',
               paddingTop: '2rem',
               borderTop: '1px solid #f1f5f9'
-            }}>
+            }} className="klenco-badges-grid">
               
               {/* Badge 1 */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.75rem' }}>
-                <div style={{ width: '56px', height: '56px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 15px rgba(227,30,36,0.08)' }}>
-                  <Calendar size={26} color="#E31E24" />
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem', borderRight: '1px solid #e2e8f0' }} className="klenco-badge-item">
+                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
+                  <Calendar size={24} color="#E31E24" />
                 </div>
                 <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.1rem' }}>EST. 1971</div>
-                  <div style={{ fontSize: '0.88rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Singapore</div>
+                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>EST. 1971</div>
+                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Singapore</div>
                 </div>
               </div>
 
               {/* Badge 2 */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.75rem' }}>
-                <div style={{ width: '56px', height: '56px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 15px rgba(227,30,36,0.08)' }}>
-                  <Globe size={26} color="#E31E24" />
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem', borderRight: '1px solid #e2e8f0' }} className="klenco-badge-item">
+                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
+                  <Globe size={24} color="#E31E24" />
                 </div>
                 <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.1rem' }}>20+</div>
-                  <div style={{ fontSize: '0.88rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Countries</div>
+                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>20+</div>
+                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Countries</div>
                 </div>
               </div>
 
               {/* Badge 3 */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.75rem' }}>
-                <div style={{ width: '56px', height: '56px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 15px rgba(227,30,36,0.08)' }}>
-                  <Building2 size={26} color="#E31E24" />
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem', borderRight: '1px solid #e2e8f0' }} className="klenco-badge-item">
+                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
+                  <Building2 size={24} color="#E31E24" />
                 </div>
                 <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.1rem' }}>Complete</div>
-                  <div style={{ fontSize: '0.88rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Cleaning Solutions</div>
+                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>Complete</div>
+                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Cleaning Solutions</div>
                 </div>
               </div>
 
-              {/* Badge 4 */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.75rem' }}>
-                <div style={{ width: '56px', height: '56px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 15px rgba(227,30,36,0.08)' }}>
-                  <Handshake size={26} color="#E31E24" />
+              {/* Badge 4 (No right border) */}
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem' }} className="klenco-badge-item">
+                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
+                  <Handshake size={24} color="#E31E24" />
                 </div>
                 <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.1rem' }}>Trusted</div>
-                  <div style={{ fontSize: '0.88rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Across Industries</div>
+                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>Trusted</div>
+                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Across Industries</div>
                 </div>
               </div>
 
@@ -331,6 +335,12 @@ export default function Brands() {
         </section>
 
         <style>{`
+          .klenco-story-grid {
+            display: grid;
+            grid-template-columns: minmax(140px, 180px) 1fr minmax(140px, 180px);
+            gap: 2.5rem;
+            align-items: center;
+          }
           .one-brand-grid {
             display: grid;
             grid-template-columns: 1.2fr 1fr;
@@ -353,6 +363,20 @@ export default function Brands() {
             gap: 1.75rem;
           }
 
+          @media (max-width: 991px) {
+            .klenco-story-grid {
+              grid-template-columns: 1fr;
+              gap: 1.5rem;
+            }
+            .klenco-badges-grid {
+              grid-template-columns: repeat(2, 1fr) !important;
+              gap: 2rem 1rem !important;
+            }
+            .klenco-badge-item {
+              border-right: none !important;
+            }
+          }
+
           @media (max-width: 900px) {
             .one-brand-grid {
               grid-template-columns: 1fr;
@@ -369,6 +393,10 @@ export default function Brands() {
           }
 
           @media (max-width: 500px) {
+            .klenco-badges-grid {
+              grid-template-columns: 1fr !important;
+              gap: 1.75rem !important;
+            }
             .brand-stats-grid {
               grid-template-columns: 1fr;
             }

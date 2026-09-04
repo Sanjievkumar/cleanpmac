@@ -96,11 +96,11 @@ export default function TruvoxBrand() {
       
       {/* ═══════════ TRUVOX HERO (Native Pixel-Perfect Layout) ═══════════ */}
       <section style={{ 
-        background: 'linear-gradient(135deg, #f2fbfc 0%, #e2f6f8 40%, #cbf0f5 100%)', 
+        background: 'linear-gradient(135deg, #f0fbfc 0%, #e2f6f8 40%, #cbf0f5 100%)', 
         borderBottom: '1px solid rgba(0, 168, 176, 0.2)',
         position: 'relative',
         overflow: 'hidden',
-        padding: '3.5rem 0 2.5rem'
+        padding: '4rem 0 3rem'
       }}>
         {/* Background Decorative Large Watermark "VOX" */}
         <div style={{
@@ -110,7 +110,7 @@ export default function TruvoxBrand() {
           transform: 'translateY(-50%)',
           fontSize: 'clamp(10rem, 20vw, 22rem)',
           fontWeight: 900,
-          color: 'rgba(0, 168, 176, 0.08)',
+          color: 'rgba(0, 168, 176, 0.07)',
           lineHeight: 1,
           pointerEvents: 'none',
           userSelect: 'none',
@@ -121,8 +121,25 @@ export default function TruvoxBrand() {
           VOX
         </div>
 
-        <div className="container max-w-7xl mx-auto px-4" style={{ position: 'relative', zIndex: 1 }}>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '3rem', alignItems: 'center' }}>
+        {/* Subtle Top-Right Globe Network SVG */}
+        <svg style={{ position: 'absolute', top: 0, right: 0, width: '380px', height: '320px', pointerEvents: 'none', opacity: 0.35, zIndex: 0 }} viewBox="0 0 380 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="280" cy="80" r="140" stroke="#00A8B0" strokeWidth="1" strokeDasharray="3 3" />
+          <circle cx="280" cy="80" r="100" stroke="#00A8B0" strokeWidth="1" />
+          <circle cx="280" cy="80" r="60" stroke="#00A8B0" strokeWidth="1" strokeDasharray="4 4" />
+          <line x1="140" y1="80" x2="420" y2="80" stroke="#00A8B0" strokeWidth="0.75" />
+          <line x1="280" y1="-60" x2="280" y2="220" stroke="#00A8B0" strokeWidth="0.75" />
+          <circle cx="220" cy="40" r="4" fill="#00A8B0" />
+          <circle cx="330" cy="110" r="4" fill="#00A8B0" />
+          <circle cx="250" cy="130" r="3.5" fill="#00A8B0" />
+        </svg>
+
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ position: 'relative', zIndex: 1 }}>
+          <div style={{ 
+            display: 'grid', 
+            gridTemplateColumns: '1.15fr 0.85fr', 
+            gap: '3.5rem', 
+            alignItems: 'center' 
+          }} className="truvox-hero-grid">
             
             {/* Left Column: Native Typography & Badges */}
             <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -142,7 +159,7 @@ export default function TruvoxBrand() {
               <h1 style={{ 
                 fontSize: 'clamp(1.3rem, 2.2vw, 1.7rem)', 
                 fontWeight: 800, 
-                color: '#00808a', 
+                color: '#00A8B0', 
                 lineHeight: 1.35, 
                 marginTop: '1.5rem', 
                 marginBottom: '1.25rem',
@@ -152,47 +169,53 @@ export default function TruvoxBrand() {
               </h1>
 
               {/* Body Paragraphs */}
-              <p style={{ fontSize: '0.92rem', color: '#475569', lineHeight: 1.75, marginBottom: '1rem', fontWeight: 450 }}>
+              <p style={{ fontSize: '0.94rem', color: '#475569', lineHeight: 1.75, marginBottom: '1rem', fontWeight: 450 }}>
                 Based in Southampton, England, with a history dating back to 1960, Truvox has earned a strong reputation for producing innovative and reliable cleaning solutions, becoming the first choice in floorcare equipment in over 70 countries worldwide.
               </p>
 
-              <p style={{ fontSize: '0.92rem', color: '#475569', lineHeight: 1.75, marginBottom: '2rem', fontWeight: 450 }}>
+              <p style={{ fontSize: '0.94rem', color: '#475569', lineHeight: 1.75, marginBottom: '2rem', fontWeight: 450 }}>
                 We offer a wide range of well-established brands and machines, including Orbis single disc machines, Hydromist carpet cleaners, Valet vacuums, Multiwash scrubbers, and Cimex Three Brush Technology. Our products are designed to tackle various cleaning challenges and meet the highest standards of quality, efficiency, and durability.
               </p>
 
               {/* 3 Circular Stat Badges */}
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1.25rem', paddingTop: '1.25rem', borderTop: '1px solid rgba(0, 168, 176, 0.2)' }}>
+              <div style={{ 
+                display: 'grid', 
+                gridTemplateColumns: 'repeat(3, 1fr)', 
+                gap: '1.25rem', 
+                paddingTop: '1.5rem', 
+                borderTop: '1px solid rgba(0, 168, 176, 0.2)' 
+              }} className="truvox-badges-grid">
                 
                 {/* Badge 1 */}
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.5rem' }}>
-                  <div style={{ width: '46px', height: '46px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
+                  <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
                     <Building2 size={22} color="#00A8B0" />
                   </div>
                   <div>
                     <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '0.92rem' }}>EST. 1960</div>
-                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500 }}>Southampton, England</div>
+                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Southampton, England</div>
                   </div>
                 </div>
 
                 {/* Badge 2 */}
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.5rem' }}>
-                  <div style={{ width: '46px', height: '46px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
+                  <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
                     <Globe size={22} color="#00A8B0" />
                   </div>
                   <div>
                     <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '0.92rem' }}>70+</div>
-                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500 }}>Countries Worldwide</div>
+                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Countries Worldwide</div>
                   </div>
                 </div>
 
                 {/* Badge 3 */}
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.5rem' }}>
-                  <div style={{ width: '46px', height: '46px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
+                  <div style={{ width: '48px', height: '48px', borderRadius: '50%', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(0, 168, 176, 0.3)', boxShadow: '0 4px 12px rgba(0, 168, 176, 0.1)' }}>
                     <ShieldCheck size={22} color="#00A8B0" />
                   </div>
                   <div>
                     <div style={{ fontWeight: 800, color: '#0f172a', fontSize: '0.92rem' }}>Trusted Global Brand</div>
-                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500 }}>Innovative. Reliable. Proven.</div>
+                    <div style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Innovative. Reliable. Proven.</div>
                   </div>
                 </div>
 
@@ -204,19 +227,19 @@ export default function TruvoxBrand() {
             <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
               
               {/* Top-Right Slogan Tag */}
-              <div style={{ position: 'absolute', top: 0, right: 0, textAlign: 'right', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '0.35rem', zIndex: 2 }}>
-                <span style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.18em', color: '#005b63', lineHeight: 1.4 }}>
+              <div style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'flex-end', marginBottom: '1.25rem', zIndex: 2 }}>
+                <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.18em', color: '#005b63', lineHeight: 1.4, textAlign: 'right' }}>
                   CLEANER<br />SPACES<br />BRIGHTER<br />POSSIBILITIES
                 </span>
-                <div style={{ width: '32px', height: '2.5px', backgroundColor: '#00A8B0' }} />
+                <div style={{ width: '36px', height: '2.5px', backgroundColor: '#00A8B0', marginTop: '0.35rem' }} />
               </div>
 
-              {/* Machine Cluster Artwork */}
-              <div style={{ width: '100%', maxWidth: '540px', marginTop: '3.5rem', display: 'flex', justifyContent: 'center' }}>
+              {/* Clean Machine Cluster Artwork */}
+              <div style={{ width: '100%', maxWidth: '520px', display: 'flex', justifyContent: 'center' }}>
                 <img
-                  src="/content_images/truvox_hero_right_art.png"
-                  alt="Truvox Floorcare Machines"
-                  style={{ width: '100%', height: 'auto', objectFit: 'contain', filter: 'drop-shadow(0 15px 30px rgba(0, 168, 176, 0.15))' }}
+                  src="/content_images/truvox_3_machines_clean.png"
+                  alt="Truvox Commercial Floorcare Machines"
+                  style={{ width: '100%', height: 'auto', objectFit: 'contain', filter: 'drop-shadow(0 12px 24px rgba(0, 168, 176, 0.18))' }}
                 />
               </div>
 
@@ -225,7 +248,7 @@ export default function TruvoxBrand() {
           </div>
 
           {/* Bottom Footer Accent */}
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(0, 168, 176, 0.15)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '3.5rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(0, 168, 176, 0.15)' }}>
             <div style={{ width: '48px', height: '2px', backgroundColor: '#00A8B0' }} />
             <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.2em', color: '#008b94', textTransform: 'uppercase' }}>
               GLOBAL FLOORCARE SOLUTIONS
@@ -235,6 +258,21 @@ export default function TruvoxBrand() {
 
         </div>
       </section>
+
+      <style>{`
+        @media (max-width: 991px) {
+          .truvox-hero-grid {
+            grid-template-columns: 1fr !important;
+            gap: 2.5rem !important;
+          }
+        }
+        @media (max-width: 600px) {
+          .truvox-badges-grid {
+            grid-template-columns: 1fr !important;
+            gap: 1.5rem !important;
+          }
+        }
+      `}</style>
 
       {/* ═══════════ PRODUCT CATEGORIES ═══════════ */}
       <section style={{ backgroundColor: '#f5f7f9', padding: '5rem 0' }}>
