@@ -294,122 +294,149 @@ function KlencoProductDetailPage({ categoryId, productId }: { categoryId: string
       </section>
 
       {/* Product body */}
-      <section style={{ backgroundColor: '#f5f7f9', padding: '5rem 0' }}>
-        <div className="container" style={{ maxWidth: '1100px', margin: '0 auto' }}>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.4fr', gap: '4rem', alignItems: 'start' }}>
+      <section style={{ backgroundColor: '#f5f7f9', padding: '4rem 0 5rem' }}>
+        <div className="container max-w-6xl mx-auto px-4">
+          
+          {/* 2-Column Section: Left (Image + Key Features), Right (Summary in red + Ideal Applications) */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem', alignItems: 'start' }}>
+            
+            {/* Left Column */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+              {/* Product Image Box */}
+              <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2.5rem', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '340px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  style={{ maxWidth: '100%', maxHeight: '320px', objectFit: 'contain' }}
+                  onError={(e) => { e.currentTarget.style.opacity = '0.3'; }}
+                />
+              </div>
 
-            {/* Left: image */}
-            <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2.5rem', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '350px' }}>
-              <img
-                src={product.image}
-                alt={product.name}
-                style={{ maxWidth: '100%', maxHeight: '350px', objectFit: 'contain' }}
-                onError={(e) => { e.currentTarget.style.opacity = '0.3'; }}
-              />
+              {/* Key Features (Below Image) */}
+              <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2rem', border: '1px solid var(--border-color)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
+                <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1.05rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
+                  Key Features
+                </h3>
+                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                  {product.features.map((f, i) => (
+                    <li key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', color: 'var(--text-dark)', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                      <span style={{ color: 'var(--accent)', fontWeight: 900, flexShrink: 0, marginTop: '2px' }}>✓</span>
+                      <span>{f}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
 
-            {/* Right: info */}
-            <div>
-              <p style={{ fontSize: '1rem', lineHeight: 1.9, color: 'var(--text-dark)', marginBottom: '2.5rem' }}>{product.description}</p>
+            {/* Right Column */}
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
+              {/* Product Summary/Description in Red and larger font */}
+              <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2rem', border: '1px solid var(--border-color)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
+                <p style={{ fontSize: '1.12rem', lineHeight: 1.85, color: 'var(--accent)', fontWeight: 600, margin: 0 }}>
+                  {product.description}
+                </p>
+              </div>
 
-              <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
-                Key Features
-              </h3>
-              <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 2.5rem 0', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
-                {product.features.map((f, i) => (
-                  <li key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', color: 'var(--text-dark)', fontSize: '0.9rem', lineHeight: 1.6 }}>
-                    <span style={{ color: 'var(--accent)', fontWeight: 900, flexShrink: 0, marginTop: '2px' }}>✓</span>
-                    {f}
-                  </li>
-                ))}
-              </ul>
-
+              {/* Ideal Applications (Beside Key Features) */}
               {product.applications && product.applications.length > 0 && (
-                <>
-                  <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2rem', border: '1px solid var(--border-color)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
+                  <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1.05rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                     <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
                     Ideal Applications
                   </h3>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem', marginBottom: '2.5rem' }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.65rem' }}>
                     {product.applications.map((a, i) => (
-                      <div key={i} style={{ fontSize: '0.85rem', color: 'var(--text-muted)', padding: '0.4rem 0.75rem', backgroundColor: 'white', borderRadius: '0.35rem', border: '1px solid var(--border-color)' }}>
+                      <div key={i} style={{ fontSize: '0.88rem', color: 'var(--text-dark)', fontWeight: 500, padding: '0.65rem 0.85rem', backgroundColor: '#f8fafc', borderRadius: '0.5rem', border: '1px solid var(--border-color)' }}>
                         {a}
                       </div>
                     ))}
                   </div>
-                </>
-              )}
-
-              {/* Product Brochures & Downloads */}
-              {product.brochures && product.brochures.length > 0 && (
-                <div style={{ marginBottom: '2.5rem' }}>
-                  <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
-                    Product Brochures & Downloads
-                  </h3>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                    {product.brochures.map((b, i) => (
-                      <a
-                        key={i}
-                        href={b.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'space-between',
-                          padding: '0.9rem 1.25rem',
-                          backgroundColor: 'white',
-                          border: '1px solid var(--border-color)',
-                          borderRadius: '0.6rem',
-                          textDecoration: 'none',
-                          color: 'var(--text-dark)',
-                          fontWeight: 600,
-                          fontSize: '0.88rem',
-                          transition: 'all 0.2s ease',
-                          boxShadow: '0 2px 8px rgba(0,0,0,0.02)'
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.borderColor = 'var(--accent)';
-                          e.currentTarget.style.color = 'var(--accent)';
-                          e.currentTarget.style.boxShadow = '0 6px 18px rgba(227,30,36,0.1)';
-                          e.currentTarget.style.transform = 'translateX(4px)';
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.borderColor = 'var(--border-color)';
-                          e.currentTarget.style.color = 'var(--text-dark)';
-                          e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.02)';
-                          e.currentTarget.style.transform = 'none';
-                        }}
-                      >
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                          <FileText size={18} style={{ color: 'var(--accent)', flexShrink: 0 }} />
-                          <span>{b.title}</span>
-                        </div>
-                        <Download size={18} style={{ color: 'var(--accent)', flexShrink: 0 }} />
-                      </a>
-                    ))}
-                  </div>
                 </div>
               )}
-
-              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
-                <button
-                  onClick={() => navigate(`/brands/klenco/${categoryId}`)}
-                  style={{ padding: '0.8rem 1.75rem', borderRadius: '0.5rem', border: '2px solid var(--primary)', color: 'var(--primary)', fontWeight: 700, backgroundColor: 'white', cursor: 'pointer', fontSize: '0.9rem' }}
-                >
-                  ← Back to {cat.label}
-                </button>
-                <button 
-                  onClick={() => navigate('/contact')}
-                  style={{ padding: '0.8rem 1.75rem', borderRadius: '0.5rem', border: 'none', color: 'white', fontWeight: 700, backgroundColor: 'var(--accent)', cursor: 'pointer', fontSize: '0.9rem' }}
-                >
-                  Enquire Now
-                </button>
-              </div>
             </div>
+
           </div>
+
+          {/* Bottom Section: Product Brochures & Centered Action Buttons */}
+          <div style={{ marginTop: '3rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
+            
+            {/* Product Brochures & Downloads */}
+            {product.brochures && product.brochures.length > 0 && (
+              <div style={{ width: '100%', maxWidth: '780px', backgroundColor: 'white', borderRadius: '1rem', padding: '2rem', border: '1px solid var(--border-color)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
+                <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1.05rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem' }}>
+                  <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
+                  Product Brochures & Downloads
+                </h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                  {product.brochures.map((b, i) => (
+                    <a
+                      key={i}
+                      href={b.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        padding: '1rem 1.25rem',
+                        backgroundColor: '#f8fafc',
+                        border: '1px solid var(--border-color)',
+                        borderRadius: '0.6rem',
+                        textDecoration: 'none',
+                        color: 'var(--text-dark)',
+                        fontWeight: 600,
+                        fontSize: '0.9rem',
+                        transition: 'all 0.2s ease',
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.borderColor = 'var(--accent)';
+                        e.currentTarget.style.color = 'var(--accent)';
+                        e.currentTarget.style.backgroundColor = 'white';
+                        e.currentTarget.style.boxShadow = '0 6px 18px rgba(227,30,36,0.1)';
+                        e.currentTarget.style.transform = 'translateY(-2px)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.borderColor = 'var(--border-color)';
+                        e.currentTarget.style.color = 'var(--text-dark)';
+                        e.currentTarget.style.backgroundColor = '#f8fafc';
+                        e.currentTarget.style.boxShadow = 'none';
+                        e.currentTarget.style.transform = 'none';
+                      }}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                        <FileText size={19} style={{ color: 'var(--accent)', flexShrink: 0 }} />
+                        <span>{b.title}</span>
+                      </div>
+                      <Download size={19} style={{ color: 'var(--accent)', flexShrink: 0 }} />
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Action Buttons Centered */}
+            <div style={{ display: 'flex', gap: '1.25rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+              <button
+                onClick={() => navigate(`/brands/klenco/${categoryId}`)}
+                style={{ padding: '0.85rem 2rem', borderRadius: '0.5rem', border: '2px solid var(--primary)', color: 'var(--primary)', fontWeight: 700, backgroundColor: 'white', cursor: 'pointer', fontSize: '0.92rem', transition: 'all 0.2s' }}
+                onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'var(--primary)'; e.currentTarget.style.color = 'white'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = 'var(--primary)'; }}
+              >
+                ← Back to {cat.label}
+              </button>
+              <button 
+                onClick={() => navigate('/contact')}
+                style={{ padding: '0.85rem 2.25rem', borderRadius: '0.5rem', border: 'none', color: 'white', fontWeight: 700, backgroundColor: 'var(--accent)', cursor: 'pointer', fontSize: '0.92rem', boxShadow: '0 4px 15px rgba(227,30,36,0.2)', transition: 'all 0.2s' }}
+                onMouseEnter={(e) => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 6px 20px rgba(227,30,36,0.3)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = '0 4px 15px rgba(227,30,36,0.2)'; }}
+              >
+                Enquire Now
+              </button>
+            </div>
+
+          </div>
+
         </div>
       </section>
     </div>
