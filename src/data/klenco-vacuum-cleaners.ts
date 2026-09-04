@@ -27,7 +27,13 @@ export const vacuumCleaners: Product[] = [
       "Conference rooms and meeting facilities",
       "Commercial cleaning and facility management"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon Nova-Q Professional Dry Vacuum Cleaner Brochure",
+        url: "/brochures/klenco-typhoon-nova-q-vacuum-cleaner-brochure.pdf"
+      }
+    ]
   },
   {
     id: "typhoon-r327",
@@ -56,7 +62,13 @@ export const vacuumCleaners: Product[] = [
       "Warehouses and light industrial facilities",
       "Wet spill recovery and general maintenance cleaning"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon R327/R337/R590 Professional Vacuum Cleaners Brochure",
+        url: "/brochures/klenco-typhoon-r327-vacuum-cleaner-brochure.pdf"
+      }
+    ]
   },
   {
     id: "typhoon-432",
@@ -84,7 +96,13 @@ export const vacuumCleaners: Product[] = [
       "Vehicle workshops and service centres",
       "Wet spill recovery and industrial maintenance cleaning"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon 432 Industrial Wet/Dry Vacuum Cleaner Brochure",
+        url: "/brochures/klenco-typhoon-432-vacuum-cleaner-brochure.pdf"
+      }
+    ]
   },
   {
     id: "typhoon-463",
@@ -112,7 +130,13 @@ export const vacuumCleaners: Product[] = [
       "Shopping malls and public facilities",
       "Recovery of liquid spills, dust, debris, and industrial waste"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon 463 Industrial Wet/Dry Vacuum Cleaner Brochure",
+        url: "/brochures/klenco-typhoon-463-vacuum-cleaner-brochure.pdf"
+      }
+    ]
   }
 ];
 
