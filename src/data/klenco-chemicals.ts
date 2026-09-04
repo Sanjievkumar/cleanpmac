@@ -91,7 +91,13 @@ export const cleaningChemicals: Product[] = [
       "Pre-treatment of heavy traffic lanes and high-spill zones",
       "Pre-spray spot cleaning before extraction or shampooing cycles"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Power Spotter Carpet Stain Remover Brochure & SDS",
+        url: "/brochures/klenco-power-spotter-stain-remover-brochure.pdf"
+      }
+    ]
   },
   {
     id: "easy-clean",
@@ -182,7 +188,13 @@ export const cleaningChemicals: Product[] = [
       "Stainless steel fixtures, chrome fittings, glazed tiles, and polished porcelain",
       "Retail shop fronts, hotel lobbies, and restaurant glass doors"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Power View Professional Glass Cleaner Brochure & SDS",
+        url: "/brochures/klenco-power-view-glass-cleaner-brochure.pdf"
+      }
+    ]
   },
   {
     id: "power-lemon",
