@@ -28,7 +28,7 @@ export default function Home() {
             </div>
 
             <h1 className="home-hero-title">
-              <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
+              <span style={{ color: 'white', display: 'block', whiteSpace: 'nowrap', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
                 PROMAC CLEANING
               </span>
               <span style={{ color: 'white', display: 'block', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>
@@ -154,15 +154,15 @@ export default function Home() {
               <div className="icon-3d-wrapper">
                 <Headphones size={48} color="var(--primary)" />
               </div>
-              <h4 style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.5rem', textTransform: 'uppercase' }}>EXPERT SUPPORT</h4>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>& SERVICE</p>
+              <h4 style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.5rem', textTransform: 'uppercase' }}>PAN-INDIA</h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>SUPPORT & SERVICE</p>
             </div>
             <div className="card-3d">
               <div className="icon-3d-wrapper">
                 <ShieldCheck size={48} color="var(--primary)" />
               </div>
-              <h4 style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.5rem', textTransform: 'uppercase' }}>TRUSTED BY</h4>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>INDUSTRIES</p>
+              <h4 style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--primary)', marginBottom: '0.5rem', textTransform: 'uppercase' }}>GENUINE OEM</h4>
+              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>SPARE PARTS</p>
             </div>
           </div>
         </div>
