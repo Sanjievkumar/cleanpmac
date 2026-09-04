@@ -193,7 +193,13 @@ export const carpetExtractors: Product[] = [
       "Offices, conference rooms, and commercial workspaces",
       "Retail stores, clinics, schools, and healthcare facilities"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon Carpet Care Systems Brochure (SE20)",
+        url: "/brochures/klenco-typhoon-carpet-care-systems-brochure.pdf"
+      }
+    ]
   },
   {
     id: "typhoon-se30",
@@ -219,7 +225,13 @@ export const carpetExtractors: Product[] = [
       "Cinemas, auditorium seating, and entertainment venues",
       "Transport vehicles, buses, and aircraft interiors"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon Carpet Care Systems Brochure (SE30)",
+        url: "/brochures/klenco-typhoon-carpet-care-systems-brochure.pdf"
+      }
+    ]
   },
   {
     id: "typhoon-kw22",
@@ -243,7 +255,13 @@ export const carpetExtractors: Product[] = [
       "Car seats, mats, and automotive vehicle interiors",
       "Hotel rooms, offices, restaurants, hospitals, theatres, and airports"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon KW22 Spray Extraction Carpet & Sofa Cleaner Brochure",
+        url: "/brochures/klenco-typhoon-kw22-brochure.pdf"
+      }
+    ]
   },
   {
     id: "typhoon-kw22p",
@@ -266,7 +284,13 @@ export const carpetExtractors: Product[] = [
       "Vehicle interiors, child seats, and automotive upholstery",
       "Hotels, healthcare facilities, clinics, daycare centres, and restaurants"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Typhoon KW22P Steam Extraction Carpet & Sofa Cleaner Brochure",
+        url: "/brochures/klenco-typhoon-kw22p-brochure.pdf"
+      }
+    ]
   }
 ];
 
