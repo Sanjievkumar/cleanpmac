@@ -294,72 +294,153 @@ function KlencoProductDetailPage({ categoryId, productId }: { categoryId: string
       </section>
 
       {/* Product body */}
-      <section style={{ backgroundColor: '#f5f7f9', padding: '4rem 0 5rem' }}>
+      <section style={{ backgroundColor: '#f5f7f9', padding: '3.5rem 0 5rem' }}>
         <div className="container max-w-6xl mx-auto px-4">
           
-          {/* 2-Column Section: Left (Image + Key Features), Right (Summary in red + Ideal Applications) */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem', alignItems: 'start' }}>
+          {/* Top Row: Left (Product Image Showcase) & Right (Product Overview / Summary Card) */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2.5rem', alignItems: 'stretch' }}>
             
-            {/* Left Column */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-              {/* Product Image Box */}
-              <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2.5rem', border: '1px solid var(--border-color)', display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '340px', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  style={{ maxWidth: '100%', maxHeight: '320px', objectFit: 'contain' }}
-                  onError={(e) => { e.currentTarget.style.opacity = '0.3'; }}
-                />
-              </div>
-
-              {/* Key Features (Below Image) */}
-              <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2rem', border: '1px solid var(--border-color)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
-                <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1.05rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
-                  Key Features
-                </h3>
-                <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                  {product.features.map((f, i) => (
-                    <li key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', color: 'var(--text-dark)', fontSize: '0.92rem', lineHeight: 1.6 }}>
-                      <span style={{ color: 'var(--accent)', fontWeight: 900, flexShrink: 0, marginTop: '2px' }}>✓</span>
-                      <span>{f}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            {/* Product Image Box */}
+            <div style={{ 
+              backgroundColor: 'white', 
+              borderRadius: '1rem', 
+              padding: '2.5rem', 
+              border: '1px solid var(--border-color)', 
+              display: 'flex', 
+              alignItems: 'center', 
+              justifyContent: 'center', 
+              minHeight: '360px', 
+              boxShadow: '0 4px 20px rgba(0,0,0,0.03)' 
+            }}>
+              <img
+                src={product.image}
+                alt={product.name}
+                style={{ maxWidth: '100%', maxHeight: '340px', objectFit: 'contain' }}
+                onError={(e) => { e.currentTarget.style.opacity = '0.3'; }}
+              />
             </div>
 
-            {/* Right Column */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
-              {/* Product Summary/Description in Red and larger font */}
-              <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2rem', border: '1px solid var(--border-color)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
-                <p style={{ fontSize: '1.12rem', lineHeight: 1.85, color: 'var(--accent)', fontWeight: 600, margin: 0 }}>
+            {/* Product Summary / Overview Card */}
+            <div style={{ 
+              backgroundColor: 'white', 
+              borderRadius: '1rem', 
+              padding: '2.5rem', 
+              border: '1px solid var(--border-color)', 
+              boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center'
+            }}>
+              <div style={{ 
+                display: 'inline-flex', 
+                alignItems: 'center', 
+                gap: '0.4rem', 
+                backgroundColor: 'rgba(227, 30, 36, 0.08)', 
+                color: 'var(--accent)', 
+                padding: '0.35rem 0.85rem', 
+                borderRadius: '2rem', 
+                fontSize: '0.78rem', 
+                fontWeight: 800, 
+                letterSpacing: '0.08em', 
+                textTransform: 'uppercase', 
+                marginBottom: '1rem', 
+                alignSelf: 'flex-start' 
+              }}>
+                Product Overview
+              </div>
+              <h2 style={{ fontSize: 'clamp(1.4rem, 2.5vw, 1.85rem)', fontWeight: 900, color: 'var(--primary)', marginBottom: '0.5rem', lineHeight: 1.25 }}>
+                {product.name}
+              </h2>
+              {product.subtitle && (
+                <p style={{ color: 'var(--text-muted)', fontSize: '0.92rem', fontWeight: 600, marginBottom: '1.25rem' }}>
+                  {product.subtitle}
+                </p>
+              )}
+              <div style={{ borderLeft: '3px solid var(--accent)', paddingLeft: '1.25rem', marginTop: '0.25rem' }}>
+                <p style={{ fontSize: '1.02rem', lineHeight: 1.8, color: '#334155', fontWeight: 450, margin: 0 }}>
                   {product.description}
                 </p>
               </div>
-
-              {/* Ideal Applications (Beside Key Features) */}
-              {product.applications && product.applications.length > 0 && (
-                <div style={{ backgroundColor: 'white', borderRadius: '1rem', padding: '2rem', border: '1px solid var(--border-color)', boxShadow: '0 4px 20px rgba(0,0,0,0.03)' }}>
-                  <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1.05rem', marginBottom: '1.25rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                    <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
-                    Ideal Applications
-                  </h3>
-                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '0.65rem' }}>
-                    {product.applications.map((a, i) => (
-                      <div key={i} style={{ fontSize: '0.88rem', color: 'var(--text-dark)', fontWeight: 500, padding: '0.65rem 0.85rem', backgroundColor: '#f8fafc', borderRadius: '0.5rem', border: '1px solid var(--border-color)' }}>
-                        {a}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
             </div>
 
           </div>
 
+          {/* Middle Row: Key Features & Ideal Applications Side-by-Side (Aligned at exact same top baseline) */}
+          <div style={{ 
+            marginTop: '2.5rem', 
+            display: 'grid', 
+            gridTemplateColumns: product.applications && product.applications.length > 0 ? 'repeat(auto-fit, minmax(320px, 1fr))' : '1fr', 
+            gap: '2.5rem', 
+            alignItems: 'stretch' 
+          }}>
+            
+            {/* Key Features Card */}
+            <div style={{ 
+              backgroundColor: 'white', 
+              borderRadius: '1rem', 
+              padding: '2.25rem', 
+              border: '1px solid var(--border-color)', 
+              boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+              display: 'flex',
+              flexDirection: 'column',
+              height: '100%'
+            }}>
+              <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1.15rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                <span style={{ display: 'inline-block', width: '4px', height: '20px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
+                Key Features
+              </h3>
+              <ul style={{ listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '0.85rem', flexGrow: 1 }}>
+                {product.features.map((f, i) => (
+                  <li key={i} style={{ display: 'flex', gap: '0.75rem', alignItems: 'flex-start', color: '#334155', fontSize: '0.92rem', lineHeight: 1.6 }}>
+                    <span style={{ color: 'var(--accent)', fontWeight: 900, flexShrink: 0, marginTop: '2px', fontSize: '1rem' }}>✓</span>
+                    <span style={{ fontWeight: 500 }}>{f}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Ideal Applications Card */}
+            {product.applications && product.applications.length > 0 && (
+              <div style={{ 
+                backgroundColor: 'white', 
+                borderRadius: '1rem', 
+                padding: '2.25rem', 
+                border: '1px solid var(--border-color)', 
+                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                display: 'flex',
+                flexDirection: 'column',
+                height: '100%'
+              }}>
+                <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1.15rem', marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
+                  <span style={{ display: 'inline-block', width: '4px', height: '20px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
+                  Ideal Applications
+                </h3>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', flexGrow: 1 }}>
+                  {product.applications.map((a, i) => (
+                    <div key={i} style={{ 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      gap: '0.75rem', 
+                      fontSize: '0.9rem', 
+                      color: '#334155', 
+                      fontWeight: 500, 
+                      padding: '0.75rem 1rem', 
+                      backgroundColor: '#f8fafc', 
+                      borderRadius: '0.5rem', 
+                      border: '1px solid var(--border-color)' 
+                    }}>
+                      <span style={{ width: '6px', height: '6px', borderRadius: '50%', backgroundColor: 'var(--accent)', flexShrink: 0 }} />
+                      <span>{a}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+          </div>
+
           {/* Bottom Section: Product Brochures & Centered Action Buttons */}
-          <div style={{ marginTop: '3rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
+          <div style={{ marginTop: '2.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem' }}>
             
             {/* Product Brochures & Downloads */}
             {product.brochures && product.brochures.length > 0 && (
