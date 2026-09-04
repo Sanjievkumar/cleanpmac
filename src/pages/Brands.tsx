@@ -1,5 +1,4 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { Calendar, Globe, Building2, Handshake } from 'lucide-react';
 
 export default function Brands() {
   const { id } = useParams();
@@ -18,154 +17,33 @@ export default function Brands() {
           />
         </div>
 
-        {/* ─── CONTENT 1: Our Story (Native Pixel-Perfect Layout) ─── */}
+        {/* ─── CONTENT 1: Our Story ─── */}
         <section style={{ 
           backgroundColor: '#ffffff', 
           borderBottom: '1px solid var(--border-color)',
           position: 'relative',
-          overflow: 'hidden',
-          padding: '4.5rem 0 4rem'
+          padding: '2.5rem 0',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'
         }}>
-          {/* Top-Left Corner Vector SVG Geometric Accents */}
-          <div style={{ position: 'absolute', top: 0, left: 0, width: '140px', height: '140px', pointerEvents: 'none', zIndex: 0 }}>
-            <svg width="100%" height="100%" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <polygon points="0,0 80,0 0,80" fill="#E31E24" />
-              <polygon points="95,0 125,0 0,125 0,95" fill="#E31E24" opacity="0.85" />
-            </svg>
-          </div>
-
-          {/* Bottom-Right Corner Vector SVG Geometric Accents */}
-          <div style={{ position: 'absolute', bottom: 0, right: 0, width: '140px', height: '140px', pointerEvents: 'none', zIndex: 0 }}>
-            <svg width="100%" height="100%" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <polygon points="140,140 60,140 140,60" fill="#E31E24" />
-              <polygon points="45,140 15,140 140,15 140,45" fill="#E31E24" opacity="0.85" />
-            </svg>
-          </div>
-
-          <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ position: 'relative', zIndex: 1 }}>
-            
-            {/* 3-Column Layout: Left Flank Motto, Center Content, Right Flank Logo & Motto */}
-            <div style={{ 
-              display: 'grid', 
-              gridTemplateColumns: 'minmax(140px, 180px) 1fr minmax(140px, 180px)', 
-              gap: '2.5rem', 
-              alignItems: 'center' 
-            }} className="klenco-story-grid">
-              
-              {/* Left Flank Motto */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} className="hidden lg:flex">
-                <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.16em', color: '#475569', lineHeight: 1.65 }}>
-                  PEOPLE<br />PRODUCTS<br />PARTNERSHIPS<br />A CLEANER TOMORROW
-                </span>
-                <div style={{ width: '42px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
-              </div>
-
-              {/* Center Main Story Block */}
-              <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto' }}>
-                {/* Header Tag */}
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.85rem', marginBottom: '0.75rem' }}>
-                  <div style={{ width: '36px', height: '2px', backgroundColor: '#E31E24' }} />
-                  <span style={{ fontSize: '0.82rem', fontWeight: 800, letterSpacing: '0.22em', color: '#E31E24', textTransform: 'uppercase' }}>
-                    OUR STORY
-                  </span>
-                  <div style={{ width: '36px', height: '2px', backgroundColor: '#E31E24' }} />
-                </div>
-                
-                {/* Main Headline */}
-                <h2 style={{ 
-                  fontSize: 'clamp(1.9rem, 3.2vw, 2.75rem)', 
-                  fontWeight: 900, 
-                  color: '#E31E24', 
-                  letterSpacing: '-0.02em', 
-                  lineHeight: 1.18,
-                  marginBottom: '1.5rem' 
-                }}>
-                  A Legacy of Cleaning Excellence
-                </h2>
-
-                {/* Paragraphs */}
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '1.15rem' }}>
-                  <p style={{ fontSize: '1.02rem', lineHeight: 1.85, color: '#334155', fontWeight: 400 }}>
-                    Established in 1971 in Singapore, Klenco has grown into one of Asia's leading providers of professional cleaning solutions. What began with a small range of cleaning machines and chemicals has evolved into a comprehensive portfolio serving customers in more than 20 countries across Asia, the Middle East, Australia and Europe.
-                  </p>
-                  <p style={{ fontSize: '1.02rem', lineHeight: 1.85, color: '#334155', fontWeight: 400 }}>
-                    Today, Klenco offers an extensive range of commercial cleaning equipment, professional chemicals, janitorial tools and industrial maintenance solutions, supported by expert technical consultation and reliable after-sales service.
-                  </p>
-                </div>
-              </div>
-
-              {/* Right Flank Logo & Motto */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end' }} className="hidden lg:flex">
-                <img 
-                  src="/content_images/klenco_logo_clean.png" 
-                  alt="Klenco Logo" 
-                  style={{ width: '85px', height: 'auto', display: 'block', objectFit: 'contain', marginBottom: '0.85rem' }} 
-                />
-                <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.16em', color: '#0f172a', textAlign: 'right', lineHeight: 1.65 }}>
-                  A CLEANER<br />BRIGHTER<br />SAFER<br />TOMORROW
-                </span>
-                <div style={{ width: '42px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
-              </div>
-
+          <div className="container max-w-6xl mx-auto px-4 sm:px-6">
+            <div style={{
+              maxWidth: '1060px',
+              margin: '0 auto',
+              borderRadius: '0.75rem',
+              overflow: 'hidden'
+            }}>
+              <img
+                src="/content_images/klenco_our_story_full.png"
+                alt="Klenco - Our Story: A Legacy of Cleaning Excellence"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  display: 'block'
+                }}
+              />
             </div>
-
-            {/* Bottom 4 Stat Badges with Hairline Dividers */}
-            <div style={{ 
-              display: 'grid', 
-              gridTemplateColumns: 'repeat(4, 1fr)', 
-              maxWidth: '920px', 
-              margin: '3.5rem auto 0', 
-              alignItems: 'center',
-              paddingTop: '2rem',
-              borderTop: '1px solid #f1f5f9'
-            }} className="klenco-badges-grid">
-              
-              {/* Badge 1 */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem', borderRight: '1px solid #e2e8f0' }} className="klenco-badge-item">
-                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
-                  <Calendar size={24} color="#E31E24" />
-                </div>
-                <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>EST. 1971</div>
-                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Singapore</div>
-                </div>
-              </div>
-
-              {/* Badge 2 */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem', borderRight: '1px solid #e2e8f0' }} className="klenco-badge-item">
-                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
-                  <Globe size={24} color="#E31E24" />
-                </div>
-                <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>20+</div>
-                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Countries</div>
-                </div>
-              </div>
-
-              {/* Badge 3 */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem', borderRight: '1px solid #e2e8f0' }} className="klenco-badge-item">
-                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
-                  <Building2 size={24} color="#E31E24" />
-                </div>
-                <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>Complete</div>
-                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Cleaning Solutions</div>
-                </div>
-              </div>
-
-              {/* Badge 4 (No right border) */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: '0.65rem', padding: '0 1rem' }} className="klenco-badge-item">
-                <div style={{ width: '54px', height: '54px', borderRadius: '50%', backgroundColor: '#fee2e2', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid rgba(227,30,36,0.18)', boxShadow: '0 4px 12px rgba(227,30,36,0.08)' }}>
-                  <Handshake size={24} color="#E31E24" />
-                </div>
-                <div>
-                  <div style={{ fontWeight: 900, color: '#0f172a', fontSize: '1.05rem', letterSpacing: '0.02em' }}>Trusted</div>
-                  <div style={{ fontSize: '0.85rem', color: '#64748b', fontWeight: 500, marginTop: '2px' }}>Across Industries</div>
-                </div>
-              </div>
-
-            </div>
-
           </div>
         </section>
 
