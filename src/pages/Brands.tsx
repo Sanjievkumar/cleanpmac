@@ -54,14 +54,14 @@ export default function Brands() {
               
               {/* Left Flank Motto */}
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} className="hidden lg:flex">
-                <span style={{ fontSize: '0.74rem', fontWeight: 800, letterSpacing: '0.16em', color: '#475569', lineHeight: 1.6 }}>
+                <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.16em', color: '#475569', lineHeight: 1.65 }}>
                   PEOPLE<br />PRODUCTS<br />PARTNERSHIPS<br />A CLEANER TOMORROW
                 </span>
-                <div style={{ width: '38px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
+                <div style={{ width: '42px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
               </div>
 
               {/* Center Main Story Block */}
-              <div style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto' }}>
+              <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto' }}>
                 {/* Header Tag */}
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.85rem', marginBottom: '0.75rem' }}>
                   <div style={{ width: '36px', height: '2px', backgroundColor: '#E31E24' }} />
@@ -99,12 +99,12 @@ export default function Brands() {
                 <img 
                   src="/content_images/klenco_logo_striped_trans.png" 
                   alt="Klenco Logo" 
-                  style={{ height: '48px', objectFit: 'contain', marginBottom: '0.75rem' }} 
+                  style={{ width: '135px', height: 'auto', display: 'block', objectFit: 'contain', marginBottom: '0.85rem' }} 
                 />
-                <span style={{ fontSize: '0.74rem', fontWeight: 800, letterSpacing: '0.16em', color: '#0f172a', textAlign: 'right', lineHeight: 1.6 }}>
+                <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.16em', color: '#0f172a', textAlign: 'right', lineHeight: 1.65 }}>
                   A CLEANER<br />BRIGHTER<br />SAFER<br />TOMORROW
                 </span>
-                <div style={{ width: '38px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
+                <div style={{ width: '42px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
               </div>
 
             </div>
