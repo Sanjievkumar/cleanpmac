@@ -85,10 +85,10 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
       {/* Hero */}
       {'bannerImage' in cat && cat.bannerImage ? (
         <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
-          <div style={{ width: '100%', height: 'clamp(220px, 35vh, 450px)', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden' }}>
+          <div style={{ width: '100%', height: 'clamp(320px, 48vh, 560px)', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem 0' }}>
             <img src={cat.bannerImage} alt={cat.label} style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center' }} />
           </div>
-          <div className="container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '4rem 1rem' }}>
+          <div className="container" style={{ maxWidth: '1100px', margin: '0 auto', padding: '3rem 1rem' }}>
             <button
               onClick={() => navigate('/brands/klenco')}
               style={{ color: 'var(--text-muted)', fontWeight: 600, fontSize: '0.9rem', background: 'none', border: 'none', cursor: 'pointer', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}
