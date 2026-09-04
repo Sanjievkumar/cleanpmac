@@ -26,7 +26,13 @@ export const cleaningChemicals: Product[] = [
       "Automotive fabric upholstery",
       "Hospitality, healthcare, corporate, and residential upholstery care"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Action 150 S High Performance Stripper Brochure & SDS",
+        url: "/brochures/klenco-action-150-s-stripper-brochure.pdf"
+      }
+    ]
   },
   {
     id: "campaign",
@@ -53,7 +59,13 @@ export const cleaningChemicals: Product[] = [
       "High-traffic carpeted zones in commercial and institutional properties",
       "Suitable for carpets made from cotton, wool, acrylic, nylon, and polypropylene fibres"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Campaign Carpet Shampoo Concentrate Brochure & SDS",
+        url: "/brochures/klenco-campaign-carpet-shampoo-brochure.pdf"
+      }
+    ]
   },
   {
     id: "power-spotter",
@@ -105,7 +117,13 @@ export const cleaningChemicals: Product[] = [
       "Road signs, metal cladding, and industrial exterior structures",
       "Dip tanks and parts washing baths for degreasing components"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Easy Clean Heavy Duty Degreaser Brochure & SDS",
+        url: "/brochures/klenco-easy-clean-degreaser-brochure.pdf"
+      }
+    ]
   },
   {
     id: "power-lime",
@@ -132,7 +150,13 @@ export const cleaningChemicals: Product[] = [
       "Refuse disposal areas, bin centers, and odour-prone sanitation zones",
       "Floors, walls, and other washable hard surfaces"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Power Lime Cleaner, Disinfectant & Deodorizer Brochure & SDS",
+        url: "/brochures/klenco-power-lime-disinfectant-brochure.pdf"
+      }
+    ]
   },
   {
     id: "power-view",
@@ -184,7 +208,13 @@ export const cleaningChemicals: Product[] = [
       "Institutional housekeeping in hotels, schools, offices, and care homes",
       "Liquid hand soap dispensers in washrooms and commercial kitchens"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Power Lemon General Purpose Liquid Soap Brochure & SDS",
+        url: "/brochures/klenco-power-lemon-liquid-soap-brochure.pdf"
+      }
+    ]
   }
 ];
 
