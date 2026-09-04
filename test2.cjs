@@ -1,1 +1,0 @@
-const fs = require('fs'); const content = fs.readFileSync('src/data/truvox-products.ts', 'utf8'); const regex = /"(\/content_images\/[^"]+)"/g; let m; let missing = []; while((m = regex.exec(content)) !== null) { if(!fs.existsSync('public' + m[1])) missing.push(m[1]); } console.log('Missing in truvox-products:', missing);
