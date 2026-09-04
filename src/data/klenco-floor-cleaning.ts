@@ -423,7 +423,13 @@ export const steamCleaners: Product[] = [
       "Carpet, upholstery, mattress, and curtain sanitization",
       "Windows, mirrors, glass partitions, and hard surface cleaning"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Monsoon ST7 Commercial Steam Cleaners Brochure",
+        url: "/brochures/klenco-monsoon-st7-steam-cleaner-brochure.pdf"
+      }
+    ]
   },
   {
     id: "monsoon-st12-uv",
@@ -452,7 +458,13 @@ export const steamCleaners: Product[] = [
       "Restrooms, locker rooms, saunas, and high-frequency touch surfaces",
       "Mattresses, fabric upholstery, curtains, and allergen-free sanitization"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Monsoon ST12-UV & ST15-UV Steam / Vacuum Cleaner Brochure",
+        url: "/brochures/klenco-monsoon-st12-uv-steam-vacuum-cleaner-brochure.pdf"
+      }
+    ]
   }
 ];
 
