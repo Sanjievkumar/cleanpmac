@@ -27,7 +27,13 @@ export const highPressureCleaners: Product[] = [
       "Building exterior and façade cleaning",
       "Equipment, machinery, and outdoor surface cleaning"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Monsoon 336 Cold Water Electric High Pressure Cleaner Brochure",
+        url: "/brochures/klenco-monsoon-336-high-pressure-cleaner-brochure.pdf"
+      }
+    ]
   },
   {
     id: "monsoon-444",
@@ -56,7 +62,13 @@ export const highPressureCleaners: Product[] = [
       "Food processing and commercial kitchens",
       "Outdoor surfaces, pavements, and building exteriors"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Monsoon 444 Cold Water Electric High Pressure Cleaner Brochure",
+        url: "/brochures/klenco-monsoon-444-high-pressure-cleaner-brochure.pdf"
+      }
+    ]
   },
   {
     id: "monsoon-525",
@@ -86,7 +98,13 @@ export const highPressureCleaners: Product[] = [
       "Building exteriors and loading bays",
       "Industrial equipment and machinery cleaning"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Monsoon 525 / 528 / 828 Explorer Line High Pressure Cleaner Brochure",
+        url: "/brochures/klenco-monsoon-525-high-pressure-cleaner-brochure.pdf"
+      }
+    ]
   }
 ];
 
