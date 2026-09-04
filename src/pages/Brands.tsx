@@ -349,7 +349,7 @@ export default function Brands() {
               <div style={{ color: '#E31E24', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '0.75rem' }}>
                 The Klenco Range
               </div>
-              <h2 style={{ fontSize: 'clamp(2.2rem, 4vw, 3.2rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em', marginBottom: '1rem' }}>
+              <h2 style={{ fontSize: 'clamp(2.2rem, 4vw, 3.2rem)', fontWeight: 900, color: '#E31E24', letterSpacing: '-0.02em', marginBottom: '1rem' }}>
                 PRODUCT CATEGORIES
               </h2>
               <p style={{ color: 'var(--text-muted)', lineHeight: 1.8, maxWidth: '750px', margin: '0 auto', fontSize: '0.95rem' }}>
@@ -385,7 +385,7 @@ export default function Brands() {
                     <h4 style={{ 
                       fontSize: '0.95rem', 
                       fontWeight: 800, 
-                      color: 'var(--primary)', 
+                      color: '#E31E24', 
                       marginBottom: '1.25rem',
                       paddingBottom: '0.85rem',
                       borderBottom: '1px solid var(--border-color)',
@@ -469,7 +469,7 @@ export default function Brands() {
                     <h4 style={{ 
                       fontSize: '0.95rem', 
                       fontWeight: 800, 
-                      color: 'var(--primary)', 
+                      color: '#E31E24', 
                       marginBottom: '1.25rem',
                       paddingBottom: '0.85rem',
                       borderBottom: '1px solid var(--border-color)',

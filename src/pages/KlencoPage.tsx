@@ -121,10 +121,10 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
           {cat.hasSubCategories && (
             <div>
               <div style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
-                <div style={{ color: 'var(--accent)', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem' }}>
+                <div style={{ color: '#E31E24', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem' }}>
                   The Klenco Floorcare Range
                 </div>
-                <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em' }}>
+                <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, color: '#E31E24', letterSpacing: '-0.02em' }}>
                   PRODUCT CATEGORIES
                 </h2>
               </div>
@@ -148,7 +148,7 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
                     <h3 style={{ 
                       fontSize: '1rem', 
                       fontWeight: 800, 
-                      color: 'var(--primary)', 
+                      color: '#E31E24', 
                       marginBottom: '1.5rem',
                       paddingBottom: '1rem',
                       borderBottom: '1px solid var(--border-color)',
@@ -178,10 +178,10 @@ function KlencoCategoryPage({ categoryId }: { categoryId: string }) {
                             textDecoration: 'none'
                           }}
                           onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = 'var(--accent)';
-                            e.currentTarget.style.borderColor = 'var(--accent)';
+                            e.currentTarget.style.backgroundColor = '#E31E24';
+                            e.currentTarget.style.borderColor = '#E31E24';
                             e.currentTarget.style.color = 'white';
-                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.15)';
+                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.18)';
                             const icon = e.currentTarget.querySelector('svg');
                             if (icon) icon.style.color = 'white';
                           }}
@@ -287,10 +287,10 @@ function KlencoProductDetailPage({ categoryId, productId }: { categoryId: string
             <span>/</span>
             <button onClick={() => navigate(`/brands/klenco/${categoryId}`)} style={{ color: 'rgba(255,255,255,0.65)', background: 'none', border: 'none', cursor: 'pointer' }}>{cat.label}</button>
             <span>/</span>
-            <span style={{ color: 'white' }}>{product.name}</span>
+            <span style={{ color: '#E31E24', fontWeight: 700 }}>{product.name}</span>
           </div>
-          <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 3rem)', fontWeight: 900, color: 'white', letterSpacing: '-0.02em' }}>{product.name}</h1>
-          <p style={{ color: 'rgba(255,255,255,0.75)', marginTop: '0.5rem', fontSize: '1.1rem' }}>{product.subtitle}</p>
+          <h1 style={{ fontSize: 'clamp(1.8rem, 3.5vw, 3rem)', fontWeight: 900, color: '#E31E24', letterSpacing: '-0.02em' }}>{product.name}</h1>
+          <p style={{ color: 'rgba(255,255,255,0.85)', marginTop: '0.5rem', fontSize: '1.1rem' }}>{product.subtitle}</p>
         </div>
       </section>
 
@@ -349,7 +349,7 @@ function KlencoProductDetailPage({ categoryId, productId }: { categoryId: string
               }}>
                 Product Overview
               </div>
-              <h2 style={{ fontSize: 'clamp(1.4rem, 2.5vw, 1.85rem)', fontWeight: 900, color: 'var(--primary)', marginBottom: '0.5rem', lineHeight: 1.25 }}>
+              <h2 style={{ fontSize: 'clamp(1.4rem, 2.5vw, 1.85rem)', fontWeight: 900, color: '#E31E24', marginBottom: '0.5rem', lineHeight: 1.25 }}>
                 {product.name}
               </h2>
               {product.subtitle && (

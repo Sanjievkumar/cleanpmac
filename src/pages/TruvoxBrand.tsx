@@ -94,7 +94,28 @@ export default function TruvoxBrand() {
   return (
     <div className="fade-in">
       
-      {/* ═══════════ TRUVOX HERO (Seamless Native + HD Artwork Integration) ═══════════ */}
+      {/* ═══════════ TRUVOX VIDEO HERO BANNER ═══════════ */}
+      <section style={{ backgroundColor: '#000814', position: 'relative', overflow: 'hidden', borderBottom: '1px solid rgba(0, 168, 176, 0.25)' }}>
+        <div style={{ width: '100%', maxWidth: '1440px', margin: '0 auto', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            style={{
+              width: '100%',
+              maxHeight: '520px',
+              objectFit: 'contain',
+              display: 'block'
+            }}
+          >
+            <source src="/videos/truvox-hero.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+
+      {/* ═══════════ TRUVOX BRAND STORY & HD ARTWORK SECTION ═══════════ */}
       <section className="truvox-hero-section" style={{ 
         position: 'relative',
         overflow: 'hidden',
@@ -254,10 +275,10 @@ export default function TruvoxBrand() {
         <div className="container max-w-7xl mx-auto px-4">
           
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <div style={{ color: 'var(--accent)', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem' }}>
+            <div style={{ color: '#00A8B0', fontSize: '0.85rem', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', marginBottom: '1rem' }}>
               The Truvox Range
             </div>
-            <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, color: 'var(--primary)', letterSpacing: '-0.02em' }}>
+            <h2 style={{ fontSize: 'clamp(2.5rem, 4vw, 3.5rem)', fontWeight: 900, color: '#00A8B0', letterSpacing: '-0.02em' }}>
               PRODUCT CATEGORIES
             </h2>
           </div>
@@ -279,7 +300,7 @@ export default function TruvoxBrand() {
                 <h3 style={{ 
                   fontSize: '1rem', 
                   fontWeight: 800, 
-                  color: 'var(--primary)', 
+                  color: '#00A8B0', 
                   marginBottom: '1.5rem',
                   paddingBottom: '1rem',
                   borderBottom: '1px solid var(--border-color)',
@@ -304,13 +325,14 @@ export default function TruvoxBrand() {
                         fontSize: '0.8rem',
                         fontWeight: 500,
                         transition: 'all 0.2s ease',
-                        backgroundColor: 'white'
+                        backgroundColor: 'white',
+                        textDecoration: 'none'
                       }}
                       onMouseEnter={(e) => {
-                        e.currentTarget.style.backgroundColor = 'var(--accent)';
-                        e.currentTarget.style.borderColor = 'var(--accent)';
+                        e.currentTarget.style.backgroundColor = '#00A8B0';
+                        e.currentTarget.style.borderColor = '#00A8B0';
                         e.currentTarget.style.color = 'white';
-                        e.currentTarget.style.boxShadow = '0 4px 12px rgba(227,30,36,0.15)';
+                        e.currentTarget.style.boxShadow = '0 4px 14px rgba(0, 168, 176, 0.25)';
                         const icon = e.currentTarget.querySelector('svg');
                         if (icon) icon.style.color = 'white';
                       }}

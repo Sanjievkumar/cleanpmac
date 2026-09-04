@@ -54,7 +54,7 @@ export default function TruvoxProduct() {
           </Link>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12" style={{ background: '#00A8B0', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 20px 40px rgba(0, 168, 176, 0.2)', border: 'none' }}>
+        <div className="grid lg:grid-cols-2 gap-12" style={{ background: 'white', borderRadius: '1.5rem', padding: 'clamp(2rem, 5vw, 4rem)', boxShadow: '0 15px 35px rgba(0, 31, 63, 0.08)', border: '1px solid var(--border-color)' }}>
           
           {/* Product Images Area (Inner Box Slideshow) */}
           <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -62,14 +62,14 @@ export default function TruvoxProduct() {
               style={{ 
                 position: 'relative', 
                 height: 'clamp(320px, 50vh, 480px)', 
-                background: 'white', 
+                background: '#f8fafc', 
                 borderRadius: '1rem', 
                 display: 'flex', 
                 alignItems: 'center', 
                 justifyContent: 'center', 
                 padding: '2rem', 
-                border: '1px solid rgba(255,255,255,0.4)', 
-                boxShadow: '0 10px 25px rgba(0,0,0,0.06)',
+                border: '1px solid var(--border-color)', 
+                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
                 overflow: 'hidden'
               }}
             >
@@ -191,15 +191,15 @@ export default function TruvoxProduct() {
           {/* Product Info Area */}
           <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
             <div>
-              <div style={{ display: 'inline-block', background: 'rgba(255, 255, 255, 0.2)', backdropFilter: 'blur(8px)', color: 'white', border: '1px solid rgba(255, 255, 255, 0.35)', padding: '0.4rem 1rem', borderRadius: '2rem', fontSize: '0.82rem', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
+              <div style={{ display: 'inline-block', background: 'rgba(0, 168, 176, 0.08)', color: '#00A8B0', border: '1px solid rgba(0, 168, 176, 0.25)', padding: '0.4rem 1rem', borderRadius: '2rem', fontSize: '0.82rem', fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '1.25rem' }}>
                 {productData.brand}
               </div>
               
-              <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', fontWeight: 900, color: 'white', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.02em', textShadow: '0 2px 10px rgba(0,0,0,0.1)' }}>
+              <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', fontWeight: 900, color: '#00A8B0', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.02em' }}>
                 {productData.name}
               </h1>
               
-              <p style={{ fontSize: '1.05rem', color: 'rgba(255, 255, 255, 0.95)', marginBottom: '2rem', lineHeight: 1.8, fontWeight: 500 }}>
+              <p style={{ fontSize: '1.05rem', color: '#475569', marginBottom: '2rem', lineHeight: 1.8, fontWeight: 450 }}>
                 {productData.description}
               </p>
             </div>
@@ -217,10 +217,10 @@ export default function TruvoxProduct() {
               .tab-btn.inactive { background-color: white; color: var(--text-muted); border-color: var(--border-color); }
               
               .feature-card { background: white; border-radius: 1rem; padding: 2rem; border: 1px solid var(--border-color); transition: transform 0.3s, box-shadow 0.3s; height: 100%; display: flex; flex-direction: column; }
-              .feature-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); border-color: rgba(0,75,135,0.2); }
+              .feature-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); border-color: rgba(0, 168, 176, 0.3); }
               
               .floor-card { position: relative; border-radius: 1rem; overflow: hidden; aspect-ratio: 1; transition: transform 0.3s, box-shadow 0.3s; background: white; border: 1px solid var(--border-color); }
-              .floor-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.12); border-color: var(--accent); }
+              .floor-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.12); border-color: #00A8B0; }
               .floor-card img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
               .floor-card:hover img { transform: scale(1.08); }
               .floor-overlay { position: absolute; bottom: 0; left: 0; right: 0; padding: 2.5rem 0.75rem 0.75rem; background: linear-gradient(to top, rgba(0,0,0,0.85), transparent); color: white; text-align: center; font-weight: 800; font-size: 0.85rem; letter-spacing: 0.05em; pointer-events: none; }
@@ -229,23 +229,23 @@ export default function TruvoxProduct() {
               .spec-row { display: flex; justify-content: space-between; padding: 1.15rem 1.75rem; border-bottom: 1px solid var(--border-color); transition: background-color 0.2s; }
               .spec-row:last-child { border-bottom: none; }
               .spec-row:nth-child(even) { background-color: #f8fafc; }
-              .spec-row:hover { background-color: rgba(0,75,135,0.03); }
+              .spec-row:hover { background-color: rgba(0, 168, 176, 0.04); }
               .spec-label { font-weight: 600; color: var(--text-muted); width: 50%; padding-right: 1rem; }
               .spec-value { font-weight: 700; color: var(--primary); text-align: right; width: 50%; padding-left: 1rem; }
               
               .acc-card { background: white; border-radius: 1rem; border: 1px solid var(--border-color); overflow: hidden; display: flex; flex-direction: column; transition: transform 0.3s, box-shadow 0.3s; height: 100%; }
-              .acc-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); border-color: rgba(0,75,135,0.2); }
+              .acc-card:hover { transform: translateY(-5px); box-shadow: 0 12px 24px rgba(0,0,0,0.06); border-color: rgba(0, 168, 176, 0.3); }
               .acc-img-wrap { padding: 1.5rem; background: #f8fafc; display: flex; justify-content: center; align-items: center; aspect-ratio: 1; border-bottom: 1px solid var(--border-color); }
               .acc-img-wrap img { width: 100%; height: 100%; object-fit: contain; transition: transform 0.3s; }
               .acc-card:hover .acc-img-wrap img { transform: scale(1.05); }
               .acc-content { padding: 1.25rem; display: flex; flex-direction: column; flex-grow: 1; }
-              .acc-sku { display: inline-block; background: rgba(0, 75, 135, 0.08); color: var(--primary); padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.78rem; font-weight: 800; margin-bottom: 0.75rem; align-self: flex-start; }
+              .acc-sku { display: inline-block; background: rgba(0, 168, 176, 0.08); color: #00A8B0; padding: 0.35rem 0.75rem; border-radius: 6px; font-size: 0.78rem; font-weight: 800; margin-bottom: 0.75rem; align-self: flex-start; }
               .acc-title { font-size: 0.95rem; font-weight: 700; color: var(--text-dark); line-height: 1.4; }
               
               .dl-cat-title { font-size: 1.25rem; font-weight: 900; color: var(--primary); margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem; padding-bottom: 0.75rem; border-bottom: 2px solid var(--border-color); }
               .dl-link { display: flex; align-items: center; justify-content: space-between; padding: 1.1rem 1.25rem; background: white; border: 1px solid var(--border-color); border-radius: 0.75rem; margin-bottom: 0.75rem; transition: all 0.2s; color: var(--text-dark); font-weight: 600; text-decoration: none; }
-              .dl-link:hover { border-color: var(--accent); color: var(--accent); box-shadow: 0 8px 20px rgba(227, 38, 54, 0.08); transform: translateX(6px); background: #fffcfc; }
-              .dl-icon { color: var(--accent); transition: transform 0.2s; }
+              .dl-link:hover { border-color: #00A8B0; color: #00A8B0; box-shadow: 0 8px 20px rgba(0, 168, 176, 0.12); transform: translateX(6px); background: #f4fbfc; }
+              .dl-icon { color: #00A8B0; transition: transform 0.2s; }
               .dl-link:hover .dl-icon { transform: translateY(2px); }
 
               @media (max-width: 650px) {
