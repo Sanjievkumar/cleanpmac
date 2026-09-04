@@ -1,5 +1,5 @@
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Download, FileText } from 'lucide-react';
 import { floorCleaningData } from '../data/klenco-floor-cleaning';
 import type { Product } from '../data/klenco-floor-cleaning';
 import { vacuumData } from '../data/klenco-vacuum-cleaners';
@@ -341,14 +341,70 @@ function KlencoProductDetailPage({ categoryId, productId }: { categoryId: string
                 </>
               )}
 
-              <div style={{ display: 'flex', gap: '1rem' }}>
+              {/* Product Brochures & Downloads */}
+              {product.brochures && product.brochures.length > 0 && (
+                <div style={{ marginBottom: '2.5rem' }}>
+                  <h3 style={{ fontWeight: 800, color: 'var(--primary)', fontSize: '1rem', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <span style={{ display: 'inline-block', width: '4px', height: '18px', backgroundColor: 'var(--accent)', borderRadius: '2px' }} />
+                    Product Brochures & Downloads
+                  </h3>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
+                    {product.brochures.map((b, i) => (
+                      <a
+                        key={i}
+                        href={b.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'space-between',
+                          padding: '0.9rem 1.25rem',
+                          backgroundColor: 'white',
+                          border: '1px solid var(--border-color)',
+                          borderRadius: '0.6rem',
+                          textDecoration: 'none',
+                          color: 'var(--text-dark)',
+                          fontWeight: 600,
+                          fontSize: '0.88rem',
+                          transition: 'all 0.2s ease',
+                          boxShadow: '0 2px 8px rgba(0,0,0,0.02)'
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.borderColor = 'var(--accent)';
+                          e.currentTarget.style.color = 'var(--accent)';
+                          e.currentTarget.style.boxShadow = '0 6px 18px rgba(227,30,36,0.1)';
+                          e.currentTarget.style.transform = 'translateX(4px)';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.borderColor = 'var(--border-color)';
+                          e.currentTarget.style.color = 'var(--text-dark)';
+                          e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.02)';
+                          e.currentTarget.style.transform = 'none';
+                        }}
+                      >
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                          <FileText size={18} style={{ color: 'var(--accent)', flexShrink: 0 }} />
+                          <span>{b.title}</span>
+                        </div>
+                        <Download size={18} style={{ color: 'var(--accent)', flexShrink: 0 }} />
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                 <button
                   onClick={() => navigate(`/brands/klenco/${categoryId}`)}
                   style={{ padding: '0.8rem 1.75rem', borderRadius: '0.5rem', border: '2px solid var(--primary)', color: 'var(--primary)', fontWeight: 700, backgroundColor: 'white', cursor: 'pointer', fontSize: '0.9rem' }}
                 >
                   ← Back to {cat.label}
                 </button>
-                <button style={{ padding: '0.8rem 1.75rem', borderRadius: '0.5rem', border: 'none', color: 'white', fontWeight: 700, backgroundColor: 'var(--accent)', cursor: 'pointer', fontSize: '0.9rem' }}>
+                <button 
+                  onClick={() => navigate('/contact')}
+                  style={{ padding: '0.8rem 1.75rem', borderRadius: '0.5rem', border: 'none', color: 'white', fontWeight: 700, backgroundColor: 'var(--accent)', cursor: 'pointer', fontSize: '0.9rem' }}
+                >
                   Enquire Now
                 </button>
               </div>

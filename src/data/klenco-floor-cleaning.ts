@@ -7,6 +7,7 @@ export interface Product {
   features: string[];
   applications?: string[];
   brochureAvailable?: boolean;
+  brochures?: { title: string; url: string }[];
 }
 
 export const singleDiscMachines: Product[] = [
@@ -31,7 +32,17 @@ export const singleDiscMachines: Product[] = [
       "Carpet shampooing and bonnet cleaning",
       "Buffing and light polishing of vinyl, terrazzo, marble, and tile floors"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Cyclone S401 Single Disc Scrubber Brochure",
+        url: "/brochures/klenco-cyclone-s401-brochure.pdf"
+      },
+      {
+        title: "Cyclone Series Floor Scrubbers, Polishers & Burnishers Brochure",
+        url: "/brochures/klenco-cyclone-series-brochure.pdf"
+      }
+    ]
   },
   {
     id: "cyclone-g680",
@@ -56,7 +67,13 @@ export const singleDiscMachines: Product[] = [
       "Removing permanent floor coatings and adhesives",
       "Diamond grinding and restoration of granite, marble, terrazzo, and other natural stone floors"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Cyclone Series Floor Scrubbers, Polishers & Burnishers Brochure (G680)",
+        url: "/brochures/klenco-cyclone-series-brochure.pdf"
+      }
+    ]
   },
   {
     id: "cyclone-kw17",
@@ -79,7 +96,13 @@ export const singleDiscMachines: Product[] = [
       "Carpet shampooing and encapsulation",
       "Bonnet cleaning for hospitality carpets"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Cyclone KW17 Multi-functional Floor Scrubber Brochure",
+        url: "/brochures/klenco-cyclone-kw17-brochure.pdf"
+      }
+    ]
   },
   {
     id: "foam-generator",
@@ -105,7 +128,13 @@ export const singleDiscMachines: Product[] = [
       "Retail outlets and shopping malls",
       "Facility management and contract cleaning services"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Cyclone S081 Foam Generator Brochure",
+        url: "/brochures/klenco-cyclone-s081-foam-generator-brochure.pdf"
+      }
+    ]
   },
   {
     id: "floor-pads",
@@ -129,7 +158,13 @@ export const singleDiscMachines: Product[] = [
       "White Pads: High-gloss polishing and dry buffing",
       "Commercial, industrial, healthcare, hospitality, and educational facilities"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Professional Floor Maintenance & Hand Pads Brochure",
+        url: "/brochures/klenco-floor-pads-brochure.pdf"
+      }
+    ]
   }
 ];
 
