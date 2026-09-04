@@ -94,24 +94,33 @@ export default function TruvoxBrand() {
   return (
     <div className="fade-in">
       
-      {/* ═══════════ TRUVOX HERO (Native Pixel-Perfect Layout) ═══════════ */}
-      <section style={{ 
-        background: 'linear-gradient(135deg, #ECF7F9 0%, #D8F2F6 45%, #A8DCE9 100%)', 
-        borderBottom: '1px solid rgba(0, 168, 176, 0.25)',
+      {/* ═══════════ TRUVOX HERO (Seamless Native + Artwork Integration) ═══════════ */}
+      <section className="truvox-hero-section" style={{ 
         position: 'relative',
         overflow: 'hidden',
-        padding: '4rem 0 3.5rem'
+        borderBottom: '1px solid rgba(0, 168, 176, 0.25)',
       }}>
-        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ position: 'relative', zIndex: 1 }}>
-          <div style={{ 
+        
+        {/* Full-Bleed Authentic Backdrop (Globe, VOX watermark, Machines, Floor reflections) */}
+        <div className="truvox-hero-bg-wrap">
+          <img 
+            src="/content_images/truvox_hero_backdrop_clean.png" 
+            alt="Truvox Commercial Floorcare Machines"
+            className="truvox-hero-bg-img"
+          />
+        </div>
+
+        {/* Content Container (Native Crisp Typography & Vector Badges) */}
+        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 truvox-hero-content-wrap" style={{ position: 'relative', zIndex: 2, padding: '3.75rem 1rem 3.25rem' }}>
+          <div className="truvox-hero-grid" style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'minmax(320px, 1.15fr) minmax(320px, 0.85fr)', 
-            gap: '3rem', 
+            gridTemplateColumns: 'minmax(320px, 1.18fr) minmax(280px, 0.82fr)', 
+            gap: '2.5rem', 
             alignItems: 'center' 
-          }} className="truvox-hero-grid">
+          }}>
             
             {/* Left Column: Native Typography & Badges */}
-            <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', maxWidth: '640px' }}>
               {/* Truvox Logo & Tagline */}
               <div style={{ marginBottom: '1.25rem' }}>
                 <img 
@@ -126,7 +135,7 @@ export default function TruvoxBrand() {
 
               {/* Main Headline */}
               <h1 style={{ 
-                fontSize: 'clamp(1.25rem, 2vw, 1.65rem)', 
+                fontSize: 'clamp(1.3rem, 2.1vw, 1.7rem)', 
                 fontWeight: 800, 
                 color: '#00A8B0', 
                 lineHeight: 1.35, 
@@ -191,25 +200,13 @@ export default function TruvoxBrand() {
 
             </div>
 
-            {/* Right Column: High Definition Product Artwork Panel */}
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
-              <img
-                src="/content_images/truvox_hero_products_hd.png"
-                alt="Truvox Commercial Floorcare Machines"
-                style={{ 
-                  width: '100%', 
-                  maxWidth: '484px', 
-                  height: 'auto', 
-                  display: 'block',
-                  objectFit: 'contain'
-                }}
-              />
-            </div>
+            {/* Right Column: Spacer on Desktop to let background artwork shine through */}
+            <div className="truvox-hero-artwork-col" style={{ width: '100%', minHeight: '460px' }} />
 
           </div>
 
           {/* Bottom Footer Accent */}
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '3.5rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(0, 168, 176, 0.18)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginTop: '3rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(0, 168, 176, 0.18)' }}>
             <div style={{ width: '48px', height: '2px', backgroundColor: '#00A8B0' }} />
             <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.2em', color: '#008b94', textTransform: 'uppercase' }}>
               GLOBAL FLOORCARE SOLUTIONS
@@ -221,10 +218,38 @@ export default function TruvoxBrand() {
       </section>
 
       <style>{`
+        .truvox-hero-section {
+          background: linear-gradient(135deg, #ECF7F9 0%, #E2F5F8 50%, #CDEEF4 100%);
+        }
+        .truvox-hero-bg-wrap {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none;
+          z-index: 1;
+        }
+        .truvox-hero-bg-img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: right center;
+          display: block;
+        }
         @media (max-width: 991px) {
+          .truvox-hero-bg-wrap {
+            display: none;
+          }
           .truvox-hero-grid {
             grid-template-columns: 1fr !important;
-            gap: 2.5rem !important;
+            gap: 2rem !important;
+          }
+          .truvox-hero-artwork-col {
+            min-height: 280px !important;
+            background: url('/content_images/truvox_hero_backdrop_clean.png') right center / cover no-repeat;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 168, 176, 0.12);
           }
         }
         @media (max-width: 600px) {
