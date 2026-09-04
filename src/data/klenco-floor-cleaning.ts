@@ -323,7 +323,13 @@ export const scrubberDryers: Product[] = [
       "Manufacturing plants and industrial workshops",
       "Office complexes and commercial buildings"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Curve Battery Powered Walk-Behind Scrubber Dryer Brochure",
+        url: "/brochures/klenco-curve-scrubber-dryer-brochure.pdf"
+      }
+    ]
   },
   {
     id: "rock-8",
@@ -352,7 +358,13 @@ export const scrubberDryers: Product[] = [
       "Educational campuses and sports facilities",
       "Multi-storey car parks and large commercial buildings"
     ],
-    brochureAvailable: true
+    brochureAvailable: true,
+    brochures: [
+      {
+        title: "Rock 8 Battery-Powered Ride-On Scrubber Dryer Brochure",
+        url: "/brochures/klenco-rock-8-ride-on-scrubber-dryer-brochure.pdf"
+      }
+    ]
   }
 ];
 
