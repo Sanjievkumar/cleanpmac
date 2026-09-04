@@ -63,6 +63,7 @@ export const klencoCatalog = {
     allProducts: highPressureData.highPressure as Product[],
   },
   'chemicals': {
+    bannerImage: '/content_images/klenco_chemicals_banner_edited.jpg',
     label: 'Professional Cleaning Chemicals',
     hasSubCategories: false,
     subCategories: [],
