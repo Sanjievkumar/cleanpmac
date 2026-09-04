@@ -94,48 +94,21 @@ export default function TruvoxBrand() {
   return (
     <div className="fade-in">
       
-      {/* ?????????? TRUVOX HERO ?????????? */}
-      <section style={{ backgroundColor: '#fff', borderBottom: '1px solid var(--border-color)' }}>
-        {/* Banner Video Area */}
-        <div style={{ width: '100%', backgroundColor: '#000814', position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
+      {/* ═══════════ TRUVOX HERO ═══════════ */}
+      <section style={{ backgroundColor: '#ffffff', borderBottom: '1px solid var(--border-color)' }}>
+        <div style={{ width: '100%', backgroundColor: '#ffffff', position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <img
+            src="/content_images/truvox_brand_hero.jpg"
+            alt="Truvox International - Global Floorcare Solutions"
             style={{ 
               width: '100%', 
+              maxWidth: '1440px',
+              height: 'auto',
               maxHeight: '85vh', 
-              aspectRatio: '16 / 9',
               objectFit: 'contain', 
               display: 'block' 
             }}
-          >
-            <source src="/videos/truvox-hero.mp4" type="video/mp4" />
-            <source src="/videos/truvox-hero.mov" type="video/quicktime" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        
-        {/* Text Area Below Banner */}
-        <div className="container slide-up" style={{ padding: '5rem 1rem', textAlign: 'center' }}>
-          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
-            <div className="bg-white rounded-lg p-6 shadow-sm border" style={{ maxWidth: '300px', width: '100%' }}>
-               <img src="/content_images/truvox-logo.png" alt="Truvox International" style={{ width: '100%', objectFit: 'contain' }} />
-            </div>
-          </div>
-          
-          <div style={{ maxWidth: '900px', margin: '0 auto', fontSize: '1.15rem', lineHeight: 1.8, display: 'flex', flexDirection: 'column', gap: '1.5rem', color: 'var(--text-muted)' }}>
-            <p style={{ color: 'var(--primary)', fontSize: '1.5rem', fontWeight: 600, lineHeight: 1.4 }}>
-              Truvox International is a leading global manufacturer and supplier of commercial and industrial floorcare machines.
-            </p>
-            <p>
-              Based in Southampton, England, with a history dating back to 1960, Truvox has earned a strong reputation for producing innovative and reliable cleaning solutions, becoming the first choice in floorcare equipment in over 70 countries worldwide.
-            </p>
-            <p>
-              We offer a wide range of well-established brands and machines, including Orbis single disc machines, Hydromist carpet cleaners, Valet vacuums, Multiwash scrubbers, and Cimex Three Brush Technology. Our products are designed to tackle various cleaning challenges and meet the highest standards of quality, efficiency, and durability.
-            </p>
-          </div>
+          />
         </div>
       </section>
 
