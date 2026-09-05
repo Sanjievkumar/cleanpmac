@@ -126,21 +126,14 @@ export default function Brands() {
 
           <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style={{ position: 'relative', zIndex: 1 }}>
             
-            {/* 3-Column Layout: Left Flank Motto, Center Content, Right Flank Logo & Motto */}
+            {/* Story Content & Right Flank Logo */}
             <div style={{ 
               display: 'grid', 
-              gridTemplateColumns: 'minmax(140px, 180px) 1fr minmax(140px, 180px)', 
+              gridTemplateColumns: '1fr minmax(140px, 180px)', 
               gap: '2.5rem', 
               alignItems: 'center' 
             }} className="klenco-story-grid">
               
-              {/* Left Flank Motto */}
-              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} className="hidden lg:flex">
-                <span style={{ fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.16em', color: '#475569', lineHeight: 1.65 }}>
-                  PEOPLE<br />PRODUCTS<br />PARTNERSHIPS<br />A CLEANER TOMORROW
-                </span>
-                <div style={{ width: '42px', height: '3px', backgroundColor: '#E31E24', marginTop: '0.75rem', borderRadius: '2px' }} />
-              </div>
 
               {/* Center Main Story Block */}
               <div style={{ textAlign: 'center', maxWidth: '760px', margin: '0 auto' }}>
@@ -534,7 +527,7 @@ export default function Brands() {
         <style>{`
           .klenco-story-grid {
             display: grid;
-            grid-template-columns: minmax(140px, 180px) 1fr minmax(140px, 180px);
+            grid-template-columns: 1fr minmax(140px, 180px);
             gap: 2.5rem;
             align-items: center;
           }

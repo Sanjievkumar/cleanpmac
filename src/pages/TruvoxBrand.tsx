@@ -133,16 +133,13 @@ export default function TruvoxBrand() {
             
             {/* Left Column: Native Typography & Badges */}
             <div style={{ display: 'flex', flexDirection: 'column', maxWidth: '640px' }}>
-              {/* Truvox Logo & Tagline */}
-              <div style={{ marginBottom: '1.25rem' }}>
+              {/* Truvox Logo */}
+              <div style={{ marginBottom: '1.5rem' }}>
                 <img 
                   src="/content_images/truvox-logo.png" 
                   alt="Truvox International" 
-                  style={{ height: '46px', objectFit: 'contain' }} 
+                  style={{ height: '62px', maxWidth: '240px', objectFit: 'contain' }} 
                 />
-                <div style={{ fontSize: '0.75rem', fontWeight: 800, letterSpacing: '0.18em', color: '#008b94', textTransform: 'uppercase', marginTop: '0.4rem' }}>
-                  GLOBAL FLOORCARE SOLUTIONS
-                </div>
               </div>
 
               {/* Main Headline */}
