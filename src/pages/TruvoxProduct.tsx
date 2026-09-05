@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Download, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 import { truvoxProductDetails } from '../data/truvox-details';
+import TruvoxProductName from '../components/TruvoxProductName';
 
 export default function TruvoxProduct() {
   const { productId } = useParams();
@@ -195,8 +196,8 @@ export default function TruvoxProduct() {
                 {productData.brand}
               </div>
               
-              <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3.2rem)', fontWeight: 900, color: '#00A8B0', marginBottom: '1.25rem', lineHeight: 1.15, letterSpacing: '-0.02em' }}>
-                {productData.name}
+              <h1 style={{ marginBottom: '1.25rem' }}>
+                <TruvoxProductName name={productData.name} layout="stacked" size="xl" color="#00A8B0" />
               </h1>
               
               <p style={{ fontSize: '1.05rem', color: '#475569', marginBottom: '2rem', lineHeight: 1.8, fontWeight: 450 }}>
