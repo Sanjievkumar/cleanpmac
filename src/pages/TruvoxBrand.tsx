@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Building2, Globe, ShieldCheck } from 'lucide-react';
-import TruvoxProductName from '../components/TruvoxProductName';
 // import { truvoxCategories } from '../data/truvox-products'; // Will be used when real data is available
 
 export default function TruvoxBrand() {
@@ -344,8 +343,8 @@ export default function TruvoxBrand() {
                         if (icon) icon.style.color = 'var(--text-muted)';
                       }}
                     >
-                      <TruvoxProductName name={product.name} layout="inline" size="sm" />
-                      <ArrowRight size={16} style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease', flexShrink: 0 }} />
+                      <span>{product.name}</span>
+                      <ArrowRight size={16} style={{ color: 'var(--text-muted)', transition: 'color 0.2s ease' }} />
                     </Link>
                   ))}
                 </div>
