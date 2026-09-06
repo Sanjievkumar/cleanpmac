@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ArrowRight, Building2, Globe, ShieldCheck } from 'lucide-react';
+import TruvoxProductShowcase from '../components/TruvoxProductShowcase';
 // import { truvoxCategories } from '../data/truvox-products'; // Will be used when real data is available
 
 export default function TruvoxBrand() {
@@ -209,13 +210,9 @@ export default function TruvoxBrand() {
 
             </div>
 
-            {/* Right Column: Pristine HD Artwork */}
+            {/* Right Column: Interactive Flagship Product Showcase */}
             <div className="truvox-hero-artwork-wrap">
-              <img 
-                src="/content_images/truvox_hero_artwork_hd.png" 
-                alt="Truvox Commercial Floorcare Machines - Multiwash PRO, Ride-On Scrubber, Valet Extraction" 
-                className="truvox-hero-artwork-img"
-              />
+              <TruvoxProductShowcase />
             </div>
 
           </div>
